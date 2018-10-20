@@ -14,7 +14,10 @@ public class Bullet : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        Debug.Log(hitInfo.name);
-        Destroy(gameObject);
+        if (hitInfo.name != "background")
+        {
+            Debug.Log(hitInfo.name);
+            Destroy(gameObject);
+        }
     }
 }

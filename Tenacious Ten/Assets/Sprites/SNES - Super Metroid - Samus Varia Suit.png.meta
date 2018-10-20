@@ -1,0 +1,4005 @@
+fileFormatVersion: 2
+guid: 58c84544549531c4ebe3025703278cb4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES - Super Metroid - Samus Varia Suit_0
+    21300002: SNES - Super Metroid - Samus Varia Suit_1
+    21300004: SNES - Super Metroid - Samus Varia Suit_2
+    21300006: SNES - Super Metroid - Samus Varia Suit_3
+    21300008: SNES - Super Metroid - Samus Varia Suit_4
+    21300010: SNES - Super Metroid - Samus Varia Suit_5
+    21300012: SNES - Super Metroid - Samus Varia Suit_6
+    21300014: SNES - Super Metroid - Samus Varia Suit_7
+    21300016: SNES - Super Metroid - Samus Varia Suit_8
+    21300018: SNES - Super Metroid - Samus Varia Suit_9
+    21300020: SNES - Super Metroid - Samus Varia Suit_10
+    21300022: SNES - Super Metroid - Samus Varia Suit_11
+    21300024: SNES - Super Metroid - Samus Varia Suit_12
+    21300026: SNES - Super Metroid - Samus Varia Suit_13
+    21300028: SNES - Super Metroid - Samus Varia Suit_14
+    21300030: SNES - Super Metroid - Samus Varia Suit_15
+    21300032: SNES - Super Metroid - Samus Varia Suit_16
+    21300034: SNES - Super Metroid - Samus Varia Suit_17
+    21300036: SNES - Super Metroid - Samus Varia Suit_18
+    21300038: SNES - Super Metroid - Samus Varia Suit_19
+    21300040: SNES - Super Metroid - Samus Varia Suit_20
+    21300042: SNES - Super Metroid - Samus Varia Suit_21
+    21300044: SNES - Super Metroid - Samus Varia Suit_22
+    21300046: SNES - Super Metroid - Samus Varia Suit_23
+    21300048: SNES - Super Metroid - Samus Varia Suit_24
+    21300050: SNES - Super Metroid - Samus Varia Suit_25
+    21300052: SNES - Super Metroid - Samus Varia Suit_26
+    21300054: SNES - Super Metroid - Samus Varia Suit_27
+    21300056: SNES - Super Metroid - Samus Varia Suit_28
+    21300058: SNES - Super Metroid - Samus Varia Suit_29
+    21300060: SNES - Super Metroid - Samus Varia Suit_30
+    21300062: SNES - Super Metroid - Samus Varia Suit_31
+    21300064: SNES - Super Metroid - Samus Varia Suit_32
+    21300066: SNES - Super Metroid - Samus Varia Suit_33
+    21300068: SNES - Super Metroid - Samus Varia Suit_34
+    21300070: SNES - Super Metroid - Samus Varia Suit_35
+    21300072: SNES - Super Metroid - Samus Varia Suit_36
+    21300074: SNES - Super Metroid - Samus Varia Suit_37
+    21300076: SNES - Super Metroid - Samus Varia Suit_38
+    21300078: SNES - Super Metroid - Samus Varia Suit_39
+    21300080: SNES - Super Metroid - Samus Varia Suit_40
+    21300082: SNES - Super Metroid - Samus Varia Suit_41
+    21300084: SNES - Super Metroid - Samus Varia Suit_42
+    21300086: SNES - Super Metroid - Samus Varia Suit_43
+    21300088: SNES - Super Metroid - Samus Varia Suit_44
+    21300090: SNES - Super Metroid - Samus Varia Suit_45
+    21300092: SNES - Super Metroid - Samus Varia Suit_46
+    21300094: SNES - Super Metroid - Samus Varia Suit_47
+    21300096: SNES - Super Metroid - Samus Varia Suit_48
+    21300098: SNES - Super Metroid - Samus Varia Suit_49
+    21300100: SNES - Super Metroid - Samus Varia Suit_50
+    21300102: SNES - Super Metroid - Samus Varia Suit_51
+    21300104: SNES - Super Metroid - Samus Varia Suit_52
+    21300106: SNES - Super Metroid - Samus Varia Suit_53
+    21300108: SNES - Super Metroid - Samus Varia Suit_54
+    21300110: SNES - Super Metroid - Samus Varia Suit_55
+    21300112: SNES - Super Metroid - Samus Varia Suit_56
+    21300114: SNES - Super Metroid - Samus Varia Suit_57
+    21300116: SNES - Super Metroid - Samus Varia Suit_58
+    21300118: SNES - Super Metroid - Samus Varia Suit_59
+    21300120: SNES - Super Metroid - Samus Varia Suit_60
+    21300122: SNES - Super Metroid - Samus Varia Suit_61
+    21300124: SNES - Super Metroid - Samus Varia Suit_62
+    21300126: SNES - Super Metroid - Samus Varia Suit_63
+    21300128: SNES - Super Metroid - Samus Varia Suit_64
+    21300130: SNES - Super Metroid - Samus Varia Suit_65
+    21300132: SNES - Super Metroid - Samus Varia Suit_66
+    21300134: SNES - Super Metroid - Samus Varia Suit_67
+    21300136: SNES - Super Metroid - Samus Varia Suit_68
+    21300138: SNES - Super Metroid - Samus Varia Suit_69
+    21300140: SNES - Super Metroid - Samus Varia Suit_70
+    21300142: SNES - Super Metroid - Samus Varia Suit_71
+    21300144: SNES - Super Metroid - Samus Varia Suit_72
+    21300146: SNES - Super Metroid - Samus Varia Suit_73
+    21300148: SNES - Super Metroid - Samus Varia Suit_74
+    21300150: SNES - Super Metroid - Samus Varia Suit_75
+    21300152: SNES - Super Metroid - Samus Varia Suit_76
+    21300154: SNES - Super Metroid - Samus Varia Suit_77
+    21300156: SNES - Super Metroid - Samus Varia Suit_78
+    21300158: SNES - Super Metroid - Samus Varia Suit_79
+    21300160: SNES - Super Metroid - Samus Varia Suit_80
+    21300162: SNES - Super Metroid - Samus Varia Suit_81
+    21300164: SNES - Super Metroid - Samus Varia Suit_82
+    21300166: SNES - Super Metroid - Samus Varia Suit_83
+    21300168: SNES - Super Metroid - Samus Varia Suit_84
+    21300170: SNES - Super Metroid - Samus Varia Suit_85
+    21300172: SNES - Super Metroid - Samus Varia Suit_86
+    21300174: SNES - Super Metroid - Samus Varia Suit_87
+    21300176: SNES - Super Metroid - Samus Varia Suit_88
+    21300178: SNES - Super Metroid - Samus Varia Suit_89
+    21300180: SNES - Super Metroid - Samus Varia Suit_90
+    21300182: SNES - Super Metroid - Samus Varia Suit_91
+    21300184: SNES - Super Metroid - Samus Varia Suit_92
+    21300186: SNES - Super Metroid - Samus Varia Suit_93
+    21300188: SNES - Super Metroid - Samus Varia Suit_94
+    21300190: SNES - Super Metroid - Samus Varia Suit_95
+    21300192: SNES - Super Metroid - Samus Varia Suit_96
+    21300194: SNES - Super Metroid - Samus Varia Suit_97
+    21300196: SNES - Super Metroid - Samus Varia Suit_98
+    21300198: SNES - Super Metroid - Samus Varia Suit_99
+    21300200: SNES - Super Metroid - Samus Varia Suit_100
+    21300202: SNES - Super Metroid - Samus Varia Suit_101
+    21300204: SNES - Super Metroid - Samus Varia Suit_102
+    21300206: SNES - Super Metroid - Samus Varia Suit_103
+    21300208: SNES - Super Metroid - Samus Varia Suit_104
+    21300210: SNES - Super Metroid - Samus Varia Suit_105
+    21300212: SNES - Super Metroid - Samus Varia Suit_106
+    21300214: SNES - Super Metroid - Samus Varia Suit_107
+    21300216: SNES - Super Metroid - Samus Varia Suit_108
+    21300218: SNES - Super Metroid - Samus Varia Suit_109
+    21300220: SNES - Super Metroid - Samus Varia Suit_110
+    21300222: SNES - Super Metroid - Samus Varia Suit_111
+    21300224: SNES - Super Metroid - Samus Varia Suit_112
+    21300226: SNES - Super Metroid - Samus Varia Suit_113
+    21300228: SNES - Super Metroid - Samus Varia Suit_114
+    21300230: SNES - Super Metroid - Samus Varia Suit_115
+    21300232: SNES - Super Metroid - Samus Varia Suit_116
+    21300234: SNES - Super Metroid - Samus Varia Suit_117
+    21300236: SNES - Super Metroid - Samus Varia Suit_118
+    21300238: SNES - Super Metroid - Samus Varia Suit_119
+    21300240: SNES - Super Metroid - Samus Varia Suit_120
+    21300242: SNES - Super Metroid - Samus Varia Suit_121
+    21300244: SNES - Super Metroid - Samus Varia Suit_122
+    21300246: SNES - Super Metroid - Samus Varia Suit_123
+    21300248: SNES - Super Metroid - Samus Varia Suit_124
+    21300250: SNES - Super Metroid - Samus Varia Suit_125
+    21300252: SNES - Super Metroid - Samus Varia Suit_126
+    21300254: SNES - Super Metroid - Samus Varia Suit_127
+    21300256: SNES - Super Metroid - Samus Varia Suit_128
+    21300258: SNES - Super Metroid - Samus Varia Suit_129
+    21300260: SNES - Super Metroid - Samus Varia Suit_130
+    21300262: SNES - Super Metroid - Samus Varia Suit_131
+    21300264: SNES - Super Metroid - Samus Varia Suit_132
+    21300266: SNES - Super Metroid - Samus Varia Suit_133
+    21300268: SNES - Super Metroid - Samus Varia Suit_134
+    21300270: SNES - Super Metroid - Samus Varia Suit_135
+    21300272: SNES - Super Metroid - Samus Varia Suit_136
+    21300274: SNES - Super Metroid - Samus Varia Suit_137
+    21300276: SNES - Super Metroid - Samus Varia Suit_138
+    21300278: SNES - Super Metroid - Samus Varia Suit_139
+    21300280: SNES - Super Metroid - Samus Varia Suit_140
+    21300282: SNES - Super Metroid - Samus Varia Suit_141
+    21300284: SNES - Super Metroid - Samus Varia Suit_142
+    21300286: SNES - Super Metroid - Samus Varia Suit_143
+    21300288: SNES - Super Metroid - Samus Varia Suit_144
+    21300290: SNES - Super Metroid - Samus Varia Suit_145
+    21300292: SNES - Super Metroid - Samus Varia Suit_146
+    21300294: SNES - Super Metroid - Samus Varia Suit_147
+    21300296: SNES - Super Metroid - Samus Varia Suit_148
+    21300298: SNES - Super Metroid - Samus Varia Suit_149
+    21300300: SNES - Super Metroid - Samus Varia Suit_150
+    21300302: SNES - Super Metroid - Samus Varia Suit_151
+    21300304: SNES - Super Metroid - Samus Varia Suit_152
+    21300306: SNES - Super Metroid - Samus Varia Suit_153
+    21300308: SNES - Super Metroid - Samus Varia Suit_154
+    21300310: SNES - Super Metroid - Samus Varia Suit_155
+    21300312: SNES - Super Metroid - Samus Varia Suit_156
+    21300314: SNES - Super Metroid - Samus Varia Suit_157
+    21300316: SNES - Super Metroid - Samus Varia Suit_158
+    21300318: SNES - Super Metroid - Samus Varia Suit_159
+    21300320: SNES - Super Metroid - Samus Varia Suit_160
+    21300322: SNES - Super Metroid - Samus Varia Suit_161
+    21300324: SNES - Super Metroid - Samus Varia Suit_162
+    21300326: SNES - Super Metroid - Samus Varia Suit_163
+    21300328: SNES - Super Metroid - Samus Varia Suit_164
+    21300330: SNES - Super Metroid - Samus Varia Suit_165
+    21300332: SNES - Super Metroid - Samus Varia Suit_166
+    21300334: SNES - Super Metroid - Samus Varia Suit_167
+    21300336: SNES - Super Metroid - Samus Varia Suit_168
+    21300338: SNES - Super Metroid - Samus Varia Suit_169
+    21300340: SNES - Super Metroid - Samus Varia Suit_170
+    21300342: SNES - Super Metroid - Samus Varia Suit_171
+    21300344: SNES - Super Metroid - Samus Varia Suit_172
+    21300346: SNES - Super Metroid - Samus Varia Suit_173
+    21300348: SNES - Super Metroid - Samus Varia Suit_174
+    21300350: SNES - Super Metroid - Samus Varia Suit_175
+    21300352: SNES - Super Metroid - Samus Varia Suit_176
+    21300354: SNES - Super Metroid - Samus Varia Suit_177
+    21300356: SNES - Super Metroid - Samus Varia Suit_178
+    21300358: SNES - Super Metroid - Samus Varia Suit_179
+    21300360: SNES - Super Metroid - Samus Varia Suit_180
+    21300362: SNES - Super Metroid - Samus Varia Suit_181
+    21300364: SNES - Super Metroid - Samus Varia Suit_182
+    21300366: SNES - Super Metroid - Samus Varia Suit_183
+    21300368: SNES - Super Metroid - Samus Varia Suit_184
+    21300370: SNES - Super Metroid - Samus Varia Suit_185
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1234
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24561b1be29c9044a7c5b77e825a226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1235
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34365b812d8933499c34f45261d0146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1237
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834c9817942f21c4a82eedbc93fa0766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1237
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a725ec1fe259546a7dd306ecd9a5f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1237
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71931235d924efc4f9e4c33f518c713f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1237
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80220fa377a90764ba4ed3c18a33325c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1237
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff65bd7ee51b324e986ba0d7037d408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1237
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994d56a33049589469de10ea0c4b973e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1235
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f0c66477093a044ac7a6430ab7b210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1184
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf1629327984f34ead49f0a0146a30a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1187
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d272255cf9017a142a6ce4e94b7a8025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1187
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb613e7b2506b684784c53089ba79b01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1187
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e528e85a49207f46864fba730a84b53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1187
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b026f9a93997fd542b74eb6b9c28309b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_14
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1187
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4a18ab4111eb443a7b2c8fc98e22c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_15
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1187
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9becc1e4c8acbc8438f33f8e77f7f33b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_16
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1184
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aaf7fc0214b784a96bd05dd47d1dd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_17
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1131
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0712d4038b4954d997a25c27eece27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_18
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1129
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e8561ae2b76aa42a9959727b533c5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 1129
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e48601c5ee01b43a0e546c0238f8f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_20
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1138
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce1e70ab9ff40441aeb60af6b9dccf5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_21
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1138
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52639abbc7aeaef45b46af7d7842c62d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_22
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1129
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe7d08beb42e0248a4a9ab44687d245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_23
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1129
+        width: 20
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1e3957ef4b1e645825e2f16c2e0c57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_24
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1132
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f74563fae419544ae3423657b074b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_25
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1086
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b34f97821e755243aa4a91c98c8b24e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_26
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1085
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23bcef057f8f3e45a9a38eaa4c59349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_27
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1077
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d990c108450ae24b84b2b2de7508989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_28
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1081
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0209107ff18df241bdc5e2b575e8144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_29
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1081
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b50a19e74e70748990345b675f8695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_30
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1077
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f8c8cf85603804c90493ef1a3df135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_31
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1085
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a05c40da6131342a2a00e1a94224ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1086
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a61589e1b996f4dae2199a28cee740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_33
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1039
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f31e988894f3c94692f2f7e68f95a34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_34
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1042
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d9cbd05f4db15429702f8f18e79a20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_35
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1042
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862d04fc9eb208548be01be40fb378dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_36
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1042
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc5b7033af8f384dbba75f9dd970b8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_37
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1042
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6132e4c570ddd864ca0a4a328b67e282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_38
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1042
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0114b12801fa0514bbfad1a746cabae0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_39
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1042
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5464912ae84f15e4dbd907a2c8ec1a4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_40
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1040
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1461942d85c28b24d9b05ef42629be35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 988
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935ed8678ad9599419315da2416df4b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_42
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 992
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b5dc214dd58ed49873b18608dd87d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_43
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 992
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8718166ec47cf408e46cfd87b374a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_44
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 992
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa115a8e919e734c9923dfe3bf3f6f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_45
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 992
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea855132cb6264146af89aa38e5c2eb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_46
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 992
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93ff364bd2fa3e49af935de2499d69a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_47
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 992
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a90b13f30c9bfd4e946651c463ff1a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_48
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 989
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60bd18fc1364044583370662fbf9cf9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_49
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 937
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02d91d4d4504f945aac9623868449ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 937
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9a65f7a186246468f39ae7b70e351f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_51
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 937
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798c88c11afd30244b0e7f39ece1be67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_52
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 937
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67f0a6146e678c4884c478da2153c81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_53
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 887
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffb5e36b0529784e9988b17e6358c41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_54
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 887
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35120553dda192e48aef47f1a3ee5044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_55
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 887
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c743f664cb85ff4c9303913e739640f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_56
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 887
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b663edb104e3741a4f50986b122602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_57
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 887
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5782cee4301294fb1126afee46895f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_58
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 887
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6090d21e018564c85b1fb732d2fcf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_59
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 887
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcf16f420af1d14597344b62fac2936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_60
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 887
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51732a150c1c3db4f98351b30f68e01c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_61
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 837
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea8b7e82a6e18c4f83b145b6f1bcd82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_62
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 837
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e88aa235fd09c4984f1094aee4a53b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_63
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 837
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e4b122fcf959649a18f211e3f39180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_64
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 837
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d6682b6ca64f740b0779835a167870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_65
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 837
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d3207914a18d549a6841682a5ea87a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_66
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 837
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c85cb06a2195648ba7862eea2d0b8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_67
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 837
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a499fada8fdc6974ea8c49dcd2c67977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_68
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 837
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f0d5b42b23e7d429a4031a56df42c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_69
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12008cb25cc107a42a162b08bef4aaa9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_70
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 787
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafad968434368c4da8887066dcc5d27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_71
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 787
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a9957b6cfc82e46906d3357fce2a3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_72
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 787
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f0f9710ea4cae4982793b510b007c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_73
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 740
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d1f6c6c1fefe94899afb24a95ab8f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_74
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 736
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40eb7bf8df4b9fa45ad1e0bc7986754a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_75
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 737
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e9ea0c445647d4397c6d52fb840c39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_76
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 738
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f537ddd11831b8a4d84fb95949b07c64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_77
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 738
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4844ddaa6a38a94992a41d64739967e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_78
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 737
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd96448abcda074e9332c03832a16bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_79
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 736
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d9edbd3846aa44c8bfe2fc34fd7fbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_80
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 740
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfa75e10ce66ca46b5577032d2be494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_81
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 686
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb383474d556184c985b2760a6cb449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_82
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 688
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c37f6cf9d2d3d14eb272cdd0f41cec6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_83
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 690
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6423e46715c6f354a80f193a2937358c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_84
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 689
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df60404d8f35898459eafcbc29c3fe42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_85
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 688
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a2772aeaa8a354784ea10cf2feae26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_86
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 689
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6803e1e7bd2a3074d801afacb3d28f6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_87
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 690
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4b813ad39594840a5469b8073d5ec1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_88
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 686
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02f01a072a8538459b5120aa10eb7de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_89
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 641
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfbcadf96bf4754ebd6b387c11a6950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_90
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 637
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de17afb453264d4aae64061ade1f7ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_91
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 637
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb80f7e379702cc46845771d26c32c1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_92
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 641
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8458f929ef3b1b42a683c2e44029042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_93
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 586
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce763938d1e62e4cb13ccc31031274c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_94
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 587
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956a8a751bd6b3647b5804dce249af3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_95
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 587
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6a8dc9d40676a4088910e1b3e4548a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_96
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 587
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2764fea9ad0d854e8808833b433e2d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_97
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 587
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c94e05528e0264cb271f79b717e735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_98
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 587
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fa7b7841fc6da459bb60c9dcc278ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_99
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 587
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7daad546ab9bfb04cae8068fcaa099e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_100
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 613
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b424288dc7b9da646bcecd50eed1dfca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_101
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 586
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fe95d5e6f85d04d9c8d32b329b6a5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_102
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 537
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41d2daa7426d1d4b8031b252cb03a51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_103
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 537
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b434152e7053f9448b92f17b63b4c37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_104
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 537
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c0ef95fcdcf584db7c7a5dd9469d66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_105
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 536
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5af5f546bc5124ebfb5a57cff6fd21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_106
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 537
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e976109f359e54f8a0bb9289618e7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_107
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 537
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711ff9d91a802724aae20497a0eb453c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_108
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 537
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c34cb875633c94da3ba5afe21dba36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_109
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 537
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b69a86c51e9e048937e43322345926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_110
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 486
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a129d63bf5a0d4bbdbe5b890be7ef0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_111
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 487
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540053e6d8e1f92469df0fdfc1e93c2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_112
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 487
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b592e100e3da51f4291396f5aec76ad8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_113
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 487
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dec22beea68c7d4c856662efa02ff0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_114
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 437
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e955908dfbc7794da653a61f6e511ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_115
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 437
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc55b13f39e276b43be082dde1b98a60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_116
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 437
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20864c2ead96db046a1f98508815e03a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_117
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 437
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a950ce8fd91ce42885405ceb7e99c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_118
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 437
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2af62d1c79313e4c974de88b126a111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_119
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 437
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb033e20cdd938945b1f55f75364e573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_120
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 437
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e4a42731d1e3f42a31debc96acb724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_121
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 437
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41b4b646efd58c4a88aa4fcb11a3275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_122
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 387
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953d8bcbeb0d2734788b5cfc9e75534a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_123
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 387
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b64a4b6a3981a44e9f4b47da5e97cff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_124
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 387
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3f34b4f1ad3a241a412bf0e2172e1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_125
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 387
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa6751848c43d24aa0577dbe8e8f237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_126
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 387
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd50a9cb54d5c8c4581ec88abce6dcbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_127
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 387
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448c7cca8a68348499d9b64427549fae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_128
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 387
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86bc7064ed78d94c88f70acbbb82d8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_129
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 387
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c7bd9fe9a02f348ab0f4698b5ca105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_130
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 337
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf33ed8244b4364f8b549faabb030a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_131
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 337
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00420f2c0f5b4f340a6b7576ff6d29a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_132
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 337
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65770afb1aca69440bf0158944172ddb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_133
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 337
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a321278ceea2a245ab25df948ef9dd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_134
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 284
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3c8e4202bbbb2438b8b0623a11b6a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_135
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 284
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78398892cefc5fa46b97ed2b200d6f12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_136
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 284
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24928a17abe71e438389915948af5be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_137
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 284
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a881b97826e4046aec21fa208a55a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_138
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 284
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510ee2c124914274aa65595aa0ba13fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_139
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 284
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2daeae439164886488645ac5ab682b96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_140
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 284
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3f24d5fa2bbe54f9de69326b097047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_141
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 284
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c27d6f28a9ab6340a71146a12212366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_142
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 234
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd14e984471eeb4d84cdbb2749ffd9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_143
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 234
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83a0a057ae02504daa9d4ec6a763ef1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_144
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 234
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26980cebe5f3d094d9fe38e19c2bebe3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_145
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 234
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf8702753e761d448022cbbefe1f6e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_146
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 234
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887c319b03ef1ae46b289cf82cd19c41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_147
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 234
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420cf0e9524559046b58038911a73fb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_148
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 234
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417dc05a6cd13334e83dace7f88de12e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_149
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 234
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4814e4bbc4e571d4382c624a637e9338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_150
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 184
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8ca6e65bae9f542b8b60f4c0640f64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_151
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 184
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de155790daeed4e4a8693cae253ff267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_152
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 184
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2ed40f620176e46b8853bf34f60aae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_153
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 184
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd27026358df9a4aad9b917687955b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_154
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 144
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6269e9eb4464764ea4667eafaba1c18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_155
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 143
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92be30f3c90aca4094e6384e51bda5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_156
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 146
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b43c390946f9d4c93d91201119b022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_157
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 150
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9ad73ce60d2d548b23a3b806313c50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_158
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 150
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d8049dba359f44badda60b6d92430e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_159
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 146
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c503677b8f9dddc4eb31a8c429f29981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_160
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 143
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fba6e1a227be84bb69fee493df72d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_161
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 144
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddd18b87d32a114eaab3367838b6d17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_162
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 94
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3bf08f060f43a458a95f157d2e249d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_163
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 93
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b60ac232948334eae768496c3486e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_164
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 96
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16caf4d6d023df34dbf1e585fa533fbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_165
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 100
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4686fec7094d8a747ae36853898a68c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_166
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 100
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a3ba936b8a603469614e7a7a889666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_167
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 96
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4868f9120f63efe4e8fb9ef35cb36702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_168
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 93
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff410c2b1d66b1e4eac0fbc5dbfa3fe1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_169
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 94
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfbcb8f85dd14045b0918e9a76c0227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_170
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78829f10c3acd89458d86ac2a4ae303f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_171
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d708074b8b0b6f14786d4bbf2e3f6bcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_172
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4443d3a70fcb184792c5dd9e26c0372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_173
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8061f16b308c978478a7aab0e7acf861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_174
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ac56235a535e4408d4bdcb62d022a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_175
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1c167e1bd2ac44fbf9b6e44d750915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_176
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642b8b8d1869b784795e1fcf3d155881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_177
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 50
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64021e199ff8c64d861694feb94b983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_178
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a8b37950f78a74b8aef48b93658011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_179
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e41f840d30ffde41a77d6cbdf6d1121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_180
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d049bce146bec43abfa68416f1bcab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_181
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172e7316d88c37a4a87a22076b1af60d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_182
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4568ec956af82c4c88841d6a3fc2bff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_183
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b3c461a346b394e99bc2024aa2b3b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_184
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a16f5a973483754f829a4a5c3bcc16c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Metroid - Samus Varia Suit_185
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b92f54c9ca5d845b3de6ed80557308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 797f20986c1919041afdf01c54ee3733
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

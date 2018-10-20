@@ -5,14 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    LevelManager levelManager;
 
     public static bool GameIsPaused = false;
 
     public GameObject pauseMenuUI;
+    BossCamera cameraB;
 
     void Start()
     {
+        levelManager = FindObjectOfType<LevelManager>();
         Resume();
+        cameraB = FindObjectOfType<BossCamera>();
     }
 
     // Update is called once per frame
@@ -56,5 +60,15 @@ public class PauseMenu : MonoBehaviour
     {
         Debug.Log("Quitting game");
         Application.Quit();
+    }
+
+    public void Restart()
+    {
+        //SORL.StartFight = false;
+        //SORL.ResetFight = true;
+        levelManager.RespawnPlayer();
+        //cameraB.transform.localPosition = cameraB.StartingPos;
+        Time.timeScale = 1f;
+        pauseMenuUI.SetActive(false);
     }
 }

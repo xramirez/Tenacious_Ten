@@ -28,15 +28,20 @@ public class Boss01Projectile : MonoBehaviour
 
         rb.angularVelocity = rotationSpeed;
 
-        Object.Destroy(gameObject, 5f);
+        Destroy(gameObject, 6f);
+
+        if(PlayerHealthManager.playerHealth < 1)
+        {
+            Destroy(gameObject);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
        if (other.tag == "Player")
-       {
-           PlayerHealthManager.HurtPlayer(damage);
-       }
+        {
+            PlayerHealthManager.HurtPlayer(damage);
+        }
         
         //instantiatedObj = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
         //Destroy(instantiatedObj, 1);

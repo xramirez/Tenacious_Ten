@@ -2558,6 +2558,7 @@ GameObject:
   - component: {fileID: 1778895132}
   - component: {fileID: 1778895131}
   - component: {fileID: 1778895130}
+  - component: {fileID: 1778895129}
   m_Layer: 0
   m_Name: ground
   m_TagString: Untagged
@@ -5290,6 +5291,23 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!68 &1778895129
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1778895125}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -79.028725, y: -11.043266}
+  - {x: -78.98256, y: 3.028426}
 --- !u!68 &1778895130
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -5313,7 +5331,8 @@ EdgeCollider2D:
   - {x: 7.9983435, y: -7.0549436}
   - {x: 15.002351, y: -7.056676}
   - {x: 19.000214, y: -9.067265}
-  - {x: 23.581697, y: -9.050331}
+  - {x: 23.993616, y: -9.019651}
+  - {x: 24.001274, y: 0.096372604}
 --- !u!68 &1778895131
 EdgeCollider2D:
   m_ObjectHideFlags: 0

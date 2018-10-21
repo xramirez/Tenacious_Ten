@@ -9,7 +9,7 @@ public class Knight_Move : MonoBehaviour {
     bool jumping = false;
     public float playerSpeed = 40f;
     float horizontalMove = 0f;
-
+    public AudioSource jumpSound;
 
     void Move_Player()
     {
@@ -19,6 +19,7 @@ public class Knight_Move : MonoBehaviour {
         if (Input.GetButtonDown("Jump"))
         {
             //jump();
+            jumpSound.Play();
             jumping = true;
             animator.SetBool("IsJumping", true);
         }
@@ -26,6 +27,7 @@ public class Knight_Move : MonoBehaviour {
 
     void Update()
     {
+        
         Move_Player();
     }
     void FixedUpdate()

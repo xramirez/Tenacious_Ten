@@ -7,11 +7,13 @@ public class Weapon : MonoBehaviour {
     public Animator animator;
     public Transform firePoint;
     public GameObject lemonBulletPreFab;
+    public AudioSource swingSound;
 
 	// Update is called once per frame
 	void Update () {
         //animator.SetBool("IsShooting", false);
         if (Input.GetButtonDown("Fire1")){
+            swingSound.Play();
             StartCoroutine(Shoot());
             //animator.SetBool("IsShooting", true);
         }

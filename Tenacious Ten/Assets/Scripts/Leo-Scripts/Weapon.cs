@@ -23,7 +23,7 @@ public class Weapon : MonoBehaviour {
         //shoot logic
         animator.SetBool("IsShooting", true);
         Instantiate(lemonBulletPreFab, firePoint.position, firePoint.rotation);
-        yield return new WaitForSeconds(.6f);
+        yield return new WaitForSeconds(.5f);
         animator.SetBool("IsShooting", false);
     }
 

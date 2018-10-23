@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 287218291}
   - component: {fileID: 287218294}
   - component: {fileID: 287218293}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +619,7 @@ GameObject:
   - component: {fileID: 391834109}
   - component: {fileID: 391834108}
   - component: {fileID: 391834107}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flower (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -750,7 +750,7 @@ GameObject:
   - component: {fileID: 395211195}
   - component: {fileID: 395211194}
   - component: {fileID: 395211193}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1526,6 +1526,21 @@ Prefab:
       propertyPath: moveSound
       value: 
       objectReference: {fileID: 1098264968}
+    - target: {fileID: 114619337541026026, guid: e835ac1b5f3a54e95a1ba74315702166,
+        type: 2}
+      propertyPath: pushback.x
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114619337541026026, guid: e835ac1b5f3a54e95a1ba74315702166,
+        type: 2}
+      propertyPath: damage_pushback.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114619337541026026, guid: e835ac1b5f3a54e95a1ba74315702166,
+        type: 2}
+      propertyPath: damage_pushback.y
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e835ac1b5f3a54e95a1ba74315702166, type: 2}
   m_IsPrefabAsset: 0
@@ -1541,7 +1556,7 @@ GameObject:
   - component: {fileID: 823660799}
   - component: {fileID: 823660798}
   - component: {fileID: 823660797}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flower (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1768,7 +1783,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 843193629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -69.48274, y: -6.6644225, z: -10}
+  m_LocalPosition: {x: -73.387375, y: -6.6644225, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1786,7 +1801,7 @@ GameObject:
   - component: {fileID: 853466615}
   - component: {fileID: 853466614}
   - component: {fileID: 853466613}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bee 1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2526,7 +2541,7 @@ GameObject:
   - component: {fileID: 1260702106}
   - component: {fileID: 1260702105}
   - component: {fileID: 1260702104}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flower (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4061,7 +4076,7 @@ GameObject:
   - component: {fileID: 1355771551}
   - component: {fileID: 1355771550}
   - component: {fileID: 1355771549}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flower (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4396,7 +4411,7 @@ GameObject:
   - component: {fileID: 1597141923}
   - component: {fileID: 1597141922}
   - component: {fileID: 1597141921}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flower (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25153,7 +25168,7 @@ GameObject:
   - component: {fileID: 1783943908}
   - component: {fileID: 1783943907}
   - component: {fileID: 1783943906}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bee 1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25350,7 +25365,7 @@ GameObject:
   - component: {fileID: 1876998802}
   - component: {fileID: 1876998801}
   - component: {fileID: 1876998800}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bee 1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25598,7 +25613,7 @@ GameObject:
   - component: {fileID: 1931452200}
   - component: {fileID: 1931452199}
   - component: {fileID: 1931452198}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flower (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25729,7 +25744,7 @@ GameObject:
   - component: {fileID: 2008519930}
   - component: {fileID: 2008519929}
   - component: {fileID: 2008519928}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bee 1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25978,7 +25993,7 @@ GameObject:
   - component: {fileID: 2030430071}
   - component: {fileID: 2030430070}
   - component: {fileID: 2030430069}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bee 1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -27,7 +27,6 @@ public class Knight_Move : MonoBehaviour {
 
     void Update()
     {
-        
         Move_Player();
     }
     void FixedUpdate()

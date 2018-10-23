@@ -158,11 +158,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4071627899576984, guid: f7a04e7047eae504d95abe0ad1e0e636, type: 2}
       propertyPath: m_LocalScale.y
-      value: 7.7285323
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4071627899576984, guid: f7a04e7047eae504d95abe0ad1e0e636, type: 2}
       propertyPath: m_LocalScale.x
-      value: 8.634226
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114564121331127024, guid: f7a04e7047eae504d95abe0ad1e0e636,
         type: 2}

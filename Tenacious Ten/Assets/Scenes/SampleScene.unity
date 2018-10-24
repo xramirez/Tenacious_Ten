@@ -213,6 +213,11 @@ Prefab:
       propertyPath: m_SleepingMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114564121331127024, guid: f7a04e7047eae504d95abe0ad1e0e636,
+        type: 2}
+      propertyPath: numOfHearts
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7a04e7047eae504d95abe0ad1e0e636, type: 2}
   m_IsPrefabAsset: 0

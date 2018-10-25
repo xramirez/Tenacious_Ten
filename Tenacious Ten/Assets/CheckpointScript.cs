@@ -19,6 +19,7 @@ public class CheckpointScript : MonoBehaviour {
     {
         if(something.name == "Knight"){
             currentSession.currentCheckpoint = gameObject;
+            Debug.Log("New Checkpoint Reached");
         }
     }
 }

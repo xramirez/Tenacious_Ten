@@ -10,6 +10,10 @@ public class Knight_Move : MonoBehaviour {
     public float playerSpeed = 40f;
     float horizontalMove = 0f;
     public AudioSource jumpSound;
+    CapsuleCollider2D bodyCollider;
+    [SerializeField] Vector2 deathKick = new Vector2(25f, 25f);
+
+    bool isAlive = true;
 
     void Move_Player()
     {
@@ -24,11 +28,26 @@ public class Knight_Move : MonoBehaviour {
             animator.SetBool("IsJumping", true);
         }
     }
+    private void Start()
+    {
+        bodyCollider = GetComponent<CapsuleCollider2D>();
+    }
 
     void Update()
     {
+        if (!isAlive) { return; }
         Move_Player();
+        Die();
     }
+
+    void Die(){
+        if (bodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy"))){
+            //isAlive = false;
+            //GetComponent<Rigidbody2D>().velocity = deathKick;
+            print("died");
+        }
+    }
+
     void FixedUpdate()
     {
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jumping);

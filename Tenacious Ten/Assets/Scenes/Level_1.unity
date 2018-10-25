@@ -448,7 +448,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 421785575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.499999, y: -3.7599998, z: -10}
+  m_LocalPosition: {x: -14.5, y: -3.7599998, z: -10}
   m_LocalScale: {x: 0.82, y: 0.82, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -22390,7 +22390,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1152713467}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.499999, y: -3.7599998, z: -10}
+  m_LocalPosition: {x: -14.5, y: -3.7599998, z: -10}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 2088851734}
@@ -23383,6 +23383,7 @@ GameObject:
   - component: {fileID: 1961442886}
   - component: {fileID: 1961442888}
   - component: {fileID: 1961442889}
+  - component: {fileID: 1961442890}
   m_Layer: 8
   m_Name: Knight
   m_TagString: Untagged
@@ -23487,6 +23488,7 @@ MonoBehaviour:
   controller: {fileID: 1961442888}
   playerSpeed: 40
   jumpSound: {fileID: 0}
+  deathKick: {x: 25, y: 25}
 --- !u!95 &1961442885
 Animator:
   serializedVersion: 3
@@ -23517,9 +23519,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0025577545, y: -0.12675767}
+  m_Offset: {x: 0.0025577545, y: -0.10185202}
   serializedVersion: 2
-  m_Radius: 0.14880657
+  m_Radius: 0.14880665
 --- !u!61 &1961442887
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23604,6 +23606,21 @@ MonoBehaviour:
   lemonBulletPreFab: {fileID: 1185876003670504, guid: 2e324a3fdfb4a46c8bcb0479ecc44179,
     type: 2}
   swingSound: {fileID: 0}
+--- !u!70 &1961442890
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1961442880}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.002767245, y: 0}
+  m_Size: {x: 0.3027134, y: 0.5}
+  m_Direction: 0
 --- !u!1 &2015329616
 GameObject:
   m_ObjectHideFlags: 0

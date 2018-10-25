@@ -6,6 +6,8 @@ public class GameSession : MonoBehaviour
 {
 
     [SerializeField] int playerLives = 3;
+    public GameObject currentCheckpoint;
+    private CharacterController2D player;
 
     private void Awake()
     {
@@ -23,12 +25,19 @@ public class GameSession : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        player = FindObjectOfType<CharacterController2D>();
+        Debug.Log("Current Lives: " + playerLives);
+    }
 
+    public void RespawnPlayer(){
+        print("Player Respawned");
+        player.transform.position = currentCheckpoint.transform.position;
     }
 
     public void ProcessPlayerDeath()
     {
         if(playerLives>1){
+            RespawnPlayer();
             TakeLife();
         }
         else{
@@ -37,11 +46,13 @@ public class GameSession : MonoBehaviour
     }
     private void TakeLife(){
         playerLives--;
-        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex);
+        Debug.Log("Current Lives: " + playerLives);
+        //var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        //SceneManager.LoadScene(currentSceneIndex);
     }
     private void ResetGameSession(){
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("Level Has Been Reset");
         Destroy(gameObject);
     }
 

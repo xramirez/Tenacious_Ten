@@ -41,10 +41,11 @@ public class Knight_Move : MonoBehaviour {
     }
 
     void Die(){
-        if (bodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy"))){
+        if (bodyCollider.IsTouchingLayers(LayerMask.GetMask("Hazard"))){
             //isAlive = false;
             //GetComponent<Rigidbody2D>().velocity = deathKick;
             print("died");
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
     }
 

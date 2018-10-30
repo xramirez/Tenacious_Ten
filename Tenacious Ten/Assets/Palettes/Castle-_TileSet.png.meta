@@ -1,56 +1,84 @@
 fileFormatVersion: 2
-guid: c54a21f0fabbc824fb3b5681c45f4cff
+guid: f42d6b0c9965d2b4fadd9a9fa9d00f51
 TextureImporter:
   fileIDToRecycleName:
-    21300000: tileset_village_full_0
-    21300002: tileset_village_full_1
-    21300004: tileset_village_full_2
-    21300006: tileset_village_full_3
-    21300008: tileset_village_full_4
-    21300010: tileset_village_full_5
-    21300012: tileset_village_full_6
-    21300014: tileset_village_full_7
-    21300016: tileset_village_full_8
-    21300018: tileset_village_full_9
-    21300020: tileset_village_full_10
-    21300022: tileset_village_full_11
-    21300024: tileset_village_full_12
-    21300026: tileset_village_full_13
-    21300028: tileset_village_full_14
-    21300030: tileset_village_full_15
-    21300032: tileset_village_full_16
-    21300034: tileset_village_full_17
-    21300036: tileset_village_full_18
-    21300038: tileset_village_full_19
-    21300040: tileset_village_full_20
-    21300042: tileset_village_full_21
-    21300044: tileset_village_full_22
-    21300046: tileset_village_full_23
-    21300048: tileset_village_full_24
-    21300050: tileset_village_full_25
-    21300052: tileset_village_full_26
-    21300054: tileset_village_full_27
-    21300056: tileset_village_full_28
-    21300058: tileset_village_full_29
-    21300060: tileset_village_full_30
-    21300062: tileset_village_full_31
-    21300064: tileset_village_full_32
-    21300066: tileset_village_full_33
-    21300068: tileset_village_full_34
-    21300070: tileset_village_full_35
-    21300072: tileset_village_full_36
-    21300074: tileset_village_full_37
-    21300076: tileset_village_full_38
-    21300078: tileset_village_full_39
-    21300080: tileset_village_full_40
-    21300082: tileset_village_full_41
-    21300084: tileset_village_full_42
-    21300086: tileset_village_full_43
-    21300088: tileset_village_full_44
-    21300090: tileset_village_full_45
-    21300092: tileset_village_full_46
-    21300094: tileset_village_full_47
-    21300096: tileset_village_full_48
+    21300000: Castle-_TileSet_0
+    21300002: Castle-_TileSet_1
+    21300004: Castle-_TileSet_2
+    21300006: Castle-_TileSet_3
+    21300008: Castle-_TileSet_4
+    21300010: Castle-_TileSet_5
+    21300012: Castle-_TileSet_6
+    21300014: Castle-_TileSet_7
+    21300016: Castle-_TileSet_8
+    21300018: Castle-_TileSet_9
+    21300020: Castle-_TileSet_10
+    21300022: Castle-_TileSet_11
+    21300024: Castle-_TileSet_12
+    21300026: Castle-_TileSet_13
+    21300028: Castle-_TileSet_14
+    21300030: Castle-_TileSet_15
+    21300032: Castle-_TileSet_16
+    21300034: Castle-_TileSet_17
+    21300036: Castle-_TileSet_18
+    21300038: Castle-_TileSet_19
+    21300040: Castle-_TileSet_20
+    21300042: Castle-_TileSet_21
+    21300044: Castle-_TileSet_22
+    21300046: Castle-_TileSet_23
+    21300048: Castle-_TileSet_24
+    21300050: Castle-_TileSet_25
+    21300052: Castle-_TileSet_26
+    21300054: Castle-_TileSet_27
+    21300056: Castle-_TileSet_28
+    21300058: Castle-_TileSet_29
+    21300060: Castle-_TileSet_30
+    21300062: Castle-_TileSet_31
+    21300064: Castle-_TileSet_32
+    21300066: Castle-_TileSet_33
+    21300068: Castle-_TileSet_34
+    21300070: Castle-_TileSet_35
+    21300072: Castle-_TileSet_36
+    21300074: Castle-_TileSet_37
+    21300076: Castle-_TileSet_38
+    21300078: Castle-_TileSet_39
+    21300080: Castle-_TileSet_40
+    21300082: Castle-_TileSet_41
+    21300084: Castle-_TileSet_42
+    21300086: Castle-_TileSet_43
+    21300088: Castle-_TileSet_44
+    21300090: Castle-_TileSet_45
+    21300092: Castle-_TileSet_46
+    21300094: Castle-_TileSet_47
+    21300096: Castle-_TileSet_48
+    21300098: Castle-_TileSet_49
+    21300100: Castle-_TileSet_50
+    21300102: Castle-_TileSet_51
+    21300104: Castle-_TileSet_52
+    21300106: Castle-_TileSet_53
+    21300108: Castle-_TileSet_54
+    21300110: Castle-_TileSet_55
+    21300112: Castle-_TileSet_56
+    21300114: Castle-_TileSet_57
+    21300116: Castle-_TileSet_58
+    21300118: Castle-_TileSet_59
+    21300120: Castle-_TileSet_60
+    21300122: Castle-_TileSet_61
+    21300124: Castle-_TileSet_62
+    21300126: Castle-_TileSet_63
+    21300128: Castle-_TileSet_64
+    21300130: Castle-_TileSet_65
+    21300132: Castle-_TileSet_66
+    21300134: Castle-_TileSet_67
+    21300136: Castle-_TileSet_68
+    21300138: Castle-_TileSet_69
+    21300140: Castle-_TileSet_70
+    21300142: Castle-_TileSet_71
+    21300144: Castle-_TileSet_72
+    21300146: Castle-_TileSet_73
+    21300148: Castle-_TileSet_74
+    21300150: Castle-_TileSet_75
+    21300152: Castle-_TileSet_76
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -109,7 +137,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -120,7 +148,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -131,7 +159,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -144,67 +172,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tileset_village_full_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69c5342ea6d704a3a8d719c31d39e73b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_village_full_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2885b77b583214972ab6fde8d846039d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_village_full_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 128
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3ced49e57cf2489aa3a8bff8427260e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_village_full_3
+      name: Castle-_TileSet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -212,19 +180,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c161c3a6a8384cd4a24616d6c1f3e91
+      spriteID: ce113f638517ef5499b20e97c3ef63ca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_4
+      name: Castle-_TileSet_1
       rect:
         serializedVersion: 2
         x: 16
@@ -232,19 +200,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8941a898f55dc4c06ad96b6110904a68
+      spriteID: 70053eced7c212747a4c1a7eed54e347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_5
+      name: Castle-_TileSet_2
       rect:
         serializedVersion: 2
         x: 32
@@ -252,19 +220,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55423ab91384c41b0a14e845c3113999
+      spriteID: 316bbce851ff9784ebd7c38b901d5df0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_6
+      name: Castle-_TileSet_10
       rect:
         serializedVersion: 2
         x: 0
@@ -272,19 +240,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da88bbd6a461f44718e5f229dc8586b9
+      spriteID: b566864bee526d14e8be76a3f7932466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_7
+      name: Castle-_TileSet_11
       rect:
         serializedVersion: 2
         x: 16
@@ -292,19 +260,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75a917ccaef08466ca08d013eff3d3d0
+      spriteID: c9d8e27ad6883c643abd890321985ff9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_8
+      name: Castle-_TileSet_12
       rect:
         serializedVersion: 2
         x: 32
@@ -312,19 +280,99 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1281ce1517ea84a3f911cd2be7b7e171
+      spriteID: 9e9e1eb38a3701b4887964aa460f8f5c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_9
+      name: Castle-_TileSet_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d895f6667fef6a24e8f2789850b3d8ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle-_TileSet_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d0e20dfe1588c4db6c98bca936114d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle-_TileSet_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d283e7a87b22f3d4fb7c2a1984b0961d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle-_TileSet_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6488210b778f0049929da93bf0b1479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle-_TileSet_20
       rect:
         serializedVersion: 2
         x: 0
@@ -332,19 +380,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b89fd4b7e0d4d4a528d16834da7ef9a8
+      spriteID: 35e6a8e7ffc5e8841a8c723780fa503a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_10
+      name: Castle-_TileSet_21
       rect:
         serializedVersion: 2
         x: 16
@@ -352,19 +400,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9127f0c6725584d8ca3b0f15f62c53e6
+      spriteID: 3f75a62995a5224448bcab178d520378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_11
+      name: Castle-_TileSet_22
       rect:
         serializedVersion: 2
         x: 32
@@ -372,19 +420,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3da3b27a4af48424bb17e1f49a29f77c
+      spriteID: d4ee79ad09566cc4d9352c037b9aed01
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_12
+      name: Castle-_TileSet_23
       rect:
         serializedVersion: 2
         x: 48
@@ -392,139 +440,79 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64429d837eb16450092932fbbe7716aa
+      spriteID: a9ba6a7dad5387e4eb898fe2b9500083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_13
+      name: Castle-_TileSet_24
       rect:
         serializedVersion: 2
-        x: 64
+        x: 80
         y: 80
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65ea96c2547734e22ba5e2c0ae5b95ad
+      spriteID: 84d4a33be5967dd49a3c60f4f6023088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_14
+      name: Castle-_TileSet_25
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 96
+        y: 80
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 4, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 472b4ed33bcb04425a4dc0dcf344b6ce
+      spriteID: c95fc82f701e45b41ae7db09f1043f30
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_15
+      name: Castle-_TileSet_26
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
+        x: 112
+        y: 84
         width: 16
-        height: 16
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 5, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c66767a044924c70bb8209f473053bb
+      spriteID: 387c1631a7021da4d9dcc856e57c8c94
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_16
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfbb2afe6a1b24034a156622d2565c68
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_village_full_17
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8765d4d3618649dda38cb8922dd629d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_village_full_18
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbd1cf6c5d95941558442fcdeae9594c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_village_full_19
+      name: Castle-_TileSet_35
       rect:
         serializedVersion: 2
         x: 128
@@ -532,19 +520,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c5e5c7b1b23e470ba8fc7f0743c242d
+      spriteID: e3012c82f515f4443b1c09d0998dfb2c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_20
+      name: Castle-_TileSet_36
       rect:
         serializedVersion: 2
         x: 144
@@ -552,19 +540,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33f2c71c9107a463f843f83cebf04ba5
+      spriteID: 0fec7ccf2c2626e47b7e94be16c7e9a7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_21
+      name: Castle-_TileSet_37
       rect:
         serializedVersion: 2
         x: 0
@@ -572,19 +560,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a16cdd49871b54824819b494079d6ac6
+      spriteID: c3ae270d0d168774da9f970acf862137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_22
+      name: Castle-_TileSet_38
       rect:
         serializedVersion: 2
         x: 16
@@ -592,19 +580,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 859e46f4ac70846518c2fe91a970a00e
+      spriteID: 614e182de26648b4d92c8d8997597e8d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_23
+      name: Castle-_TileSet_39
       rect:
         serializedVersion: 2
         x: 32
@@ -612,19 +600,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52b5b5a7d9e864132b63b3e599387425
+      spriteID: 9cf8af4441414b64d9141d014f148ff1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_24
+      name: Castle-_TileSet_40
       rect:
         serializedVersion: 2
         x: 48
@@ -632,19 +620,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1941a3b709f3f4b39898815b7687e2e6
+      spriteID: 75d28b16b3817f54ea689f5542ec8e2f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_25
+      name: Castle-_TileSet_41
       rect:
         serializedVersion: 2
         x: 64
@@ -652,39 +640,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a298a80357ef419aaa9e70ba77e6149
+      spriteID: 2986205a47b2b2b4fab836bceccffe05
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_26
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1c12629c6fb84960ba3e4d530fc955f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_village_full_27
+      name: Castle-_TileSet_43
       rect:
         serializedVersion: 2
         x: 96
@@ -692,39 +660,39 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba94de37a190a4489b5342b27c9af9cf
+      spriteID: 80b2ac9bda575a34b8e50e8aaff848fe
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_28
+      name: Castle-_TileSet_44
       rect:
         serializedVersion: 2
-        x: 112
-        y: 48
+        x: 111
+        y: 47
         width: 16
-        height: 16
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10085b701f6fa43f5ac653585f7a9686
+      spriteID: 5d89fde36fd309d47913095eeb13e435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_29
+      name: Castle-_TileSet_45
       rect:
         serializedVersion: 2
         x: 128
@@ -732,39 +700,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b065d2bf8cd094e87a2349f52cb1a161
+      spriteID: 61140a889ddad684394697fccb479e20
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_30
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccec14b59a63c4a77bb13a06a6712082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_village_full_31
+      name: Castle-_TileSet_47
       rect:
         serializedVersion: 2
         x: 0
@@ -772,19 +720,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f00c57d9e9180436c809be0bcfd30892
+      spriteID: 4e229c00a15e39c499c63a034a8355d2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_32
+      name: Castle-_TileSet_48
       rect:
         serializedVersion: 2
         x: 16
@@ -792,19 +740,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 973d038307a4546c2ae01bdcec923980
+      spriteID: 95364869b86398140b4a004612e11443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_33
+      name: Castle-_TileSet_49
       rect:
         serializedVersion: 2
         x: 32
@@ -812,39 +760,59 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 948979b1642d64021a422f54505b3455
+      spriteID: 13631167143c0db42bceb0a2316c6df6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_34
+      name: Castle-_TileSet_50
       rect:
         serializedVersion: 2
-        x: 80
+        x: 48
         y: 32
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6e3c0ab15c8543ca8276e381892d5b2
+      spriteID: c03b319020f0ad442813e83d59aafc62
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_35
+      name: Castle-_TileSet_51
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b17dc1909af9104f96fa9ad6c969699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle-_TileSet_53
       rect:
         serializedVersion: 2
         x: 96
@@ -852,19 +820,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff764ab1cfc764799bea27f6b9098e77
+      spriteID: 407c57ab8cabae347a746a742229d102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_36
+      name: Castle-_TileSet_54
       rect:
         serializedVersion: 2
         x: 112
@@ -872,19 +840,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d22d963b182f146aa8e0d295d4f4885f
+      spriteID: c96fb1cfb67279e42bad40128fd6c8ff
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_37
+      name: Castle-_TileSet_55
       rect:
         serializedVersion: 2
         x: 128
@@ -892,39 +860,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 352c5c27beb2d49bbacc600469e743af
+      spriteID: 116134d8eecc23643bf14888608b32ba
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_38
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb8c9ab9aa60d4a759b99125632742ae
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_village_full_39
+      name: Castle-_TileSet_57
       rect:
         serializedVersion: 2
         x: 0
@@ -932,19 +880,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5f9aef542b6c477baab8343d2122867
+      spriteID: a105a8ff78f7de7498a980191bee6ebf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_40
+      name: Castle-_TileSet_58
       rect:
         serializedVersion: 2
         x: 16
@@ -952,19 +900,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e1aa4e9c9937491492c2df8029fcfeb
+      spriteID: d364ace76e9ced14e88e0bee96dae66f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_41
+      name: Castle-_TileSet_59
       rect:
         serializedVersion: 2
         x: 32
@@ -972,39 +920,59 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e1a56f53143f4545ae35a8097431ced
+      spriteID: 51d40888ab2baef44bfe2cc543f1eb55
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_42
+      name: Castle-_TileSet_60
       rect:
         serializedVersion: 2
-        x: 80
+        x: 48
         y: 16
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa77e3560c60a4e3a951db843e1c5e07
+      spriteID: 2ec51e8e29f356747bb78bf7ce6fee55
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_43
+      name: Castle-_TileSet_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75548b91209d9e44c91d070bc2303d5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Castle-_TileSet_63
       rect:
         serializedVersion: 2
         x: 96
@@ -1012,19 +980,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9d22160409664b07bdc770689dd6b4b
+      spriteID: a34439202264a944198c5b91b0e7600b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_44
+      name: Castle-_TileSet_64
       rect:
         serializedVersion: 2
         x: 112
@@ -1032,19 +1000,19 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18f4a32c06207484cb408067a3aefa76
+      spriteID: ce14c3beabf82ef48aa5d5db6341ab82
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_45
+      name: Castle-_TileSet_65
       rect:
         serializedVersion: 2
         x: 128
@@ -1052,73 +1020,53 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39d09498c1030409f8c9ec80c0c53819
+      spriteID: 58222b14640a6194fb3a75cd60349481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_46
+      name: Castle-_TileSet_66
       rect:
         serializedVersion: 2
-        x: 80
-        y: 0
+        x: 144
+        y: 16
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18cdb94cb785a4bdc8f2e573e5821c08
+      spriteID: e1cccca4b0830c0498f2b7195a338ca3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tileset_village_full_47
+      name: Castle-_TileSet_76
       rect:
         serializedVersion: 2
-        x: 96
+        x: 144
         y: 0
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5492b848a183e43ccb16a59e6d4fcc81
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tileset_village_full_48
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e87bee9595a44a8b95d9d6b7c059c09
+      spriteID: ca6b60d0e8c31e44ba653ca00a2dd228
       vertices: []
       indices: 
       edges: []
@@ -1126,7 +1074,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 00fd51b8bd3b37242a5dce0e9e458552
+    spriteID: 8efc09abd9ccb6a47b4eb4ea015937e4
     vertices: []
     indices: 
     edges: []

@@ -290,7 +290,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 287218290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 88.28, y: -1.93, z: 0}
+  m_LocalPosition: {x: 91.88, y: -1.96, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef66ad9e174854389bbcbcd87b49755f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 3
   distance: 5
 --- !u!1 &299379369
 GameObject:
@@ -878,7 +878,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 395211192}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -47.49, y: -7.47, z: 0}
+  m_LocalPosition: {x: -47.25, y: -7.44, z: 0}
   m_LocalScale: {x: 1.268516, y: 1.141601, z: 0.634258}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1850,7 +1850,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 843193629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -71.38405, y: -7.344421, z: -10}
+  m_LocalPosition: {x: -73.725365, y: -7.344421, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2778,7 +2778,7 @@ GameObject:
   m_Layer: 0
   m_Name: Checkpoint (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3089,7 +3089,7 @@ GameObject:
   m_Layer: 0
   m_Name: Checkpoint (2)
   m_TagString: Untagged
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4856,7 +4856,7 @@ GameObject:
   m_Layer: 0
   m_Name: Checkpoint
   m_TagString: Untagged
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -25221,12 +25221,12 @@ EdgeCollider2D:
   - {x: 71.99157, y: -6.0948467}
   - {x: 76.961876, y: -6.107647}
   - {x: 80.87732, y: -4.1011653}
-  - {x: 85.052376, y: -3.981923}
-  - {x: 86.898056, y: -3.0257466}
-  - {x: 93.17649, y: -2.9735572}
-  - {x: 99.256165, y: 0.03875673}
-  - {x: 105.30549, y: -0.084343314}
-  - {x: 111.183716, y: -3.0527093}
+  - {x: 85.006454, y: -4.0393186}
+  - {x: 86.995, y: -3.0378652}
+  - {x: 93.006836, y: -3.0341496}
+  - {x: 98.989555, y: -0.021835625}
+  - {x: 105.01465, y: -0.023750976}
+  - {x: 110.989815, y: -3.0527093}
   - {x: 116.0228, y: -3.0263073}
   - {x: 116.01436, y: -15.989872}
 --- !u!68 &1778895131

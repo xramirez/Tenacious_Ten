@@ -157,6 +157,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 4
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +208,9 @@ Transform:
 >>>>>>> parent of 885fe8d... added Sean Prefab to Project
 =======
 >>>>>>> parent of 0a0a0cf... Merge branch 'master' of https://github.com/xramirez/Tenacious_Ten
+=======
+  m_RootOrder: 3
+>>>>>>> parent of 885fe8d... added Sean Prefab to Project
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &241075294
 GameObject:
@@ -1908,6 +1912,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -66.771545, y: -7.344421, z: -10}
 =======
   m_LocalPosition: {x: -73.725365, y: -7.344421, z: -10}
@@ -1927,6 +1932,9 @@ Transform:
 =======
   m_LocalPosition: {x: -66.771545, y: -7.344421, z: -10}
 >>>>>>> parent of 0a0a0cf... Merge branch 'master' of https://github.com/xramirez/Tenacious_Ten
+=======
+  m_LocalPosition: {x: -71.38405, y: -7.344421, z: -10}
+>>>>>>> parent of 885fe8d... added Sean Prefab to Project
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3157,6 +3165,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 0a0a0cf... Merge branch 'master' of https://github.com/xramirez/Tenacious_Ten
 =======
@@ -3216,6 +3225,8 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7a04e7047eae504d95abe0ad1e0e636, type: 2}
   m_IsPrefabAsset: 0
+=======
+>>>>>>> parent of 885fe8d... added Sean Prefab to Project
 =======
 >>>>>>> parent of 885fe8d... added Sean Prefab to Project
 =======
@@ -4990,6 +5001,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 26
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5007,6 +5019,9 @@ Transform:
 >>>>>>> parent of 885fe8d... added Sean Prefab to Project
 =======
 >>>>>>> parent of 0a0a0cf... Merge branch 'master' of https://github.com/xramirez/Tenacious_Ten
+=======
+  m_RootOrder: 25
+>>>>>>> parent of 885fe8d... added Sean Prefab to Project
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1459864169
 GameObject:
@@ -5113,6 +5128,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 27
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5131,6 +5147,9 @@ Transform:
 >>>>>>> parent of 885fe8d... added Sean Prefab to Project
 =======
 >>>>>>> parent of 0a0a0cf... Merge branch 'master' of https://github.com/xramirez/Tenacious_Ten
+=======
+  m_RootOrder: 26
+>>>>>>> parent of 885fe8d... added Sean Prefab to Project
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1537068908
 GameObject:

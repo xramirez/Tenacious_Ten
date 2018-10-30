@@ -7,8 +7,7 @@ public class HorizontalEnemyMove : MonoBehaviour {
 	Vector2 mover = new Vector2(-1f, 0);
 	public float moveSpeed = 5f;
 	Vector2 startingPosition;
-	[SerializeField]
-	float distance;
+	[SerializeField] float distance = 4;
     bool facing_right = true;
 
 	// Use this for initialization
@@ -33,12 +32,12 @@ public class HorizontalEnemyMove : MonoBehaviour {
 		{
 			mover *= -1;
         }
-        if (transform.position.x > startingPosition.x + distance  - .05)
+        if (transform.position.x > startingPosition.x + distance  - .1)
         {
             Flip();
         }
         else
-        if (transform.position.x < startingPosition.x - distance + .05)
+        if (transform.position.x < startingPosition.x - distance + .1)
         {
             Flip();
         }

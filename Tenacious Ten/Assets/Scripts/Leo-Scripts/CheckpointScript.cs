@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CheckpointScript : MonoBehaviour {
     public GameSession currentSession;
-    public Animator animator;
 
 
 	// Use this for initialization
@@ -21,7 +20,6 @@ public class CheckpointScript : MonoBehaviour {
         if(something.name == "Knight"){
             currentSession.currentCheckpoint = gameObject;
             Debug.Log("New Checkpoint Reached");
-            animator.SetBool("Checkpoint_Reached", true);
         }
     }
 }

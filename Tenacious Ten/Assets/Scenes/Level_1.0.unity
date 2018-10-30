@@ -155,6 +155,7 @@ Transform:
   - {fileID: 889858538}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 4
 <<<<<<< HEAD
 =======
@@ -190,6 +191,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
 >>>>>>> f5abd372de0ebe1d1446d0868c2b8dca4ef80bd8
+=======
+  m_RootOrder: 3
+>>>>>>> parent of 885fe8d... added Sean Prefab to Project
 =======
   m_RootOrder: 3
 >>>>>>> parent of 885fe8d... added Sean Prefab to Project
@@ -1895,10 +1899,14 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -66.771545, y: -7.344421, z: -10}
 =======
   m_LocalPosition: {x: -73.725365, y: -7.344421, z: -10}
 >>>>>>> f5abd372de0ebe1d1446d0868c2b8dca4ef80bd8
+=======
+  m_LocalPosition: {x: -71.38405, y: -7.344421, z: -10}
+>>>>>>> parent of 885fe8d... added Sean Prefab to Project
 =======
   m_LocalPosition: {x: -71.38405, y: -7.344421, z: -10}
 >>>>>>> parent of 885fe8d... added Sean Prefab to Project
@@ -3123,6 +3131,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1117022647
 Prefab:
   m_ObjectHideFlags: 0
@@ -3178,6 +3187,8 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7a04e7047eae504d95abe0ad1e0e636, type: 2}
   m_IsPrefabAsset: 0
+=======
+>>>>>>> parent of 885fe8d... added Sean Prefab to Project
 =======
 >>>>>>> parent of 885fe8d... added Sean Prefab to Project
 --- !u!1 &1154372402
@@ -4941,8 +4952,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 26
 <<<<<<< HEAD
+=======
+  m_RootOrder: 25
+>>>>>>> parent of 885fe8d... added Sean Prefab to Project
 =======
   m_RootOrder: 25
 >>>>>>> parent of 885fe8d... added Sean Prefab to Project
@@ -5050,9 +5065,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 27
 =======
 >>>>>>> f5abd372de0ebe1d1446d0868c2b8dca4ef80bd8
+=======
+  m_RootOrder: 26
+>>>>>>> parent of 885fe8d... added Sean Prefab to Project
 =======
   m_RootOrder: 26
 >>>>>>> parent of 885fe8d... added Sean Prefab to Project

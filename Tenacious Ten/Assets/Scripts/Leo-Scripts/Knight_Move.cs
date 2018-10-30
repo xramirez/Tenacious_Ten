@@ -11,9 +11,11 @@ public class Knight_Move : MonoBehaviour {
     float horizontalMove = 0f;
     public AudioSource jumpSound;
     CapsuleCollider2D bodyCollider;
-    [SerializeField] Vector2 deathKick = new Vector2(25f, 25f);
-
+    [SerializeField] Vector2 damageKick = new Vector2(75f, 0f);
+    [SerializeField] Vector2 damageKick2 = new Vector2(-75f, 0f);
+    //public int Health = 3;
     bool isAlive = true;
+    bool facingRight;
 
     void Move_Player()
     {
@@ -35,17 +37,24 @@ public class Knight_Move : MonoBehaviour {
 
     void Update()
     {
+        facingRight = controller.m_FacingRight;
         if (!isAlive) { return; }
         Move_Player();
+        Damaged();
         Die();
     }
 
     void Die(){
         if (bodyCollider.IsTouchingLayers(LayerMask.GetMask("Hazard"))){
             //isAlive = false;
-            //GetComponent<Rigidbody2D>().velocity = deathKick;
             print("died");
             FindObjectOfType<GameSession>().ProcessPlayerDeath();
+        }
+    }
+    void Damaged(){
+        if (bodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy"))){
+            GetComponent<Rigidbody2D>().velocity = !facingRight ? damageKick : damageKick2;
+            //Health -= 1;
         }
     }
 

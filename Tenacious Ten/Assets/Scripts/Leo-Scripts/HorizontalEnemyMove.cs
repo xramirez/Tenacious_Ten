@@ -9,10 +9,12 @@ public class HorizontalEnemyMove : MonoBehaviour {
 	Vector2 startingPosition;
 	[SerializeField]
 	float distance;
+    bool facing_right = true;
 
 	// Use this for initialization
 	void Start () {
 		startingPosition = transform.position;
+        Flip();
 	}
 
 	// Update is called once per frame
@@ -23,14 +25,26 @@ public class HorizontalEnemyMove : MonoBehaviour {
 	void FixedUpdate()
 	{
 		transform.Translate(mover * moveSpeed * Time.deltaTime);
-		if (transform.position.x <= startingPosition.x -distance)
+        if (transform.position.x >= startingPosition.x + distance)
+        {
+            mover *= -1;
+        }
+        if (transform.position.x <= startingPosition.x -distance)
 		{
 			mover *= -1;
         }
-		if (transform.position.x >= startingPosition.x)
-		{
-			mover *= -1;
-		}
-	}
+        if (transform.position.x > startingPosition.x + distance  - .05)
+        {
+            Flip();
+        }
+        else
+        if (transform.position.x < startingPosition.x - distance + .05)
+        {
+            Flip();
+        }
+    }
+    void Flip(){
+        transform.Rotate(0f, 180f, 0f);
+    }
 
 }

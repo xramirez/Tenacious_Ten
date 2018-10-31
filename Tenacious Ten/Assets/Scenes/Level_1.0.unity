@@ -1979,6 +1979,11 @@ Prefab:
       propertyPath: m_JumpForce
       value: 1200
       objectReference: {fileID: 0}
+    - target: {fileID: 50447124615654698, guid: e835ac1b5f3a54e95a1ba74315702166,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e835ac1b5f3a54e95a1ba74315702166, type: 2}
   m_IsPrefabAsset: 0

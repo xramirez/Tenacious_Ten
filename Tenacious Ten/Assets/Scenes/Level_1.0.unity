@@ -1147,7 +1147,7 @@ GameObject:
   - component: {fileID: 477910158}
   - component: {fileID: 477910157}
   - component: {fileID: 477910156}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SmallPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1323,7 +1323,8 @@ GameObject:
   - component: {fileID: 503466993}
   - component: {fileID: 503466992}
   - component: {fileID: 503466990}
-  m_Layer: 9
+  - component: {fileID: 503466991}
+  m_Layer: 12
   m_Name: Moving Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1343,6 +1344,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1
   distance: 2
+--- !u!50 &503466991
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 503466989}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!61 &503466992
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1702,7 +1723,7 @@ GameObject:
   - component: {fileID: 754300041}
   - component: {fileID: 754300039}
   - component: {fileID: 754300040}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: SmallPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1901,7 +1922,7 @@ Prefab:
     - target: {fileID: 114280928985875908, guid: e835ac1b5f3a54e95a1ba74315702166,
         type: 2}
       propertyPath: m_WhatIsGround.m_Bits
-      value: 1335
+      value: 5431
       objectReference: {fileID: 0}
     - target: {fileID: 114280928985875908, guid: e835ac1b5f3a54e95a1ba74315702166,
         type: 2}

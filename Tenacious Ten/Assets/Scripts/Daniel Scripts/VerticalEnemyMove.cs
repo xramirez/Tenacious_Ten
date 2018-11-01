@@ -5,6 +5,7 @@ using UnityEngine;
 public class VerticalEnemyMove : MonoBehaviour {
 
 	Vector2 mover = new Vector2(0, 1f);
+	[SerializeField]
 	float moveSpeed = 5f;
 	Vector2 startingPosition;
 	[SerializeField]

@@ -54,6 +54,7 @@ public class Knight_Move : MonoBehaviour {
     void Damaged(){
         if (bodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy"))){
             GetComponent<Rigidbody2D>().velocity = !facingRight ? damageKick : damageKick2;
+            print("Damaged");
             //Health -= 1;
         }
     }

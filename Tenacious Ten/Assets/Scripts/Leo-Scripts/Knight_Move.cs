@@ -16,6 +16,8 @@ public class Knight_Move : MonoBehaviour {
     //public int Health = 3;
     bool isAlive = true;
     bool facingRight;
+    float dirx;
+    float diry;
 
     void Move_Player()
     {
@@ -37,6 +39,8 @@ public class Knight_Move : MonoBehaviour {
 
     void Update()
     {
+        dirx = Input.GetAxis("Horizontal") * playerSpeed;
+        diry = Input.GetAxis("Vertical") * playerSpeed;
         facingRight = controller.m_FacingRight;
         if (!isAlive) { return; }
         Move_Player();
@@ -52,10 +56,24 @@ public class Knight_Move : MonoBehaviour {
         }
     }
     void Damaged(){
-        if (bodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy"))){
+        if (bodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy")))
+        {
             GetComponent<Rigidbody2D>().velocity = !facingRight ? damageKick : damageKick2;
             print("Damaged");
             //Health -= 1;
+        }
+    }
+    //This one is used to get pushed back and damaged by the Flower Bullets
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name.Equals("Flower Bullet(Clone)"))
+        {
+            GetComponent<Rigidbody2D>().velocity = !facingRight ? damageKick : damageKick2;
+            print("Damaged");
+            //Health -= 1;
+        }
+        else
+        {
         }
     }
 

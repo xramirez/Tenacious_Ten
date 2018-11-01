@@ -16,7 +16,7 @@ public class Bullet : MonoBehaviour {
     {
         if (hitInfo.name != "background")
         {
-            Debug.Log(hitInfo.name);
+            //Debug.Log(hitInfo.name);
             Destroy(gameObject);
         }
     }

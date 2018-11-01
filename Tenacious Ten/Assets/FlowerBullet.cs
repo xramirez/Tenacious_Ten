@@ -24,8 +24,8 @@ public class FlowerBullet : MonoBehaviour {
             Debug.Log("Player Hit");
             Destroy(gameObject);
         }
-        if(collision.name != "background" || collision.IsTouchingLayers(LayerMask.GetMask("ground"))){
-            Debug.Log(collision.name);
+        if(collision.gameObject.name.Equals("ground")){
+            Debug.Log("Hit the ground");
             Destroy(gameObject);
         }
     }

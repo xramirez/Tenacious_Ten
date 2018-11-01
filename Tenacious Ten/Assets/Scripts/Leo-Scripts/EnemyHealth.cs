@@ -19,7 +19,7 @@ public class EnemyHealth : MonoBehaviour {
     {
         if (collision.name != "background")
         {
-            print(collision.name);
+            //print(collision.name);
         }
         if(collision.name=="Lemon Bullet(Clone)"){
             Health -= 1;

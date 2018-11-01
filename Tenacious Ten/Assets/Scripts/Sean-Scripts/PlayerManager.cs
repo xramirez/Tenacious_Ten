@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerManager : MonoBehaviour {
 
@@ -13,7 +14,11 @@ public class PlayerManager : MonoBehaviour {
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask whatIsGround;
+    [SerializeField]
     private bool grounded;
+    [SerializeField]
+    bool landedFromJump;
+    public UnityEvent OnLandEvent;
 
     public GameObject leftProjectile, rightProjectile;
 
@@ -27,8 +32,14 @@ public class PlayerManager : MonoBehaviour {
 
     int prevAnimState; //used to hold a variable for the previous animation state and call back to it if needed
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+
+    private void Awake()
+    {
+        if (OnLandEvent == null)
+            OnLandEvent = new UnityEvent();
+    }
+    void Start () {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -36,12 +47,30 @@ public class PlayerManager : MonoBehaviour {
 
         isWalking = false;
 
+        landedFromJump = false;
+        Jumping = false;
+
         projectilePos = transform.Find("projectilePos");   //find child named projectilePos (i.e. its position)
 	}
 
     private void FixedUpdate()
     {
-        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        bool wasGrounded = grounded;
+        grounded = false;
+
+        // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
+        // This can be done using layers instead but Sample Assets will not overwrite your project settings.
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheck.position, groundCheckRadius, whatIsGround);
+        for (int i = 0; i < colliders.Length; i++)
+        {
+            if (colliders[i].gameObject != gameObject)
+            {
+                grounded = true;
+                if (!wasGrounded)
+                    OnLandEvent.Invoke();
+            }
+        }
+        //grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
         //checks for if player is touching the ground
     }
 
@@ -52,45 +81,54 @@ public class PlayerManager : MonoBehaviour {
         Flip();
 
         if (Input.GetKey(KeyCode.RightArrow))
-        {
-            anim.SetInteger("State", 2);
+        { 
             speed = speedX;     //move right
             isWalking = true;
         }
         if (Input.GetKeyUp(KeyCode.RightArrow))
         {
-            anim.SetInteger("State", 0);
             speed = 0;         //not walking/idle
             isWalking = false;
         }
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            anim.SetInteger("State", 2);
             speed = -speedX;    //move left
             isWalking = true;
         }
         if (Input.GetKeyUp(KeyCode.LeftArrow))
         {
-            anim.SetInteger("State", 0);
             speed = 0;          //not walking/idle
             isWalking = false;
         }
 
 
+
         if (Input.GetKeyDown(KeyCode.UpArrow) && grounded)    //jump
         {
             Jump();
+            landedFromJump = false;
         }
 
-        if(Input.GetKey(KeyCode.UpArrow))
+        if(Input.GetKey(KeyCode.UpArrow))   //on jump key press, change animation to jump animation
         {
             anim.SetInteger("State", 3);
         }
 
+        
+        if (grounded && landedFromJump && !isWalking)   //if player is on the ground, not jumping, and is not walking set animation to idle. if walking, change to walking animation
+        {
+            anim.SetInteger("State", 0);
+        }
+        else if(grounded && landedFromJump && isWalking)
+        {
+            anim.SetInteger("State", 2);
+        }
+
+
+
         if (Input.GetKeyDown(KeyCode.Space))    //shoot
         {
-            //anim.SetInteger("State", 7);
             Fire();
             shotDelayCounter = shotDelay;
         }
@@ -113,7 +151,7 @@ public class PlayerManager : MonoBehaviour {
             {
                 anim.SetInteger("State", 3);
             }
-            if (grounded && isWalking) //(Input.GetKeyDown(KeyCode.LeftArrow)) || Input.GetKey(KeyCode.RightArrow)) //if player is on ground and walking
+            if (grounded && isWalking)
             {
                 anim.SetInteger("State", 2);
             }
@@ -122,7 +160,6 @@ public class PlayerManager : MonoBehaviour {
                 anim.SetInteger("State", 0);
             }
         }
-
 
     }
 
@@ -151,6 +188,23 @@ public class PlayerManager : MonoBehaviour {
 
     }
 
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "Ground")
+        {
+            anim.SetInteger("State", 5);
+            landedFromJump = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Ground")
+        {
+            landedFromJump = false;
+        }
+    }
+
     void MovePlayer(float playerSpeed) //player movement
     {
         rb.velocity = new Vector3(playerSpeed, rb.velocity.y, 0);
@@ -158,29 +212,8 @@ public class PlayerManager : MonoBehaviour {
 
     void Jump()
     {
-        //if(isGrounded == true) //so the player can only jump once and not infintely into space
-        //{
-            rb.AddForce(new Vector2(rb.velocity.x, jumpSpeedY));     //will add force, take in a parameter (vector [x,y])
-            Jumping = true;
-            //isGrounded = false;
-            //ADD IN LATER: JUMPING ANIMATION - CHANGE STATE
-        //}
-
-    }
-
-    void OnCollisionEnter2D(Collision2D other)      //to check if player is touching ground
-    {
-       // if(other.gameObject.tag == "Ground")
-       //{
-       //     isGrounded = true;
-       //     Jumping = false;
-            //ADD LATER: CHANGE ANIMATION FROM JUMPING TO IDLE ON GROUND
-        //}
-
-        if(other.gameObject.tag == "Ground")
-        {
-          //  anim.SetInteger("State", 0);
-        }
+        rb.AddForce(new Vector2(rb.velocity.x, jumpSpeedY));     //will add force, take in a parameter (vector [x,y])
+        Jumping = true;
     }
 
     void Fire() //shoot projectile/fire projectile

@@ -50,19 +50,18 @@ public class PlayerHealthManager : MonoBehaviour {
         
     }
 
-    // Update is called once per frame
-    void Update() {
-
+    void Update()
+    {
         if (playerHealth <= 0 && !isDead)
         {
-            //levelManager.RespawnPlayer();
             Player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0.25f);
             isInvulnerable = false;
             justDamaged = false;
-            //isDead = true;
         }
-
-        text.text = "" + playerHealth;
+    }
+    
+    void FixedUpdate() {
+        //text.text = "" + playerHealth;
 
         if(justDamaged)
         {

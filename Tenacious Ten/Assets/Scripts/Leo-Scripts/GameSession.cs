@@ -7,7 +7,7 @@ public class GameSession : MonoBehaviour
 
     [SerializeField] int playerLives = 3;
     public GameObject currentCheckpoint;
-    private CharacterController2D player;
+    private PlayerManager player;
 
     private void Awake()
     {
@@ -25,7 +25,7 @@ public class GameSession : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        player = FindObjectOfType<CharacterController2D>();
+        player = FindObjectOfType<PlayerManager>();
         Debug.Log("Current Lives: " + playerLives);
     }
 
@@ -38,7 +38,7 @@ public class GameSession : MonoBehaviour
     {
         if(playerLives>1){
             RespawnPlayer();
-            TakeLife();
+            //TakeLife();
         }
         else{
             ResetGameSession();

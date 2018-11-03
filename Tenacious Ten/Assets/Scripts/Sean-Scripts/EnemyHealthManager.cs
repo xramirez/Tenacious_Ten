@@ -8,14 +8,14 @@ public class EnemyHealthManager : MonoBehaviour
     public int maxHealth;
     public int enemyHealth;
 
-    public GameObject deathEffect;
+    //public GameObject deathEffect;
 
     //public int pointsOnDeath;     MAY ADD LATER IF WE INTRODUCE A POINT SYSTEM
 
     // Use this for initialization
     void Start()
     {
-        maxHealth = enemyHealth;
+        enemyHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -24,7 +24,7 @@ public class EnemyHealthManager : MonoBehaviour
 
         if (enemyHealth <= 0)
         {
-            Instantiate(deathEffect, transform.position, transform.rotation);
+            //Instantiate(deathEffect, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }

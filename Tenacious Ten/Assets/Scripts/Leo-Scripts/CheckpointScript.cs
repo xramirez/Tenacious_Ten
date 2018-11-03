@@ -18,7 +18,7 @@ public class CheckpointScript : MonoBehaviour {
 	}
     private void OnTriggerEnter2D(Collider2D something)
     {
-        if(something.name == "Knight"){
+        if(something.tag == "Player"){
             currentSession.currentCheckpoint = gameObject;
             Debug.Log("New Checkpoint Reached");
             animator.SetBool("Checkpoint_Reached", true);

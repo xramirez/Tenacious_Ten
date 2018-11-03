@@ -32,17 +32,24 @@ public class ProjectileControl : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Enemy")
+        if (other.tag == "Enemy")
         {
             other.GetComponent<EnemyHealthManager>().giveDamage(damage);
+            instantiatedObj = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+            Destroy(instantiatedObj, 1);
+
+            Destroy(gameObject);
+        }
+        else if (other.tag == "Ground")
+        {
+            instantiatedObj = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+            Destroy(instantiatedObj, 1);
+
+            Destroy(gameObject);
         }
         //
         //Instantiate(impactEffect, transform.position, Quaternion.identity);
        
 
-        instantiatedObj = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
-        Destroy(instantiatedObj, 1);
-
-        Destroy(gameObject);
     }
 }

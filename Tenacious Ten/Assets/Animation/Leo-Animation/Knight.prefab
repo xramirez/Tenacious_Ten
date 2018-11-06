@@ -27,9 +27,10 @@ GameObject:
   - component: {fileID: 58025837344397072}
   - component: {fileID: 114280928985875908}
   - component: {fileID: 114277901711090944}
-  m_Layer: 8
+  - component: {fileID: 70155126364088068}
+  m_Layer: 0
   m_Name: Knight
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +43,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4713625346807006}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +58,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4502327447054294}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4620058078461788}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: CeilingCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +87,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1041594019774626}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.5, y: -5.86, z: 0}
+  m_LocalPosition: {x: -82.412125, y: -8.905643, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 4620058078461788}
@@ -166,9 +167,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0025577545, y: -0.12675767}
+  m_Offset: {x: 0.0025577545, y: -0.10435438}
   serializedVersion: 2
-  m_Radius: 0.14880657
+  m_Radius: 0.14656623
 --- !u!61 &61911789591304472
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -194,6 +195,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.29918385, y: 0.33895165}
   m_EdgeRadius: 0
+--- !u!70 &70155126364088068
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1041594019774626}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0022417705, y: 0}
+  m_Size: {x: 0.2984848, y: 0.5}
+  m_Direction: 0
 --- !u!95 &95783868820842038
 Animator:
   serializedVersion: 3
@@ -227,6 +243,7 @@ MonoBehaviour:
   firePoint: {fileID: 4502327447054294}
   lemonBulletPreFab: {fileID: 1185876003670504, guid: 2e324a3fdfb4a46c8bcb0479ecc44179,
     type: 2}
+  swingSound: {fileID: 0}
 --- !u!114 &114280928985875908
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -240,14 +257,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_JumpForce: 1000
   m_CrouchSpeed: 0.36
-  m_MovementSmoothing: 0.05
-  m_AirControl: 0
+  m_MovementSmoothing: 0
+  m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 5175
   m_GroundCheck: {fileID: 4713625346807006}
   m_CeilingCheck: {fileID: 4620058078461788}
   m_CrouchDisableCollider: {fileID: 0}
+  m_FacingRight: 1
+  moveSound: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -282,7 +301,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 95783868820842038}
   controller: {fileID: 114280928985875908}
-  playerSpeed: 40
+  playerSpeed: 150
+  jumpSound: {fileID: 0}
+  damageKick: {x: 75, y: 0}
+  damageKick2: {x: -75, y: 0}
 --- !u!212 &212593213717964734
 SpriteRenderer:
   m_ObjectHideFlags: 1

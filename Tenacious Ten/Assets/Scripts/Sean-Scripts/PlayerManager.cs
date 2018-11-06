@@ -55,7 +55,17 @@ public class PlayerManager : MonoBehaviour {
 
         // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
         // This can be done using layers instead but Sample Assets will not overwrite your project settings.
-        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        //grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheck.position, groundCheckRadius, whatIsGround);
+        for (int i = 0; i < colliders.Length; i++)
+        {
+            if (colliders[i].gameObject != gameObject)
+            {
+                grounded = true;
+                if (!grounded)
+                    OnLandEvent.Invoke();
+            }
+        }
         //checks for if player is touching the ground
     }
 
@@ -183,7 +193,7 @@ public class PlayerManager : MonoBehaviour {
         }
     }
 
-    void OnCollisionExit2D(Collision2D other)
+   void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.tag == "Ground")
         {

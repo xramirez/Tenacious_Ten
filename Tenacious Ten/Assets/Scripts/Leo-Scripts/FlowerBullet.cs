@@ -28,7 +28,7 @@ public class FlowerBullet : MonoBehaviour {
             Destroy(gameObject);
         }
         if(collision.gameObject.name.Equals("ground")){
-            Debug.Log("Hit the ground");
+            //Debug.Log("Hit the ground");
             Destroy(gameObject);
         }
     }

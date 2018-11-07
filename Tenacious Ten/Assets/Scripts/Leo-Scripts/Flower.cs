@@ -12,7 +12,7 @@ public class Flower : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        fireRate = 2f;
+        fireRate = 1f;
         nextFire = Time.time;
 	}
 	

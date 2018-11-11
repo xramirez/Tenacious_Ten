@@ -21,13 +21,13 @@ GameObject:
   - component: {fileID: 4113637496222524}
   - component: {fileID: 212217270724766696}
   - component: {fileID: 58885268492092826}
-  - component: {fileID: 114432141152237482}
   - component: {fileID: 95436750193466230}
   - component: {fileID: 114145817056048368}
   - component: {fileID: 114989831211422122}
+  - component: {fileID: 114006782517988760}
   m_Layer: 10
   m_Name: Bee
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1056321006033284}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 132.2475, y: 31.847208, z: -3.183597}
+  m_LocalPosition: {x: 18.2, y: 25.8, z: -3.183597}
   m_LocalScale: {x: 1.24686, y: 1.1845545, z: 0.62343}
   m_Children: []
   m_Father: {fileID: 0}
@@ -54,7 +54,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.005993449, y: -0.031550515}
@@ -78,32 +78,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114006782517988760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1056321006033284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5359ee8137646634baf085a0d4200560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  enemyHealth: 0
 --- !u!114 &114145817056048368
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1056321006033284}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5b11c8e65f64429994183bc1609987a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 6
---- !u!114 &114432141152237482
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1056321006033284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45380c23a64e947b187e9d484eb206de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  radius: 2
-  reversed: 0
 --- !u!114 &114989831211422122
 MonoBehaviour:
   m_ObjectHideFlags: 1

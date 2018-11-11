@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Left Wall
+  - Ceiling
+  - Right Wall
   layers:
   - Default
   - TransparentFX
@@ -20,9 +23,9 @@ TagManager:
   - Enemy
   - Hazard
   - ground
-  - 
-  - 
-  - 
+  - Player
+  - player projectile
+  - boss01 boundary
   - 
   - 
   - 

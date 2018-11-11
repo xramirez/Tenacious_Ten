@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
-public class PlayerManager : MonoBehaviour {
+public class PlayerManagerOG : MonoBehaviour {
 
     public float speedX;
     public float jumpSpeedY;
@@ -14,12 +13,8 @@ public class PlayerManager : MonoBehaviour {
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask whatIsGround;
-    [SerializeField]
     private bool grounded;
-    [SerializeField]
     bool landedFromJump;
-    public UnityEvent OnLandEvent;
-    Collider2D player_col;
 
     public GameObject leftProjectile, rightProjectile;
 
@@ -33,11 +28,10 @@ public class PlayerManager : MonoBehaviour {
 
     int prevAnimState; //used to hold a variable for the previous animation state and call back to it if needed
 
-    // Use this for initialization
-    void Start () {
+	// Use this for initialization
+	void Start () {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        player_col = GetComponent<Collider2D>();
 
         facingRight = true;
 
@@ -51,21 +45,7 @@ public class PlayerManager : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        grounded = false;
-
-        // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
-        // This can be done using layers instead but Sample Assets will not overwrite your project settings.
-        //grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheck.position, groundCheckRadius, whatIsGround);
-        for (int i = 0; i < colliders.Length; i++)
-        {
-            if (colliders[i].gameObject != gameObject)
-            {
-                grounded = true;
-                if (!grounded)
-                    OnLandEvent.Invoke();
-            }
-        }
+        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
         //checks for if player is touching the ground
     }
 
@@ -74,7 +54,6 @@ public class PlayerManager : MonoBehaviour {
 
         MovePlayer(speed);
         Flip();
-        Die();
 
         if (Input.GetKey(KeyCode.RightArrow))
         { 
@@ -193,7 +172,7 @@ public class PlayerManager : MonoBehaviour {
         }
     }
 
-   void OnCollisionExit2D(Collision2D other)
+    void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.tag == "Ground")
         {
@@ -210,16 +189,6 @@ public class PlayerManager : MonoBehaviour {
     {
         rb.AddForce(new Vector2(rb.velocity.x, jumpSpeedY));     //will add force, take in a parameter (vector [x,y])
         Jumping = true;
-    }
-
-    void Die()
-    {
-        if (player_col.IsTouchingLayers(LayerMask.GetMask("Hazard")))
-        {
-            //isAlive = false;
-            print("died");
-            FindObjectOfType<GameSession>().ProcessPlayerDeath();
-        }
     }
 
     void Fire() //shoot projectile/fire projectile

@@ -6,15 +6,12 @@ public class LevelManager : MonoBehaviour {
 
     public GameObject currentCheckpoint;
     private PlayerManager player;
-    private CameraControl camera;
 
     public PlayerHealthManager healthManager;
 
 	// Use this for initialization
 	void Start () {
         player = FindObjectOfType<PlayerManager>();
-
-        camera = FindObjectOfType<CameraControl>();
 
         healthManager = FindObjectOfType<PlayerHealthManager>();
 	}

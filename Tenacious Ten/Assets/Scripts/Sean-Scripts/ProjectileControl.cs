@@ -36,13 +36,14 @@ public class ProjectileControl : MonoBehaviour {
         {
             other.GetComponent<EnemyHealthManager>().giveDamage(damage);
         }
-        //
-        //Instantiate(impactEffect, transform.position, Quaternion.identity);
-       
+		//
+		//Instantiate(impactEffect, transform.position, Quaternion.identity);
+		if (other.name != "background")
+		{
+			instantiatedObj = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+			Destroy(instantiatedObj, 1);
 
-        instantiatedObj = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
-        Destroy(instantiatedObj, 1);
-
-        Destroy(gameObject);
+			Destroy(gameObject);
+		}
     }
 }

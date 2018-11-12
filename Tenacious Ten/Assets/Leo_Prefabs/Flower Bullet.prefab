@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50253871335345328}
   - component: {fileID: 58135576179815956}
   - component: {fileID: 114713679309207534}
+  - component: {fileID: 114613678775878416}
   m_Layer: 10
   m_Name: Flower Bullet
   m_TagString: Enemy
@@ -79,6 +80,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &114613678775878416
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1184385986568404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f483837bd00a044a35cef8ecd8b609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!114 &114713679309207534
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -92,6 +105,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1
   enemyHealth: 1
+  deathEffect: {fileID: 1073355882722156, guid: 3878cbc0b49c4a1468888907acc90bfc,
+    type: 2}
 --- !u!114 &114720237764421974
 MonoBehaviour:
   m_ObjectHideFlags: 1

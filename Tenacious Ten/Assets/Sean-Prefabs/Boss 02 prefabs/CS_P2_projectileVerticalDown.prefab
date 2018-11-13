@@ -21,10 +21,9 @@ GameObject:
   - component: {fileID: 4549880639282228}
   - component: {fileID: 212605349890538178}
   - component: {fileID: 58079388057355656}
-  - component: {fileID: 114645278203062560}
   - component: {fileID: 114176474665021738}
   - component: {fileID: 50038696884170540}
-  m_Layer: 9
+  m_Layer: 16
   m_Name: CS_P2_projectileVerticalDown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,18 +93,6 @@ MonoBehaviour:
   speedY: -4.7
   delay: 0
   rotationSpeed: 270
-  damage: 1
---- !u!114 &114645278203062560
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1883484781210892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67f483837bd00a044a35cef8ecd8b609, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   damage: 1
 --- !u!212 &212605349890538178
 SpriteRenderer:

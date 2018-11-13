@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 58957727478729630}
   - component: {fileID: 114372544629130392}
   - component: {fileID: 50978350172221650}
-  m_Layer: 9
+  m_Layer: 16
   m_Name: CS_P2_projectileHorizRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}

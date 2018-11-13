@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 95976821283175042}
   - component: {fileID: 70040687462544680}
   - component: {fileID: 114834492686898574}
-  m_Layer: 9
+  m_Layer: 16
   m_Name: BossExplosion 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

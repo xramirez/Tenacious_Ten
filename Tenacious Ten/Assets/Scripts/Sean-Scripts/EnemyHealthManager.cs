@@ -31,6 +31,7 @@ public class EnemyHealthManager : MonoBehaviour
         if (enemyHealth <= 0)
         {
             Instantiate(deathEffect, transform.position, transform.rotation);
+			
             Destroy(gameObject);
         }
     }

@@ -30,4 +30,19 @@ public class HurtPlayerOnContact : MonoBehaviour {
             PlayerHealthManager.HurtPlayer(damage);
         }
     }
+
+	void OnCollisionEnter2D(Collision2D other)
+	{
+		if (other.gameObject.tag == "Player")
+		{
+			PlayerHealthManager.HurtPlayer(damage);
+		}
+	}
+	void OnCollisionStay2D(Collision2D other)
+	{
+		if (other.gameObject.tag == "Player")
+		{
+			PlayerHealthManager.HurtPlayer(damage);
+		}
+	}
 }

@@ -7,10 +7,13 @@ public class VictoryMessage : MonoBehaviour {
 	public bool showmessage = false;
 	EnemyHealthManager waiting;
 
+	AudioSource sound;
+
 	// Use this for initialization
 	void Start () {
 		showmessage = false;
 		waiting = FindObjectOfType<EnemyHealthManager>();
+		sound = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -18,6 +21,7 @@ public class VictoryMessage : MonoBehaviour {
 		if(showmessage)
 		{
 			GetComponent<SpriteRenderer>().sortingOrder = 1;
+			sound.Play();
 		}
 		else
 		{

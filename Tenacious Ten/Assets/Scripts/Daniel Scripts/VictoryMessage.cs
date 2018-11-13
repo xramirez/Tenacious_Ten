@@ -20,13 +20,13 @@ public class VictoryMessage : MonoBehaviour {
 	void FixedUpdate () {
         if (showmessage)
         {
-            GetComponent<SpriteRenderer>().sortingOrder = 1;
+            GetComponent<SpriteRenderer>().sortingOrder = 100;
             sound.Play();
             this.GetComponent<VictoryMessage>().enabled = false;
         }
         else
         {
-            GetComponent<SpriteRenderer>().sortingOrder = -1;
+            GetComponent<SpriteRenderer>().sortingOrder = -100;
         }
         if (waiting.enemyHealth == 0)
         {

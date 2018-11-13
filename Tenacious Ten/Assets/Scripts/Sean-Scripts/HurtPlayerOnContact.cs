@@ -5,6 +5,7 @@ using UnityEngine;
 public class HurtPlayerOnContact : MonoBehaviour {
 
     public int damage;
+    int x = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -18,14 +19,14 @@ public class HurtPlayerOnContact : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             PlayerHealthManager.HurtPlayer(damage);
         }
     }
     void OnTriggerStay2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
             PlayerHealthManager.HurtPlayer(damage);
         }

@@ -72,26 +72,26 @@ public class PlayerManager : MonoBehaviour {
                 Flip();
 
 
-                if (Input.GetKey(KeyCode.RightArrow))
+                if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
                 {
                     anim.SetInteger("State", 2);
                     speed = speedX;     //move right
                     isWalking = true;
                 }
-                if (Input.GetKeyUp(KeyCode.RightArrow))
+                if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.D))
                 {
                     anim.SetInteger("State", 0);
                     speed = 0;         //not walking/idle
                     isWalking = false;
                 }
 
-                if (Input.GetKey(KeyCode.LeftArrow))
+                if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
                 {
                     anim.SetInteger("State", 2);
                     speed = -speedX;    //move left
                     isWalking = true;
                 }
-                if (Input.GetKeyUp(KeyCode.LeftArrow))
+                if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.A))
                 {
                     anim.SetInteger("State", 0);
                     speed = 0;          //not walking/idle
@@ -106,7 +106,7 @@ public class PlayerManager : MonoBehaviour {
                     justJumped = false;
                 }
 
-                if (Input.GetKeyDown(KeyCode.UpArrow) && grounded)    //jump
+                if ((Input.GetKeyDown(KeyCode.UpArrow)|| Input.GetKeyDown(KeyCode.W)) && grounded)    //jump
                 {
                     Jump();
                     justJumped = true;
@@ -114,7 +114,7 @@ public class PlayerManager : MonoBehaviour {
 
 
 
-                if (Input.GetKey(KeyCode.UpArrow))
+                if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
                 {
                     anim.SetInteger("State", 3);
                 }

@@ -14,7 +14,7 @@ public class Boss01Projectile : MonoBehaviour
 
     Rigidbody2D rb;
 
-    public StartOrResetLevel SORL;
+    StartOrResetLevel SORL;
 
     // Use this for initialization
     void Start()
@@ -25,23 +25,15 @@ public class Boss01Projectile : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         rb.velocity = new Vector3(speedX, speedY, 0);
 
         rb.angularVelocity = rotationSpeed;
 
-        Destroy(gameObject, 6f);
+        Object.Destroy(gameObject, 5f);
 
-        if(PlayerHealthManager.playerHealth < 1)
-        {
-            Destroy(gameObject);
-        }
-    }
-
-    void Update()
-    {
-        if (SORL.ResetFight)
+        if(SORL.ResetFight)
         {
             Destroy(gameObject);
         }
@@ -50,9 +42,9 @@ public class Boss01Projectile : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
        if (other.tag == "Player")
-        {
-            PlayerHealthManager.HurtPlayer(damage);
-        }
+       {
+           PlayerHealthManager.HurtPlayer(damage);
+       }
         
         //instantiatedObj = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
         //Destroy(instantiatedObj, 1);

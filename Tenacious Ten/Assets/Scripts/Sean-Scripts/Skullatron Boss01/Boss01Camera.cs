@@ -10,9 +10,13 @@ public class Boss01Camera : MonoBehaviour {
 
     public float transitionSpeed;
 
+    PlayerHealthManager PHM;
+
     // Use this for initialization
     void Start () {
         SORL = FindObjectOfType<StartOrResetLevel>();
+
+        PHM = FindObjectOfType<PlayerHealthManager>();
 
         StartingPos =  transform.localPosition;
         
@@ -39,4 +43,12 @@ public class Boss01Camera : MonoBehaviour {
         }
 		
 	}
+
+    void Update()
+    {
+        if (!SORL.StartFight && !PHM.isDead)
+        {
+            transform.position = StartingPos;
+        }
+    }
 }

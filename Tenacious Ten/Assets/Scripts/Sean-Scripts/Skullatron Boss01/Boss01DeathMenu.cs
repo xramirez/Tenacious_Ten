@@ -10,13 +10,13 @@ public class Boss01DeathMenu : MonoBehaviour
 
     public GameObject deathMenuUI;
 
-    Boss01Camera cameraB;
+    //Boss01Camera cameraB;
 
     void Start()
     {
         levelManager = FindObjectOfType<LevelManager>();
         deathMenuUI.SetActive(false);
-        cameraB = FindObjectOfType<Boss01Camera>();
+        //cameraB = FindObjectOfType<Boss01Camera>();
 
     }
 
@@ -33,7 +33,7 @@ public class Boss01DeathMenu : MonoBehaviour
 
     public void Respawn()
     {
-        cameraB.transform.localPosition = cameraB.StartingPos;
+        //cameraB.transform.localPosition = cameraB.StartingPos;
         levelManager.RespawnPlayer();
         Debug.Log("Spawned after death.");
         deathMenuUI.SetActive(false);

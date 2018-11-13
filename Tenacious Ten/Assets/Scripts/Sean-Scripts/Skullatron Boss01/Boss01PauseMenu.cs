@@ -10,7 +10,7 @@ public class Boss01PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
 
     public GameObject pauseMenuUI;
-    Boss01Camera cameraB;
+    //Boss01Camera cameraB;
 
     public PlayerHealthManager PHM;
 
@@ -18,7 +18,7 @@ public class Boss01PauseMenu : MonoBehaviour
     {
         levelManager = FindObjectOfType<LevelManager>();
         Resume();
-        cameraB = FindObjectOfType<Boss01Camera>();
+        //cameraB = FindObjectOfType<Boss01Camera>();
         PHM = FindObjectOfType<PlayerHealthManager>();
     }
 

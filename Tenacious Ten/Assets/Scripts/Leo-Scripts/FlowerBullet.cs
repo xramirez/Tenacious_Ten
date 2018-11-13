@@ -7,8 +7,10 @@ public class FlowerBullet : MonoBehaviour {
     float speed = 7f;
     Rigidbody2D body;
 
-    //Knight_Move target;
-    PlayerManager target;
+	public float delay;
+
+	//Knight_Move target;
+	PlayerManager target;
     Vector2 moveDirection;
 
 	// Use this for initialization
@@ -18,7 +20,7 @@ public class FlowerBullet : MonoBehaviour {
         target = FindObjectOfType<PlayerManager>();
         moveDirection = (target.transform.position - transform.position).normalized * speed;
         body.velocity = new Vector2(moveDirection.x, moveDirection.y);
-        Destroy(gameObject, 3f);
+        Destroy(gameObject, delay);
 	}
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -18,22 +18,23 @@ public class VictoryMessage : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		if(showmessage)
-		{
-			GetComponent<SpriteRenderer>().sortingOrder = 1;
-			sound.Play();
-		}
-		else
-		{
-			GetComponent<SpriteRenderer>().sortingOrder = -1;
-		}
-		if (waiting.enemyHealth == 0)
-		{
-			showmessage = true;
-		}
-		else
-		{
-			showmessage = false;
-		}
-	}
+        if (showmessage)
+        {
+            GetComponent<SpriteRenderer>().sortingOrder = 1;
+            sound.Play();
+            this.GetComponent<VictoryMessage>().enabled = false;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().sortingOrder = -1;
+        }
+        if (waiting.enemyHealth == 0)
+        {
+            showmessage = true;
+        }
+        else
+        {
+            showmessage = false;
+        }
+    }
 }

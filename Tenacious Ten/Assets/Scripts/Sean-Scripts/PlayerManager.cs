@@ -178,7 +178,7 @@ public class PlayerManagerOG : MonoBehaviour {
         {
             landedFromJump = false;
         }
-    }
+	}
 
     void MovePlayer(float playerSpeed) //player movement
     {

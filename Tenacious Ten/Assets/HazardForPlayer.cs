@@ -10,6 +10,7 @@ public class HazardForPlayer : MonoBehaviour {
 	{
 		if (other.tag == "Player")
 		{
+			PlayerHealthManager.isInvulnerable = false;
 			PlayerHealthManager.HurtPlayer(damage);
 		}
 	}
@@ -17,6 +18,7 @@ public class HazardForPlayer : MonoBehaviour {
 	{
 		if (other.tag == "Player")
 		{
+			PlayerHealthManager.isInvulnerable = false;
 			PlayerHealthManager.HurtPlayer(damage);
 		}
 	}

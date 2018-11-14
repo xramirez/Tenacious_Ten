@@ -21,6 +21,8 @@ public class PlayerHealthManager : MonoBehaviour {
     public float invulTimer;
     public int opacityTimer;
 
+    public bool isHurt = false;
+
     [SerializeField]
     AudioSource hurtSound;
 
@@ -69,7 +71,11 @@ public class PlayerHealthManager : MonoBehaviour {
 
         if(justDamaged)
         {
-            hurtSound.Play();
+            if(!isHurt)
+            { 
+                hurtSound.Play();
+                isHurt = true;
+            }
 
             invulTimer -= Time.deltaTime;
             opacityTimer++;
@@ -87,6 +93,7 @@ public class PlayerHealthManager : MonoBehaviour {
                 invulTimer = 3f;
                 isInvulnerable = false;
                 justDamaged = false;
+                isHurt = false;
                 Player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
             }
 

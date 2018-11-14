@@ -7,6 +7,9 @@ public class Flower : MonoBehaviour {
     [SerializeField]
     GameObject FlowerBullet;
 
+    [SerializeField]
+    AudioSource shootSound;
+
     float fireRate;
     float nextFire;
 
@@ -23,6 +26,7 @@ public class Flower : MonoBehaviour {
     void CheckIfTimeToFire(){
         if(Time.time>nextFire){
             Instantiate(FlowerBullet, transform.position, Quaternion.identity);
+            shootSound.Play();
             nextFire = Time.time + fireRate;
         }
     }

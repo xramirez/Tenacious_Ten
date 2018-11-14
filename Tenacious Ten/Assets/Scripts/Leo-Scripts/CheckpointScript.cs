@@ -7,6 +7,7 @@ public class CheckpointScript : MonoBehaviour {
     public Animator animator;
     [SerializeField]
     AudioSource flagSound;
+    public bool reached = false;
 
 
     // Use this for initialization
@@ -24,7 +25,9 @@ public class CheckpointScript : MonoBehaviour {
             currentSession.currentCheckpoint = gameObject;
             Debug.Log("New Checkpoint Reached");
             animator.SetBool("Checkpoint_Reached", true);
-            flagSound.Play();
+            if(!reached)
+                flagSound.Play();
+            reached = true;
         }
     }
 }

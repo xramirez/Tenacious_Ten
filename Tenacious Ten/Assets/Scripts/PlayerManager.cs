@@ -211,6 +211,7 @@ public class PlayerManager : MonoBehaviour {
 
     void Fire() //shoot projectile/fire projectile
     {
+        shootSound.Play();
         if (facingRight == true)
         {
             Instantiate(rightProjectile, projectilePos.position, Quaternion.identity);    

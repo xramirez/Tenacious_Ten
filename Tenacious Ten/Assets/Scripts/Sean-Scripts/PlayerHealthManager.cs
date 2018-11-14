@@ -21,6 +21,9 @@ public class PlayerHealthManager : MonoBehaviour {
     public float invulTimer;
     public int opacityTimer;
 
+    [SerializeField]
+    AudioSource hurtSound;
+
     SpriteRenderer sr;
 
     public PlayerManager Player;
@@ -66,6 +69,8 @@ public class PlayerHealthManager : MonoBehaviour {
 
         if(justDamaged)
         {
+            hurtSound.Play();
+
             invulTimer -= Time.deltaTime;
             opacityTimer++;
             if(opacityTimer % 20 == 0)

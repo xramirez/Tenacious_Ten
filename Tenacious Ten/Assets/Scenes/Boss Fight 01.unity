@@ -2413,7 +2413,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4352
   jumpSound: {fileID: 1997067253}
-  shootSound: {fileID: 0}
+  shootSound: {fileID: 748950886}
   leftProjectile: {fileID: 1825371131393680, guid: 7805bec97d56fd54fb8381dd12a78963,
     type: 2}
   rightProjectile: {fileID: 1825371131393680, guid: 5e7dd627d9aea384db48c1853664b3b2,

@@ -14,6 +14,11 @@ public class PlayerManager : MonoBehaviour {
     public float groundCheckRadius;
     public LayerMask whatIsGround;
     private bool grounded;
+    [SerializeField]
+    AudioSource jumpSound;
+    [SerializeField]
+    AudioSource shootSound;
+
 
     public GameObject leftProjectile, rightProjectile;
 
@@ -201,7 +206,7 @@ public class PlayerManager : MonoBehaviour {
         rb.velocity = new Vector3(0f, 0f, 0f);
         rb.AddForce(new Vector2(rb.velocity.x, jumpSpeedY));  
         Jumping = true;
-
+        jumpSound.Play();
     }
 
     void Fire() //shoot projectile/fire projectile

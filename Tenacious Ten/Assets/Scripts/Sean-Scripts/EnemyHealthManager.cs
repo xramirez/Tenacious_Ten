@@ -7,6 +7,8 @@ public class EnemyHealthManager : MonoBehaviour
 
     public int maxHealth;
     public int enemyHealth;
+    [SerializeField]
+    AudioSource hurtSound;
 
     public GameObject deathEffect;
 
@@ -28,7 +30,7 @@ public class EnemyHealthManager : MonoBehaviour
         if (enemyHealth <= 0)
         {
             Instantiate(deathEffect, transform.position, transform.rotation);
-			
+   
             Destroy(gameObject);
         }
     }
@@ -37,6 +39,7 @@ public class EnemyHealthManager : MonoBehaviour
     {
 
         enemyHealth -= damageToGive;
+        hurtSound.Play();
         StartCoroutine(flash());
     }
 

@@ -15,6 +15,8 @@ public class PlayerManagerOG : MonoBehaviour {
     public LayerMask whatIsGround;
     private bool grounded;
     bool landedFromJump;
+    [SerializeField]
+    AudioSource jumpSound;
 
     public GameObject leftProjectile, rightProjectile;
 
@@ -189,6 +191,7 @@ public class PlayerManagerOG : MonoBehaviour {
     {
         rb.AddForce(new Vector2(rb.velocity.x, jumpSpeedY));     //will add force, take in a parameter (vector [x,y])
         Jumping = true;
+        jumpSound.Play();
     }
 
     void Fire() //shoot projectile/fire projectile

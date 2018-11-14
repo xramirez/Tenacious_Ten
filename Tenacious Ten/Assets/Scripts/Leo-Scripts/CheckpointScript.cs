@@ -5,10 +5,12 @@ using UnityEngine;
 public class CheckpointScript : MonoBehaviour {
     public GameSession currentSession;
     public Animator animator;
+    [SerializeField]
+    AudioSource flagSound;
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         currentSession = FindObjectOfType<GameSession>();
 	}
 	
@@ -22,6 +24,7 @@ public class CheckpointScript : MonoBehaviour {
             currentSession.currentCheckpoint = gameObject;
             Debug.Log("New Checkpoint Reached");
             animator.SetBool("Checkpoint_Reached", true);
+            flagSound.Play();
         }
     }
 }

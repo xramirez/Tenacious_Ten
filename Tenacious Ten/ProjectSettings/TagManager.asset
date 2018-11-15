@@ -9,6 +9,7 @@ TagManager:
   - Left Wall
   - Ceiling
   - Right Wall
+  - HUD
   layers:
   - Default
   - TransparentFX

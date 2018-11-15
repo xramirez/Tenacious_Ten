@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/Christopher/Documents/GitHub/Tenacious_Ten/Tenacious Ten/Assets/Scenes/MainMenu.unity
+  isLoaded: 1
+  isActive: 1

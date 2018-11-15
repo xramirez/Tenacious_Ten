@@ -39,7 +39,6 @@ public class EnemyHealthManager : MonoBehaviour
     {
 
         enemyHealth -= damageToGive;
-        //FIX ME.
         hurtSound.Play();
         StartCoroutine(flash());
     }

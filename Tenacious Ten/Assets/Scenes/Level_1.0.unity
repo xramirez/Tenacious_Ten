@@ -124,7 +124,6 @@ GameObject:
   - component: {fileID: 6831181}
   - component: {fileID: 6831180}
   - component: {fileID: 6831179}
-  - component: {fileID: 6831182}
   m_Layer: 5
   m_Name: Resume Button
   m_TagString: Untagged
@@ -237,18 +236,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 6831177}
   m_CullTransparentMesh: 0
---- !u!114 &6831182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 6831177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d56463a65e23e14b858ebd9d55d8878, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HUD: {fileID: 1564689275}
 --- !u!1 &20999966
 GameObject:
   m_ObjectHideFlags: 0
@@ -3723,7 +3710,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 843193629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -78.82377, y: -7.92334, z: -10}
+  m_LocalPosition: {x: -59.754646, y: -7.8896656, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7880,7 +7867,7 @@ GameObject:
   - component: {fileID: 1564689282}
   m_Layer: 5
   m_Name: HUD
-  m_TagString: HUD
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

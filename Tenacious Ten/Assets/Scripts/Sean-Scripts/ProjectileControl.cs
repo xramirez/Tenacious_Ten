@@ -38,7 +38,6 @@ public class ProjectileControl : MonoBehaviour {
         }
         //
         //Instantiate(impactEffect, transform.position, Quaternion.identity);
-       
 
         instantiatedObj = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
         Destroy(instantiatedObj, 1);

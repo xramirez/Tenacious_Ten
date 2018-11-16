@@ -9,6 +9,7 @@ TagManager:
   - Left Wall
   - Ceiling
   - Right Wall
+  - Upper Ground
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - player projectile
   - boss01 boundary
   - boss projectile
-  - 
+  - boss boundary
   - 
   - 
   - 

@@ -245,6 +245,14 @@ public class PlayerManager : MonoBehaviour {
             anim.SetInteger("State", 5);
             landedFromJump = true;
         }
+
+        if (other.gameObject.tag == "Moving Platform Boss 4")
+        {
+            anim.SetInteger("State", 5);
+            landedFromJump = true;
+            flipValue = -0.3f;
+            transform.SetParent(other.transform);
+        }
     }
 
     void OnCollisionExit2D(Collision2D other)
@@ -252,6 +260,12 @@ public class PlayerManager : MonoBehaviour {
         if (other.gameObject.tag == "Ground")
         {
             landedFromJump = false;
+        }
+
+        if (other.gameObject.tag == "Moving Platform Boss 4")
+        {
+            transform.SetParent(null);
+            flipValue = 1;
         }
     }
 

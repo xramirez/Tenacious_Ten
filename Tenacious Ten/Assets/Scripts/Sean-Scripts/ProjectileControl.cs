@@ -36,6 +36,14 @@ public class ProjectileControl : MonoBehaviour {
         {
             other.GetComponent<EnemyHealthManager>().giveDamage(damage);
         }
+        else if (other.tag == "Doll Enemy")
+        {
+            other.GetComponent<Phase1DollHealthManager>().giveDamage(damage);
+        }
+        else if (other.tag == "Hand Enemy")
+        {
+            other.GetComponent<Phase2HandsHealthManager>().giveDamage(damage);
+        }
         //
         //Instantiate(impactEffect, transform.position, Quaternion.identity);
 

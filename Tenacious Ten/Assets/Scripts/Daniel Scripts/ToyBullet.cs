@@ -13,11 +13,10 @@ public class ToyBullet : MonoBehaviour {
 	Vector2 moveDirection;
 	PlayerManager target;
 
-	Vector2 adjustment = new Vector2(0, -0.1f);
+	Vector2 adjustment = new Vector2(0.5f, -0.1f);
 
 	// Use this for initialization
 	void Start () {
-		transform.Translate(adjustment);
 		body = GetComponent<Rigidbody2D>();
 		//target = FindObjectOfType<Knight_Move>();
 		target = FindObjectOfType<PlayerManager>();
@@ -25,7 +24,9 @@ public class ToyBullet : MonoBehaviour {
 		if(moveDirection.x < 0)
 		{
 			bulletSpeed *= -1;
+			adjustment.x = -0.5f;
 		}
+		transform.Translate(adjustment);
 		body.velocity = new Vector2(bulletSpeed, 0);
 		Destroy(gameObject, delay);
 	}

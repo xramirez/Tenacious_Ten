@@ -13,8 +13,11 @@ public class ToyBullet : MonoBehaviour {
 	Vector2 moveDirection;
 	PlayerManager target;
 
+	Vector2 adjustment = new Vector2(0, -0.1f);
+
 	// Use this for initialization
 	void Start () {
+		transform.Translate(adjustment);
 		body = GetComponent<Rigidbody2D>();
 		//target = FindObjectOfType<Knight_Move>();
 		target = FindObjectOfType<PlayerManager>();

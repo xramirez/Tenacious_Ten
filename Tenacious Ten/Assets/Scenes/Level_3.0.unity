@@ -19715,6 +19715,21 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114032797309698648, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 2}
+      propertyPath: hearts.Array.data[0]
+      value: 
+      objectReference: {fileID: 375246527}
+    - target: {fileID: 114032797309698648, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 2}
+      propertyPath: hearts.Array.data[1]
+      value: 
+      objectReference: {fileID: 955749203}
+    - target: {fileID: 114032797309698648, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 2}
+      propertyPath: hearts.Array.data[2]
+      value: 
+      objectReference: {fileID: 422885062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b98b46f4f04976e4d87667a7b6aef9b6, type: 2}
   m_IsPrefabAsset: 0
@@ -19738,7 +19753,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1380730566
 MonoBehaviour:
   m_ObjectHideFlags: 0

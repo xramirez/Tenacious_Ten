@@ -5,6 +5,7 @@ using UnityEngine;
 public class ToyBullet : MonoBehaviour {
 
 	float speed = 7f;
+	public float bulletSpeed;
     Rigidbody2D body;
 
 	public float delay;
@@ -18,7 +19,11 @@ public class ToyBullet : MonoBehaviour {
 		//target = FindObjectOfType<Knight_Move>();
 		target = FindObjectOfType<PlayerManager>();
 		moveDirection = (target.transform.position - transform.position).normalized * speed;
-		body.velocity = new Vector2(moveDirection.x, 0);
+		if(moveDirection.x < 0)
+		{
+			bulletSpeed *= -1;
+		}
+		body.velocity = new Vector2(bulletSpeed, 0);
 		Destroy(gameObject, delay);
 	}
 	private void OnTriggerEnter2D(Collider2D collision)

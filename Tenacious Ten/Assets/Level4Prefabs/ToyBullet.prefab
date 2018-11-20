@@ -25,9 +25,9 @@ GameObject:
   - component: {fileID: 58793900740777226}
   - component: {fileID: 114885690835286658}
   - component: {fileID: 114119141413140364}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ToyBullet
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,7 +79,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.09
 --- !u!114 &114119141413140364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -103,6 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae609ca3803b4a54fbf98973c5558b06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletSpeed: 3
   delay: 3
 --- !u!114 &114885690835286658
 MonoBehaviour:
@@ -117,8 +118,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1
   enemyHealth: 1
-  hurtSound: {fileID: 0}
-  deathEffect: {fileID: 1530921087410272, guid: 73993a05ad0c7304aad46d55eb913a64,
+  hurtSound: {fileID: 82466526277848550, guid: 390e543395e41cd41823864895a7dbbe, type: 2}
+  deathEffect: {fileID: 1558521494141850, guid: 1b96aba8087b573419aab9740ca93afd,
     type: 2}
 --- !u!212 &212121285351114290
 SpriteRenderer:

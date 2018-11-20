@@ -10,12 +10,12 @@ public class Flower : MonoBehaviour {
     [SerializeField]
     AudioSource shootSound;
 
+	[SerializeField]
     float fireRate;
     float nextFire;
 
 	// Use this for initialization
 	void Start () {
-        fireRate = 1f;
         nextFire = Time.time;
 	}
 	

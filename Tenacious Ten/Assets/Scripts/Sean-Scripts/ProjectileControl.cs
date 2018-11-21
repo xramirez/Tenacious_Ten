@@ -39,13 +39,13 @@ public class ProjectileControl : MonoBehaviour {
         }
 		//
 		//Instantiate(impactEffect, transform.position, Quaternion.identity);
-		if (other.name != "background")
-		{
-			instantiatedObj = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
-			Destroy(instantiatedObj, 1);
+		//if (other.name != "background")
+		//{
+		//	instantiatedObj = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+		//	Destroy(instantiatedObj, 1);
 
-			Destroy(gameObject);
-		}
+		//	Destroy(gameObject);
+		//}
         else if (other.tag == "Doll Enemy")
         {
             other.GetComponent<Phase1DollHealthManager>().giveDamage(damage);

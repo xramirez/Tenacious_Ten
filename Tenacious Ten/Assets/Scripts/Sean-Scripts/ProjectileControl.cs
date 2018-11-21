@@ -32,6 +32,7 @@ public class ProjectileControl : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
+		print(other.name);
         if(other.tag == "Enemy")
         {
             other.GetComponent<EnemyHealthManager>().giveDamage(damage);

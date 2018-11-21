@@ -3442,7 +3442,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 843193629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -53.1194, y: -7.8779488, z: -10}
+  m_LocalPosition: {x: -53.084026, y: -7.877887, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4504,6 +4504,7 @@ MonoBehaviour:
   opacityTimer: 0
   isHurt: 0
   hurtSound: {fileID: 20999967}
+  onSpawn: {fileID: 0}
   Player: {fileID: 0}
 --- !u!114 &942039770
 MonoBehaviour:
@@ -7666,6 +7667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e482d9aa90649e841a009efe3352f556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onSpawn: {fileID: 1584565216}
   deathMenuUI: {fileID: 971367541}
 --- !u!1 &1584565215
 GameObject:
@@ -7693,7 +7695,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 77461f7e51a304459b416f7864928d90, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
   Loop: 1

@@ -6,7 +6,10 @@ using UnityEngine.SceneManagement;
 public class Level1DeathMenu : MonoBehaviour
 {
 	private LevelManager levelManager;
-	//public static bool GameIsPaused = false;
+    //public static bool GameIsPaused = false;
+
+    [SerializeField]
+    public AudioSource onSpawn;
 
 	public GameObject deathMenuUI;
 
@@ -30,6 +33,8 @@ public class Level1DeathMenu : MonoBehaviour
 
 	public void Respawn()
 	{
+        onSpawn.Stop();
+        onSpawn.Play();
 		levelManager.RespawnPlayer();
 		Debug.Log("Spawned after death.");
 		deathMenuUI.SetActive(false);

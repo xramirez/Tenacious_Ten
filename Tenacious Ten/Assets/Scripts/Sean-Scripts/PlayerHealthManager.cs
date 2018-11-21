@@ -26,9 +26,14 @@ public class PlayerHealthManager : MonoBehaviour {
     [SerializeField]
     AudioSource hurtSound;
 
+    [SerializeField]
+    AudioSource onSpawn;
+
     SpriteRenderer sr;
 
     public PlayerManager Player;
+
+    Level1DeathMenu stopper;
     
 
     // Use this for initialization
@@ -52,6 +57,8 @@ public class PlayerHealthManager : MonoBehaviour {
 
         invulTimer = 3f;
         opacityTimer = 0;
+
+        stopper = FindObjectOfType<Level1DeathMenu>();
         
     }
 
@@ -65,6 +72,7 @@ public class PlayerHealthManager : MonoBehaviour {
             isInvulnerable = false;
             justDamaged = false;
             isDead = true;
+            stopper.onSpawn.Stop();
         }
 
         //text.text = "" + playerHealth;

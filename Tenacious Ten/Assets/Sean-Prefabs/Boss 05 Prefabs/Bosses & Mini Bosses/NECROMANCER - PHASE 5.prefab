@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1576616940704998}
+  m_IsPrefabAsset: 1
+--- !u!1 &1576616940704998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4121463637686148}
+  - component: {fileID: 212231271172066634}
+  - component: {fileID: 95912333610982530}
+  - component: {fileID: 114755815734317144}
+  - component: {fileID: 114979689368796694}
+  m_Layer: 10
+  m_Name: NECROMANCER - PHASE 5
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4121463637686148
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1576616940704998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.11, y: 1.61, z: 0}
+  m_LocalScale: {x: -4, y: 4, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95912333610982530
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1576616940704998}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: accdb6579bb1cd0469fbeeb53b149d6c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114755815734317144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1576616940704998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5340e6e865ccf408c4176f86c0267d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fairy: {fileID: 1133858245228266, guid: 0e0bcbd373a0a9b43b13320557954554, type: 2}
+  Damien: {fileID: 1784735817548152, guid: 4201c318125b83244830c72e5065a0f2, type: 2}
+  Samurai: {fileID: 1323622322986026, guid: dbec41670fee66c4e9842465a43e9dfe, type: 2}
+  Lightning: {fileID: 1122102493030004, guid: c20de10a962757a429cd4426fd3f70a4, type: 2}
+  NecroLightning: {fileID: 1244858231736054, guid: daf2b1d2c5b26c54a86548e1f093aa27,
+    type: 2}
+  LightningSamurai: {fileID: 4189804109930072, guid: 7809657fb33d3e04aa3e6d5a72f800a4,
+    type: 2}
+  LightningFairy: {fileID: 4084337493724902, guid: 93558afa19513834c97f0fc231bce2d5,
+    type: 2}
+  LightningDamien: {fileID: 4094236200325502, guid: c4a72a76491a7464caad8e07555ac1ee,
+    type: 2}
+  FairySpawn: {fileID: 4407211720312736, guid: ab3113e71d666524b932b5b30d54b024, type: 2}
+  DamienSpawn: {fileID: 4899464919323038, guid: 17d8fef7847995c44be03d9225cce8c5,
+    type: 2}
+  SamuraiSpawn: {fileID: 4144729330548798, guid: b3671fde545ad32418a9196e0e8713a7,
+    type: 2}
+  ReviveTimer: 1.5
+  StartPhase5: 0
+--- !u!114 &114979689368796694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1576616940704998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a70c309357c8bc049b1225bbf93972f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!212 &212231271172066634
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1576616940704998}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: dec230fae8bf39144bc4f72147de1af3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.43, y: 0.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

@@ -14,6 +14,7 @@ TagManager:
   - Hand Enemy
   - Doll Enemy
   - Moving Platform Boss 4
+  - Angled Bow Shot
   layers:
   - Default
   - TransparentFX
@@ -36,7 +37,7 @@ TagManager:
   - room boundaries
   - Bouncy ball
   - Upper Ground
-  - 
+  - liquidBoiHitBox
   - 
   - 
   - 

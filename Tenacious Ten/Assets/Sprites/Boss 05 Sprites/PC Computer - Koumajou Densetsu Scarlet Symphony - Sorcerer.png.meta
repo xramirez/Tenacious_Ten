@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: dec230fae8bf39144bc4f72147de1af3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_0
+    21300002: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_1
+    21300004: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_2
+    21300006: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_3
+    21300008: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_4
+    21300010: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_5
+    21300012: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_6
+    21300014: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_7
+    21300016: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_8
+    21300018: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_9
+    21300020: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_10
+    21300022: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_11
+    21300024: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_12
+    21300026: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_13
+    21300028: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_14
+    21300030: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_15
+    21300032: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_16
+    21300034: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_17
+    21300036: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_18
+    21300038: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_19
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 512
+        width: 43
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43ac59cc50152a4fac685a909714110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 512
+        width: 43
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9f5cf54c9e21042a2f43d6d5972cc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 512
+        width: 44
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36afc1bb495f1e540b0429e4cb2cda2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 512
+        width: 44
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06893842403c8d94b95b6dbeb3a0dc37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 384
+        width: 44
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4030347c322c1fb40b75e7f6d340eeb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 384
+        width: 44
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbb228cecf267140bbb5ac4c0f016ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 384
+        width: 44
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b8d083f302dd74baa16604e8fb18b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_7
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 384
+        width: 43
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1c0f94eda0c64408d94d7f14d8f96d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 256
+        width: 44
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c280af1d42a6d74787ee952b46b8d23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 256
+        width: 42
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf14d464c11018a4a93096ae47962bb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 256
+        width: 46
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846ca53efc79ce9448718158b9df5317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 52
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68718f7ffc5d204590f5a7183821e8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 52
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966c70e58d87184429a65d7cf69dc004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 128
+        width: 53
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2f86fd72d67bb47ba73136c9e47d1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 128
+        width: 53
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8894545badf0b5a48ae04da8a555c47b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_15
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 128
+        width: 53
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7805d882048f2d74882f7dcb5c22ca28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 52
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee34f0a0c4c1b44ea1febdfb0bd154d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_17
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 54
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10603caded30c24b8f6af185afda3ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_18
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 54
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d4e1dea37a4014e9708080491b1c89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Koumajou Densetsu Scarlet Symphony - Sorcerer_19
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 53
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b1c3b5cb504844bba1c7ba793536c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 35e186ca560b94d429f3958cd02f2bb3
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

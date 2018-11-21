@@ -9,6 +9,11 @@ TagManager:
   - Left Wall
   - Ceiling
   - Right Wall
+  - Upper Ground
+  - Moving Platform
+  - Hand Enemy
+  - Doll Enemy
+  - Moving Platform Boss 4
   layers:
   - Default
   - TransparentFX
@@ -27,10 +32,10 @@ TagManager:
   - player projectile
   - boss01 boundary
   - boss projectile
-  - 
-  - 
-  - 
-  - 
+  - boss boundary
+  - room boundaries
+  - Bouncy ball
+  - Upper Ground
   - 
   - 
   - 

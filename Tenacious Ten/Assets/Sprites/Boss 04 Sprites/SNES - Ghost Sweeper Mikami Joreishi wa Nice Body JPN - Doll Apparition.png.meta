@@ -1,0 +1,2535 @@
+fileFormatVersion: 2
+guid: 6994e435699e51342af41b6ff97f9613
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_0
+    21300002: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_1
+    21300004: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_2
+    21300006: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_3
+    21300008: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_4
+    21300010: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_5
+    21300012: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_6
+    21300014: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_7
+    21300016: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_8
+    21300018: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_9
+    21300020: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_10
+    21300022: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_11
+    21300024: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_12
+    21300026: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_13
+    21300028: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_14
+    21300030: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_15
+    21300032: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_16
+    21300034: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_17
+    21300036: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_18
+    21300038: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_19
+    21300040: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_20
+    21300042: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_21
+    21300044: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_22
+    21300046: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_23
+    21300048: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_24
+    21300050: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_25
+    21300052: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_26
+    21300054: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_27
+    21300056: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_28
+    21300058: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_29
+    21300060: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_30
+    21300062: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_31
+    21300064: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_32
+    21300066: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_33
+    21300068: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_34
+    21300070: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_35
+    21300072: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_36
+    21300074: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_37
+    21300076: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_38
+    21300078: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_39
+    21300080: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_40
+    21300082: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_41
+    21300084: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_42
+    21300086: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_43
+    21300088: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_44
+    21300090: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_45
+    21300092: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_46
+    21300094: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_47
+    21300096: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_48
+    21300098: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_49
+    21300100: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_50
+    21300102: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_51
+    21300104: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_52
+    21300106: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_53
+    21300108: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_54
+    21300110: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_55
+    21300112: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_56
+    21300114: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_57
+    21300116: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_58
+    21300118: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_59
+    21300120: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_60
+    21300122: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_61
+    21300124: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_62
+    21300126: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_63
+    21300128: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_64
+    21300130: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_65
+    21300132: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_66
+    21300134: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_67
+    21300136: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_68
+    21300138: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_69
+    21300140: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_70
+    21300142: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_71
+    21300144: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_72
+    21300146: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_73
+    21300148: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_74
+    21300150: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_75
+    21300152: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_76
+    21300154: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_77
+    21300156: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_78
+    21300158: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_79
+    21300160: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_80
+    21300162: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_81
+    21300164: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_82
+    21300166: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_83
+    21300168: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_84
+    21300170: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_85
+    21300172: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_86
+    21300174: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_87
+    21300176: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_88
+    21300178: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_89
+    21300180: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_90
+    21300182: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_91
+    21300184: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_92
+    21300186: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_93
+    21300188: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_94
+    21300190: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_95
+    21300192: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_96
+    21300194: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_97
+    21300196: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_98
+    21300198: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_99
+    21300200: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_100
+    21300202: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_101
+    21300204: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_102
+    21300206: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_103
+    21300208: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_104
+    21300210: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_105
+    21300212: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_106
+    21300214: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_107
+    21300216: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_108
+    21300218: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_109
+    21300220: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_110
+    21300222: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_111
+    21300224: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_112
+    21300226: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_113
+    21300228: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_114
+    21300230: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_115
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 294
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bca00fd9d550114ea12722d6508d6e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 294
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7ed61cc30869f43a7029164b567c25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 294
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5a090490c3890428c6960186143ff4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 294
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9feca1f83f3e34a90eb6c82c378362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 294
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd418451cb7c10a41afc3b3f7f690ef0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 294
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1a947fe85ff2c48ac1d5a559f5faa9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 294
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e9b5c9c9e1d3d49a1ce5fc95b129db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_7
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 294
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d8fd2f52abfbb49908c2c5cb9ab8bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 294
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ea3fcd5a6d6174486a55935102f2e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 294
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4d0aa420874274686065a1d99eb083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 294
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac1a436a0cd08548b8911a1fd608fbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_11
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 294
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a584d789967edb448842c1bd9a3443b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_12
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 294
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23e0301038cafc459a692f11833c7a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_13
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 294
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16932e2c909aa2a42a89dd6829bbc78f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 294
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c262817a0224e46b5d8b6dc7602798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 292
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd580cf528b6b54893559978a5bf5eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 292
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ad137bbc80b2a40816da322dd1cab6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 294
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a36cc67212277d4ca4b95f62e3018ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_18
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 292
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f16c74b7e32774fba3b5dc714c3e10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_19
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 197
+        width: 96
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413bc16aef490b34d960d148a47d9458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_20
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 197
+        width: 96
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abfcd25d9bd77d43ac62b2765c24cfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_21
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 197
+        width: 96
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99d2bd54cb96b140ba3b399208a9bc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_22
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 197
+        width: 96
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6681023f7b239d249ae620e4547d39fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_23
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 142
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b951bb9dce3830a439307da8da4c4944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 139
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4867870b3dde4e4396e16709b01bcd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_25
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 147
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89460fe9755fe447b59dff8c7e5321f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_26
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 141
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1830bddcf4e9245ae37819a352e4ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_27
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 140
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f270d9724d9bf9944968ae0b97fc5d1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_28
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 153
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca389ea65545578449fd5def8227959e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_29
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 121
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6681ac0c025ed724e9520c1919750e09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_30
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10344ba6aacc04b4ca85f5175fb57169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_31
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 121
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ac886c5a85d1148a9fae656d1d2c28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2536a6d17c96fed40a9b0d5045c0892b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_33
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fd365464b53414a80bb345a676e1ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_34
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 121
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3594354c43f349147af9ec07cc6d1b74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b908ed18cc0e5d40a4caa7be26d22cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_36
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 121
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75ea534ae5ec3241a6fabab7fea2cf5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_37
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 119
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2208f85f43fa87d41bb5be03d18a8d75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_38
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1480d7669a84f4341a149cfce0834ac9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_39
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d28a40fb9d7e9e44be22f4247bf539f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 119
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14aa4073f1842548927bff6e7c7f58c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_41
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 121
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1df7d724e2b744aa7cffd1ee95db26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_42
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d105347fdb27354fae59a6725b6a76c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_43
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 121
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598d972f1e1e4c648aa4378c69181641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_44
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 121
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478b556c8a801964cb55294a5ccbf143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_45
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 121
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d35a5d1249ba044be1dd813b08ed55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_46
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 121
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbac8b72c91584c43a6577afed390fae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_47
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 119
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c1eff02a1e5b44e8185cfc8912064a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_48
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 121
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e779aa3926c5364ab9561b38aa91b14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_49
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 121
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b3e8b994311b445bebc2b470fe838b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_50
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 121
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1c466d1c4c9434bbe18ac0e7d392a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_51
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 121
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a022b8c590f2aa44b1534aebd9db3b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_52
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 121
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470ae14226deb3e4890e00edf7328d7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_53
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 67
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c38e5c457612b3498f82d8f7af90f1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_54
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 91
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dac571ff68e5d489d466e6784fd134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_55
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 80
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c370e09a19a5d41ae52ea0308845c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_56
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 91
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744e25de6be87dc42a6d23f826257a7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_57
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 83
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2a3f2fecb212345b473956647b99f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_58
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 86
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a37dec7c1b461419dee5bd6ed6e04d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_59
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 83
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0e62002c2641c45a6a205b1f8ec90b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_60
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 82
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5428cf0ad2389f488c6366b410f9c84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_61
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 82
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef1372f94686c645b3314dcccbf378f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_62
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 82
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b5af426c2614246ab1a94142856a90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_63
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 82
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26685e45bef6654d9ea08024e49032f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_64
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 82
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a308d7a71bb19b548b7831cee99211b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_65
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 82
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abfefbebcb932e42ac314dd302f5e8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_66
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 82
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa078ba1c700af499d8a9450f994e11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_67
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 77
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6104d73d1d850147a0a198348be5d00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_68
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 45
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bfb1403341d744ca3fb026dd480ad7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_69
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 45
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fa53862350b95479b884bef38bacea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_70
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 45
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc309444767513468bdc6fff0fad297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_71
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 45
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244d2d7b73578fc41b6ba7b8db8da679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_72
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 45
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c49c2eba7c3cd4584d5e3b46ea097a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 45
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13161b4719509ea4a8628a8392c4c5ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_74
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 45
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75324fe827cbbd346b5bafef5fc5e858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_75
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 45
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4c60beabf36364ea625b49b8113773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_76
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 45
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d147cef70ef33b14f9732870c722d5a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_77
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 45
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e591b3a00cdae43abf9a168230dbf3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_78
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 45
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98073e9b10aab634fbafada35a8bdf7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_79
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 45
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f9de3279b465f46b37d67c03a933f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_80
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 45
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6da4308232a244bbf90ac9cbd5e89e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_81
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 45
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d1f2735054f9848a54629ccca2e885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_82
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d199ea88f6a64499f8d45d8c884e5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_83
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 43
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652913e5069e13d4cb031e844a46259d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_84
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 44
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 528f8c26af67bfb4b8322f1267162f8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_85
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 44
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19cfd2296aad2641add231db648f65b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_86
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 44
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ab56fd7826c3045aaac400274f8338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_87
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 44
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78a26e276dc52b4fb5d123c0354ccd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_88
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 44
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb9710b503f6dd44b9f1bce55a09435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_89
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 44
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e8ddd137977db46bb45f84682f59a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_90
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 6
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3a7114c6d7ae648984de9acd2ed55b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_91
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 6
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0d027216bd3314ca26f68bb836dd3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_92
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 19
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798bf17ba655c4b469a50de625bf8b9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_93
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 7
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e22ad5ae442fe44e89edb196a7dde77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_94
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 27
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78be5a6fbcc6d4449991b71da301639b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_95
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 7
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e419d9bb889b32419aa46588b86db16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_96
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 7
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a4c36134446c844bbf82233bf08d9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_97
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 7
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf6a4cb1c1179c4c86ff61d3a5a78fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_98
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 7
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ac4030dffbc594cb5fd11c9f2bf943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_99
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 7
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0172ab562c10364991af536c1f48128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_100
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 7
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627b222db20b9a14b901c8bcb77af78d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_101
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 20
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45978bc172236ac4187592f215b0240f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_102
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 15
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b5121b8203dfe41a2b0ac7a44b025c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_103
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 21
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d0bb58dfe37494bbd353531090cc11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_104
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 20
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1353ee382546042960b416e051564e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_105
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 18
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ab5d63aa2291d449ee74bc44696634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_106
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 18
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a022d726eb962fd41a96b15b794776b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_107
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 13
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7960a684a0b8234bbc6a3f5f8ca76ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_108
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 12
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e82f626346027478fa9cf1fe9e8d4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_109
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 6
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269fa6d20d36a7a4787f20893fde3246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_110
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8b99fd371331f4ba91ffc1c6a52338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_111
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 8
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5477324f22556f5469b4cf92098aad17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_112
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c733918c862ed94479da12b1609465b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_113
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 8
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6604cc837712baa40a9674f86c2a0508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_114
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 8
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a8c904365036d478296896e0dda190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Ghost Sweeper Mikami Joreishi wa Nice Body JPN - Doll Apparition_115
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 8
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c49383b7feeb7468843c1420bb7968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3b8e7eee4bceada4ebf8bcaf1f6d5684
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

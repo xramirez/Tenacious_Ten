@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4942408193913222}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: projectilePos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4103065178871784}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: groundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,7 +82,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1697055784287114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -83.68, y: -8.41, z: 0}
+  m_LocalPosition: {x: -83.133545, y: -8.044056, z: 0}
   m_LocalScale: {x: 10.0632, y: 9.2116, z: 1}
   m_Children:
   - {fileID: 4942408193913222}
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1697055784287114}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51e5b7fdd93db7a4782b69a367dd602e, type: 3}
   m_Name: 
@@ -197,23 +197,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedX: 8
   jumpSpeedY: 1150
+  speed: 0
   groundCheck: {fileID: 4103065178871784}
   groundCheckRadius: 0.5
   whatIsGround:
     serializedVersion: 2
     m_Bits: 5431
-  grounded: 0
-  landedFromJump: 0
-  OnLandEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  jumpSound: {fileID: 0}
+  shootSound: {fileID: 0}
   leftProjectile: {fileID: 1825371131393680, guid: 7805bec97d56fd54fb8381dd12a78963,
     type: 2}
   rightProjectile: {fileID: 1825371131393680, guid: 5e7dd627d9aea384db48c1853664b3b2,
     type: 2}
   shotDelay: 0.2
+  anim: {fileID: 0}
+  flipValue: 0
+  healthManager: {fileID: 0}
 --- !u!212 &212466540002882006
 SpriteRenderer:
   m_ObjectHideFlags: 1

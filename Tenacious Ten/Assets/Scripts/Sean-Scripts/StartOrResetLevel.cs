@@ -8,6 +8,9 @@ public class StartOrResetLevel : MonoBehaviour
 
     public bool StartFight, ResetFight;
 
+    [SerializeField]
+    AudioSource music;
+
     // Use this for initialization
     void Start()
     {
@@ -22,6 +25,7 @@ public class StartOrResetLevel : MonoBehaviour
         ResetFight = false;
         if (PlayerHealthManager.checkRemainingHealth() < 1)
         {
+            music.Stop();
             ResetFight = true;
             StartFight = false;
         }
@@ -32,6 +36,7 @@ public class StartOrResetLevel : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            music.Play();
             StartFight = true;
         }
     }

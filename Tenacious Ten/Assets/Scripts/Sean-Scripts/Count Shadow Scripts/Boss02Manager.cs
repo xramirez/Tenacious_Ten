@@ -70,7 +70,7 @@ public class Boss02Manager : MonoBehaviour {
     public int PhaseTwoRandomizer;
 
     public bool StartFight;
-    
+
     public int ThreeHitCounter;
 
     public int FireBallCounter;
@@ -79,6 +79,12 @@ public class Boss02Manager : MonoBehaviour {
     public float PhaseOneBegin;
 
     public float FireballDelay;
+
+    [SerializeField]
+    AudioSource explosion_sound;
+
+    [SerializeField]
+    AudioSource fireball_sound;
 
     Phase2CastSeal CastSeals;
 
@@ -271,6 +277,9 @@ public class Boss02Manager : MonoBehaviour {
                      BlastTimer -= Time.deltaTime;
                      if (BlastTimer <= 0)
                      {
+
+                        explosion_sound.Play();
+
                         ThreeHitBlast(explosionPos.position); //explosionPos.position
                         BlastTimer = 0.15f;
                         if (explosionPos.transform.position.x <= -13 && facingLeft)  //10.6 is value of leftmost edge of camera     //MIGHT WANT TO CHANGE LATER ON SWITCHING EXPLOSIONS
@@ -543,6 +552,8 @@ public class Boss02Manager : MonoBehaviour {
 
     void CastFireball() //cast fireball / projectile
     {
+        fireball_sound.Play();
+
         if(facingLeft)
         {
             Instantiate(leftFireball, projectilePos.position, Quaternion.identity);
@@ -585,6 +596,9 @@ public class Boss02Manager : MonoBehaviour {
     void ExplosionsBothWay(Vector3 location, float increment)
     {
         instantiatedObj = Instantiate(Explosion, location, Quaternion.identity);
+
+        explosion_sound.Play();
+
         Vector3 temp = location;
 
         temp.x += increment;

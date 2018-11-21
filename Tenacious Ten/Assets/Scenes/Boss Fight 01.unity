@@ -897,7 +897,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1976227969}
+      - m_Target: {fileID: 1976227971}
         m_MethodName: Respawn
         m_Mode: 1
         m_Arguments:
@@ -1526,6 +1526,7 @@ MonoBehaviour:
   opacityTimer: 0
   isHurt: 0
   hurtSound: {fileID: 1597145765}
+  onSpawn: {fileID: 0}
   Player: {fileID: 0}
 --- !u!1 &568836067
 GameObject:
@@ -1995,7 +1996,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1976227969}
+      - m_Target: {fileID: 1976227971}
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -6741,6 +6742,7 @@ GameObject:
   - component: {fileID: 1976227964}
   - component: {fileID: 1976227968}
   - component: {fileID: 1976227969}
+  - component: {fileID: 1976227971}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -6849,11 +6851,24 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1976227963}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c76bdd9e99502b4999775ad89a34832, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathMenuUI: {fileID: 1821445999}
+--- !u!114 &1976227971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1976227963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e482d9aa90649e841a009efe3352f556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onSpawn: {fileID: 1821446003}
   deathMenuUI: {fileID: 1821445999}
 --- !u!1 &1997067251
 GameObject:

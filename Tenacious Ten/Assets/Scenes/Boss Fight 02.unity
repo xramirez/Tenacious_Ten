@@ -705,7 +705,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1680501848}
+      - m_Target: {fileID: 1680501849}
         m_MethodName: Respawn
         m_Mode: 1
         m_Arguments:
@@ -2547,12 +2547,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 637951958}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.000030517578, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &657525432
 GameObject:
@@ -2732,7 +2732,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &719723509
 MonoBehaviour:
@@ -4171,7 +4171,7 @@ SpriteRenderer:
   m_Size: {x: 0.3, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1231750171
@@ -4878,6 +4878,7 @@ MonoBehaviour:
   opacityTimer: 0
   isHurt: 0
   hurtSound: {fileID: 820131189}
+  onSpawn: {fileID: 0}
   Player: {fileID: 0}
 --- !u!1 &1541885232
 GameObject:
@@ -5348,6 +5349,7 @@ GameObject:
   - component: {fileID: 1680501843}
   - component: {fileID: 1680501847}
   - component: {fileID: 1680501848}
+  - component: {fileID: 1680501849}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -5456,11 +5458,24 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1680501842}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c76bdd9e99502b4999775ad89a34832, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathMenuUI: {fileID: 434295738}
+--- !u!114 &1680501849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1680501842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e482d9aa90649e841a009efe3352f556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onSpawn: {fileID: 1487186973}
   deathMenuUI: {fileID: 434295738}
 --- !u!1 &1771763984
 GameObject:

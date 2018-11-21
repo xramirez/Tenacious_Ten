@@ -1471,7 +1471,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 272070213}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.913063, y: -4.0001335, z: -10}
+  m_LocalPosition: {x: -9.770851, y: -4.0001335, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1525,7 +1525,7 @@ GameObject:
   - component: {fileID: 289441586}
   - component: {fileID: 289441588}
   - component: {fileID: 289441589}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: V-Moving Platform2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2279,7 +2279,7 @@ GameObject:
   - component: {fileID: 450660501}
   - component: {fileID: 450660500}
   - component: {fileID: 450660499}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: V-Moving Platform4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2551,9 +2551,9 @@ GameObject:
   - component: {fileID: 572977888}
   - component: {fileID: 572977892}
   - component: {fileID: 572977891}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Ice
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4890,7 +4890,7 @@ GameObject:
   - component: {fileID: 750743615}
   - component: {fileID: 750743617}
   - component: {fileID: 750743618}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: V-Moving Platform3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5474,9 +5474,9 @@ GameObject:
   - component: {fileID: 920946848}
   - component: {fileID: 920946850}
   - component: {fileID: 920946849}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Platforms
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5595,9 +5595,9 @@ GameObject:
   - component: {fileID: 936020147}
   - component: {fileID: 936020146}
   - component: {fileID: 936020148}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21211,6 +21211,11 @@ Prefab:
       propertyPath: jumpSpeedY
       value: 1250
       objectReference: {fileID: 0}
+    - target: {fileID: 114485814219472412, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 2}
+      propertyPath: whatIsGround.m_Bits
+      value: 6656
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b98b46f4f04976e4d87667a7b6aef9b6, type: 2}
   m_IsPrefabAsset: 0
@@ -21234,7 +21239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1380730566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21366,7 +21371,7 @@ GameObject:
   - component: {fileID: 1578298834}
   - component: {fileID: 1578298833}
   - component: {fileID: 1578298832}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: V-Moving Platform5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21851,7 +21856,7 @@ GameObject:
   - component: {fileID: 1876605148}
   - component: {fileID: 1876605147}
   - component: {fileID: 1876605146}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: V-Moving Platform8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22047,7 +22052,7 @@ GameObject:
   - component: {fileID: 1970348870}
   - component: {fileID: 1970348869}
   - component: {fileID: 1970348868}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: V-Moving Platform7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22184,7 +22189,7 @@ GameObject:
   - component: {fileID: 1976519366}
   m_Layer: 11
   m_Name: Hazards
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24977,7 +24982,7 @@ GameObject:
   - component: {fileID: 1978582471}
   - component: {fileID: 1978582470}
   - component: {fileID: 1978582469}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: V-Moving Platform6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25332,7 +25337,7 @@ GameObject:
   - component: {fileID: 2008492497}
   - component: {fileID: 2008492500}
   - component: {fileID: 2008492499}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: H-Moving Platform1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25661,7 +25666,7 @@ GameObject:
   - component: {fileID: 2032771765}
   - component: {fileID: 2032771767}
   - component: {fileID: 2032771768}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: V-Moving Platform1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

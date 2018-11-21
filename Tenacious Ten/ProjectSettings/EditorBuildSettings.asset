@@ -17,4 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boss Fight 01.unity
     guid: 2c0d8eb6bcea7e446b83b8b02fe8aa2f
+  - enabled: 1
+    path: Assets/Scenes/Boss Fight 02.unity
+    guid: 860b152ff5ee69e4ab1fefd5f9c4e24d
+  - enabled: 1
+    path: Assets/Scenes/Boss Fight 03.unity
+    guid: c881166933051f444a9012d6a8e94cbc
+  - enabled: 1
+    path: Assets/Scenes/Boss Fight 04.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level_3.0.unity
+    guid: e3f993b85c1af4cb1b328f14d453c2f0
+  - enabled: 1
+    path: Assets/Scenes/Level_4.0.unity
+    guid: 85ddc2485c0e423428cbcdb55832a219
   m_configObjects: {}

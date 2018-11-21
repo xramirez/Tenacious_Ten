@@ -14,6 +14,8 @@ public class EnemyHealthManager : MonoBehaviour
 
     SpriteRenderer sr;
 
+    bool hasFlashed;
+
     //public int pointsOnDeath;     MAY ADD LATER IF WE INTRODUCE A POINT SYSTEM
 
     // Use this for initialization
@@ -21,12 +23,13 @@ public class EnemyHealthManager : MonoBehaviour
     {
         maxHealth = enemyHealth;
         sr = GetComponent<SpriteRenderer>();
+        hasFlashed = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        //sr.color = new Color(1, 1, 1, 1);
         if (enemyHealth <= 0)
         {
             Instantiate(deathEffect, transform.position, transform.rotation);
@@ -37,7 +40,7 @@ public class EnemyHealthManager : MonoBehaviour
 
     public void giveDamage(int damageToGive)
     {
-
+        //sr.color = new Color(1, 1, 0.5f, 1);
         enemyHealth -= damageToGive;
         hurtSound.Play();
         StartCoroutine(flash());
@@ -45,11 +48,9 @@ public class EnemyHealthManager : MonoBehaviour
 
     IEnumerator flash()
     {
-        sr.color = new Color(1, 1, 0.2f, 1);
+        sr.color = new Color(1, 1, 0.3f, 1);
         yield return new WaitForSeconds(0.03f);
         sr.color = new Color(1, 1, 1, 1);
     }
-
-
 
 }

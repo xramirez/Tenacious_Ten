@@ -34,9 +34,13 @@ public class PlayerManager : MonoBehaviour {
 
     bool justJumped;
 
+    bool landedFromJump;
+
     int prevAnimState; //used to hold a variable for the previous animation state and call back to it if needed
 
     public PlayerHealthManager healthManager;
+
+    Boss03Phase3 P3; //for wendigo boss
 
     // Use this for initialization
     void Start () {
@@ -54,6 +58,13 @@ public class PlayerManager : MonoBehaviour {
         flipValue = 1;
 
         justJumped = false;
+
+        landedFromJump = false;
+
+        if(FindObjectOfType<Boss03Phase3>() != null)
+        {
+            P3 = GameObject.FindObjectOfType<Boss03Phase3>();
+        }
     }
 
     private void FixedUpdate()
@@ -76,53 +87,92 @@ public class PlayerManager : MonoBehaviour {
                 MovePlayer(speed);
                 Flip();
 
+                if(GameObject.FindObjectOfType<Boss03Phase3>()!= null)
+                {
+                    if(!P3.isPushingBack)
+                    {
+                        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+                        {
+                            speed = speedX; 
+                            isWalking = true;
+                        }
+                        if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.D))
+                        {
+                            speed = 0; 
+                            isWalking = false;
+                        }
 
-                if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
-                {
-                    anim.SetInteger("State", 2);
-                    speed = speedX;     //move right
-                    isWalking = true;
+                        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+                        {
+                            speed = -speedX; 
+                            isWalking = true;
+                        }
+                        if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.A))
+                        {
+                            speed = 0; 
+                            isWalking = false;
+                        }
+                    }
                 }
-                if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.D))
+                else
                 {
-                    anim.SetInteger("State", 0);
-                    speed = 0;         //not walking/idle
-                    isWalking = false;
-                }
+                    if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+                    {
+                        //anim.SetInteger("State", 2);
+                        speed = speedX;     //move right
+                        isWalking = true;
+                    }
+                    if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.D))
+                    {
+                        //anim.SetInteger("State", 0);
+                        speed = 0;         //not walking/idle
+                        isWalking = false;
+                    }
 
-                if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
-                {
-                    anim.SetInteger("State", 2);
-                    speed = -speedX;    //move left
-                    isWalking = true;
+                    if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+                    {
+                        //anim.SetInteger("State", 2);
+                        speed = -speedX;    //move left
+                        isWalking = true;
+                    }
+                    if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.A))
+                    {
+                        //anim.SetInteger("State", 0);
+                        speed = 0;          //not walking/idle
+                        isWalking = false;
+                    }
                 }
-                if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.A))
-                {
-                    anim.SetInteger("State", 0);
-                    speed = 0;          //not walking/idle
-                    isWalking = false;
-                }
+                
 
 
-                if (justJumped && grounded)
-                {
-                    anim.SetInteger("State", 5);
-                    justLanded(0.2f);
-                    justJumped = false;
-                }
+                //if (justJumped && grounded)
+               // {
+                //    anim.SetInteger("State", 5);
+               //    justLanded(0.2f);
+                //    justJumped = false;
+               // }
 
                 if ((Input.GetKeyDown(KeyCode.UpArrow)|| Input.GetKeyDown(KeyCode.W)) && grounded)    //jump
                 {
                     Jump();
-                    justJumped = true;
+                    landedFromJump = false;
                 }
-
-
-
                 if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
                 {
                     anim.SetInteger("State", 3);
                 }
+
+
+                if (grounded && landedFromJump && !isWalking)   //if player is on the ground, not jumping, and is not walking set animation to idle. if walking, change to walking animation
+                {
+                    anim.SetInteger("State", 0);
+                }
+                else if (grounded && landedFromJump && isWalking)
+                {
+                    anim.SetInteger("State", 2);
+                }
+
+
 
                 if (Input.GetKeyDown(KeyCode.Space))    //shoot
                 {
@@ -165,10 +215,7 @@ public class PlayerManager : MonoBehaviour {
         {
             speed = 0;
         }
-
         
-
-
     }
 
     void Flip()     //function to flip the image of the player. also flips the projectile as well 
@@ -194,6 +241,37 @@ public class PlayerManager : MonoBehaviour {
             transform.localPosition = temp2;
         }
 
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Ground")
+        {
+            anim.SetInteger("State", 5);
+            landedFromJump = true;
+        }
+
+        if (other.gameObject.tag == "Moving Platform Boss 4")
+        {
+            anim.SetInteger("State", 5);
+            landedFromJump = true;
+            flipValue = -0.3f;
+            transform.SetParent(other.transform);
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Ground")
+        {
+            landedFromJump = false;
+        }
+
+        if (other.gameObject.tag == "Moving Platform Boss 4")
+        {
+            transform.SetParent(null);
+            flipValue = 1;
+        }
     }
 
     void MovePlayer(float playerSpeed) //player movement

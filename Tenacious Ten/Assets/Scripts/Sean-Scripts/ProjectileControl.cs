@@ -45,5 +45,20 @@ public class ProjectileControl : MonoBehaviour {
 
 			Destroy(gameObject);
 		}
+        else if (other.tag == "Doll Enemy")
+        {
+            other.GetComponent<Phase1DollHealthManager>().giveDamage(damage);
+        }
+        else if (other.tag == "Hand Enemy")
+        {
+            other.GetComponent<Phase2HandsHealthManager>().giveDamage(damage);
+        }
+        //
+        //Instantiate(impactEffect, transform.position, Quaternion.identity);
+
+        instantiatedObj = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+        Destroy(instantiatedObj, 1);
+
+        Destroy(gameObject);
     }
 }

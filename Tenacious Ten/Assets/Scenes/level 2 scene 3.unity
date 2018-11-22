@@ -78394,6 +78394,8 @@ GameObject:
   - component: {fileID: 1925466731}
   - component: {fileID: 1925466733}
   - component: {fileID: 1925466732}
+  - component: {fileID: 1925466735}
+  - component: {fileID: 1925466734}
   m_Layer: 0
   m_Name: hazards
   m_TagString: Untagged
@@ -78768,6 +78770,31 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1925466734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1925466730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6724c097131cb624d886982112a9d907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 3
+--- !u!19719996 &1925466735
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1925466730}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
 --- !u!1001 &1954737514
 Prefab:
   m_ObjectHideFlags: 0

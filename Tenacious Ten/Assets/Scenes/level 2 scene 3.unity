@@ -66235,7 +66235,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 817143241}
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 6.51
@@ -75398,6 +75398,11 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 767551545}
   m_CullTransparentMesh: 0
+--- !u!4 &817143241 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4453617425927266, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+    type: 2}
+  m_PrefabInternal: {fileID: 936309158}
 --- !u!1 &819428682
 GameObject:
   m_ObjectHideFlags: 0

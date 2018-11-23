@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
-  enemyHealth: 100
+  enemyHealth: 35
   hurtSound: {fileID: 82337070005925818, guid: 0435d8049e348954d882ed18b5413fc4, type: 2}
   deathEffect: {fileID: 0}
 --- !u!114 &114784672036823156

@@ -291,12 +291,12 @@ MonoBehaviour:
     type: 2}
   AngledBow: {fileID: 4738935061465098}
   ShotWarningTimer: 2
-  RandomShotTimerLeft: 5
-  RandomShotTimerRight: 7
+  RandomShotTimerLeft: 4
+  RandomShotTimerRight: 6
   ShotTimer: 0
   jumpSpeedY: 400
   SecondShotTimer: 0.75
-  jumpTimer: 9
+  jumpTimer: 7
   FirstTimeAlive: 0
   SecondTimeAlive: 0
   destroyAtThisHP: 30

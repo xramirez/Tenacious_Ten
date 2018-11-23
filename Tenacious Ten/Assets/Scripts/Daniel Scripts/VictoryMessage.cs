@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class VictoryMessage : MonoBehaviour {
 
@@ -23,6 +24,7 @@ public class VictoryMessage : MonoBehaviour {
             GetComponent<SpriteRenderer>().sortingOrder = 100;
             sound.Play();
             this.GetComponent<VictoryMessage>().enabled = false;
+            Invoke("levelSelect",3);
         }
         else
         {
@@ -36,5 +38,9 @@ public class VictoryMessage : MonoBehaviour {
         {
             showmessage = false;
         }
+    }
+    void levelSelect()
+    {
+        SceneManager.LoadScene("Level_Select");
     }
 }

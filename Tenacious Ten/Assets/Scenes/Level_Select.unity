@@ -769,6 +769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7a5bb4ee5f85a14a86e9d37c259382a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelCanvas: {fileID: 881225587}
   find: {fileID: 0}
   find2: {fileID: 0}
   Loader: {fileID: 1084622195}
@@ -2770,6 +2771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa04008bc526a3d44b8f8e2b236f24d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelCanvas: {fileID: 881225587}
   find: {fileID: 0}
   find2: {fileID: 0}
   Loader: {fileID: 1084622195}
@@ -5249,6 +5251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7b5bf25b36fd544e96af418ee789d9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelCanvas: {fileID: 881225587}
   find: {fileID: 0}
   find2: {fileID: 0}
   Loader: {fileID: 1084622195}
@@ -5441,6 +5444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7953fc7c0faf94ebe7a9aba8ae6097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LevelCanvas: {fileID: 881225587}
   find: {fileID: 0}
   find2: {fileID: 0}
   Loader: {fileID: 1084622195}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class world5TriggerStart : MonoBehaviour {
-
+    public Canvas LevelCanvas;
     public GameObject find;
     private Animator animator;
     public GameObject find2;

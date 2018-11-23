@@ -8,8 +8,8 @@ public class world5SceneSwitch : StateMachineBehaviour {
 	//OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
 	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
         //Go to name of scene. (You need to change the quotation parameter.)
-
-        string SceneName = "Level_5.0";
+        Debug.Log("Ive entered world5SceneSwitch");
+        string SceneName = "Boss Fight 05";
 
         try
         {
@@ -17,7 +17,7 @@ public class world5SceneSwitch : StateMachineBehaviour {
         }
         catch
         {
-            Debug.Log("world2SceneSwitch.cs cannot find the SceneName  \"" + SceneName + "\".");
+            Debug.Log("world5SceneSwitch.cs cannot find the SceneName  \"" + SceneName + "\".");
         }
     }
 }

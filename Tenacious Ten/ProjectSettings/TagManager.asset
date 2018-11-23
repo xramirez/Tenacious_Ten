@@ -17,6 +17,16 @@ TagManager:
   - Angled Bow Shot
   - Loading...
   - LoadingText
+  - World1_checkpoint
+  - World1_boss
+  - World2_checkpoint
+  - World3_checkpoint
+  - World4_checkpoint
+  - World5_checkpoint
+  - World2_boss
+  - World3_boss
+  - World4_boss
+  - World5_boss
   layers:
   - Default
   - TransparentFX

@@ -19,8 +19,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4066250321488022}
-  - component: {fileID: 114719213679805042}
   - component: {fileID: 114638250938369244}
+  - component: {fileID: 114417098299319080}
   m_Layer: 0
   m_Name: TL
   m_TagString: Untagged
@@ -215,6 +215,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chargeUpIncrement: 0.011
+--- !u!114 &114417098299319080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1438612251726422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6923406fa27c07d46942901d8e4320ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 6
 --- !u!114 &114638250938369244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -226,18 +238,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a70c309357c8bc049b1225bbf93972f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114719213679805042
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1438612251726422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e32f9f5878003d348b92a3eb35818dc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 6
 --- !u!114 &114721211971943224
 MonoBehaviour:
   m_ObjectHideFlags: 1

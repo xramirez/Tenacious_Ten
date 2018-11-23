@@ -38,8 +38,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4950964699666674}
-  - component: {fileID: 114938091670224672}
   - component: {fileID: 114886241033624708}
+  - component: {fileID: 114024317598998594}
   m_Layer: 0
   m_Name: MR
   m_TagString: Untagged
@@ -200,6 +200,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chargeUpIncrement: 0.011
+--- !u!114 &114024317598998594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590032083168888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6923406fa27c07d46942901d8e4320ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 6
 --- !u!114 &114459148019585390
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -223,18 +235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a70c309357c8bc049b1225bbf93972f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114938091670224672
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1590032083168888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e32f9f5878003d348b92a3eb35818dc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 6
 --- !u!212 &212772436483501860
 SpriteRenderer:
   m_ObjectHideFlags: 1

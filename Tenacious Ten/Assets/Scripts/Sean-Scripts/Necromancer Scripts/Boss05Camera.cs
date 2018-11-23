@@ -13,6 +13,8 @@ public class Boss05Camera : MonoBehaviour
 
     NecroBossManager NBM;
 
+    PlayerHealthManager PHM;
+
     // Use this for initialization
     void Start()
     {
@@ -21,6 +23,8 @@ public class Boss05Camera : MonoBehaviour
         NBM = FindObjectOfType<NecroBossManager>();
 
         StartingPos = transform.localPosition;
+
+        PHM = FindObjectOfType<PlayerHealthManager>();
 
     }
 
@@ -43,11 +47,15 @@ public class Boss05Camera : MonoBehaviour
                 transform.position = new Vector3(transform.position.x, transform.position.y - transitionSpeed * 2, transform.position.z);
             }
         }
+        
 
-        if (SORL.ResetFight)
+    }
+
+    void Update()
+    {
+        if (!SORL.StartFight && !PHM.isDead)
         {
-            //transform.localPosition = StartingPos;
+            transform.position = StartingPos;
         }
-
     }
 }

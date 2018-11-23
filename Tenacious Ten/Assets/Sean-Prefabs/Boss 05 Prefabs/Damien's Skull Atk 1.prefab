@@ -137,8 +137,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RotateSpeed: 300
-  MoveTimer: 2
-  MoveSpeed: 4.5
+  MoveTimer: 1.85
+  MoveSpeed: 4.65
   minDistanceCheck: 0.4
 --- !u!212 &212707453186449892
 SpriteRenderer:

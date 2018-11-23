@@ -269,8 +269,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5359ee8137646634baf085a0d4200560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 95
-  enemyHealth: 95
+  maxHealth: 105
+  enemyHealth: 105
+  hurtSound: {fileID: 82337070005925818, guid: 0435d8049e348954d882ed18b5413fc4, type: 2}
   deathEffect: {fileID: 0}
 --- !u!114 &114898448108198902
 MonoBehaviour:

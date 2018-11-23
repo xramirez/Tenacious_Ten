@@ -38,8 +38,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4484616564196424}
-  - component: {fileID: 114760688913041932}
   - component: {fileID: 114624138252169084}
+  - component: {fileID: 114051984235743064}
   m_Layer: 0
   m_Name: BL
   m_TagString: Untagged
@@ -162,6 +162,18 @@ PolygonCollider2D:
       - {x: -9.292811, y: -0.7021874}
       - {x: -9.2535925, y: -0.6629687}
       - {x: -9.2535925, y: -0.6041406}
+--- !u!114 &114051984235743064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1626729237341614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6923406fa27c07d46942901d8e4320ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 6
 --- !u!114 &114624138252169084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -173,18 +185,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a70c309357c8bc049b1225bbf93972f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114760688913041932
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1626729237341614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e32f9f5878003d348b92a3eb35818dc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 6
 --- !u!114 &114816590386989382
 MonoBehaviour:
   m_ObjectHideFlags: 1

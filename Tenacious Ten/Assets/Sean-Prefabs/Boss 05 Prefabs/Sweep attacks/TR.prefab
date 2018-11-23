@@ -38,8 +38,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4662964712162278}
-  - component: {fileID: 114088040331711082}
   - component: {fileID: 114848527094993322}
+  - component: {fileID: 114482169440698472}
   m_Layer: 0
   m_Name: TR
   m_TagString: Untagged
@@ -203,18 +203,6 @@ PolygonCollider2D:
       - {x: 8.84918, y: -2.6322653}
       - {x: 8.84918, y: -2.5538278}
       - {x: 8.829571, y: -2.5342185}
---- !u!114 &114088040331711082
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1952943946626382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e32f9f5878003d348b92a3eb35818dc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 6
 --- !u!114 &114199757240540584
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -227,6 +215,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chargeUpIncrement: 0.011
+--- !u!114 &114482169440698472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952943946626382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6923406fa27c07d46942901d8e4320ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 6
 --- !u!114 &114848527094993322
 MonoBehaviour:
   m_ObjectHideFlags: 1

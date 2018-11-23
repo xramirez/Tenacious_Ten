@@ -23,9 +23,9 @@ GameObject:
   - component: {fileID: 95377946982113978}
   - component: {fileID: 114453255040161866}
   - component: {fileID: 114089184891141620}
-  - component: {fileID: 114072927618630592}
   - component: {fileID: 61086997820690948}
   - component: {fileID: 114485391023072636}
+  - component: {fileID: 114475937816597758}
   m_Layer: 16
   m_Name: phase 6 lightning 1
   m_TagString: Untagged
@@ -89,18 +89,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114072927618630592
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1562006566218388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e32f9f5878003d348b92a3eb35818dc8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 9
 --- !u!114 &114089184891141620
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -125,6 +113,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a70c309357c8bc049b1225bbf93972f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114475937816597758
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1562006566218388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6923406fa27c07d46942901d8e4320ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 9
 --- !u!114 &114485391023072636
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67f483837bd00a044a35cef8ecd8b609, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 1
 --- !u!212 &212246683467230960
 SpriteRenderer:
   m_ObjectHideFlags: 1

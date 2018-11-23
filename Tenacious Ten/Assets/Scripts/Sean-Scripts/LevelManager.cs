@@ -26,7 +26,7 @@ public class LevelManager : MonoBehaviour {
         Debug.Log("Player Respawn");
         healthManager.FullHealth();
         healthManager.isDead = false;
-        player.transform.position = currentCheckpoint.transform.position;
+        player.transform.position = currentCheckpoint.transform.position + new Vector3(0,1,0);
         player.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
     }
 }

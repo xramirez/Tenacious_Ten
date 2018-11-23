@@ -4,35 +4,39 @@ using UnityEngine;
 
 public class SaveFile : MonoBehaviour
 {
-    public static int currentLevel;
+    public int currentLevel;
     public GameObject animatorGameObject;
     private Animator animator;
-
-    // Use this for initialization
+    
     void Start()
     {
         currentLevel = 1;
-        Debug.Log("currentLevel is: " + currentLevel + ".");
-
-        animatorGameObject = GameObject.FindGameObjectWithTag("World1_checkpoint");
-        animator = animatorGameObject.GetComponent<Animator>();
-        animator.SetBool("world1Available", true);
-        animatorGameObject = GameObject.FindGameObjectWithTag("World1_boss");
-        animator = animatorGameObject.GetComponent<Animator>();
-        animator.SetBool("world1Unlocked", true);
     }
-    
-    public void levelUp()
+
+    public void Save()
     {
-        if(currentLevel < 5)
+        SaveLoadManager.SaveLevelData(this);
+    }
+    public void Load()
+    {
+        currentLevel = SaveLoadManager.LoadLevelData();
+        changeLevelConditions(currentLevel);
+    }
+    public void DeleteSave()
+    {
+        SaveLoadManager.DeleteLevelData();
+    }
+
+    private void changeLevelConditions(int cLevel)
+    {
+        for(int x = 1; x <= cLevel; x++)
         {
-            currentLevel++;
-            Debug.Log("updated currentLevel is: " + currentLevel + ".");
-            string currentWorld = "World" + currentLevel;
+            Debug.Log("Updated currentLevel via SaveLoadManager is: " + x + ".");
+            string currentWorld = "World" + x;
             string checkpoint = currentWorld + "_checkpoint";
             string boss = currentWorld + "_boss";
-            string available = "world" + currentLevel + "Available";
-            string unlocked = "world" + currentLevel + "Unlocked";
+            string available = "world" + x + "Available";
+            string unlocked = "world" + x + "Unlocked";
 
             animatorGameObject = GameObject.FindGameObjectWithTag(checkpoint);
             animator = animatorGameObject.GetComponent<Animator>();
@@ -40,6 +44,16 @@ public class SaveFile : MonoBehaviour
             animatorGameObject = GameObject.FindGameObjectWithTag(boss);
             animator = animatorGameObject.GetComponent<Animator>();
             animator.SetBool(unlocked, true);
+        }
+
+    }
+
+    public void levelUp()
+    {
+        if(currentLevel <= 5)
+        {
+            currentLevel++;
+            changeLevelConditions(currentLevel);
         }
     }
 }

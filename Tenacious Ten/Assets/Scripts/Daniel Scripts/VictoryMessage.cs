@@ -16,14 +16,24 @@ public class VictoryMessage : MonoBehaviour {
 		waiting = FindObjectOfType<EnemyHealthManager>();
 		sound = GetComponent<AudioSource>();
 	}
-	
-	// Update is called once per frame
-	void FixedUpdate () {
+
+    public int Load_FromSaveLoad()
+    {
+        return SaveLoadManager.LoadLevelData();
+    }
+    // Update is called once per frame
+    void FixedUpdate () {
         if (showmessage)
         {
             GetComponent<SpriteRenderer>().sortingOrder = 100;
             sound.Play();
             this.GetComponent<VictoryMessage>().enabled = false;
+            if(Load_FromSaveLoad() < 1)
+            {
+                SaveFile saveMe = new SaveFile();
+                saveMe.currentLevel = 2;
+                SaveLoadManager.SaveLevelData(saveMe);
+            }
             Invoke("levelSelect",3);
         }
         else

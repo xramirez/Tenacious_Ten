@@ -22545,6 +22545,11 @@ Prefab:
       propertyPath: hearts.Array.data[3]
       value: 
       objectReference: {fileID: 36576084}
+    - target: {fileID: 50146073362416672, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 2}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b98b46f4f04976e4d87667a7b6aef9b6, type: 2}
   m_IsPrefabAsset: 0

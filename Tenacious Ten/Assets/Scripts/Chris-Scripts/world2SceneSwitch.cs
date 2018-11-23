@@ -10,14 +10,6 @@ public class world2SceneSwitch : StateMachineBehaviour {
         //Go to name of scene. (You need to change the quotation parameter.)
 
         string SceneName = "Level_2.0";
-
-        try
-        {
-            SceneManager.LoadScene(SceneName);
-        }
-        catch
-        {
-            Debug.Log("world2SceneSwitch.cs cannot find the SceneName  \"" + SceneName + "\".");
-        }
+        SceneManager.LoadScene(SceneName);
     }
 }

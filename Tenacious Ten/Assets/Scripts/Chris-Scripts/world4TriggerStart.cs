@@ -10,6 +10,7 @@ public class world4TriggerStart : MonoBehaviour {
     private Animator animator2;
     private AudioSource audio1;
     private AudioSource audio2;
+    public GameObject Loader;
 
     // Start
     public void startWorld4()
@@ -27,6 +28,8 @@ public class world4TriggerStart : MonoBehaviour {
             animator2.SetBool("runWorld4", true);
             audio2 = find2.GetComponent<AudioSource>();
             audio2.Play();
+
+            Loader.GetComponent<LoadingHandler>().LoadingALevel();
         }
     }
 }

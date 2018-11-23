@@ -10,14 +10,16 @@ public class world3SceneSwitch : StateMachineBehaviour {
         //Go to name of scene. (You need to change the quotation parameter.)
 
         string SceneName = "Level_3.0";
+        GameObject Loading = GameObject.Find("LoadingPanel");
 
         try
         {
             SceneManager.LoadScene(SceneName);
+            Loading.SetActive(true);
         }
         catch
         {
-            Debug.Log("world2SceneSwitch.cs cannot find the SceneName  \"" + SceneName + "\".");
+            Debug.Log("world3SceneSwitch.cs cannot find the SceneName  \"" + SceneName + "\".");
         }
     }
 }

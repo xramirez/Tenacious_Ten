@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 public class world1SceneSwitch : StateMachineBehaviour {
 
@@ -10,14 +11,14 @@ public class world1SceneSwitch : StateMachineBehaviour {
         //Go to name of scene. (You need to change the quotation parameter.)
 
         string SceneName = "Level_1.0";
-
         try
         {
-            SceneManager.LoadScene(SceneName);
+            Debug.Log("Switching to \"" + SceneName + "\"...");
+            SceneManager.LoadScene(SceneName, LoadSceneMode.Single);
         }
-        catch
+        catch(Exception e)
         {
-            Debug.Log("world2SceneSwitch.cs cannot find the SceneName  \"" + SceneName + "\".");
+            Debug.Log("world1SceneSwitch.cs cannot find the SceneName  \"" + SceneName + "\".");
         }
     }
 }

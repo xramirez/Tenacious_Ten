@@ -8,9 +8,17 @@ public class SaveFile : MonoBehaviour
     public GameObject animatorGameObject;
     private Animator animator;
     
-    void Start()
+    void Awake()
     {
-        currentLevel = 1;
+        currentLevel = SaveLoadManager.LoadLevelData();
+        if(currentLevel != 1)
+        {
+            changeLevelConditions(currentLevel);
+        }
+        else
+        {
+            currentLevel = 1;
+        }
     }
 
     public void Save()

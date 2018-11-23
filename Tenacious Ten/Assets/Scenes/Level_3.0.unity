@@ -5323,6 +5323,69 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 665925293}
   m_CullTransparentMesh: 0
+--- !u!1001 &704699801
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4513579627128844, guid: 4f0615917b1990b4081b42c9148ecbdf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513579627128844, guid: 4f0615917b1990b4081b42c9148ecbdf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -4.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513579627128844, guid: 4f0615917b1990b4081b42c9148ecbdf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513579627128844, guid: 4f0615917b1990b4081b42c9148ecbdf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513579627128844, guid: 4f0615917b1990b4081b42c9148ecbdf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513579627128844, guid: 4f0615917b1990b4081b42c9148ecbdf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513579627128844, guid: 4f0615917b1990b4081b42c9148ecbdf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4513579627128844, guid: 4f0615917b1990b4081b42c9148ecbdf, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114334052937196578, guid: 4f0615917b1990b4081b42c9148ecbdf,
+        type: 2}
+      propertyPath: hurtSound
+      value: 
+      objectReference: {fileID: 174599272}
+    - target: {fileID: 114003974474983548, guid: 4f0615917b1990b4081b42c9148ecbdf,
+        type: 2}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 174599272}
+    - target: {fileID: 114334052937196578, guid: 4f0615917b1990b4081b42c9148ecbdf,
+        type: 2}
+      propertyPath: enemyHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114003974474983548, guid: 4f0615917b1990b4081b42c9148ecbdf,
+        type: 2}
+      propertyPath: FlowerBullet
+      value: 
+      objectReference: {fileID: 1410416945031008, guid: 2333d49698e8f3546af7771d6c8012db,
+        type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4f0615917b1990b4081b42c9148ecbdf, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &704740471
 GameObject:
   m_ObjectHideFlags: 0

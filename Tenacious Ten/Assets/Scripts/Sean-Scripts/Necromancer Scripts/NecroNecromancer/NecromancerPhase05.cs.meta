@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 3d5340e6e865ccf408c4176f86c0267d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Fairy: {fileID: 1866184241981504, guid: 27e532ca78ae42d41a52449ef1b8c3b7, type: 2}
+  - Damien: {fileID: 1784735817548152, guid: 4201c318125b83244830c72e5065a0f2, type: 2}
+  - Samurai: {fileID: 1323622322986026, guid: dbec41670fee66c4e9842465a43e9dfe, type: 2}
+  - Lightning: {fileID: 1693801562306298, guid: fa3acc5e3ac9cd64f87598c024f6b61e,
+      type: 2}
+  - LightningSamurai: {fileID: 4189804109930072, guid: 7809657fb33d3e04aa3e6d5a72f800a4,
+      type: 2}
+  - LightningFairy: {fileID: 4084337493724902, guid: 93558afa19513834c97f0fc231bce2d5,
+      type: 2}
+  - LightningDamien: {fileID: 4094236200325502, guid: c4a72a76491a7464caad8e07555ac1ee,
+      type: 2}
+  - FairySpawn: {fileID: 4407211720312736, guid: ab3113e71d666524b932b5b30d54b024,
+      type: 2}
+  - DamienSpawn: {fileID: 4899464919323038, guid: 17d8fef7847995c44be03d9225cce8c5,
+      type: 2}
+  - SamuraiSpawn: {fileID: 4144729330548798, guid: b3671fde545ad32418a9196e0e8713a7,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

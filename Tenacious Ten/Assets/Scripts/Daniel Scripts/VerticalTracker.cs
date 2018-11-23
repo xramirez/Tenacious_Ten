@@ -15,7 +15,7 @@ public class VerticalTracker : MonoBehaviour {
 	// Use this for initialization
 	void Start()
 	{
-		player = GameObject.FindGameObjectWithTag("Player");
+		//player = GameObject.FindGameObjectWithTag("Player");
 		distanceBetween = player.transform.position.y - transform.position.y;
 	}
 

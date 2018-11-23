@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class world1TriggerStart : MonoBehaviour
 {
-
+    public Canvas LevelCanvas;
     public GameObject find;
     private Animator animator;
     public GameObject find2;

@@ -1715,7 +1715,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 272070213}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.409582, y: -4.0002456, z: -10}
+  m_LocalPosition: {x: -13.872414, y: -4.000037, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -27298,6 +27298,7 @@ GameObject:
   - component: {fileID: 2016326252}
   - component: {fileID: 2016326251}
   - component: {fileID: 2016326250}
+  - component: {fileID: 2016326253}
   m_Layer: 5
   m_Name: Resume Button
   m_TagString: Untagged
@@ -27410,6 +27411,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2016326248}
   m_CullTransparentMesh: 0
+--- !u!114 &2016326253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2016326248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d56463a65e23e14b858ebd9d55d8878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HUD: {fileID: 1380730565}
 --- !u!1 &2032771763
 GameObject:
   m_ObjectHideFlags: 0

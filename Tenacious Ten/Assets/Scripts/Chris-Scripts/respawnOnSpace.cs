@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class respawnOnSpace : MonoBehaviour {
     public GameObject HUD;
+
     void Awake()
     {
-        HUD = GameObject.FindGameObjectWithTag("HUD");
     }
 	void Update()
     {

@@ -681,6 +681,7 @@ GameObject:
   - component: {fileID: 197327224}
   - component: {fileID: 197327223}
   - component: {fileID: 197327222}
+  - component: {fileID: 197327225}
   m_Layer: 5
   m_Name: Resume Button
   m_TagString: Untagged
@@ -793,6 +794,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 197327220}
   m_CullTransparentMesh: 0
+--- !u!114 &197327225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 197327220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d56463a65e23e14b858ebd9d55d8878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HUD: {fileID: 1863822173}
 --- !u!1 &314393417
 GameObject:
   m_ObjectHideFlags: 0
@@ -34006,6 +34019,17 @@ Prefab:
       propertyPath: flagSound
       value: 
       objectReference: {fileID: 1620784859}
+    - target: {fileID: 114934233572368880, guid: 25da8024b2da343e6955105cd01f2e5e,
+        type: 2}
+      propertyPath: reached
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212402016073888038, guid: 25da8024b2da343e6955105cd01f2e5e,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b53575a73d66e46f5a6e8177b46cee69,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25da8024b2da343e6955105cd01f2e5e, type: 2}
   m_IsPrefabAsset: 0

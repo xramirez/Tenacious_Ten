@@ -3917,7 +3917,7 @@ Prefab:
     - target: {fileID: 114129903151019870, guid: 3127d11ee2ad4ec4793d182a36fea7f5,
         type: 2}
       propertyPath: whatIsGround.m_Bits
-      value: 8448
+      value: 2102583
       objectReference: {fileID: 0}
     - target: {fileID: 114299366980608558, guid: 3127d11ee2ad4ec4793d182a36fea7f5,
         type: 2}

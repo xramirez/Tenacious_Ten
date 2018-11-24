@@ -123,7 +123,8 @@ GameObject:
   - component: {fileID: 25831604}
   - component: {fileID: 25831606}
   - component: {fileID: 25831605}
-  m_Layer: 0
+  - component: {fileID: 25831607}
+  m_Layer: 9
   m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +178,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.27999997, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -66012,6 +66013,35 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!60 &25831607
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 25831603}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 35, y: 45.437786}
+      - {x: -23.189262, y: 44.89306}
+      - {x: -23.261522, y: -17.716724}
+      - {x: 78.81581, y: -17.716717}
+      - {x: 77.89377, y: 45.31794}
 --- !u!1 &34389145
 GameObject:
   m_ObjectHideFlags: 0
@@ -66214,7 +66244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ConfineMode: 0
   m_BoundingVolume: {fileID: 0}
-  m_BoundingShape2D: {fileID: 0}
+  m_BoundingShape2D: {fileID: 25831607}
   m_ConfineScreenEdges: 1
   m_Damping: 0
 --- !u!114 &106151263
@@ -67288,9 +67318,9 @@ GameObject:
   - component: {fileID: 598478057}
   - component: {fileID: 598478056}
   - component: {fileID: 598478055}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67342,7 +67372,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -75372,7 +75402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &819428683
 Transform:
   m_ObjectHideFlags: 0
@@ -76850,7 +76880,6 @@ GameObject:
   - component: {fileID: 1479494485}
   - component: {fileID: 1479494484}
   - component: {fileID: 1479494488}
-  - component: {fileID: 1479494487}
   - component: {fileID: 1479494486}
   - component: {fileID: 1479494489}
   m_Layer: 0
@@ -77413,31 +77442,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!61 &1479494487
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1479494482}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!114 &1479494488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78713,7 +78717,7 @@ GameObject:
   - component: {fileID: 1925466732}
   - component: {fileID: 1925466735}
   - component: {fileID: 1925466734}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: hazards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78767,7 +78771,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -79570,7 +79574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2099816987
 Transform:
   m_ObjectHideFlags: 0
@@ -79602,7 +79606,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2120138271
 Transform:
   m_ObjectHideFlags: 0

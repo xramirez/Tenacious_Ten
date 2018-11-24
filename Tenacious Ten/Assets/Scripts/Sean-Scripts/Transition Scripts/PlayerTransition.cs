@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerTransition : MonoBehaviour {
 
@@ -36,11 +35,6 @@ public class PlayerTransition : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (PlayerInChest)
-		{
-			Debug.Log("Moving to level 4...");
-			Invoke("goToScene4", 2);
-		}
 		if(haveNotReachedChest && !hasSwung)
         {
             transform.position = new Vector3(transform.position.x + moveValue, transform.position.y, 0f);
@@ -78,10 +72,6 @@ public class PlayerTransition : MonoBehaviour {
                 PlayerInChest = true;
 			}
         }
-	}
-	void goToScene4()
-	{
-		SceneManager.LoadScene("Level_4.0");
 	}
 	IEnumerator waitForSwingAnim(float time)
     {

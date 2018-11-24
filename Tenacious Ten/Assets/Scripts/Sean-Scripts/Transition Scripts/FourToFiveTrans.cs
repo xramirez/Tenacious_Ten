@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FourToFiveTrans : MonoBehaviour {
 
@@ -12,7 +13,7 @@ public class FourToFiveTrans : MonoBehaviour {
     [SerializeField] GameObject Bunjiman;
     [SerializeField] float WaitTimeToSpoutPlayer;
     bool endSceneNow;
-
+	public GameObject ground;
     SpriteRenderer BlackScreen;
 
 	// Use this for initialization
@@ -53,11 +54,24 @@ public class FourToFiveTrans : MonoBehaviour {
         if(endSceneNow)
         {
             BlackScreen.color = new Color(1f,1f,1f,BlackScreen.color.a + 0.005f);
-        }
+
+			Debug.Log("Moving to level 5...");
+			Invoke("byeGround", 3f);
+			Invoke("goToScene5", 4);
+		}
 
 	}
+	void byeGround()
+	{
+		ground = GameObject.FindGameObjectWithTag("Ground");
+		ground.SetActive(false);
+	}
+	void goToScene5()
+	{
+		SceneManager.LoadScene("Level_5.0");
+	}
 
-    IEnumerator waitUnlockChest(float time)
+	IEnumerator waitUnlockChest(float time)
     {
         yield return new WaitForSeconds(time);
         anim.enabled = true;

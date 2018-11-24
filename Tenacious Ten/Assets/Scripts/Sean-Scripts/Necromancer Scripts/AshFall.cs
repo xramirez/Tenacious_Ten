@@ -13,6 +13,7 @@ public class AshFall : MonoBehaviour {
     bool scaleNegative;
 
     AshFallEmitter AFE;
+    AshFallLevelFive AFLF;
 
     float initialYScale;
 
@@ -39,17 +40,37 @@ public class AshFall : MonoBehaviour {
         }
         //0.01f;//Random.Range(0.01f, 0.02f);
 
-        AFE = GameObject.FindObjectOfType<AshFallEmitter>();
+        if(GameObject.FindObjectOfType<AshFallEmitter>() != null)
+        {
+            AFE = GameObject.FindObjectOfType<AshFallEmitter>();
+        }
+        if(GameObject.FindObjectOfType<AshFallLevelFive>() != null)
+        {
+            AFLF = GameObject.FindObjectOfType<AshFallLevelFive>();
+        }
         initialYScale = transform.localScale.y;
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
 
-        if(AFE.ashFlipInAir)
+        if(AFE != null)
         {
-            FlipInAir();
+            if (AFE.ashFlipInAir)
+            {
+                FlipInAir();
+            }
         }
+
+        if(AFLF != null)
+        {
+            if (AFLF.ashFlipInAir)
+            {
+                FlipInAir();
+            }
+        }
+
+        
         //FlipInAir();
         transform.position = new Vector3(transform.position.x, (transform.position.y - randomSizeValue * 0.07f), 0f);
         //transform.position = new Vector3(transform.position.x + randomSizeValue * 0.07f, transform.position.y, 0f);

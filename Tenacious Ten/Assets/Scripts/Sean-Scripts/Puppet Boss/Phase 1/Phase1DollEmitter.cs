@@ -21,6 +21,9 @@ public class Phase1DollEmitter : MonoBehaviour {
     Vector3 startingSpawn;
     StartOrResetLevel SORL;
 
+    [SerializeField]
+    AudioSource girlSpawn;
+
 	// Use this for initialization
 	void Start () {
 
@@ -81,12 +84,14 @@ public class Phase1DollEmitter : MonoBehaviour {
         CeilingSpawn.localPosition = temp;
         if (!firstDollShot)
         {
+            girlSpawn.Play();
             Instantiate(LightningDoll, CeilingSpawn.position, Quaternion.identity);
             firstDollShot = true;
             StartCoroutine(WaitForXseconds(1.5f));
         }
         else if(!secondDollShot && hasWaitedToShoot)
         {
+            girlSpawn.Play();
             Instantiate(LightningDoll, CeilingSpawn.position, Quaternion.identity);
             secondDollShot = true;
             hasWaitedToShoot = false;
@@ -94,6 +99,7 @@ public class Phase1DollEmitter : MonoBehaviour {
         }
         else if (!thirdDollShot && hasWaitedToShoot)
         {
+            girlSpawn.Play();
             Instantiate(LightningDoll, CeilingSpawn.position, Quaternion.identity);
             thirdDollShot = true;
             hasWaitedToShoot = false;

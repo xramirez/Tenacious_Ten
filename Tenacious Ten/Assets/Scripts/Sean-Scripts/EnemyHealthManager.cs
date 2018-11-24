@@ -48,9 +48,9 @@ public class EnemyHealthManager : MonoBehaviour
 
     IEnumerator flash()
     {
-        sr.color = new Color(1, 1, 0.3f, 1);
+        sr.color = new Color(1, 1, 0.3f, sr.color.a);
         yield return new WaitForSeconds(0.03f);
-        sr.color = new Color(1, 1, 1, 1);
+        sr.color = new Color(1, 1, 1, sr.color.a);
     }
 
 }

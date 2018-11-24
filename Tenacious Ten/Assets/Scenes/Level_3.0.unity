@@ -5990,6 +5990,11 @@ Prefab:
       propertyPath: m_Name
       value: Icecle (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 114929151292586698, guid: a027d410a9a6648268375b0019faf2e1,
+        type: 2}
+      propertyPath: fireRate
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a027d410a9a6648268375b0019faf2e1, type: 2}
   m_IsPrefabAsset: 0
@@ -24647,7 +24652,7 @@ Prefab:
     - target: {fileID: 114929151292586698, guid: a027d410a9a6648268375b0019faf2e1,
         type: 2}
       propertyPath: fireRate
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a027d410a9a6648268375b0019faf2e1, type: 2}
@@ -27416,6 +27421,11 @@ Prefab:
     - target: {fileID: 1318043743023492, guid: a027d410a9a6648268375b0019faf2e1, type: 2}
       propertyPath: m_Name
       value: Icecle (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114929151292586698, guid: a027d410a9a6648268375b0019faf2e1,
+        type: 2}
+      propertyPath: fireRate
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a027d410a9a6648268375b0019faf2e1, type: 2}

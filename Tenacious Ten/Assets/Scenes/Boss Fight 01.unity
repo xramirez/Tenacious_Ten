@@ -1877,6 +1877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartFight: 0
   ResetFight: 0
+  counter: 0
   music: {fileID: 899492199}
 --- !u!1 &658137005
 GameObject:

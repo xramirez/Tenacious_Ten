@@ -52656,6 +52656,18 @@ Prefab:
       propertyPath: hearts.Array.data[2]
       value: 
       objectReference: {fileID: 1098914254}
+    - target: {fileID: 114485814219472412, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 2}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 82337070005925818, guid: 0435d8049e348954d882ed18b5413fc4,
+        type: 2}
+    - target: {fileID: 114485814219472412, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 2}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 82097021430678624, guid: 7e9f5b86e8e22994aa9a90a4e9d7381d,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b98b46f4f04976e4d87667a7b6aef9b6, type: 2}
   m_IsPrefabAsset: 0
@@ -59912,7 +59924,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1580773806
 Transform:
   m_ObjectHideFlags: 0
@@ -60207,7 +60219,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1660822907}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.383415, y: -0.99941087, z: -10}
+  m_LocalPosition: {x: -6.0625896, y: -0.99838424, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -60873,7 +60885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2002159349
 MonoBehaviour:
   m_ObjectHideFlags: 0

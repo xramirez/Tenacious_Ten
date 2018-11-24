@@ -18,8 +18,7 @@ public class PlayerManager : MonoBehaviour {
     AudioSource jumpSound;
     [SerializeField]
     AudioSource shootSound;
-
-
+	
     public GameObject leftProjectile, rightProjectile;
 
     Transform projectilePos;    //transform is position

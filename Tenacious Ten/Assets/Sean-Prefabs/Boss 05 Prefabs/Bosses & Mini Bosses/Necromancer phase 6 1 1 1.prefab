@@ -173,8 +173,7 @@ MonoBehaviour:
   maxHealth: 95
   enemyHealth: 95
   hurtSound: {fileID: 82337070005925818, guid: 0435d8049e348954d882ed18b5413fc4, type: 2}
-  deathEffect: {fileID: 1558521494141850, guid: 1b96aba8087b573419aab9740ca93afd,
-    type: 2}
+  deathEffect: {fileID: 0}
 --- !u!114 &114709093682971830
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -127,6 +127,8 @@ MonoBehaviour:
   TPTimer: 0
   Phase1HP: 90
   DestroyBridge: 0
+  StartingLoc: {fileID: 0}
+  NecroLightning: {fileID: 0}
 --- !u!114 &114936715660514868
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -140,6 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   enemyHealth: 100
+  hurtSound: {fileID: 82337070005925818, guid: 0435d8049e348954d882ed18b5413fc4, type: 2}
   deathEffect: {fileID: 0}
 --- !u!114 &114976656415728760
 MonoBehaviour:

@@ -5958,6 +5958,12 @@ Prefab:
       propertyPath: hurtSound
       value: 
       objectReference: {fileID: 198766825}
+    - target: {fileID: 114936715660514868, guid: fe046a1ac3f7003468411d0415cd442f,
+        type: 2}
+      propertyPath: deathEffect
+      value: 
+      objectReference: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe046a1ac3f7003468411d0415cd442f, type: 2}
   m_IsPrefabAsset: 0

@@ -197,16 +197,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedX: 8
   jumpSpeedY: 1150
+  speed: 0
   groundCheck: {fileID: 4762204718984610}
   groundCheckRadius: 0.1
   whatIsGround:
     serializedVersion: 2
     m_Bits: 4352
+  jumpSound: {fileID: 0}
+  shootSound: {fileID: 0}
   leftProjectile: {fileID: 1825371131393680, guid: 7805bec97d56fd54fb8381dd12a78963,
     type: 2}
   rightProjectile: {fileID: 1825371131393680, guid: 5e7dd627d9aea384db48c1853664b3b2,
     type: 2}
   shotDelay: 0.2
+  anim: {fileID: 0}
+  flipValue: 0
+  healthManager: {fileID: 0}
 --- !u!212 &212288511855038326
 SpriteRenderer:
   m_ObjectHideFlags: 1

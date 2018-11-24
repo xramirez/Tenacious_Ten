@@ -45,13 +45,19 @@ public class SaveFile : MonoBehaviour
             string boss = currentWorld + "_boss";
             string available = "world" + x + "Available";
             string unlocked = "world" + x + "Unlocked";
-
-            animatorGameObject = GameObject.FindGameObjectWithTag(checkpoint);
-            animator = animatorGameObject.GetComponent<Animator>();
-            animator.SetBool(available, true);
-            animatorGameObject = GameObject.FindGameObjectWithTag(boss);
-            animator = animatorGameObject.GetComponent<Animator>();
-            animator.SetBool(unlocked, true);
+            try
+            {
+                animatorGameObject = GameObject.FindGameObjectWithTag(checkpoint);
+                animator = animatorGameObject.GetComponent<Animator>();
+                animator.SetBool(available, true);
+                animatorGameObject = GameObject.FindGameObjectWithTag(boss);
+                animator = animatorGameObject.GetComponent<Animator>();
+                animator.SetBool(unlocked, true);
+            }
+            catch
+            {
+                Debug.Log("Cannot find GameObject or Animator from \"SaveFile.cs\" .");
+            }
         }
 
     }

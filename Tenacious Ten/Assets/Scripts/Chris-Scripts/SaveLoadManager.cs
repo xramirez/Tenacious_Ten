@@ -41,6 +41,7 @@ public static class SaveLoadManager{
             BinaryFormatter bf = new BinaryFormatter();
             FileStream stream = new FileStream(Application.persistentDataPath + "/savefile.citrus", FileMode.Create);
             SaveData data = new SaveData();
+
             bf.Serialize(stream, data);
             stream.Close();
         }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 public class VictoryMessage : MonoBehaviour {
 
@@ -28,12 +29,24 @@ public class VictoryMessage : MonoBehaviour {
             GetComponent<SpriteRenderer>().sortingOrder = 100;
             sound.Play();
             this.GetComponent<VictoryMessage>().enabled = false;
-            if(Load_FromSaveLoad() < 1)
+
+            //Get currentScene name to find which level we're at
+            Scene currentScene = SceneManager.GetActiveScene();
+            int sceneLevel = Int32.Parse(currentScene.name.Remove(0,11));
+            Debug.Log("Found that scene Level is: " + sceneLevel);
+            int loadLevel = Load_FromSaveLoad();
+
+            //Compare sceneLevel to loadLevel
+            if(sceneLevel+1 > loadLevel && loadLevel != 5)
             {
+                Debug.Log("Saving current level to be to: " + loadLevel);
                 SaveFile saveMe = new SaveFile();
-                saveMe.currentLevel = 2;
+                saveMe.currentLevel = loadLevel + 1;
                 SaveLoadManager.SaveLevelData(saveMe);
             }
+
+            //Go to Level Select Screen in 3 seconds
+            Debug.Log("Moving to level select screen...");
             Invoke("levelSelect",3);
         }
         else

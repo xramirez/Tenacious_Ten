@@ -49,9 +49,23 @@ public class VictoryMessage : MonoBehaviour {
                 SaveLoadManager.SaveLevelData(saveMe);
             }
 
-            //Go to Level Select Screen in 3 seconds
-            Debug.Log("Moving to level select screen...");
-            Invoke("levelSelect",3);
+			//Go to Different if cases align
+			//Go to Level Select Screen in 3 seconds
+			if(sceneLevel == 3)
+			{
+				Debug.Log("Moving to level 3 transition...");
+				Invoke("transition34", 3);
+			}
+			else if(sceneLevel == 4)
+			{
+				Debug.Log("Moving to level 4 transition..");
+				Invoke("transition45", 3);
+			}
+			else
+			{
+				Debug.Log("Moving to level select screen...");
+				Invoke("levelSelect",3);
+			}
         }
         else
         {
@@ -70,4 +84,12 @@ public class VictoryMessage : MonoBehaviour {
     {
         SceneManager.LoadScene("Level_Select");
     }
+	void transition34()
+	{
+		SceneManager.LoadScene("Lvl3 to 4 transition");
+	}
+	void transition45()
+	{
+		SceneManager.LoadScene("Lvl4 to 5 transition");
+	}
 }

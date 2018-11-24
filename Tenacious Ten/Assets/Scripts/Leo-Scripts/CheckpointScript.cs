@@ -25,7 +25,7 @@ public class CheckpointScript : MonoBehaviour {
             currentSession.currentCheckpoint = gameObject;
             Debug.Log("New Checkpoint Reached");
             animator.SetBool("Checkpoint_Reached", true);
-            if(!reached)
+            if (!reached)
                 flagSound.Play();
             reached = true;
         }

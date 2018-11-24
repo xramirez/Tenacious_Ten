@@ -247,6 +247,7 @@ GameObject:
   - component: {fileID: 479850140}
   - component: {fileID: 479850142}
   - component: {fileID: 479850141}
+  - component: {fileID: 479850143}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -306,6 +307,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54eb42fc4264f8046b2c3442958efff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &479850143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 479850138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b14a34d04231346877d93a6d243f98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
+  checkPointPos: []
 --- !u!1 &486711021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,13 +1196,13 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1152092926}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 479850140}
-        m_MethodName: 
+      - m_Target: {fileID: 479850143}
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1340,6 +1354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61db4078955651a4f9f32b41f4504d6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentLevel: 0
   animatorGameObject: {fileID: 0}
 --- !u!1 &1329097014
 GameObject:

@@ -2018,6 +2018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  checkPointPos: []
 --- !u!4 &560958000 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4402705060797746, guid: 66c3db369c421004e92e30826365f54d,
@@ -3456,7 +3457,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 843193629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -78.809364, y: -7.923314, z: -10}
+  m_LocalPosition: {x: -79.042786, y: -7.923726, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7696,6 +7697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 306571098}
+  checkPointPos: []
 --- !u!1 &1537068908
 GameObject:
   m_ObjectHideFlags: 3
@@ -8292,6 +8294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+  checkPointPos: []
 --- !u!1 &1694748884
 GameObject:
   m_ObjectHideFlags: 0
@@ -8374,6 +8377,10 @@ Prefab:
       propertyPath: flagSound
       value: 
       objectReference: {fileID: 1224258303}
+    - target: {fileID: 1527057676439884, guid: 25da8024b2da343e6955105cd01f2e5e, type: 2}
+      propertyPath: m_TagString
+      value: Level1Checkpoint
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25da8024b2da343e6955105cd01f2e5e, type: 2}
   m_IsPrefabAsset: 0

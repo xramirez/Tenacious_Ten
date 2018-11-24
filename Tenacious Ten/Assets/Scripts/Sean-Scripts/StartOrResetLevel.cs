@@ -5,8 +5,8 @@ using UnityEngine;
 public class StartOrResetLevel : MonoBehaviour
 {
     private PlayerManager player;
-
     public bool StartFight, ResetFight;
+    public int counter;
 
     [SerializeField]
     AudioSource music;
@@ -14,6 +14,7 @@ public class StartOrResetLevel : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        counter = 0;
         StartFight = false;
         ResetFight = false;
     }
@@ -27,6 +28,7 @@ public class StartOrResetLevel : MonoBehaviour
         {
             music.Stop();
             ResetFight = true;
+            counter = 0;
             StartFight = false;
         }
 
@@ -36,7 +38,11 @@ public class StartOrResetLevel : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            music.Play();
+            if (counter <= 0)
+            {
+                counter++;
+                music.Play();
+            }
             StartFight = true;
         }
     }

@@ -49,17 +49,22 @@ public class Checkpoint : MonoBehaviour {
     public void LoadScene()
     {
         checkPointPos = SaveLoadCheckpoint.LoadLevelCheckPointData();
-        int SceneNum = (int)checkPointPos[3];
-        string SceneName = "Level_" + SceneNum + ".0";
+        int SceneNum;
+        string SceneName;
+
+        //Level 2.something cases
+        if(checkPointPos[3] > 2 && checkPointPos[3] < 3){
+            
+            SceneName = "Level_" + checkPointPos[3].ToString();
+        }
+        else{
+            SceneNum = (int)checkPointPos[3];
+            SceneName = "Level_" + SceneNum + ".0";
+        }
         Scene Dest = SceneManager.GetSceneByName(SceneName);
         SceneSwitch = true;
         SceneManager.LoadScene(SceneName);
     }
-    /*
-    public void DeleteSave()
-    {
-        SaveLoadCheckpoint.DeleteLevelCheckPointData();
-    }*/
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -70,7 +75,8 @@ public class Checkpoint : MonoBehaviour {
             checkPointPos[1] = levelManager.currentCheckpoint.transform.position.y;
             checkPointPos[2] = levelManager.currentCheckpoint.transform.position.z;
             string SceneNum = SceneManager.GetActiveScene().name.Remove(0, 6);
-            SceneNum = SceneNum.Remove(1,2);
+            if(float.Parse(SceneNum) > 2 && float.Parse(SceneNum) < 3){;} // Dont do nothin'
+            else{SceneNum = SceneNum.Remove(1,2);} // Do sumtin'
             Debug.Log("Current SceneNum is: " + SceneNum);
             checkPointPos[3] = float.Parse(SceneNum);
             Save();

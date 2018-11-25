@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4744444161358978}
   - component: {fileID: 114282682508214594}
+  - component: {fileID: 114759888683409864}
   m_Layer: 0
   m_Name: Elliptical Balls 1
   m_TagString: Untagged
@@ -218,6 +219,17 @@ MonoBehaviour:
   rightBall: 0
   leftBall: 1
   downBall: 0
+--- !u!114 &114759888683409864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1618193075357014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962dc45783566224ca3c17c698f7fea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114810145481667024
 MonoBehaviour:
   m_ObjectHideFlags: 1

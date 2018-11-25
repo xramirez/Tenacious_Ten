@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 58375728665477552}
   - component: {fileID: 114501386134986598}
   - component: {fileID: 114810717363334146}
+  - component: {fileID: 114025485120575650}
   m_Layer: 9
   m_Name: downshot test for MoveRIght
   m_TagString: Untagged
@@ -81,6 +82,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.2
+--- !u!114 &114025485120575650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1526150712401564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962dc45783566224ca3c17c698f7fea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114093307208697950
 MonoBehaviour:
   m_ObjectHideFlags: 1

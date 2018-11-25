@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 114156326972741716}
   - component: {fileID: 114592175265399946}
   - component: {fileID: 114921071277987428}
+  - component: {fileID: 114700865101730540}
   m_Layer: 12
   m_Name: P3 Moving Platform moveLeft
   m_TagString: Moving Platform Boss 4
@@ -150,6 +151,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d18157c997dfea743b77079c2b68e3e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114700865101730540
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1615214758049212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962dc45783566224ca3c17c698f7fea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114921071277987428

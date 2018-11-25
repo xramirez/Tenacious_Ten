@@ -6,6 +6,14 @@ using UnityEngine.SceneManagement;
 public class FourToFiveTrans : MonoBehaviour {
 
 
+    [SerializeField]
+    AudioSource warpSound;
+
+    [SerializeField]
+    AudioSource roarSound;
+
+    bool once = true;
+
     Animator anim;
     bool beamOut;
     bool PlayerOut;
@@ -39,6 +47,7 @@ public class FourToFiveTrans : MonoBehaviour {
             WaitTimeToSpoutPlayer -= Time.deltaTime;
             if (WaitTimeToSpoutPlayer <= 1 && !beamOut)
             {
+                roarSound.Play();
                 Instantiate(Beam, transform.GetChild(0).position, Quaternion.identity);
                 beamOut = true;
             }
@@ -46,6 +55,9 @@ public class FourToFiveTrans : MonoBehaviour {
             if(WaitTimeToSpoutPlayer <= 0 && !PlayerOut)
             {
                 PlayerOut = true;
+                if (once)
+                    warpSound.Play();
+                once = false;
                 Instantiate(Bunjiman, transform.GetChild(0).position, Quaternion.identity);
                 StartCoroutine(waitToEndScene(3.25f));
             }

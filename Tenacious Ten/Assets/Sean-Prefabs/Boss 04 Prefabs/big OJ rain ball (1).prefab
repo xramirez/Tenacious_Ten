@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114844127292180026}
   - component: {fileID: 58671123740338544}
   - component: {fileID: 114164160850159444}
+  - component: {fileID: 114809924961064856}
   m_Layer: 16
   m_Name: big OJ rain ball (1)
   m_TagString: Untagged
@@ -92,6 +93,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyTime: 4
+--- !u!114 &114809924961064856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1321835763879872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962dc45783566224ca3c17c698f7fea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114840892980006712
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -46,6 +46,8 @@ public class Phase4Puppet : MonoBehaviour {
 
     StartOrResetLevel SORL;
 
+    bool fightOver;
+
     // Use this for initialization
     void Start () {
 
@@ -72,6 +74,8 @@ public class Phase4Puppet : MonoBehaviour {
         BM = GameObject.FindObjectOfType<PuppetBossManager>();
 
         SORL = GameObject.FindObjectOfType<StartOrResetLevel>();
+
+        fightOver = false;
     }
 	
 	// Update is called once per frame
@@ -80,7 +84,9 @@ public class Phase4Puppet : MonoBehaviour {
         {
             BM = GameObject.FindObjectOfType<PuppetBossManager>();
         }
-		if(BM.hasMovedForPhase4)
+        
+
+		if(BM.hasMovedForPhase4 && !fightOver)
         {
             P4AbilityBuffer -= Time.deltaTime;
 
@@ -190,6 +196,11 @@ public class Phase4Puppet : MonoBehaviour {
 
             BigBallSpawnerLeft.localPosition = new Vector3(-10.95f, 8.07f, 0f);
             BigBallSpawnerRight.localPosition = new Vector3(10.95f, 8.07f, 0f);
+        }
+
+        if (BM.GetComponent<EnemyHealthManager>().enemyHealth <= 0)
+        {
+            fightOver = true;
         }
 
     }

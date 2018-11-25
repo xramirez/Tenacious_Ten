@@ -28,6 +28,7 @@ GameObject:
   - component: {fileID: 114773383049095926}
   - component: {fileID: 114777682471550320}
   - component: {fileID: 82914772078651498}
+  - component: {fileID: 114084724566103358}
   m_Layer: 16
   m_Name: rocket deploy cat
   m_TagString: Untagged
@@ -214,6 +215,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114084724566103358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1366626307827834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962dc45783566224ca3c17c698f7fea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114409865948239112
 MonoBehaviour:
   m_ObjectHideFlags: 1

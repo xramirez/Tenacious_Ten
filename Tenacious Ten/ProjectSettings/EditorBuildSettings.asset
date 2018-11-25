@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: a388502f26c384878aa02e2037718290
@@ -21,6 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_2.0.unity
     guid: 2e4f86e09d88d3f4dba0e0c92ca2d65f
   - enabled: 1
+    path: Assets/Scenes/level 2 scene 2.unity
+    guid: e56a19c630b12ed47b2589daa273c186
+  - enabled: 1
+    path: Assets/Scenes/level 2 scene 3.unity
+    guid: 5bb3115f9a16cd247afcee4de9b8c9fd
+  - enabled: 1
+    path: Assets/Scenes/level 2 scene 4.unity
+    guid: df077b4491eea754fbb65da5e48b0962
+  - enabled: 1
     path: Assets/Scenes/Boss Fight 02.unity
     guid: 860b152ff5ee69e4ab1fefd5f9c4e24d
   - enabled: 1
@@ -30,17 +36,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Boss Fight 03.unity
     guid: c881166933051f444a9012d6a8e94cbc
   - enabled: 1
+    path: Assets/Scenes/Lvl3 to 4 transition.unity
+    guid: f2aef3066e13abc43b02b63a75f39156
+  - enabled: 1
     path: Assets/Scenes/Level_4.0.unity
     guid: 85ddc2485c0e423428cbcdb55832a219
   - enabled: 1
     path: Assets/Scenes/Boss Fight 04.unity
     guid: 971691233692c61429ef21f1af060670
   - enabled: 1
+    path: Assets/Scenes/Lvl4 to 5 transition.unity
+    guid: 2c6c726995b4ef3429730c4044995899
+  - enabled: 1
     path: Assets/Scenes/Level_5.0.unity
     guid: 6576fd04edc964842a494eda0c27b838
-  - enabled: 1
-    path: Assets/Scenes/Boss Fight 05.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Level_Select.unity
     guid: 75540f9a37e1b9e4385cf11f2bc00a64

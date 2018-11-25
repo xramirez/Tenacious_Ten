@@ -65649,6 +65649,7 @@ GameObject:
   - component: {fileID: 585668949}
   - component: {fileID: 585668947}
   - component: {fileID: 585668948}
+  - component: {fileID: 585668953}
   m_Layer: 12
   m_Name: horizontal moving platform (1)
   m_TagString: Ground
@@ -66065,6 +66066,18 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &585668953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 585668945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94af138843c7a024fadf838b8ceb6f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!1 &602043766
 GameObject:
   m_ObjectHideFlags: 0
@@ -79684,6 +79697,7 @@ GameObject:
   - component: {fileID: 1336383118}
   - component: {fileID: 1336383120}
   - component: {fileID: 1336383117}
+  - component: {fileID: 1336383121}
   m_Layer: 12
   m_Name: horizontal moving platform
   m_TagString: Ground
@@ -80205,6 +80219,18 @@ MonoBehaviour:
   moveSpeed: 2
   distance: 3
   needToFlip: 0
+--- !u!114 &1336383121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1336383113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94af138843c7a024fadf838b8ceb6f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!1 &1365555758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1527057676439884, guid: 25da8024b2da343e6955105cd01f2e5e,

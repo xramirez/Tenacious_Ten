@@ -7363,7 +7363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e482d9aa90649e841a009efe3352f556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSpawn: {fileID: 198766825}
+  onSpawn: {fileID: 440416590}
   deathMenuUI: {fileID: 677000038}
 --- !u!1 &1712896574
 GameObject:

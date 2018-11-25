@@ -47,6 +47,15 @@ public class Boss03Manager : MonoBehaviour {
     public int EnterPhaseTwoHP;
     public int EnterPhaseThreeHP;
 
+    [SerializeField]
+    AudioSource whooshSound;
+
+    [SerializeField]
+    AudioSource ghostSound;
+
+    [SerializeField]
+    AudioSource clawSound;
+
     // Use this for initialization
     void Start () {
         //starting variables
@@ -152,6 +161,7 @@ public class Boss03Manager : MonoBehaviour {
             }
             else if(atPlayerLoc && !swingFinished && count <= 0)
             {
+                clawSound.Play();
                 SwingAttack();
             }
             else if(swingFinished)
@@ -192,6 +202,7 @@ public class Boss03Manager : MonoBehaviour {
             BatTimer -= Time.deltaTime;
             if(BatTimer <= 0)
             {
+                ghostSound.Play();
                 Instantiate(FlyingBat, BatSpawn.position, Quaternion.identity);
                 BatTimer = 3f;
             }

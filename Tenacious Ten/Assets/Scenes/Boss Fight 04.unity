@@ -7784,7 +7784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e482d9aa90649e841a009efe3352f556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSpawn: {fileID: 726324357}
+  onSpawn: {fileID: 610045124}
   deathMenuUI: {fileID: 1838819133}
 --- !u!82 &1993398030 stripped
 AudioSource:

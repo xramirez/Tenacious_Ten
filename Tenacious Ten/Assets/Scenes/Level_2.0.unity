@@ -868,7 +868,7 @@ Prefab:
         type: 2}
       propertyPath: flagSound
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 121462034}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25da8024b2da343e6955105cd01f2e5e, type: 2}
   m_IsPrefabAsset: 0
@@ -54087,6 +54087,7 @@ GameObject:
   - component: {fileID: 1067271145}
   - component: {fileID: 1067271149}
   - component: {fileID: 1067271148}
+  - component: {fileID: 1067271147}
   m_Layer: 12
   m_Name: ground
   m_TagString: Ground
@@ -59403,6 +59404,52 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!66 &1067271147
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1067271143}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths:
+  - m_Collider: {fileID: 1067271149}
+    m_ColliderPaths:
+    - - X: 510000000
+        Y: -20000000
+      - X: -230000000
+        Y: -20000000
+      - X: -230000000
+        Y: -90000000
+      - X: 510000000
+        Y: -90000000
+    - - X: 640000000
+        Y: -20000000
+      - X: 560000000
+        Y: -20000000
+      - X: 560000000
+        Y: -90000000
+      - X: 640000000
+        Y: -90000000
+  m_CompositePaths:
+    m_Paths:
+    - - {x: 51, y: -2}
+      - {x: -23, y: -2}
+      - {x: -23, y: -9}
+      - {x: 51, y: -9}
+    - - {x: 64, y: -2}
+      - {x: 56, y: -2}
+      - {x: 56, y: -9}
+      - {x: 64, y: -9}
+  m_VertexDistance: 0.0005
 --- !u!50 &1067271148
 Rigidbody2D:
   serializedVersion: 4
@@ -59434,7 +59481,7 @@ TilemapCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_UsedByComposite: 1
   m_Offset: {x: 0, y: 0}
 --- !u!1001 &1077128990
 Prefab:
@@ -61097,7 +61144,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1660822907}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.3505135, y: -0.9986088, z: -10}
+  m_LocalPosition: {x: -7.46319, y: -0.99947476, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -61825,7 +61872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e482d9aa90649e841a009efe3352f556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSpawn: {fileID: 0}
+  onSpawn: {fileID: 121462034}
   deathMenuUI: {fileID: 15500201}
 --- !u!114 &2002159350
 MonoBehaviour:

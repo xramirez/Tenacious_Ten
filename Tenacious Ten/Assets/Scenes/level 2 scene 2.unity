@@ -608,7 +608,7 @@ Prefab:
     - target: {fileID: 114485814219472412, guid: b98b46f4f04976e4d87667a7b6aef9b6,
         type: 2}
       propertyPath: speedX
-      value: 16
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 114485814219472412, guid: b98b46f4f04976e4d87667a7b6aef9b6,
         type: 2}
@@ -1634,7 +1634,7 @@ GameObject:
   - component: {fileID: 449145886}
   - component: {fileID: 449145888}
   - component: {fileID: 449145887}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3550,15 +3550,6 @@ Tilemap:
       m_TileFlags: 1
       m_ColliderType: 1
   - first: {x: 11, y: -7, z: 0}
-    second:
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: 12, y: -7, z: 0}
     second:
       m_TileIndex: 0
       m_TileSpriteIndex: 0
@@ -6322,15 +6313,6 @@ Tilemap:
       m_TileFlags: 1
       m_ColliderType: 1
   - first: {x: -7, y: -5, z: 0}
-    second:
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
-  - first: {x: -6, y: -5, z: 0}
     second:
       m_TileIndex: 0
       m_TileSpriteIndex: 0
@@ -65732,17 +65714,17 @@ Tilemap:
       m_ColliderType: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 7114
+  - m_RefCount: 7112
     m_Data: {fileID: 11400000, guid: ccb50f6381df68c478e56095e39d13b7, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileSpriteArray:
-  - m_RefCount: 7114
+  - m_RefCount: 7112
     m_Data: {fileID: 21300000, guid: b82771dd7fda6ce46b8fbf3811c5d373, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileMatrixArray:
-  - m_RefCount: 7114
+  - m_RefCount: 7112
     m_Data:
       e00: 1
       e01: 0
@@ -65761,7 +65743,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 7114
+  - m_RefCount: 7112
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -68899,7 +68881,7 @@ GameObject:
   - component: {fileID: 1083030852}
   - component: {fileID: 1083030851}
   - component: {fileID: 1083030850}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80409,7 +80391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e482d9aa90649e841a009efe3352f556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSpawn: {fileID: 0}
+  onSpawn: {fileID: 1896163319}
   deathMenuUI: {fileID: 2075815781}
 --- !u!114 &1196166887
 MonoBehaviour:
@@ -83158,7 +83140,7 @@ GameObject:
   - component: {fileID: 1851823993}
   - component: {fileID: 1851823996}
   - component: {fileID: 1851823995}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: hazards
   m_TagString: Untagged
   m_Icon: {fileID: 0}

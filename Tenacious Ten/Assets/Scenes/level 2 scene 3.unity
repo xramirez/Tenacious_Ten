@@ -76322,7 +76322,7 @@ Prefab:
     - target: {fileID: 114485814219472412, guid: b98b46f4f04976e4d87667a7b6aef9b6,
         type: 2}
       propertyPath: speedX
-      value: 16
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b98b46f4f04976e4d87667a7b6aef9b6, type: 2}
@@ -76546,7 +76546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80b14a34d04231346877d93a6d243f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelManager: {fileID: 0}
+  levelManager: {fileID: 1480134060}
   checkPointPos: []
   SceneSwitch1: {fileID: 0}
 --- !u!1001 &981012718
@@ -80048,7 +80048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e482d9aa90649e841a009efe3352f556, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onSpawn: {fileID: 0}
+  onSpawn: {fileID: 1973670529}
   deathMenuUI: {fileID: 1800529585}
 --- !u!114 &1986737962
 MonoBehaviour:

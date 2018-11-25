@@ -1079,7 +1079,7 @@ Prefab:
         type: 2}
       propertyPath: flagSound
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1648197560}
     - target: {fileID: 1527057676439884, guid: 25da8024b2da343e6955105cd01f2e5e, type: 2}
       propertyPath: m_TagString
       value: Level1Checkpoint

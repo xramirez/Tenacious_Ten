@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerTransition : MonoBehaviour {
 
@@ -9,6 +8,8 @@ public class PlayerTransition : MonoBehaviour {
     bool haveNotReachedChest;
     bool hasSwung;
     [SerializeField] float moveValue;
+
+    bool once = true;
 
     bool hasJumped = false;
     [SerializeField] float JumpForce;
@@ -21,8 +22,14 @@ public class PlayerTransition : MonoBehaviour {
 
     public bool PlayerInChest;
 
-	// Use this for initialization
-	void Start () {
+    [SerializeField]
+    AudioSource swingSound;
+
+    [SerializeField]
+    AudioSource warpSound;
+
+    // Use this for initialization
+    void Start () {
         anim = GetComponent<Animator>();
         haveNotReachedChest = true;
         hasSwung = false;
@@ -36,11 +43,6 @@ public class PlayerTransition : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (PlayerInChest)
-		{
-			Debug.Log("Moving to level 4...");
-			Invoke("goToScene4", 2);
-		}
 		if(haveNotReachedChest && !hasSwung)
         {
             transform.position = new Vector3(transform.position.x + moveValue, transform.position.y, 0f);
@@ -56,6 +58,9 @@ public class PlayerTransition : MonoBehaviour {
         }
         else if(hasSwung)
         {
+            if (once)
+                swingSound.Play();
+            once = false;
             StartCoroutine(waitForIdleAnim(0.25f));
         }
 
@@ -64,6 +69,7 @@ public class PlayerTransition : MonoBehaviour {
         {
             if(!hasJumped)
             {
+                warpSound.Play();
                 hasJumped = true;
                 rb.AddForce(new Vector2(rb.velocity.x, JumpForce));
             }
@@ -78,10 +84,6 @@ public class PlayerTransition : MonoBehaviour {
                 PlayerInChest = true;
 			}
         }
-	}
-	void goToScene4()
-	{
-		SceneManager.LoadScene("Level_4.0");
 	}
 	IEnumerator waitForSwingAnim(float time)
     {

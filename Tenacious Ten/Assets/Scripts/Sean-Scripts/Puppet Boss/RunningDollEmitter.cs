@@ -10,6 +10,9 @@ public class RunningDollEmitter : MonoBehaviour {
     public Transform RunningDollEmitLocation;
     PuppetBossManager BM;
 
+    [SerializeField]
+    AudioSource girlSpawn;
+
     StartOrResetLevel SORL;
 
 	// Use this for initialization
@@ -35,6 +38,7 @@ public class RunningDollEmitter : MonoBehaviour {
             if (SpawnDollAfterXSeconds <= 0)
             {
                 SpawnDollAfterXSeconds = spawnTime;
+                girlSpawn.Play();
                 Instantiate(RunningDoll, RunningDollEmitLocation.position, Quaternion.identity);
             }
         }

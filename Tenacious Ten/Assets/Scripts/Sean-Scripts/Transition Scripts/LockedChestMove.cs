@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LockedChestMove : MonoBehaviour {
 
@@ -52,11 +53,17 @@ public class LockedChestMove : MonoBehaviour {
         if(Player.PlayerInChest)
         {
             anim.SetInteger("State", 1);
-        }
+			Debug.Log("Moving to level 4...");
+			Invoke("goToScene4", 2);
+		}
         
 	}
+	void goToScene4()
+	{
+		SceneManager.LoadScene("Level_4.0");
+	}
 
-    void OnTriggerStay2D(Collider2D other)
+	void OnTriggerStay2D(Collider2D other)
     {
         if(other.tag == "Player")
         {

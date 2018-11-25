@@ -29,7 +29,7 @@ public class FlowerBullet : MonoBehaviour {
             Debug.Log("Player Hit");
             Destroy(gameObject);
         }
-        if(collision.gameObject.name.Equals("ground") || collision.gameObject.tag == "ground"){
+        if(collision.gameObject.name.Equals("ground") || collision.gameObject.tag == "Ground"){
             //Debug.Log("Hit the ground");
             Destroy(gameObject);
         }

@@ -65651,7 +65651,7 @@ GameObject:
   - component: {fileID: 585668948}
   m_Layer: 12
   m_Name: horizontal moving platform (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66505,7 +66505,7 @@ GameObject:
   - component: {fileID: 771607634}
   m_Layer: 0
   m_Name: platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66787,7 +66787,7 @@ GameObject:
   - component: {fileID: 958422305}
   m_Layer: 12
   m_Name: moving platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67660,7 +67660,7 @@ GameObject:
   - component: {fileID: 1083030850}
   m_Layer: 12
   m_Name: ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79686,7 +79686,7 @@ GameObject:
   - component: {fileID: 1336383117}
   m_Layer: 12
   m_Name: horizontal moving platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

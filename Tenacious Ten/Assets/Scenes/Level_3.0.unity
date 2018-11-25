@@ -1916,7 +1916,7 @@ GameObject:
   - component: {fileID: 289441590}
   m_Layer: 12
   m_Name: V-Moving Platform2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3311,7 +3311,7 @@ GameObject:
   - component: {fileID: 450660503}
   m_Layer: 12
   m_Name: V-Moving Platform4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6747,7 +6747,7 @@ GameObject:
   - component: {fileID: 750743619}
   m_Layer: 12
   m_Name: V-Moving Platform3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26145,7 +26145,7 @@ GameObject:
   - component: {fileID: 1578298836}
   m_Layer: 12
   m_Name: V-Moving Platform5
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27348,7 +27348,7 @@ GameObject:
   - component: {fileID: 1876605150}
   m_Layer: 12
   m_Name: V-Moving Platform8
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27777,7 +27777,7 @@ GameObject:
   - component: {fileID: 1970348872}
   m_Layer: 12
   m_Name: V-Moving Platform7
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31083,7 +31083,7 @@ GameObject:
   - component: {fileID: 1978582473}
   m_Layer: 12
   m_Name: V-Moving Platform6
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31555,9 +31555,10 @@ GameObject:
   - component: {fileID: 2008492499}
   - component: {fileID: 2008492502}
   - component: {fileID: 2008492501}
+  - component: {fileID: 2008492503}
   m_Layer: 12
   m_Name: H-Moving Platform1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31803,6 +31804,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2008492503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2008492495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94af138843c7a024fadf838b8ceb6f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!1 &2016326248
 GameObject:
   m_ObjectHideFlags: 0
@@ -32042,7 +32055,7 @@ GameObject:
   - component: {fileID: 2032771769}
   m_Layer: 12
   m_Name: V-Moving Platform1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

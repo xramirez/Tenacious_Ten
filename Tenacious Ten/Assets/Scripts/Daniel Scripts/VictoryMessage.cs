@@ -71,7 +71,11 @@ public class VictoryMessage : MonoBehaviour {
         {
             GetComponent<SpriteRenderer>().sortingOrder = -100;
         }
-        if (waiting.enemyHealth == 0)
+        if (GameObject.FindObjectOfType<EnemyHealthManager>() != null)
+        {
+            waiting = GameObject.FindObjectOfType<EnemyHealthManager>();
+        }
+        if (waiting.enemyHealth <= 0)
         {
             showmessage = true;
         }

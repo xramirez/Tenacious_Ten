@@ -59,6 +59,12 @@ public class NecromancerPhase1 : MonoBehaviour {
 
     BoxCollider2D BC;
 
+    [SerializeField]
+    AudioSource lightningSound;
+    [SerializeField]
+    AudioSource warpSound;
+
+
     // Use this for initialization
     void Start () {
         StartFight = false;
@@ -139,6 +145,7 @@ public class NecromancerPhase1 : MonoBehaviour {
             {
                 if(!SideLightningsOn) //Turn on lightning on the sides of room
                 {
+                    lightningSound.Play();
                     Instantiate(SideLightning, LeftSide.position, Quaternion.identity);
                     Instantiate(SideLightning, RightSide.position, Quaternion.identity);
                     SideLightningsOn = true;
@@ -155,12 +162,14 @@ public class NecromancerPhase1 : MonoBehaviour {
                     {
                         if (!NecroLightningOut)
                         {
+                            lightningSound.Play();
                             NecroLightningOut = true;
                             Instantiate(NecroLightning, transform.GetChild(0).position, Quaternion.identity);
                         }
                     }
                     if(p1AbilityTimer <= 0)
                     {
+                        lightningSound.Play();
                         CastLightning();
                     }
 
@@ -174,6 +183,7 @@ public class NecromancerPhase1 : MonoBehaviour {
                         SwordTimer -= Time.deltaTime;
                         if(SwordTimer <= 0)
                         {
+                            warpSound.Play();
                             FindRandomLocForFan();
                             SwordTimerSet = false;
                             Instantiate(FanOfSwords, FanSpawnLoc.position, Quaternion.identity);

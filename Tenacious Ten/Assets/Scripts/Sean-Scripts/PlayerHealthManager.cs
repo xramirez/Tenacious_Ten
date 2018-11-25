@@ -131,4 +131,5 @@ public class PlayerHealthManager : MonoBehaviour {
         return playerHealth;
     }
 
+    public static void SetHP(int x){ playerHealth = x; }
 }

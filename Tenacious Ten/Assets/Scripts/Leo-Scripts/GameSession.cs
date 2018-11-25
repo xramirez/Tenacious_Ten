@@ -29,6 +29,7 @@ public class GameSession : MonoBehaviour
         Debug.Log("Current Lives: " + playerLives);
     }
 
+
     public void RespawnPlayer(){
         print("Player Respawned");
         player.transform.position = currentCheckpoint.transform.position;

@@ -9,6 +9,7 @@ public class Checkpoint : MonoBehaviour {
     public float[] checkPointPos;
     public GameObject SceneSwitch1;
     public static bool SceneSwitch;
+    public static bool UpdateHealth = false;
 
     // Use this for initialization
     void Start()
@@ -24,18 +25,16 @@ public class Checkpoint : MonoBehaviour {
         {
             GameObject Player = GameObject.FindGameObjectWithTag("Player");
             checkPointPos = SaveLoadCheckpoint.LoadLevelCheckPointData();
-            Player.transform.position = new Vector3(checkPointPos[0], checkPointPos[1], checkPointPos[2]);
+            Player.transform.position = new Vector3(checkPointPos[0], checkPointPos[1]+3, checkPointPos[2]);
             SceneSwitch = false;
+            UpdateHealth = true;
+            Debug.Log("UpdateHealth is " + UpdateHealth);
         }
 
     }
 
-    // Update is called once per frame
-    void Update () {
-	}
-
+    public static void ChangeUpdateHealth() { UpdateHealth = false; }
     
-
     public void Save()
     {
         SaveLoadCheckpoint.SaveLevelCheckPointData(this);
@@ -79,8 +78,8 @@ public class Checkpoint : MonoBehaviour {
             else{SceneNum = SceneNum.Remove(1,2);} // Do sumtin'
             Debug.Log("Current SceneNum is: " + SceneNum);
             checkPointPos[3] = float.Parse(SceneNum);
-            GameObject Player = GameObject.FindGameObjectWithTag("Player");
-            checkPointPos[4] =
+            checkPointPos[4] = PlayerHealthManager.playerHealth;
+            Debug.Log("Checkpoint Script: HP when at checkpoint " + PlayerHealthManager.playerHealth);
             Save();
             Debug.Log("Checkpoint Saved at pos(" + checkPointPos[0] + ", " + checkPointPos[1] + ", " + checkPointPos[0] + ").");
         }

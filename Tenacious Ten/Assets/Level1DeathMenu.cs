@@ -44,6 +44,6 @@ public class Level1DeathMenu : MonoBehaviour
 	public void QuitGame()
 	{
 		Debug.Log("Quitting game");
-		Application.Quit();
+        SceneManager.LoadScene("MainMenu");
 	}
 }

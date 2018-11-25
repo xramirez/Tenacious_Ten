@@ -9,7 +9,7 @@ public class world5SceneSwitch : StateMachineBehaviour {
 	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
         //Go to name of scene. (You need to change the quotation parameter.)
         Debug.Log("Ive entered world5SceneSwitch");
-        string SceneName = "Level_5.0";
+        string SceneName = "Lvl4 to 5 transition";
 
         try
         {

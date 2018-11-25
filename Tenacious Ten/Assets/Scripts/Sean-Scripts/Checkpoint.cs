@@ -19,7 +19,7 @@ public class Checkpoint : MonoBehaviour {
 
     void Awake()
     {
-        checkPointPos = new float[4];
+        checkPointPos = new float[5];
         if (SceneSwitch)
         {
             GameObject Player = GameObject.FindGameObjectWithTag("Player");
@@ -79,6 +79,8 @@ public class Checkpoint : MonoBehaviour {
             else{SceneNum = SceneNum.Remove(1,2);} // Do sumtin'
             Debug.Log("Current SceneNum is: " + SceneNum);
             checkPointPos[3] = float.Parse(SceneNum);
+            GameObject Player = GameObject.FindGameObjectWithTag("Player");
+            checkPointPos[4] =
             Save();
             Debug.Log("Checkpoint Saved at pos(" + checkPointPos[0] + ", " + checkPointPos[1] + ", " + checkPointPos[0] + ").");
         }

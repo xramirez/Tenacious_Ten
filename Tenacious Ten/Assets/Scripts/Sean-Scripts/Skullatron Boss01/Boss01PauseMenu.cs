@@ -66,7 +66,7 @@ public class Boss01PauseMenu : MonoBehaviour
     public void QuitGame()
     {
         Debug.Log("Quitting game");
-        Application.Quit();
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void Restart()

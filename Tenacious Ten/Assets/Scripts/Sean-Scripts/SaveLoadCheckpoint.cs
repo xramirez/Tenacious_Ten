@@ -42,11 +42,13 @@ public class CheckpointData
     public float[] CheckpointPos;
     public CheckpointData(Checkpoint checkpointFile)
     {
-        CheckpointPos = new float[4];
+        CheckpointPos = new float[5];
         CheckpointPos[0] = checkpointFile.checkPointPos[0];
         CheckpointPos[1] = checkpointFile.checkPointPos[1];
         CheckpointPos[2] = checkpointFile.checkPointPos[2];
         //Scene Num
         CheckpointPos[3] = checkpointFile.checkPointPos[3];
+        //Current HP
+        CheckpointPos[4] = checkpointFile.checkPointPos[4];
     }
 }

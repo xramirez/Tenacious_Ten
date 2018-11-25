@@ -9,7 +9,7 @@ public class world4SceneSwitch : StateMachineBehaviour {
 	override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
         //Go to name of scene. (You need to change the quotation parameter.)
         Debug.Log("Ive entered world4SceneSwitch");
-        string SceneName = "Level_4.0";
+        string SceneName = "Lvl3 to 4 transition";
 
         try
         {
@@ -17,7 +17,7 @@ public class world4SceneSwitch : StateMachineBehaviour {
         }
         catch
         {
-            Debug.Log("world2SceneSwitch.cs cannot find the SceneName  \"" + SceneName + "\".");
+            Debug.Log("world4SceneSwitch.cs cannot find the SceneName  \"" + SceneName + "\".");
         }
     }
 }

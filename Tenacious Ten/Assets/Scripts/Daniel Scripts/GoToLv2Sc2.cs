@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GoToLv2Sc2 : MonoBehaviour
 {
-	string scenename = "level 2 scene 2";
+	string scenename = "Level_2.1";
 
 	void OnCollisionEnter2D(Collision2D collision)
 	{

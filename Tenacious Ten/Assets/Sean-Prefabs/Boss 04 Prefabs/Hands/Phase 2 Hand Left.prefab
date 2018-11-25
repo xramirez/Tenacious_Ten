@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 45
-  enemyHealth: 11
+  enemyHealth: 45
   deathEffect: {fileID: 1475021027580606, guid: 414212a9b02517844a3db7e9ed48f2eb,
     type: 2}
   LeftHandKilled: 0

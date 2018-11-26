@@ -57,6 +57,9 @@ public class Checkpoint : MonoBehaviour {
             SceneName = "Level_" + checkPointPos[3].ToString();
             Debug.Log("Scenename = \"" + SceneName + "\"");
         }
+        else if(checkPointPos[3] >= 10){
+
+        }
         else{
             SceneNum = (int)checkPointPos[3];
             SceneName = "Level_" + SceneNum + ".0";

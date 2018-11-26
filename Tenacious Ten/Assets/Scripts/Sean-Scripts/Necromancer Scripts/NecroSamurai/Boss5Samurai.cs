@@ -153,7 +153,7 @@ public class Boss5Samurai : MonoBehaviour {
             //{
              //   anim.SetInteger("State", 3);
             //}
-            else if(transform.position.y <= 0 && rb.velocity.y < 0)
+            else if(transform.position.y <= 0 && rb.velocity.y < 0 && shotOneAngled && shotTwoAngled)
             {
                 justJumped = false;
                 anim.SetInteger("State", 3);

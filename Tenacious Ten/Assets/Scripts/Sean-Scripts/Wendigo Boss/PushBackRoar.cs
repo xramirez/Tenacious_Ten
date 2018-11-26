@@ -49,7 +49,7 @@ public class PushBackRoar : MonoBehaviour {
             if (Input.GetKey(KeyCode.RightArrow))
             {
                 player.anim.SetInteger("State", 2);
-                player.speed = 3;
+                player.speed = 6;
                 //playerIsIdle = false;
             }
             //if (Input.GetKeyUp(KeyCode.RightArrow))
@@ -91,7 +91,7 @@ public class PushBackRoar : MonoBehaviour {
             else if (Input.GetKey(KeyCode.LeftArrow))
             {
                 player.anim.SetInteger("State", 2);
-                player.speed = -3;
+                player.speed = -6;
                 //playerIsIdle = false;
             }
             //if (Input.GetKeyUp(KeyCode.LeftArrow))

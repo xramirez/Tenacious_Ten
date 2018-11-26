@@ -65683,6 +65683,7 @@ GameObject:
   - component: {fileID: 2051896638}
   - component: {fileID: 2051896637}
   - component: {fileID: 2051896636}
+  - component: {fileID: 2051896639}
   m_Layer: 5
   m_Name: Resume Button
   m_TagString: Untagged
@@ -65795,6 +65796,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2051896634}
   m_CullTransparentMesh: 0
+--- !u!114 &2051896639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2051896634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d56463a65e23e14b858ebd9d55d8878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HUD: {fileID: 1045194276}
 --- !u!1 &2057182360
 GameObject:
   m_ObjectHideFlags: 0

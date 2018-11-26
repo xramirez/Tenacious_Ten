@@ -640,6 +640,7 @@ GameObject:
   - component: {fileID: 148379629}
   - component: {fileID: 148379628}
   - component: {fileID: 148379627}
+  - component: {fileID: 148379630}
   m_Layer: 5
   m_Name: Respawn Button
   m_TagString: Untagged
@@ -752,6 +753,18 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 148379625}
   m_CullTransparentMesh: 0
+--- !u!114 &148379630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 148379625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d56463a65e23e14b858ebd9d55d8878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HUD: {fileID: 1680501842}
 --- !u!1 &194875337
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,8 +1,10 @@
 fileFormatVersion: 2
-guid: d9ff2ba2178704c4bb279290c66e8644
+guid: 1d30d2313cddb1c45a7895f260dfaf65
 TextureImporter:
   fileIDToRecycleName:
-    21300000: toysoldier_dark 1_0
+    21300000: Skull black and white_0
+    21300002: Skull black and white_1
+    21300004: Skull black and white_2
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -85,21 +87,61 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: toysoldier_dark 1_0
+      name: Skull black and white_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 5
+        y: 1
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82a0fae9f56f1c241b510d0110be7d59
+      spriteID: ff70eb8f6b5befd48826b29dc11a69c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull black and white_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118931cb98436f44cbff6e4e60af9c03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skull black and white_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01480c5f5f44dc41951112d22bc1852
       vertices: []
       indices: 
       edges: []
@@ -107,7 +149,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8a95c4d74bd2a7f4a848a55adafb2799
+    spriteID: d7e4e2f8018fd1b428144ecd6cc46959
     vertices: []
     indices: 
     edges: []

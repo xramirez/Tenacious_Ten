@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 61086997820690948}
   - component: {fileID: 114485391023072636}
   - component: {fileID: 114475937816597758}
+  - component: {fileID: 114839211047273568}
   m_Layer: 16
   m_Name: phase 6 lightning 1
   m_TagString: Untagged
@@ -137,6 +138,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+--- !u!114 &114839211047273568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1562006566218388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746b194ce288d0e4f868b5f1bd448e45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212246683467230960
 SpriteRenderer:
   m_ObjectHideFlags: 1

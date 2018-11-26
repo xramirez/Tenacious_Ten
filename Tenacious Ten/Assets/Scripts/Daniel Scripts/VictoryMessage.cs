@@ -75,6 +75,10 @@ public class VictoryMessage : MonoBehaviour {
         {
             waiting = GameObject.FindObjectOfType<EnemyHealthManager>();
         }
+        if(GameObject.FindObjectOfType<NecromancerPhase6>() != null)
+        {
+            waiting = GameObject.FindObjectOfType<NecromancerPhase6>().GetComponent<EnemyHealthManager>();
+        }
         if (waiting.enemyHealth <= 0)
         {
             showmessage = true;

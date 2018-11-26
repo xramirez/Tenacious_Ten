@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4066250321488022}
   - component: {fileID: 114638250938369244}
   - component: {fileID: 114417098299319080}
+  - component: {fileID: 114830704808840608}
   m_Layer: 0
   m_Name: TL
   m_TagString: Untagged
@@ -250,6 +251,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+--- !u!114 &114830704808840608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1438612251726422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746b194ce288d0e4f868b5f1bd448e45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212521996009121976
 SpriteRenderer:
   m_ObjectHideFlags: 1

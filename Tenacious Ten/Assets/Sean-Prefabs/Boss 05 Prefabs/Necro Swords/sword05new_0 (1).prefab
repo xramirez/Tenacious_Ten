@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 60813364735827444}
   - component: {fileID: 114975965809392312}
   - component: {fileID: 114736299873042126}
+  - component: {fileID: 114817165161384512}
   m_Layer: 16
   m_Name: sword05new_0 (1)
   m_TagString: Untagged
@@ -171,6 +172,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyTime: 12
+--- !u!114 &114817165161384512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1488881956994004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746b194ce288d0e4f868b5f1bd448e45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114975965809392312
 MonoBehaviour:
   m_ObjectHideFlags: 1

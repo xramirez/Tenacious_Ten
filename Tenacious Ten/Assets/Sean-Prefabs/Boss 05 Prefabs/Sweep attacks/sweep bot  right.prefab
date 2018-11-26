@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114370532011872680}
   - component: {fileID: 114238867713139372}
   - component: {fileID: 60326783819186472}
+  - component: {fileID: 114642681908134350}
   m_Layer: 0
   m_Name: sweep bot  right
   m_TagString: Untagged
@@ -155,6 +156,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+--- !u!114 &114642681908134350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1177791755839996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746b194ce288d0e4f868b5f1bd448e45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212821838782339092
 SpriteRenderer:
   m_ObjectHideFlags: 1

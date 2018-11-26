@@ -27,7 +27,7 @@ public class EnemyHealthManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //sr.color = new Color(1, 1, 1, 1);
         if (enemyHealth <= 0)

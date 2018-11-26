@@ -36,6 +36,7 @@ GameObject:
   - component: {fileID: 4765260729352414}
   - component: {fileID: 114305712352086250}
   - component: {fileID: 114758513608027380}
+  - component: {fileID: 114884311972458272}
   m_Layer: 0
   m_Name: TrackingSwordEmitter
   m_TagString: Untagged
@@ -249,5 +250,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a70c309357c8bc049b1225bbf93972f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114884311972458272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1061577213244694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746b194ce288d0e4f868b5f1bd448e45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

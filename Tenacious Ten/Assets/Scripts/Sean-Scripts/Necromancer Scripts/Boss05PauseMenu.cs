@@ -75,6 +75,7 @@ public class Boss05PauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
+        Time.timeScale = 1f;
         Debug.Log("Quitting game");
         SceneManager.LoadScene("MainMenu");
     }

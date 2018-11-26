@@ -46,7 +46,10 @@ public class VictoryMessage : MonoBehaviour {
                 Debug.Log("Saving current level to be to: " + loadLevel);
                 SaveFile saveMe = new SaveFile();
                 if(sceneLevel != 5)
-                saveMe.currentLevel = loadLevel + 1;
+                {
+                    saveMe.currentLevel = loadLevel + 1;
+                }
+                saveMe.currentVolume = SaveLoadManager.LoadVolumeData();
                 SaveLoadManager.SaveLevelData(saveMe);
             }
 
@@ -54,18 +57,18 @@ public class VictoryMessage : MonoBehaviour {
 			//Go to Level Select Screen in 3 seconds
 			if(sceneLevel == 3)
 			{
-				Debug.Log("Moving to level 3 transition...");
+				Debug.Log("Moving to level 3->4 transition...");
 				Invoke("transition34", 3);
 			}
 			else if(sceneLevel == 4)
 			{
-				Debug.Log("Moving to level 4 transition..");
+				Debug.Log("Moving to level 4->5 transition..");
 				Invoke("transition45", 3);
 			}
 			else
 			{
 				Debug.Log("Moving to level select screen...");
-				Invoke("levelSelect",3);
+				Invoke("levelSelect", 3);
 			}
         }
         else

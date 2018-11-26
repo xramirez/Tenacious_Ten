@@ -19,11 +19,6 @@ public class SaveFile : MonoBehaviour
         {
             changeLevelConditions(currentLevel);
         }
-        else
-        {
-            currentLevel = 1;
-            currentVolume = 1;
-        }
     }
     public void VolumeLevelSave(int x)
     {
@@ -80,7 +75,7 @@ public class SaveFile : MonoBehaviour
 
     public void levelUp()
     {
-        if(currentLevel <= 5)
+        if(currentLevel <= 4)
         {
             currentLevel++;
             changeLevelConditions(currentLevel);

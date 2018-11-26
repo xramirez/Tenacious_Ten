@@ -2418,6 +2418,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HUD: {fileID: 872369255}
+  spacebar: 0
+  available: 0
+  once: 0
 --- !u!1 &701811980
 GameObject:
   m_ObjectHideFlags: 0
@@ -6628,7 +6631,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BoomerangSpawn: {fileID: 1421281586}
-  MeatBoomerang: {fileID: 1703231008011604, guid: 5ede97f4ee1daef47910eaba9a6bafdd,
+  MeatBoomerang: {fileID: 1379428188468706, guid: 810365da29947e84babe9499eea8f2f3,
     type: 2}
   pushBackTimer: 7
   isPushingBack: 0

@@ -58,17 +58,6 @@ public class Boss01PauseMenu : MonoBehaviour
         }
     }
 
-    public void ContinueResume()
-    {
-        Debug.Log("Resuming game");
-        pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        GameIsPaused = false;
-        float[] checkPointPos = new float[5];
-        checkPointPos = SaveLoadCheckpoint.LoadLevelCheckPointData();
-        PlayerHealthManager.SetHP((int)SaveLoadCheckpoint.LoadLevelCheckPointData()[4]);
-    }
-
     void Pause()
     {
         pauseMenuUI.SetActive(true);

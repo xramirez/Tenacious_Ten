@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Checkpoint : MonoBehaviour {
-
     public LevelManager levelManager;
     public float[] checkPointPos;
     public GameObject SceneSwitch1;
@@ -55,11 +54,17 @@ public class Checkpoint : MonoBehaviour {
         if(checkPointPos[3] > 2 && checkPointPos[3] < 3){
             
             SceneName = "Level_" + checkPointPos[3].ToString();
-            Debug.Log("Scenename = \"" + SceneName + "\"");
+            Debug.Log("Level Transition = \"" + SceneName + "\"");
+        }
+        else if (checkPointPos[3] >= 10)
+        {
+            SceneName = "Boss Fight 0" + checkPointPos[3].ToString().Remove(1,1);
+            Debug.Log("Boss Fight = \"" + SceneName + "\"");
         }
         else{
             SceneNum = (int)checkPointPos[3];
             SceneName = "Level_" + SceneNum + ".0";
+            Debug.Log("Level Transition = \"" + SceneName + "\"");
         }
         Scene Dest = SceneManager.GetSceneByName(SceneName);
         SceneSwitch = true;
@@ -74,15 +79,31 @@ public class Checkpoint : MonoBehaviour {
             checkPointPos[0] = levelManager.currentCheckpoint.transform.position.x;
             checkPointPos[1] = levelManager.currentCheckpoint.transform.position.y;
             checkPointPos[2] = levelManager.currentCheckpoint.transform.position.z;
-            string SceneNum = SceneManager.GetActiveScene().name.Remove(0, 6);
-            if(float.Parse(SceneNum) > 2 && float.Parse(SceneNum) < 3){;} // Dont do nothin'
-            else{SceneNum = SceneNum.Remove(1,2);} // Do sumtin'
-            Debug.Log("Current SceneNum is: " + SceneNum);
-            checkPointPos[3] = float.Parse(SceneNum);
-            checkPointPos[4] = PlayerHealthManager.playerHealth;
-            Debug.Log("Checkpoint Script: HP when at checkpoint " + PlayerHealthManager.playerHealth);
-            Save();
-            Debug.Log("Checkpoint Saved at pos(" + checkPointPos[0] + ", " + checkPointPos[1] + ", " + checkPointPos[0] + ").");
+            //Boss Fight 05
+            if(SceneManager.GetActiveScene().name.Contains("Boss Fight"))
+            {
+                string SceneNum = SceneManager.GetActiveScene().name.Remove(0, 12) + "0";
+                Debug.Log("Current SceneNum is: \"" + SceneNum + "\"");
+                checkPointPos[3] = float.Parse(SceneNum);
+                checkPointPos[4] = PlayerHealthManager.playerHealth;
+                Save();
+                Debug.Log("Checkpoint Script: HP when at checkpoint " + PlayerHealthManager.playerHealth);
+                Debug.Log("Checkpoint Saved at pos(" + checkPointPos[0] + ", " + checkPointPos[1] + ", " + checkPointPos[0] + ").");
+            }
+            //Level
+            else
+            {
+                string SceneNum = SceneManager.GetActiveScene().name.Remove(0, 6);
+                if (float.Parse(SceneNum) > 2 && float.Parse(SceneNum) < 3) {; } // Dont do nothin'
+                else { SceneNum = SceneNum.Remove(1, 2); } // Do sumtin'
+                Debug.Log("Current SceneNum is: " + SceneNum);
+                checkPointPos[3] = float.Parse(SceneNum);
+                checkPointPos[4] = PlayerHealthManager.playerHealth;
+                Debug.Log("Checkpoint Script: HP when at checkpoint " + PlayerHealthManager.playerHealth);
+                Save();
+                Debug.Log("Checkpoint Saved at pos(" + checkPointPos[0] + ", " + checkPointPos[1] + ", " + checkPointPos[0] + ").");
+            }
+
         }
     }
 }

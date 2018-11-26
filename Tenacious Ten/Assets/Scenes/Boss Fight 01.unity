@@ -414,6 +414,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &48604666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 48604663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f162f9301fbd9bc45a45d5b1ffb5d734, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Checkpoint: {fileID: 0}
+  checkPointPos: []
 --- !u!1 &109965504
 GameObject:
   m_ObjectHideFlags: 0
@@ -5126,11 +5139,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4488179150566480, guid: 26f5acdc76a599345b216b66b4b94e46, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -25.655
+      value: -29.89
       objectReference: {fileID: 0}
     - target: {fileID: 4488179150566480, guid: 26f5acdc76a599345b216b66b4b94e46, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3.55
+      value: 3.62
       objectReference: {fileID: 0}
     - target: {fileID: 4488179150566480, guid: 26f5acdc76a599345b216b66b4b94e46, type: 2}
       propertyPath: m_LocalPosition.z

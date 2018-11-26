@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GotoLevel1BossScene : MonoBehaviour
 {
-	string scenename = "Boss Fight 01";
+    string scenename = "Boss Fight 01";
 
 	void OnCollisionEnter2D(Collision2D collision)
 	{

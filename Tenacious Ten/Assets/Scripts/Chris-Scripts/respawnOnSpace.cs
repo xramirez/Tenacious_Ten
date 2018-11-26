@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class respawnOnSpace : MonoBehaviour {
     public GameObject HUD;
@@ -12,7 +13,14 @@ public class respawnOnSpace : MonoBehaviour {
     {
         if (Input.GetKeyDown("space"))
         {
-            HUD.GetComponent<Level1DeathMenu>().Respawn();
+            //if (SceneManager.GetActiveScene().name.Contains("Level"))
+            //{
+                HUD.GetComponent<Level1DeathMenu>().Respawn();
+            //}
+            //else if(SceneManager.GetActiveScene().name.Contains("Boss Fight"))
+            //{
+                //HUD.GetComponent<Level1DeathMenu>().Respawn();
+            //}
         }
     }
 }

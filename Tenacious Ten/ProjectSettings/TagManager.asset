@@ -28,6 +28,7 @@ TagManager:
   - World4_boss
   - World5_boss
   - Level1Checkpoint
+  - SaveFile
   layers:
   - Default
   - TransparentFX

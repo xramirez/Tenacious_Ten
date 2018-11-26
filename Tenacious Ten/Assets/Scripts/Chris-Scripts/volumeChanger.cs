@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class volumeChanger : MonoBehaviour {
     public GameObject find;
     private Slider sliderVolume;
+
     void Start()
     {
         find = GameObject.Find("VolumeSlider");

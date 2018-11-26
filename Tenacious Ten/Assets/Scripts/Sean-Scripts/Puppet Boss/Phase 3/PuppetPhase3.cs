@@ -37,7 +37,25 @@ public class PuppetPhase3 : MonoBehaviour {
     private float StartTimeBetweenAerials;
 
     StartOrResetLevel SORL;
-    
+
+    [SerializeField]
+    AudioSource ballBounce;
+
+    [SerializeField]
+    AudioSource planeSpawn;
+
+    [SerializeField]
+    AudioSource ballSpawn;
+
+    [SerializeField]
+    AudioSource rocketSpawn;
+
+    [SerializeField]
+    AudioSource upSpawn;
+
+    [SerializeField]
+    AudioSource downSpawn;
+
 
     // Use this for initialization
     void Start () {
@@ -198,6 +216,7 @@ public class PuppetPhase3 : MonoBehaviour {
             if (ChoosePlatform == 0 && UpPlatformCounter < 2)
             {
                 DownPlatformCounter = 0;
+                upSpawn.Play(); // Sound
                 Instantiate(UpPlatform, PlatformSpawnLoc.position, Quaternion.identity);
                 PlatformChosen = false;
                 //PlatformToSpawn = UpPlatform;
@@ -209,6 +228,7 @@ public class PuppetPhase3 : MonoBehaviour {
             if (ChoosePlatform == 1 && DownPlatformCounter < 2)
             {
                 UpPlatformCounter = 0;
+                downSpawn.Play(); // Sound
                 Instantiate(DownPlatform, PlatformSpawnLoc.position, Quaternion.identity);
                 //PlatformToSpawn = DownPlatform;
                 DownPlatformCounter++;
@@ -235,16 +255,19 @@ public class PuppetPhase3 : MonoBehaviour {
 
     void SpawnAirplane()
     {
+        planeSpawn.Play(); // Sound
         Instantiate(Airplane, AerialSpawner.position, Quaternion.identity);
     }
 
     void SpawnRocketship()
     {
+        rocketSpawn.Play(); // Sound
         Instantiate(Rocketship, AerialSpawner.position, Quaternion.identity);
     }
 
     IEnumerator waitBouncyBalls(float time)
     {
+        ballSpawn.Play(); // Sound
         yield return new WaitForSeconds(time);
         AbilityFinished = true;
         P3abilitySwitch = 0;

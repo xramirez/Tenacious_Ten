@@ -48,6 +48,15 @@ public class Phase4Puppet : MonoBehaviour {
 
     bool fightOver;
 
+    [SerializeField]
+    AudioSource catVroom;
+
+    [SerializeField]
+    AudioSource downSpawn;
+
+    [SerializeField]
+    AudioSource ballSpawn;
+
     // Use this for initialization
     void Start () {
 
@@ -93,6 +102,7 @@ public class Phase4Puppet : MonoBehaviour {
             catSpawnTimer -= Time.deltaTime;
             if(catSpawnTimer <= 0)
             {
+                catVroom.Play(); // Sound
                 Instantiate(CatDeploy, CatSpawn.position, Quaternion.identity);
                 catSpawnTimer = initCatSpawnTimer;
             }
@@ -216,11 +226,13 @@ public class Phase4Puppet : MonoBehaviour {
         {
             if(platformRandomizer == 0)
             {
+                downSpawn.Play(); // Sound
                 Instantiate(PlatformMoveLeft, PlatformLocUpperR.position, Quaternion.identity);
                 Instantiate(PlatformMoveRight, PlatformLocLowerL.position, Quaternion.identity);
             }
             else if(platformRandomizer == 1)
             {
+                downSpawn.Play(); // Sound
                 Instantiate(PlatformMoveLeft, PlatformLocLowerR.position, Quaternion.identity);
                 Instantiate(PlatformMoveRight, PlatformLocUpperL.position, Quaternion.identity);
             }
@@ -259,12 +271,14 @@ public class Phase4Puppet : MonoBehaviour {
 
         if(ballDirRandomizer == 0)
         {
+            ballSpawn.Play(); // Sound
             Instantiate(BigBall, BigBallSpawnerLeft.position, Quaternion.identity);
             temp.x = temp.x +  2.5f;
         }
 
         else if(ballDirRandomizer == 1)
         {
+            ballSpawn.Play(); // Sound
             Instantiate(BigBall, BigBallSpawnerRight.position, Quaternion.identity);
             temp2.x = temp2.x - 2.5f;
         }

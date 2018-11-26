@@ -103,6 +103,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0
+  destroyEffect: {fileID: 1558521494141850, guid: 1b96aba8087b573419aab9740ca93afd,
+    type: 2}
 --- !u!212 &212022855736213982
 SpriteRenderer:
   m_ObjectHideFlags: 1

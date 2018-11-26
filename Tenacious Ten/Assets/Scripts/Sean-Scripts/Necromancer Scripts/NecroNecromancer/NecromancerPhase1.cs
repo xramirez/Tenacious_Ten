@@ -169,7 +169,7 @@ public class NecromancerPhase1 : MonoBehaviour {
                     }
                     if(p1AbilityTimer <= 0)
                     {
-                        lightningSound.Play();
+                        //lightningSound.Play();
                         CastLightning();
                     }
 
@@ -293,6 +293,7 @@ public class NecromancerPhase1 : MonoBehaviour {
                 }
                 if(LightningBufferTimer <= 0)
                 {
+                    lightningSound.Play();
                     LightningBufferTimer = initBufferTimer;
                     Instantiate(CastedLightning, CastedLightningPos.position, Quaternion.identity);
                     Instantiate(ShadowGuyLeft, playerLocOnCast.position, Quaternion.identity);

@@ -3407,11 +3407,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4453617425927266, guid: b98b46f4f04976e4d87667a7b6aef9b6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 55.47
+      value: -13.3
       objectReference: {fileID: 0}
     - target: {fileID: 4453617425927266, guid: b98b46f4f04976e4d87667a7b6aef9b6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 23.14
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4453617425927266, guid: b98b46f4f04976e4d87667a7b6aef9b6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -7721,8 +7721,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2907852368238348b8134ffb8bc512d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RandomTimeL: 0.05
-  RandomTimeR: 0.09
+  RandomTimeL: 0.07
+  RandomTimeR: 0.12
   AshFall: {fileID: 1853182467637830, guid: c2574d11bccd78a4f90ea0c2891f775d, type: 2}
   ashFlipInAir: 1
 --- !u!4 &1056927290
@@ -9857,7 +9857,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1423286451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 55.47, y: 23.14, z: -10}
+  m_LocalPosition: {x: -5.415596, y: -0.28019923, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12584,7 +12584,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1844112062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 55.47, y: 23.14, z: -10}
+  m_LocalPosition: {x: -13.3, y: -0.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1298701811}

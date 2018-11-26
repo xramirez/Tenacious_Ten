@@ -29,7 +29,7 @@ public class AshFallLevelFive : MonoBehaviour
         playerLocX = Player.transform.position.x;
         Debug.Log(playerLocX);
         playerLocY = Player.transform.position.y;
-        transform.position = new Vector3(Random.Range(playerLocX - 15f, playerLocX + 23f), playerLocY + 7f, 0f);
+        transform.position = new Vector3(Random.Range(playerLocX - 14f, playerLocX + 20f), playerLocY + 7f, 0f);
         //transform.position = new Vector3(transform.position.x, Random.Range(-10.4f, 10.4f), 0f);
 
         if (!emitTimeSet)

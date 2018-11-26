@@ -29,6 +29,7 @@ TagManager:
   - World5_boss
   - Level1Checkpoint
   - SaveFile
+  - PauseMenu
   layers:
   - Default
   - TransparentFX

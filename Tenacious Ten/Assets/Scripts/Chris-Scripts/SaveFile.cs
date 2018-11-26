@@ -13,6 +13,7 @@ public class SaveFile : MonoBehaviour
     
     void Awake()
     {
+        AudioListener.volume = SaveLoadManager.LoadVolumeData();
         currentLevel = SaveLoadManager.LoadLevelData();
         if(currentLevel != 1)
         {

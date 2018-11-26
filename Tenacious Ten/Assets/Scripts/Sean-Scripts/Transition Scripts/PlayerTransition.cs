@@ -42,7 +42,7 @@ public class PlayerTransition : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		if(haveNotReachedChest && !hasSwung)
         {
             transform.position = new Vector3(transform.position.x + moveValue, transform.position.y, 0f);

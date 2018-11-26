@@ -37,7 +37,7 @@ public class FourToFiveTrans : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         
         StartCoroutine(waitUnlockChest(1.5f));
 

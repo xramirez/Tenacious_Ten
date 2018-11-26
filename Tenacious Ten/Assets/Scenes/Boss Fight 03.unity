@@ -2418,6 +2418,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HUD: {fileID: 872369255}
+  spacebar: 0
+  available: 0
+  once: 0
 --- !u!1 &701811980
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,7 +2556,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128

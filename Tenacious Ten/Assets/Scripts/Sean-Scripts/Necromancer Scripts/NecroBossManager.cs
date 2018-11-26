@@ -43,6 +43,9 @@ public class NecroBossManager : MonoBehaviour {
 
     int[] Randomizer = new int[9];
 
+    [SerializeField] AudioSource spawnSound;
+    [SerializeField] AudioSource deathSound;
+
     // Use this for initialization
     void Start () {
         Phase1Activated = false;
@@ -216,6 +219,7 @@ public class NecroBossManager : MonoBehaviour {
                     {
                         if (FairyMove.FirstDeath)
                         {
+                            deathSound.Play(); // Sound
                             FairyIsDead = true;
                             FairyMove.FirstDeath = false;
                             MiniBossChosen = false;
@@ -230,6 +234,7 @@ public class NecroBossManager : MonoBehaviour {
                     {
                         if (DamienAttack.FirstDeath)
                         {
+                            deathSound.Play(); // Sound
                             DamienIsDead = true;
                             DamienAttack.FirstDeath = false;
                             MiniBossChosen = false;
@@ -244,6 +249,7 @@ public class NecroBossManager : MonoBehaviour {
                     {
                         if (Boss5Samurai.FirstDeath)
                         {
+                            deathSound.Play(); // Sound
                             LiquidBoiIsDead = true;
                             Boss5Samurai.FirstDeath = false;
                             MiniBossChosen = false;
@@ -317,6 +323,7 @@ public class NecroBossManager : MonoBehaviour {
         yield return new WaitForSeconds(time);
         if(Phase2Activated)
         {
+            spawnSound.Play(); // Sound
             Instantiate(DamienObject, DamienSpawn.position, Quaternion.identity);
         }
     }
@@ -326,6 +333,7 @@ public class NecroBossManager : MonoBehaviour {
         yield return new WaitForSeconds(time);
         if(Phase2Activated)
         {
+            spawnSound.Play(); // Sound
             Instantiate(FairyObject, FairySpawn.position, Quaternion.identity);
         }
     }
@@ -335,12 +343,14 @@ public class NecroBossManager : MonoBehaviour {
         yield return new WaitForSeconds(time);
         if(Phase2Activated)
         {
+            spawnSound.Play(); // Sound
             Instantiate(LiquidBoiObject, LiquidSpawn.position, Quaternion.identity);
         }
     }
 
     IEnumerator SummonNecromancerPhase6(float time)
     {
+        spawnSound.Play(); // Sound
         yield return new WaitForSeconds(time);
         Instantiate(NecromancerPhase6, NecromancerPhase5Loc.position, Quaternion.identity);
     }

@@ -251,6 +251,12 @@ MonoBehaviour:
   FirstTimeAlive: 1
   destroyAtThisHP: 30
   FirstDeath: 0
+  damien_shoot: {fileID: 82400851203816890, guid: b66e7fad8ab1fc348822dcef97561657,
+    type: 2}
+  damien_spawn: {fileID: 82109735830320204, guid: 2c50cef6ec1606e46b2b9037c7f3260c,
+    type: 2}
+  damien_hurt: {fileID: 82045203872469592, guid: ca6b8cff252332e4d8a888c3673e5398,
+    type: 2}
 --- !u!114 &114285150022128502
 MonoBehaviour:
   m_ObjectHideFlags: 1

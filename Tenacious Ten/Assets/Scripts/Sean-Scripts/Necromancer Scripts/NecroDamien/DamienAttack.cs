@@ -33,6 +33,14 @@ public class DamienAttack : MonoBehaviour {
     SpriteRenderer sr;
     float fadeInc;
 
+    [SerializeField]
+    AudioSource damien_shoot;
+    [SerializeField]
+    AudioSource damien_spawn;
+    [SerializeField]
+    AudioSource damien_hurt;
+
+
     // Use this for initialization
     void Start () {
         anim = GetComponent<Animator>();
@@ -114,6 +122,7 @@ public class DamienAttack : MonoBehaviour {
             {
                 if(!RotatingSkullIsOut)
                 {
+                    damien_spawn.Play(); // Sound
                     Instantiate(RotatingSkull, skullSpawnLoc.position, Quaternion.identity);
                     RotatingSkullIsOut = true;
                     anim.SetInteger("State", 0);
@@ -128,6 +137,7 @@ public class DamienAttack : MonoBehaviour {
                         {
                             if(!fanAttackSent)
                             {
+                                damien_shoot.Play();
                                 Instantiate(FanAttack, FanAtkLoc.position, Quaternion.identity);
                                 fanAttackSent = true;
                             }

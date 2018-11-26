@@ -320,6 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
   checkPointPos: []
+  SceneSwitch1: {fileID: 0}
 --- !u!1 &486711021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1355,7 +1356,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentLevel: 0
+  currentVolume: 0
   animatorGameObject: {fileID: 0}
+  slider: {fileID: 0}
 --- !u!1 &1329097014
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,6 +1368,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1329097016}
   - component: {fileID: 1329097015}
+  - component: {fileID: 1329097018}
+  - component: {fileID: 1329097017}
   m_Layer: 0
   m_Name: main_menu3
   m_TagString: Untagged
@@ -1431,6 +1436,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1329097017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1329097014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f52fdd3dabc8948b81de6abf83d40a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1329097018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1329097014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775c96072bb000444b704563a4c12744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1373806503
 GameObject:
   m_ObjectHideFlags: 0

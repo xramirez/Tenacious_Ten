@@ -50,14 +50,6 @@ public class Boss05PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
-        if (Checkpoint.UpdateHealth)
-        {
-            PlayerHealthManager.SetHP((int)SaveLoadCheckpoint.LoadLevelCheckPointData()[4]);
-            Debug.Log("Continue Button Exception: Start with " + (int)SaveLoadCheckpoint.LoadLevelCheckPointData()[4] + " lives");
-            //Change Update Health back to false
-            Checkpoint.ChangeUpdateHealth();
-            Debug.Log("Continue Button Exception: UpdateHealth is " + Checkpoint.UpdateHealth);
-        }
     }
 
     void Pause()
@@ -76,7 +68,7 @@ public class Boss05PauseMenu : MonoBehaviour
     public void QuitGame()
     {
         Debug.Log("Quitting game");
-        SceneManager.LoadScene("MainMenu");
+        Application.Quit();
     }
 
     public void Restart()

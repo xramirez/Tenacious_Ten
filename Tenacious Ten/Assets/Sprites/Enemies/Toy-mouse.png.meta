@@ -1,9 +1,11 @@
 fileFormatVersion: 2
-guid: 0e9ca070dc8c53a4d8ad98835ec8f2de
+guid: 8f20d041f8b462347ba3d9edb5cdcb8e
 TextureImporter:
   fileIDToRecycleName:
-    21300000: toyplane_0
-    21300002: toyplane_1
+    21300000: Sprite-0011_0
+    21300002: Sprite-0011_1
+    21300004: Toy-mouse_0
+    21300006: Toy-mouse_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -86,12 +88,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: toyplane_0
+      name: Toy-mouse_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 16
+        width: 15
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -100,18 +102,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2aaba25a3a3ad5a41abce4c5ce753f1a
+      spriteID: 8990044d4f5572845a54bcd71b343294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: toyplane_1
+      name: Toy-mouse_1
       rect:
         serializedVersion: 2
         x: 16
         y: 0
-        width: 16
+        width: 15
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -120,7 +122,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8b8460e5c3ec054c8a0b9e54def11a3
+      spriteID: 2e176e1c3c661be4282981892f186c97
       vertices: []
       indices: 
       edges: []
@@ -128,7 +130,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: fb6658b815e701248b2becdaa0415fbe
+    spriteID: 696d7b6e051942f4daf9cbae49b50cb8
     vertices: []
     indices: 
     edges: []

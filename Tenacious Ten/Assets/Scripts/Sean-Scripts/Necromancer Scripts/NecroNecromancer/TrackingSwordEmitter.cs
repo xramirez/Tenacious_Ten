@@ -17,6 +17,8 @@ public class TrackingSwordEmitter : MonoBehaviour {
     int locationChoice;
 
     int swordCounter;
+    
+    [SerializeField] AudioSource PhaseInSwordSound;
 
     // Use this for initialization
     void Start () {
@@ -57,6 +59,7 @@ public class TrackingSwordEmitter : MonoBehaviour {
             {
                 Instantiate(TrackingSword06, transform.GetChild(5).position, Quaternion.identity);
             }
+            PhaseInSwordSound.Play();
 
         }
 

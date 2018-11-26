@@ -12,6 +12,8 @@ public class NecroSweepAttack : MonoBehaviour {
 
     int blinkIncrement;
 
+    [SerializeField] AudioSource SweepAttackSound;
+
 	// Use this for initialization
 	void Start () {
         sr = GetComponent<SpriteRenderer>();
@@ -41,6 +43,7 @@ public class NecroSweepAttack : MonoBehaviour {
         if(blinkIncrement >= 2)
         {
             PC.enabled = true;
+            SweepAttackSound.Play();
         }
 
         if(blinkIncrement >= 5)

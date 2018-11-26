@@ -39,6 +39,8 @@ public class NecromancerPhase6 : MonoBehaviour {
 
     StartOrResetLevel SORL;
 
+    [SerializeField] AudioSource ThunderSound;
+
     // Use this for initialization
     void Start () {
 
@@ -374,6 +376,7 @@ public class NecromancerPhase6 : MonoBehaviour {
     IEnumerator waitSpawnLightning(float time)
     {
         yield return new WaitForSeconds(time);
+        ThunderSound.Play();
         Instantiate(RotationalLightning, transform.GetChild(1).position, Quaternion.identity);
     }
 

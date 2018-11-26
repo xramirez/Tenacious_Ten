@@ -6,6 +6,7 @@ public class DamienSkull : MonoBehaviour {
 
     [SerializeField] float RotateSpeed;
     GameObject Player;
+    float initRotateSpeed;
 
     Rigidbody2D rb;
 
@@ -29,6 +30,8 @@ public class DamienSkull : MonoBehaviour {
         hasMoved = false;
         MoveTimer = 0;
 
+        initRotateSpeed = RotateSpeed;
+
         Damien = GameObject.FindObjectOfType<DamienAttack>();
 	}
 	
@@ -45,7 +48,10 @@ public class DamienSkull : MonoBehaviour {
             Destroy(gameObject);
         }
 
-        transform.Rotate(new Vector3(0, 0, RotateSpeed) * Time.deltaTime);
+        //transform.Rotate(new Vector3(0, 0, RotateSpeed) * Time.deltaTime);
+        transform.localRotation = Quaternion.Euler(0f, 0f, RotateSpeed * Time.deltaTime);
+
+        RotateSpeed = RotateSpeed + initRotateSpeed;
 
         MoveTimer -= Time.deltaTime;
         if(MoveTimer <= 0)

@@ -14,6 +14,7 @@ public class SaveFile : MonoBehaviour
     void Awake()
     {
         AudioListener.volume = SaveLoadManager.LoadVolumeData();
+        currentVolume = SaveLoadManager.LoadVolumeData();
         currentLevel = SaveLoadManager.LoadLevelData();
         if(currentLevel != 1)
         {
@@ -34,6 +35,8 @@ public class SaveFile : MonoBehaviour
 
     public void Save()
     {
+        Debug.Log("Saved Level as " + currentLevel);
+        Debug.Log("Saved Volume as " + currentVolume);
         SaveLoadManager.SaveLevelData(this);
     }
     public void Load()

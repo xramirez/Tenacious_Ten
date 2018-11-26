@@ -165,6 +165,8 @@ MonoBehaviour:
   xSpeedR: -5
   yForceL: 475
   yForceR: 575
+  bounceSound: {fileID: 82617940959268700, guid: a3fa70bbdf8577e46a8fb01761f30a12,
+    type: 2}
 --- !u!114 &114998310299077298
 MonoBehaviour:
   m_ObjectHideFlags: 1

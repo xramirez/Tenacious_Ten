@@ -14,6 +14,9 @@ public class BouncyBall : MonoBehaviour {
     float randomXspeed;
     float randomYforce;
 
+    [SerializeField]
+    AudioSource bounceSound;
+
     // Use this for initialization
     void Start () {
         rb = GetComponent<Rigidbody2D>();
@@ -36,6 +39,7 @@ public class BouncyBall : MonoBehaviour {
     {
         if(other.gameObject.tag == "Ground")
         {
+            bounceSound.Play();
             randomYforce = Random.Range(yForceL, yForceR);
             rb.AddForce(new Vector2(0f, randomYforce));
         }

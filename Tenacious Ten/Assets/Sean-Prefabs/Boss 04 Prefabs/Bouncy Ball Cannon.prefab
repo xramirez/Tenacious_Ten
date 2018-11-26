@@ -96,6 +96,8 @@ MonoBehaviour:
   BouncyBall: {fileID: 1452580525300830, guid: 0b1e3e1c3f293414d9d7e41b346eadd0, type: 2}
   shotTimer: 1
   shotCounter: 6
+  cannonSound: {fileID: 82749883622850034, guid: 178ad62e5b0bd204a8ec03d8c5b968e2,
+    type: 2}
 --- !u!212 &212985441585604376
 SpriteRenderer:
   m_ObjectHideFlags: 1

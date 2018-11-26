@@ -11,6 +11,9 @@ public class BouncyBallCannon : MonoBehaviour {
     float initShotTimer;
     [SerializeField] int shotCounter;
 
+    [SerializeField]
+    AudioSource cannonSound;
+
 	// Use this for initialization
 	void Start () {
 		EmitLoc = this.gameObject.transform.GetChild(0);
@@ -32,9 +35,11 @@ public class BouncyBallCannon : MonoBehaviour {
 
         if(readyToShoot)
         {
+
             shotTimer -= Time.deltaTime;
             if(shotTimer <= 0 && shotCounter >= 0)
             {
+                cannonSound.Play();
                 shotCounter--;
                 shotTimer = initShotTimer;
                 Instantiate(BouncyBall, EmitLoc.position, Quaternion.identity); // Quaternion.Euler(0f, 0f, 90f));

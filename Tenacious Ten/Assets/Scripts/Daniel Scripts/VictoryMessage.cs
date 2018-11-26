@@ -41,10 +41,11 @@ public class VictoryMessage : MonoBehaviour {
             int loadLevel = Load_FromSaveLoad();
 
             //Compare sceneLevel to loadLevel
-            if(sceneLevel+1 > loadLevel && loadLevel != 5)
+            if(sceneLevel+1 > loadLevel)
             {
                 Debug.Log("Saving current level to be to: " + loadLevel);
                 SaveFile saveMe = new SaveFile();
+                if(sceneLevel != 5)
                 saveMe.currentLevel = loadLevel + 1;
                 SaveLoadManager.SaveLevelData(saveMe);
             }

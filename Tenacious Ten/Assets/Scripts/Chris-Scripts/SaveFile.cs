@@ -14,15 +14,11 @@ public class SaveFile : MonoBehaviour
     void Awake()
     {
         AudioListener.volume = SaveLoadManager.LoadVolumeData();
+        currentVolume = SaveLoadManager.LoadVolumeData();
         currentLevel = SaveLoadManager.LoadLevelData();
         if(currentLevel != 1)
         {
             changeLevelConditions(currentLevel);
-        }
-        else
-        {
-            currentLevel = 1;
-            currentVolume = 1;
         }
     }
     public void VolumeLevelSave(int x)
@@ -39,6 +35,8 @@ public class SaveFile : MonoBehaviour
 
     public void Save()
     {
+        Debug.Log("Saved Level as " + currentLevel);
+        Debug.Log("Saved Volume as " + currentVolume);
         SaveLoadManager.SaveLevelData(this);
     }
     public void Load()
@@ -80,7 +78,7 @@ public class SaveFile : MonoBehaviour
 
     public void levelUp()
     {
-        if(currentLevel <= 5)
+        if(currentLevel <= 4)
         {
             currentLevel++;
             changeLevelConditions(currentLevel);

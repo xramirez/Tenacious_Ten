@@ -3562,6 +3562,16 @@ MonoBehaviour:
   World3: {fileID: 1795048752}
   World4: {fileID: 686631341}
   World5: {fileID: 1396395807}
+  checkp_1: {fileID: 1744411755}
+  anim_1: {fileID: 839781319}
+  checkp_2: {fileID: 1828704117}
+  anim_2: {fileID: 1240295604}
+  checkp_3: {fileID: 1895881911}
+  anim_3: {fileID: 518058997}
+  checkp_4: {fileID: 1128517049}
+  anim_4: {fileID: 28585213}
+  checkp_5: {fileID: 181780122}
+  anim_5: {fileID: 1987682718}
 --- !u!1 &1128517047
 GameObject:
   m_ObjectHideFlags: 0

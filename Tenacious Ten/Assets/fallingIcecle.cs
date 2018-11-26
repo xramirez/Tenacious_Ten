@@ -5,6 +5,7 @@ using UnityEngine;
 public class fallingIcecle : MonoBehaviour {
     Rigidbody2D body;
     public float delay;
+    public GameObject destroyEffect;
     // Use this for initialization
     void Start () {
 		
@@ -20,11 +21,13 @@ public class fallingIcecle : MonoBehaviour {
         if (collision.gameObject.name.Equals("Knight") || collision.gameObject.name.Equals("Player 2.0"))
         {
             Debug.Log("Player Hit");
+            Instantiate(destroyEffect, transform.position, transform.rotation);
             Destroy(gameObject);
         }
         if (collision.gameObject.name.Equals("Ground")||collision.gameObject.name.Equals("Ice"))
         {
             //Debug.Log("Hit the ground");
+            Instantiate(destroyEffect, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }

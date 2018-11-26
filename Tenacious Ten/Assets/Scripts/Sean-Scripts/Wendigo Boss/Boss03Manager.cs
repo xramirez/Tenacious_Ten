@@ -161,7 +161,6 @@ public class Boss03Manager : MonoBehaviour {
             }
             else if(atPlayerLoc && !swingFinished && count <= 0)
             {
-                clawSound.Play();
                 SwingAttack();
             }
             else if(swingFinished)
@@ -306,6 +305,7 @@ public class Boss03Manager : MonoBehaviour {
         swingCountdown++;
         if (swingCountdown == 29)
         {
+            clawSound.Play(); // Sound
             if (facingLeft)
             {
                 transform.position = new Vector3(transform.position.x - 2.5f, transform.position.y, transform.position.z);

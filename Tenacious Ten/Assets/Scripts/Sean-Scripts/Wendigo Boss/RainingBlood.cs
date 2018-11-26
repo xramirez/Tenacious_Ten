@@ -13,6 +13,9 @@ public class RainingBlood : MonoBehaviour {
     int rainValue;
     float rainOffset;
 
+    [SerializeField]
+    AudioSource drip;
+
 
     // Use this for initialization
     void Start () {
@@ -37,6 +40,7 @@ public class RainingBlood : MonoBehaviour {
     {
         if(rainValue == 0)
         {
+            drip.Play();
             Instantiate(bloodlet, SpawnOne.position, Quaternion.identity);
             Instantiate(bloodlet, SpawnThree.position, Quaternion.identity);
             Instantiate(bloodlet, SpawnFive.position, Quaternion.identity);
@@ -45,6 +49,7 @@ public class RainingBlood : MonoBehaviour {
     
         else if(rainValue == 1)
         {
+            drip.Play();
             Instantiate(bloodlet, SpawnTwo.position, Quaternion.identity);
             Instantiate(bloodlet, SpawnFour.position, Quaternion.identity);
             rainValue = 0;

@@ -28,6 +28,7 @@ public class Boss03Phase2 : MonoBehaviour {
     bool hasSpitOnce;
     bool hasWaited;
     bool rainRoarAnim;
+    bool once = true;
 
     PushBackRoar PBR;
     RainingBlood rain;
@@ -36,6 +37,12 @@ public class Boss03Phase2 : MonoBehaviour {
     Phase2BloodProj HAUH;
     EnemyHealthManager EHM;
     StartOrResetLevel SORL;
+
+    [SerializeField]
+    AudioSource roar;
+
+    [SerializeField]
+    AudioSource bone;
 
     // Use this for initialization
     void Start () {
@@ -212,6 +219,11 @@ public class Boss03Phase2 : MonoBehaviour {
 
     void RoarOfBlood()
     {
+        if (once)
+        {
+            roar.Play(); // Sound
+            once = false;
+        }
         BloodChangeTimer++;
         //if(BloodChangeTimer < 60 && BloodChangeTimer%10 == 0)
         {
@@ -260,6 +272,8 @@ public class Boss03Phase2 : MonoBehaviour {
 
     void ThrowUpBone()
     {
+        bone.Play();
+
         if(Wendigo.facingLeft && Wendigo.transform.position.x < -5 || !Wendigo.facingLeft && Wendigo.transform.position.x > 5)
         {
             Wendigo.Flip();

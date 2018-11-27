@@ -40,6 +40,7 @@ public class NecromancerPhase6 : MonoBehaviour {
     StartOrResetLevel SORL;
 
     [SerializeField] AudioSource ThunderSound;
+    [SerializeField] AudioSource SweepAttackSound;
 
     // Use this for initialization
     void Start () {
@@ -340,6 +341,7 @@ public class NecromancerPhase6 : MonoBehaviour {
     IEnumerator waitSwingAnim(float time)
     {
         yield return new WaitForSeconds(time);
+        SweepAttackSound.PlayDelayed(0.5f);
         anim.SetInteger("State", 5);
         StartCoroutine(waitTP(1.5f));
     }

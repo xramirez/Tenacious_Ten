@@ -18,6 +18,7 @@ public class FireRotateEmitter : MonoBehaviour
 
     FairyMove Fairy;
 
+    [SerializeField] AudioSource FireShoot;
        
     // Use this for initialization
     void Start()
@@ -42,6 +43,7 @@ public class FireRotateEmitter : MonoBehaviour
         FireRate -= Time.deltaTime;
         if(FireRate <= 0)
         {
+            FireShoot.Play();
             Instantiate(FireShot, barrel.position, barrel.rotation);
             FireRate = initFireRate;
         }

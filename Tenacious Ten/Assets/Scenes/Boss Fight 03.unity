@@ -1364,7 +1364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d386b56af7f59d6478c78c5701765333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPlayerHealth: 4
+  maxPlayerHealth: 100
   isDead: 0
   invulTimer: 0
   opacityTimer: 0
@@ -4304,11 +4304,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4488179150566480, guid: 26f5acdc76a599345b216b66b4b94e46, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -16.09
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 4488179150566480, guid: 26f5acdc76a599345b216b66b4b94e46, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.66
+      value: 2.8
       objectReference: {fileID: 0}
     - target: {fileID: 4488179150566480, guid: 26f5acdc76a599345b216b66b4b94e46, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4336,11 +4336,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4488179150566480, guid: 26f5acdc76a599345b216b66b4b94e46, type: 2}
       propertyPath: m_LocalScale.x
-      value: 1.3645463
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4488179150566480, guid: 26f5acdc76a599345b216b66b4b94e46, type: 2}
       propertyPath: m_LocalScale.y
-      value: 1.3635257
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26f5acdc76a599345b216b66b4b94e46, type: 2}

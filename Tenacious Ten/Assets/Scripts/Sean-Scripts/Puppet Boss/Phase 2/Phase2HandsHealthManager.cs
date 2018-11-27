@@ -16,6 +16,9 @@ public class Phase2HandsHealthManager : MonoBehaviour
     [SerializeField]
     bool isLeftHand, isRightHand;
 
+    [SerializeField]
+    AudioSource hurtSound;
+
     void Start()
     {
         maxHealth = enemyHealth;
@@ -42,6 +45,7 @@ public class Phase2HandsHealthManager : MonoBehaviour
 
     public void giveDamage(int damageToGive)
     {
+        hurtSound.Play();
         enemyHealth -= damageToGive;
         StartCoroutine(flash());
     }

@@ -13,6 +13,9 @@ public class EdgeDoll : MonoBehaviour {
     [SerializeField] GameObject deathEffect;
     PuppetBossManager BM;
 
+    [SerializeField]
+    AudioSource giggleSound;
+
 	// Use this for initialization
 	void Start () {
         FirstGroundHit = false;
@@ -81,6 +84,7 @@ public class EdgeDoll : MonoBehaviour {
                 transform.position = new Vector3(transform.position.x + moveSpeed, transform.position.y, transform.position.z);
                 if (transform.position.x >= player.transform.position.x)
                 {
+                    giggleSound.Play();
                     FallDown = true;
                 }
             }
@@ -89,6 +93,7 @@ public class EdgeDoll : MonoBehaviour {
                 transform.position = new Vector3(transform.position.x - moveSpeed, transform.position.y, transform.position.z);
                 if (transform.position.x <= player.transform.position.x)
                 {
+                    giggleSound.Play();
                     FallDown = true;
                 }
             }

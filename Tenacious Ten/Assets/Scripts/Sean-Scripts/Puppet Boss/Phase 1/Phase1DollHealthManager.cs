@@ -16,6 +16,9 @@ public class Phase1DollHealthManager : MonoBehaviour
     [SerializeField]
     bool isLeftDoll, isRightDoll;
 
+    [SerializeField]
+    AudioSource hurtSound;
+
     StartOrResetLevel SORL;
 
     void Start()
@@ -63,6 +66,7 @@ public class Phase1DollHealthManager : MonoBehaviour
 
     public void giveDamage(int damageToGive)
     {
+        hurtSound.Play();
         enemyHealth -= damageToGive;
         StartCoroutine(flash());
     }

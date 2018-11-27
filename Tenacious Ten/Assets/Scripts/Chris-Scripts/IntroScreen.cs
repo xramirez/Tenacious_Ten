@@ -13,6 +13,7 @@ public class IntroScreen : MonoBehaviour {
     bool done = false;
 
     //WE DID IT BOIS. VANILLA COMMIT.
+    //  Edit: Alright for real for real.
 
     // Use this for initialization
     void Start () {

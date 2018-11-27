@@ -29,6 +29,8 @@ public class NecromancerPhase05 : MonoBehaviour {
     StartOrResetLevel SORL;
     Animator anim;
 
+    [SerializeField] AudioSource ThunderSound;
+
     // Use this for initialization
     void Start () {
 
@@ -80,6 +82,7 @@ public class NecromancerPhase05 : MonoBehaviour {
             {
                 if (!NecroLightningCasted)
                 {
+                    ThunderSound.Play();
                     NecroLightningCasted = true;
                     Instantiate(NecroLightning, transform.GetChild(0).position, Quaternion.identity);
                 }
@@ -90,18 +93,21 @@ public class NecromancerPhase05 : MonoBehaviour {
                 {
                     if(summonCounter == 0)
                     {
+                        ThunderSound.Play();
                         Instantiate(Lightning, LightningSamurai.position, Quaternion.identity);
                         LightningCasted = true;
                         summonCounter++;
                     }
                     else if (summonCounter == 1)
                     {
+                        ThunderSound.Play();
                         Instantiate(Lightning, LightningFairy.position, Quaternion.identity);
                         LightningCasted = true;
                         summonCounter++;
                     }
                     else if (summonCounter == 2)
                     {
+                        ThunderSound.Play();
                         Instantiate(Lightning, LightningDamien.position, Quaternion.identity);
                         LightningCasted = true;
                         summonCounter++;

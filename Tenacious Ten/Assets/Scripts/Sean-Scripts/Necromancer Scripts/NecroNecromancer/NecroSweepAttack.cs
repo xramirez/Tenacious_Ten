@@ -12,7 +12,8 @@ public class NecroSweepAttack : MonoBehaviour {
 
     int blinkIncrement;
 
-    [SerializeField] AudioSource SweepAttackSound;
+    [SerializeField]
+    AudioSource SweepAttackSound;
 
 	// Use this for initialization
 	void Start () {

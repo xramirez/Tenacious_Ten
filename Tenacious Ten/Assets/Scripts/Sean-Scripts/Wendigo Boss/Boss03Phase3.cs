@@ -25,6 +25,8 @@ public class Boss03Phase3 : MonoBehaviour {
     bool hasFlipped;
     int RoarCounter;
 
+    public bool onlyonce = true;
+
     public bool once = true;
 
     [SerializeField]
@@ -32,6 +34,9 @@ public class Boss03Phase3 : MonoBehaviour {
 
     [SerializeField]
     AudioSource longRoar;
+
+    [SerializeField]
+    AudioSource vomit;
 
     float boomerangTimer;
 
@@ -191,6 +196,7 @@ public class Boss03Phase3 : MonoBehaviour {
 
     void ThrowBoomerang()
     {
+        vomit.Play();
         Instantiate(MeatBoomerang, BoomerangSpawn.position, Quaternion.identity); 
     }
 

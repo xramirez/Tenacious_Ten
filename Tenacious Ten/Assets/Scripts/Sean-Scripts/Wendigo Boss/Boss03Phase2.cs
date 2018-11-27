@@ -44,6 +44,9 @@ public class Boss03Phase2 : MonoBehaviour {
     [SerializeField]
     AudioSource bone;
 
+    [SerializeField]
+    AudioSource vomit;
+
     // Use this for initialization
     void Start () {
         boneProjPos = transform.Find("boneProjectilePos");
@@ -273,6 +276,7 @@ public class Boss03Phase2 : MonoBehaviour {
     void ThrowUpBone()
     {
         bone.Play();
+        vomit.Play();
 
         if(Wendigo.facingLeft && Wendigo.transform.position.x < -5 || !Wendigo.facingLeft && Wendigo.transform.position.x > 5)
         {

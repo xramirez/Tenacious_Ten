@@ -69,6 +69,11 @@ public class VictoryMessage : MonoBehaviour {
 				Debug.Log("Moving to level 4->5 transition..");
 				Invoke("transition45", 3);
 			}
+            else if(sceneLevel == 5)
+            {
+                Debug.Log("Moving to level Credits transition..");
+                Invoke("Credits", 3);
+            }
 			else
 			{
 				Debug.Log("Moving to level select screen...");
@@ -100,7 +105,11 @@ public class VictoryMessage : MonoBehaviour {
     {
         SceneManager.LoadScene("Level_Select");
     }
-	void transition34()
+    void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+    void transition34()
 	{
 		SceneManager.LoadScene("Lvl3 to 4 transition");
 	}

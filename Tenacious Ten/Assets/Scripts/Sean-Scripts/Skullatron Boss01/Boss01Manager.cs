@@ -16,10 +16,10 @@ public class Boss01Manager : MonoBehaviour {
     public bool hasShot, startFight;
 
     [SerializeField]
-    AudioSource bone;
+    AudioSource boneSound;
 
     [SerializeField]
-    AudioSource laser;
+    AudioSource laserSound;
 
     Transform projectilePos;
     Transform projectilePos2;
@@ -170,20 +170,20 @@ public class Boss01Manager : MonoBehaviour {
 
     void shootBone()
     {
-        bone.Play();
+        boneSound.Play();
         hasShot = true;
         Instantiate(bone, projectilePos.position, Quaternion.identity);
     }
 
     void shootAngledBone()
     {
-        bone.Play();
+        boneSound.Play();
         Instantiate(angledBone, projectilePos.position, Quaternion.identity);
     }
 
     void shootEyeProj()
     {
-        laser.Play();
+        laserSound.Play();
         Instantiate(EyeShot, projectilePos2.position, Quaternion.identity);
     }
 

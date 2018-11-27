@@ -2591,7 +2591,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 029b27afc1287624bb6f72bb3514891b, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4992,6 +4992,8 @@ MonoBehaviour:
   EyeShot: {fileID: 1332168842273606, guid: 4b68c620446d4ed45ae03107ad6b365b, type: 2}
   hasShot: 0
   startFight: 0
+  boneSound: {fileID: 881006747}
+  laserSound: {fileID: 1618890676}
   shotDelay: 0.98
   FirstShot: 0
   SORL: {fileID: 0}

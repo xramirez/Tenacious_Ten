@@ -49,6 +49,10 @@ public class VictoryMessage : MonoBehaviour {
                 {
                     saveMe.currentLevel = loadLevel + 1;
                 }
+                else if(sceneLevel == 5)
+                {
+                    saveMe.currentLevel = 5;
+                }
                 saveMe.currentVolume = SaveLoadManager.LoadVolumeData();
                 SaveLoadManager.SaveLevelData(saveMe);
             }

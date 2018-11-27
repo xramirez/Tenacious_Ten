@@ -86,6 +86,9 @@ public class Boss02Manager : MonoBehaviour {
     [SerializeField]
     AudioSource fireball_sound;
 
+    [SerializeField]
+    AudioSource whoosh_sound;
+
     Phase2CastSeal CastSeals;
 
     // Use this for initialization
@@ -528,6 +531,7 @@ public class Boss02Manager : MonoBehaviour {
 
     void DashAttackLeftFull()   //dash attack facing left the length of the whole room (full)
     {
+        whoosh_sound.Play();
         anim.SetInteger("State", 2);
         rb.velocity = new Vector3(-dashSpeedX, rb.velocity.y, 0);
         isIdle = false;
@@ -535,6 +539,7 @@ public class Boss02Manager : MonoBehaviour {
 
     void DashAttackRightFull()  //dash attack facing right the length of the whole room (full)
     {
+        whoosh_sound.Play();
         anim.SetInteger("State", 2);
         rb.velocity = new Vector3(dashSpeedX, rb.velocity.y, 0);
         isIdle = false;

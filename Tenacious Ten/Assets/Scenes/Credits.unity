@@ -1574,8 +1574,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 15.20465, y: -11.869265}
-  m_SizeDelta: {x: 135.1, y: 35.4}
+  m_AnchoredPosition: {x: 15.20465, y: -16.935}
+  m_SizeDelta: {x: 135.1, y: 45.533}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1387998554
 MonoBehaviour:
@@ -1609,7 +1609,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Implementation
+  m_Text: 'Implementation, Engineer
 
     Daniel Schuette'
 --- !u!222 &1387998555

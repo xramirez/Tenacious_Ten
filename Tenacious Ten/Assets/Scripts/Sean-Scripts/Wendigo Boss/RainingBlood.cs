@@ -12,9 +12,13 @@ public class RainingBlood : MonoBehaviour {
     public Transform SpawnFive;
     int rainValue;
     float rainOffset;
+    public bool once;
 
     [SerializeField]
     AudioSource drip;
+
+    [SerializeField]
+    AudioSource shortRoar;
 
 
     // Use this for initialization
@@ -27,7 +31,6 @@ public class RainingBlood : MonoBehaviour {
         //SpawnSix = transform.Find("Spawn Six");
         rainValue = Random.Range(0, 2);
         rainOffset = 1.5f;
-
     }
 
     // Update is called once per frame
@@ -38,7 +41,12 @@ public class RainingBlood : MonoBehaviour {
 
     public void RainOneLayerOfBlood()
     {
-        if(rainValue == 0)
+        if (once)
+        {
+            shortRoar.Play();
+            once = false;
+        }
+        if (rainValue == 0)
         {
             drip.Play();
             Instantiate(bloodlet, SpawnOne.position, Quaternion.identity);

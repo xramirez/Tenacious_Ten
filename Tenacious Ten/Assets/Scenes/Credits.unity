@@ -770,11 +770,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4954067232847360, guid: 4e1d85d11dcbd27459d129750272ddc4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.393167
+      value: 3.53
       objectReference: {fileID: 0}
     - target: {fileID: 4954067232847360, guid: 4e1d85d11dcbd27459d129750272ddc4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.6208378
+      value: 1.64
       objectReference: {fileID: 0}
     - target: {fileID: 4954067232847360, guid: 4e1d85d11dcbd27459d129750272ddc4, type: 2}
       propertyPath: m_LocalPosition.z
@@ -799,6 +799,14 @@ Prefab:
     - target: {fileID: 4954067232847360, guid: 4e1d85d11dcbd27459d129750272ddc4, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954067232847360, guid: 4e1d85d11dcbd27459d129750272ddc4, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 6.2833996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954067232847360, guid: 4e1d85d11dcbd27459d129750272ddc4, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 6.02156
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e1d85d11dcbd27459d129750272ddc4, type: 2}
@@ -1556,7 +1564,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Boss Director
 
-    Sean De Masa'
+    Sean De Mesa'
 --- !u!222 &1579127390
 CanvasRenderer:
   m_ObjectHideFlags: 0

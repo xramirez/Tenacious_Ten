@@ -225,8 +225,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5359ee8137646634baf085a0d4200560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 240
-  enemyHealth: 240
+  maxHealth: 100
+  enemyHealth: 100
   hurtSound: {fileID: 82063549074203898}
   deathEffect: {fileID: 1376151133190064, guid: 452d5ac86c446154f8ed46fd0fd49295,
     type: 2}
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6b1dfee5c2ba224fad74243fb276cb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Phase4HP: 140
+  Phase4HP: 50
   phaseOneActivated: 0
   phaseTwoActivated: 0
   phaseThreeActivated: 0

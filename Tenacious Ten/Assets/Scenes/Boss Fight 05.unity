@@ -8308,7 +8308,7 @@ Prefab:
     - target: {fileID: 114936715660514868, guid: fe046a1ac3f7003468411d0415cd442f,
         type: 2}
       propertyPath: enemyHealth
-      value: 155
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 212329736600172532, guid: fe046a1ac3f7003468411d0415cd442f,
         type: 2}

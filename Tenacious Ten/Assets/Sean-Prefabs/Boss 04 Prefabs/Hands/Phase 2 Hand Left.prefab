@@ -265,8 +265,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38c355ab1ddd73747b9e0c12fedebdc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 45
-  enemyHealth: 45
+  maxHealth: 20
+  enemyHealth: 20
   deathEffect: {fileID: 1475021027580606, guid: 414212a9b02517844a3db7e9ed48f2eb,
     type: 2}
   LeftHandKilled: 0

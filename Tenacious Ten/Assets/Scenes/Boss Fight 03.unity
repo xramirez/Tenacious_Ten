@@ -6794,8 +6794,8 @@ MonoBehaviour:
   HAUH: 39
   BatSpawn: {fileID: 243686769}
   FlyingBat: {fileID: 1101088994438332, guid: 696604d3b2159ee4186163456dd4cbfd, type: 2}
-  EnterPhaseTwoHP: 210
-  EnterPhaseThreeHP: 100
+  EnterPhaseTwoHP: 100
+  EnterPhaseThreeHP: 40
   whooshSound: {fileID: 1696077867}
   ghostSound: {fileID: 2041845002}
   clawSound: {fileID: 630476867}
@@ -6881,8 +6881,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5359ee8137646634baf085a0d4200560, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 270
-  enemyHealth: 270
+  maxHealth: 140
+  enemyHealth: 140
   hurtSound: {fileID: 190515360}
   deathEffect: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
     type: 2}

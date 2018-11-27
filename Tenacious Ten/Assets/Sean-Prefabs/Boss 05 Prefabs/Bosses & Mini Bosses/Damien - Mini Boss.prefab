@@ -469,7 +469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 110
-  enemyHealth: 110
+  enemyHealth: 50
   hurtSound: {fileID: 82933190100008066}
   deathEffect: {fileID: 0}
 --- !u!114 &114655581877139356

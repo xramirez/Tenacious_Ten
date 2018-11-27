@@ -8725,7 +8725,7 @@ MonoBehaviour:
     type: 2}
   Phase2HandsR: {fileID: 1256693434325878, guid: 1f09c0d6f5258cf41b333ce84dd86dc9,
     type: 2}
-  Puppeteer: {fileID: 1552367977977530, guid: 9b143933ca980b24497ffe8d3bd341a2, type: 2}
+  Puppeteer: {fileID: 1156539559276256, guid: b1c89c86be672da4b80f45823e718e7c, type: 2}
   BossSpawn: {fileID: 1636348773}
 --- !u!4 &1872605871
 Transform:

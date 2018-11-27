@@ -20,6 +20,8 @@ public class NecroTrackingSword : MonoBehaviour
 
     [SerializeField] AudioSource wooshSound;
 
+    bool wooshPlayed;
+
     // Use this for initialization
     void Start()
     {
@@ -33,6 +35,8 @@ public class NecroTrackingSword : MonoBehaviour
         PlayerPos = GameObject.Find("Player").transform;
 
         transform.right = PlayerPos.position - transform.position;
+
+        wooshPlayed = false;
         
         //transform.rotation = Quaternion.Euler(0f,0f,transform.rotation.z + 180);
     }
@@ -55,7 +59,12 @@ public class NecroTrackingSword : MonoBehaviour
         {
             PC.enabled = true;
             rb.velocity = transform.right * speed;
-            wooshSound.Play();
+            if(!wooshPlayed)
+            {
+                wooshPlayed = true;
+                wooshSound.Play();
+            }
+            
         }
 
     }

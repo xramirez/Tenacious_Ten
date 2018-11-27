@@ -25,8 +25,13 @@ public class Boss03Phase3 : MonoBehaviour {
     bool hasFlipped;
     int RoarCounter;
 
+    public bool once = true;
+
     [SerializeField]
     AudioSource roar;
+
+    [SerializeField]
+    AudioSource longRoar;
 
     float boomerangTimer;
 
@@ -134,7 +139,11 @@ public class Boss03Phase3 : MonoBehaviour {
         {
             if (pushBackTimer > 0)
             {
-                roar.Play(); // Sound
+                if (once)
+                {
+                    longRoar.Play(); // Sound
+                    once = false;
+                }
                 Wendigo.anim.SetInteger("State", 6);
                 isRoaring = true;
                 isPushingBack = true;
@@ -143,6 +152,8 @@ public class Boss03Phase3 : MonoBehaviour {
             }
             else
             {
+                longRoar.Stop();
+                once = true;
                 Wendigo.anim.SetInteger("State", 0);
                 RoarCounter++;
                 PBR.playerIsIdle = true;

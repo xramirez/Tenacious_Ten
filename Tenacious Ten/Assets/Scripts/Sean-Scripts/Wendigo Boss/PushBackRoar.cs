@@ -46,10 +46,10 @@ public class PushBackRoar : MonoBehaviour {
     {
         if (Wendigo.facingLeft && P3.isPushingBack)
         {
-            if (Input.GetKey(KeyCode.RightArrow))
+            if (Input.GetKey(KeyCode.RightArrow)|| Input.GetKey(KeyCode.D))
             {
                 player.anim.SetInteger("State", 2);
-                player.speed = 6;
+                player.speed = 3;
                 //playerIsIdle = false;
             }
             //if (Input.GetKeyUp(KeyCode.RightArrow))
@@ -58,7 +58,7 @@ public class PushBackRoar : MonoBehaviour {
                // player.speed = -6;
               //  Debug.Log("Key code up RIGHT");
             //}
-            else if (Input.GetKey(KeyCode.LeftArrow))
+            else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
             {
                 player.anim.SetInteger("State", 2);
                 player.speed = -9;
@@ -77,7 +77,7 @@ public class PushBackRoar : MonoBehaviour {
         }
         else if(!Wendigo.facingLeft && P3.isPushingBack)
         {
-            if (Input.GetKey(KeyCode.RightArrow))
+            if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
             {
                 player.anim.SetInteger("State", 2);
                 player.speed = 9;
@@ -88,10 +88,10 @@ public class PushBackRoar : MonoBehaviour {
             //    player.anim.SetInteger("State", 0);
              //   player.speed = 6;
             //}
-            else if (Input.GetKey(KeyCode.LeftArrow))
+            else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
             {
                 player.anim.SetInteger("State", 2);
-                player.speed = -6;
+                player.speed = -3;
                 //playerIsIdle = false;
             }
             //if (Input.GetKeyUp(KeyCode.LeftArrow))

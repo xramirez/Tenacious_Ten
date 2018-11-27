@@ -18,6 +18,8 @@ public class NecroTrackingSword : MonoBehaviour
 
     PolygonCollider2D PC;
 
+    [SerializeField] AudioSource wooshSound;
+
     // Use this for initialization
     void Start()
     {
@@ -53,6 +55,7 @@ public class NecroTrackingSword : MonoBehaviour
         {
             PC.enabled = true;
             rb.velocity = transform.right * speed;
+            wooshSound.Play();
         }
 
     }

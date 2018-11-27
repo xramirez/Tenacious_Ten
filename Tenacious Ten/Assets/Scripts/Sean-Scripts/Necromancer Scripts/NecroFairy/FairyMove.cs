@@ -36,6 +36,8 @@ public class FairyMove : MonoBehaviour {
     [SerializeField] int destroyAtThisHP;
     public bool FirstDeath;
 
+    [SerializeField] AudioSource FireShoot;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -144,6 +146,7 @@ public class FairyMove : MonoBehaviour {
             {
                 if(!FireSpreadCast)
                 {
+                    FireShoot.Play();
                     Instantiate(FairyFire4Spread, FireSpawn.position, Quaternion.identity);
                     FireSpreadCast = true;
                 }

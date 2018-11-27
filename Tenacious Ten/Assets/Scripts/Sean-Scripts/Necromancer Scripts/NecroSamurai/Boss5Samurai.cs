@@ -36,6 +36,11 @@ public class Boss5Samurai : MonoBehaviour {
     [SerializeField] int destroyAtThisHP;
     public bool FirstDeath;
 
+    [SerializeField] AudioSource PullBackBow;
+    [SerializeField] AudioSource FireBow;
+    bool pullBackSoundPlayed;
+
+
     // Use this for initialization
     void Start () {
         anim = GetComponent<Animator>();
@@ -46,6 +51,7 @@ public class Boss5Samurai : MonoBehaviour {
         shotOneAngled = false;
         shotTwoAngled = false;
         WillGroundShot = false;
+        pullBackSoundPlayed = false;
 
         initialSecondTimer = SecondShotTimer;
         initialJumpTimer = jumpTimer;
@@ -91,13 +97,21 @@ public class Boss5Samurai : MonoBehaviour {
         {
             WillGroundShot = true;
             anim.SetInteger("State", 1);
+            if(!pullBackSoundPlayed)
+            {
+                pullBackSoundPlayed = true;
+                PullBackBow.Play();
+            }
+
             if(ShotTimer <= 0)
             {
                 WillGroundShot = false;
                 anim.SetInteger("State", 2);
+                FireBow.Play();
                 Instantiate(StraightArrow, Bow.position, Quaternion.identity);
                 //ShotTimer = initialWarningTimer;
                 ShotTimerSet = false;
+                pullBackSoundPlayed = false;
             }
         }
         
@@ -131,6 +145,7 @@ public class Boss5Samurai : MonoBehaviour {
                 {
                     SecondShotTimer = initialSecondTimer;
                     anim.SetInteger("State", 22);
+                    FireBow.Play();
                     Instantiate(AngledArrow, AngledBow.position, AngledBow.rotation);
                     shotOneAngled = true;
                 }
@@ -144,6 +159,7 @@ public class Boss5Samurai : MonoBehaviour {
                 if (SecondShotTimer <= 0 && !shotTwoAngled)
                 {
                     anim.SetInteger("State", 22);
+                    FireBow.Play();
                     Instantiate(AngledArrow, AngledBow.position, AngledBow.rotation);
                     SecondShotTimer = initialSecondTimer;
                     shotTwoAngled = true;

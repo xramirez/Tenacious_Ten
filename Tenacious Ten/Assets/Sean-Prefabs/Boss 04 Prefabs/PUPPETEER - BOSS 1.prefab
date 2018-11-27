@@ -9,49 +9,49 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1552367977977530}
+  m_RootGameObject: {fileID: 1156539559276256}
   m_IsPrefabAsset: 1
---- !u!1 &1552367977977530
+--- !u!1 &1156539559276256
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4861070760937782}
-  - component: {fileID: 212572175508635508}
-  - component: {fileID: 95074805518409054}
-  - component: {fileID: 114043907949024586}
-  - component: {fileID: 60145290257325356}
-  - component: {fileID: 114486037429917714}
-  - component: {fileID: 82842136226117544}
-  - component: {fileID: 114559355326711800}
+  - component: {fileID: 4227231372401692}
+  - component: {fileID: 212224344577530350}
+  - component: {fileID: 95912801856965204}
+  - component: {fileID: 114903968478740392}
+  - component: {fileID: 60321735008752540}
+  - component: {fileID: 114865860129721626}
+  - component: {fileID: 82063549074203898}
+  - component: {fileID: 114500554375060708}
   m_Layer: 10
-  m_Name: PUPPETEER - BOSS
+  m_Name: PUPPETEER - BOSS 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4861070760937782
+--- !u!4 &4227231372401692
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1552367977977530}
+  m_GameObject: {fileID: 1156539559276256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.41, z: 0}
+  m_LocalPosition: {x: -1.743, y: 0.368, z: 0}
   m_LocalScale: {x: 5.986, y: 5.668, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &60145290257325356
+--- !u!60 &60321735008752540
 PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1552367977977530}
+  m_GameObject: {fileID: 1156539559276256}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -70,12 +70,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.14, y: -0.32999998}
-      - {x: -0.124800265, y: -0.29621282}
-      - {x: -0.09240178, y: -0.32974982}
-      - {x: 0.12525879, y: -0.31932572}
-      - {x: 0.21213324, y: -0.37002873}
-      - {x: 0.28470677, y: -0.3345395}
+    - - {x: -0.16752367, y: -0.24687168}
+      - {x: -0.13636276, y: -0.2442033}
+      - {x: -0.07253915, y: -0.23465388}
+      - {x: 0.1292313, y: -0.23961292}
+      - {x: 0.27304542, y: -0.25395575}
+      - {x: 0.34032226, y: -0.27720225}
       - {x: 0.44977367, y: -0.15413612}
       - {x: 0.48000002, y: -0.01182498}
       - {x: 0.28083006, y: 0.253787}
@@ -85,16 +85,16 @@ PolygonCollider2D:
       - {x: -0.48000002, y: 0.010486126}
       - {x: -0.48000002, y: -0.045165807}
       - {x: -0.42556596, y: -0.2238843}
-      - {x: -0.2862495, y: -0.32365018}
-      - {x: -0.19803314, y: -0.40158847}
-      - {x: -0.14, y: -0.35}
-      - {x: -0.14, y: -0.31}
---- !u!82 &82842136226117544
+      - {x: -0.36919692, y: -0.25598004}
+      - {x: -0.26291788, y: -0.24915531}
+      - {x: -0.22902149, y: -0.24968523}
+      - {x: -0.19533138, y: -0.2495247}
+--- !u!82 &82063549074203898
 AudioSource:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1552367977977530}
+  m_GameObject: {fileID: 1156539559276256}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -184,13 +184,13 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &95074805518409054
+--- !u!95 &95912801856965204
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1552367977977530}
+  m_GameObject: {fileID: 1156539559276256}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 69bf8e9a5c047b4458c0bfc8620a905b, type: 2}
@@ -202,12 +202,40 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114043907949024586
+--- !u!114 &114500554375060708
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1552367977977530}
+  m_GameObject: {fileID: 1156539559276256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67f483837bd00a044a35cef8ecd8b609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+--- !u!114 &114865860129721626
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1156539559276256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5359ee8137646634baf085a0d4200560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 240
+  enemyHealth: 240
+  hurtSound: {fileID: 82063549074203898}
+  deathEffect: {fileID: 1376151133190064, guid: 452d5ac86c446154f8ed46fd0fd49295,
+    type: 2}
+--- !u!114 &114903968478740392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1156539559276256}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6b1dfee5c2ba224fad74243fb276cb3, type: 3}
@@ -220,40 +248,12 @@ MonoBehaviour:
   phaseFourActivated: 0
   hasMovedForPhase3: 0
   hasMovedForPhase4: 0
---- !u!114 &114486037429917714
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1552367977977530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5359ee8137646634baf085a0d4200560, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 240
-  enemyHealth: 240
-  hurtSound: {fileID: 82842136226117544}
-  deathEffect: {fileID: 1376151133190064, guid: 452d5ac86c446154f8ed46fd0fd49295,
-    type: 2}
---- !u!114 &114559355326711800
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1552367977977530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67f483837bd00a044a35cef8ecd8b609, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
---- !u!212 &212572175508635508
+--- !u!212 &212224344577530350
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1552367977977530}
+  m_GameObject: {fileID: 1156539559276256}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0

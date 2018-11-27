@@ -29,6 +29,7 @@ public class PuppetBossManager : MonoBehaviour {
 
     StartOrResetLevel SORL;
     SpriteRenderer sr;
+    HurtPlayerOnContact HurtPlayer;
 
 	// Use this for initialization
 	void Start () {
@@ -53,6 +54,8 @@ public class PuppetBossManager : MonoBehaviour {
         SORL = FindObjectOfType<StartOrResetLevel>();
 
         sr = GetComponent<SpriteRenderer>();
+
+        HurtPlayer = GetComponent<HurtPlayerOnContact>();
     }
 	
 	void FixedUpdate () {
@@ -152,6 +155,7 @@ public class PuppetBossManager : MonoBehaviour {
         {
             phaseThreeActivated = false;
             phaseFourActivated = true;
+            HurtPlayer.enabled = false;
             Debug.Log("Phase 3 over. Now entering phase 4...");
         }
 

@@ -19,6 +19,7 @@ public class VerticalMatcher : MonoBehaviour
 
 	void FixedUpdate()
 	{
+		TrackerPosition.x = transform.position.x;
 		TrackerPosition.y = player.transform.position.y;
 		transform.position = TrackerPosition;
 	}

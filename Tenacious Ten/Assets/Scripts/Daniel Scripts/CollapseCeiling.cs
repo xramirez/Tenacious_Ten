@@ -6,9 +6,10 @@ public class CollapseCeiling : MonoBehaviour
 {
 	bool collapse;
 	FlipLever checker;
-	Vector2 startPosition = new Vector2(0, 0);
+	public Vector2 startPosition = new Vector2(0, 0);
 	public float downSpeed = -0.05f;
 	public float upSpeed = 0.5f;
+	CollapseCeiling consistence;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,10 @@ public class CollapseCeiling : MonoBehaviour
 		collapse = false;
 		checker = GameObject.FindObjectOfType<FlipLever>();
 		startPosition = transform.position;
+		if(name == "Hazards")
+		{
+			consistence = GameObject.FindObjectOfType<CollapseCeiling>();
+		}
 	}
 
     // Update is called once per frame
@@ -29,7 +34,7 @@ public class CollapseCeiling : MonoBehaviour
 		}
 		else
 		{
-			if (startPosition.y > transform.position.y)
+			if (startPosition.y >= transform.position.y)
 			{
 				transform.Translate(0, upSpeed, 0);
 			}
@@ -42,6 +47,10 @@ public class CollapseCeiling : MonoBehaviour
 		{
 			checker.flipped = false;
 			transform.position = startPosition;
+			if (name == "Hazards")
+			{
+				consistence.transform.position = consistence.startPosition;
+			}
 		}
 	}
 }

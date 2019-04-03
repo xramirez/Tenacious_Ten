@@ -16,6 +16,7 @@ public class PuppetBossManager : MonoBehaviour {
     [SerializeField] int Phase4HP;
     float beginPhaseOne;
     public bool phaseOneActivated, phaseTwoActivated, phaseThreeActivated, phaseFourActivated;
+    public bool P3;
 
     bool movedUpPhase3, movedDownPhase3;
     public bool hasMovedForPhase3;
@@ -49,6 +50,8 @@ public class PuppetBossManager : MonoBehaviour {
         movedDownPhase4 = false;
         movedLeftPhase4 = false;
 
+        P3 = false;
+
         EHM = GetComponent<EnemyHealthManager>();
 
         SORL = FindObjectOfType<StartOrResetLevel>();
@@ -63,6 +66,7 @@ public class PuppetBossManager : MonoBehaviour {
         SORL = FindObjectOfType<StartOrResetLevel>();
         EHM = GetComponent<EnemyHealthManager>();
         sr = GetComponent<SpriteRenderer>();
+        HurtPlayer = GetComponent<HurtPlayerOnContact>();
         //Debug.Log(EHM.enemyHealth);
         if (SORL.StartFight)
         {
@@ -115,9 +119,16 @@ public class PuppetBossManager : MonoBehaviour {
         if (LeftHand.LeftHandKilled && RightHand.RightHandKilled)
         {
             phaseTwoActivated = false;
-            phaseThreeActivated = true;
+            //phaseThreeActivated = true;
             //Debug.Log("Phase 2 over. Now entering phase 3...");
         }
+        if(LeftHand.LeftHandKilled && RightHand.RightHandKilled && !P3)
+        {
+            phaseTwoActivated = false;
+            phaseThreeActivated = true;
+            P3 = true;
+        }
+
 
         if (phaseThreeActivated)
         {
@@ -151,11 +162,12 @@ public class PuppetBossManager : MonoBehaviour {
             }
         } //end if moving to start phase3
 
-        if(EHM.enemyHealth <= Phase4HP)
+        if(EHM.enemyHealth <= Phase4HP && !phaseFourActivated)
         {
             phaseThreeActivated = false;
             phaseFourActivated = true;
-            HurtPlayer.enabled = false;
+            //HurtPlayer.enabled = false;
+            Destroy(HurtPlayer);
             Debug.Log("Phase 3 over. Now entering phase 4...");
         }
 

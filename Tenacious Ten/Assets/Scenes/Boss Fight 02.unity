@@ -11960,6 +11960,11 @@ PrefabInstance:
       propertyPath: whoosh_sound
       value: 
       objectReference: {fileID: 170176789}
+    - target: {fileID: 114652323450474604, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
+        type: 3}
+      propertyPath: dashSpeedX
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 4964357988606300, guid: 8bf9e9f6d4886264aaa9aaf4790460cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5

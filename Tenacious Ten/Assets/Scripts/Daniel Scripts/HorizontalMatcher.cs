@@ -20,6 +20,7 @@ public class HorizontalMatcher : MonoBehaviour
 	void FixedUpdate()
 	{
 		TrackerPosition.x = player.transform.position.x;
-		transform.position = TrackerPosition;
+        TrackerPosition.y = transform.position.y;
+        transform.position = TrackerPosition;
 	}
 }

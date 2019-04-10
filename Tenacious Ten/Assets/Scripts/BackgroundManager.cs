@@ -27,10 +27,4 @@ public class BackgroundManager : MonoBehaviour
             blurredMap.SetTile(p, blurredTile);
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

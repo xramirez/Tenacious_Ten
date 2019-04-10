@@ -35,7 +35,8 @@ public class Level1DeathMenu : MonoBehaviour
 	{
         onSpawn.Stop();
         onSpawn.Play();
-		levelManager.RespawnPlayer();
+        ScoreManager.Instance.TimesDied = ScoreManager.Instance.TimesDied + 1;
+        levelManager.RespawnPlayer();
 		Debug.Log("Spawned after death.");
 		deathMenuUI.SetActive(false);
 		Time.timeScale = 1f;

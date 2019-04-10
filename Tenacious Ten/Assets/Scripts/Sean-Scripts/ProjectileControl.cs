@@ -36,6 +36,7 @@ public class ProjectileControl : MonoBehaviour {
         if(other.tag == "Enemy")
         {
             other.GetComponent<EnemyHealthManager>().giveDamage(damage);
+            ScoreManager.Instance.ShotsLanded++;
         }
 		//
 		//Instantiate(impactEffect, transform.position, Quaternion.identity);
@@ -49,10 +50,12 @@ public class ProjectileControl : MonoBehaviour {
         else if (other.tag == "Doll Enemy")
         {
             other.GetComponent<Phase1DollHealthManager>().giveDamage(damage);
+            ScoreManager.Instance.ShotsLanded++;
         }
         else if (other.tag == "Hand Enemy")
         {
             other.GetComponent<Phase2HandsHealthManager>().giveDamage(damage);
+            ScoreManager.Instance.ShotsLanded++;
         }
         //
         //Instantiate(impactEffect, transform.position, Quaternion.identity);

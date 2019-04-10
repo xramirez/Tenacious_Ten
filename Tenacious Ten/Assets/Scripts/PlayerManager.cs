@@ -291,12 +291,14 @@ public class PlayerManager : MonoBehaviour {
         shootSound.Play();
         if (facingRight == true)
         {
+            ScoreManager.Instance.ShotsFired++;
             Instantiate(rightProjectile, projectilePos.position, Quaternion.identity);    
             //Instantiate means create. So create a right projectile, at a specific position in world/space (projectilePos)
             //Quanternion is rotation, in this case do not rotate
         }
         if (facingRight == false)
         {
+            ScoreManager.Instance.ShotsFired++;
             Instantiate(leftProjectile, projectilePos.position, Quaternion.identity);
         }
     }

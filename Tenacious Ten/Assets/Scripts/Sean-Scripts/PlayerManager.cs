@@ -167,7 +167,7 @@ public class PlayerManagerOG : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.gameObject.tag == "Ground")
+        if(other.gameObject.tag == "Ground" || other.gameObject.tag == "Upper Ground")
         {
             anim.SetInteger("State", 5);
             landedFromJump = true;
@@ -176,7 +176,7 @@ public class PlayerManagerOG : MonoBehaviour {
 
     void OnCollisionExit2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Ground")
+        if (other.gameObject.tag == "Ground" || other.gameObject.tag == "Upper Ground")
         {
             landedFromJump = false;
         }

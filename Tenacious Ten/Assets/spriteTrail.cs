@@ -28,7 +28,7 @@ public class spriteTrail : MonoBehaviour
     IEnumerator FadeTrailPart(SpriteRenderer trailPartRenderer)
     {
         Color color = trailPartRenderer.color;
-        color.a = color.a / 2;
+        color.a -= 0.5f;
         trailPartRenderer.color = color;
 
         yield return new WaitForEndOfFrame();

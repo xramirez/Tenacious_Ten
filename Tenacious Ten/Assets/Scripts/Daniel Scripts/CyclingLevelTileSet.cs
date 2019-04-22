@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CyclingLevel : MonoBehaviour
+public class CyclingLevelTileSet : MonoBehaviour
 {
 	[SerializeField]
 	GameObject refreshStart;//the point it goes back to
@@ -12,6 +12,8 @@ public class CyclingLevel : MonoBehaviour
 	float moveSpeed = 5f;
 	Vector2 mover = new Vector2(-1f, 0);
 	Vector2 startingPosition;
+	[SerializeField]
+	Vector2 respawnDestination;
 	float distanceBetween;
 
 
@@ -27,11 +29,10 @@ public class CyclingLevel : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-
 		transform.Translate(mover * moveSpeed * Time.deltaTime);
 		if(transform.position.x <= startingPosition.x - distanceBetween)
 		{
-			transform.position = startingPosition;
+			transform.position = respawnDestination;
 		}
 	}
 }

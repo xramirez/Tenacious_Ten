@@ -7,7 +7,7 @@ public class ChariotSky : MonoBehaviour
 
 	Vector2 startingPosition;
 	[SerializeField]
-	float TotalDamage;
+	public float TotalDamage;
 	[SerializeField]
 	float modifier = 1f;
 	[SerializeField]

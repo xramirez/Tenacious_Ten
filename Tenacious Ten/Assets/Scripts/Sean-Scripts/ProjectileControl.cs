@@ -57,6 +57,26 @@ public class ProjectileControl : MonoBehaviour {
             other.GetComponent<Phase2HandsHealthManager>().giveDamage(damage);
             ScoreManager.Instance.ShotsLanded++;
         }
+        else if (other.tag == "Level 6 Enemy")
+        {
+            if(other.GetComponent<L6BootsManager>()!=null)
+            {
+                other.GetComponent<L6BootsManager>().giveDamage(damage);
+            }
+            else if (other.GetComponent<L6HandsManager>() != null)
+            {
+                other.GetComponent<L6HandsManager>().giveDamage(damage);
+            }
+            else if (other.GetComponent<L6TorsoManager>() != null)
+            {
+                other.GetComponent<L6TorsoManager>().giveDamage(damage);
+            }
+            else if (other.GetComponent<L6HelmetManager>() != null)
+            {
+                other.GetComponent<L6HelmetManager>().giveDamage(damage);
+            }
+            ScoreManager.Instance.ShotsLanded++;
+        }
         //
         //Instantiate(impactEffect, transform.position, Quaternion.identity);
 

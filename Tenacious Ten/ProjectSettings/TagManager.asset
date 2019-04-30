@@ -30,6 +30,7 @@ TagManager:
   - Level1Checkpoint
   - SaveFile
   - PauseMenu
+  - Level 6 Enemy
   layers:
   - Default
   - TransparentFX

@@ -5,13 +5,13 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour {
 
     public GameObject currentCheckpoint;
-    private PlayerManager player;
+    private GameObject player;
 
     public PlayerHealthManager healthManager;
 
 	// Use this for initialization
 	void Start () {
-        player = FindObjectOfType<PlayerManager>();
+        player = GameObject.FindWithTag("Player");
 
         healthManager = FindObjectOfType<PlayerHealthManager>();
 	}

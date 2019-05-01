@@ -16,7 +16,7 @@ public class L6BootsManager : MonoBehaviour
 
     [SerializeField] AudioSource hurtSound;
 
-    bool moveToStart;
+    public bool moveToStart;
     [SerializeField] float moveSpeedLeft;
 
     void Start()

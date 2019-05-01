@@ -11,12 +11,14 @@ public class L6HelmetManager : MonoBehaviour
     public GameObject deathEffect;
 
     SpriteRenderer sr;
+	ChariotMiniReset4 track;
+	bool skyStarter = false;
 
-    [SerializeField] public bool helmetIsDead;
+	[SerializeField] public bool helmetIsDead;
 
     [SerializeField] AudioSource hurtSound;
 
-    bool moveToStart;
+    public bool moveToStart;
     [SerializeField] float moveSpeedLeft;
 
     public Level6Manager L6Manager;
@@ -28,11 +30,12 @@ public class L6HelmetManager : MonoBehaviour
         helmetIsDead = false;
         moveToStart = false;
         L6Manager = FindObjectOfType<Level6Manager>();
-    }
+		track = GetComponent<ChariotMiniReset4>();
+	}
 
     void FixedUpdate()
     {
-        if (enemyHealth <= 5)
+		if (enemyHealth <= 5)
         {
             Instantiate(deathEffect, transform.position, transform.rotation);
             Destroy(gameObject);
@@ -40,7 +43,12 @@ public class L6HelmetManager : MonoBehaviour
         }
         if (moveToStart == false && L6Manager.TorsoDead)
         {
-            transform.position = new Vector3(transform.position.x - moveSpeedLeft, transform.position.y, transform.position.z);
+			if (skyStarter == false)
+			{
+				track.damageBenchmark = track.pushBack.TotalDamage;
+				skyStarter = true;
+			}
+			transform.position = new Vector3(transform.position.x - moveSpeedLeft, transform.position.y, transform.position.z);
             if (transform.position.x <= -53)
             {
                 moveToStart = true;

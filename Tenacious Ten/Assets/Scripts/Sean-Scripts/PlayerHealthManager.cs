@@ -31,7 +31,7 @@ public class PlayerHealthManager : MonoBehaviour {
 
     SpriteRenderer sr;
 
-    public PlayerManager Player;
+    public GameObject Player;
 
     Level1DeathMenu stopper;
     
@@ -45,7 +45,7 @@ public class PlayerHealthManager : MonoBehaviour {
 
         levelManager = FindObjectOfType<LevelManager>();
 
-        Player = FindObjectOfType<PlayerManager>();
+        Player = GameObject.FindWithTag("Player");
 
 
         sr = GetComponent<SpriteRenderer>();

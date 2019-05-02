@@ -112,6 +112,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &8103886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8103887}
+  m_Layer: 10
+  m_Name: Bomb Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8103887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8103886}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.027, y: 0.249, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 532067494}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8895978
 GameObject:
   m_ObjectHideFlags: 0
@@ -6102,7 +6132,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -351.4, y: 225.79997}
+  m_AnchoredPosition: {x: -311.8, y: 246.3}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &46124753
@@ -8455,6 +8485,8 @@ GameObject:
   - component: {fileID: 532067491}
   - component: {fileID: 532067495}
   - component: {fileID: 532067496}
+  - component: {fileID: 532067497}
+  - component: {fileID: 532067498}
   m_Layer: 10
   m_Name: HAND ENEMY
   m_TagString: Level 6 Enemy
@@ -8485,12 +8517,14 @@ MonoBehaviour:
   moveToStart: 0
   moveSpeedLeft: 0.1
   L6Manager: {fileID: 0}
-  amtOfBombs: 0
-  waitJumpTimer: 0
-  handBomb: {fileID: 0}
-  timeBetweenBombs: 0
-  jumpSpeedY: 0
-  spikedBall: {fileID: 0}
+  amtOfBombs: 4
+  waitJumpTimer: 0.6
+  handBomb: {fileID: 2154707682300890147, guid: 56b06405735a24a4ba5b4df9283cfb32,
+    type: 3}
+  timeBetweenBombs: 0.6
+  jumpSpeedY: 790
+  spikedBall: {fileID: 2797302489305644720, guid: e098b958bc1e4e3459fd2fa4a7120e97,
+    type: 3}
 --- !u!61 &532067492
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8553,7 +8587,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 3c64efa7b35b78b4dba3975e8540ca02, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8575,7 +8609,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -42.28, y: -4.94, z: 0}
   m_LocalScale: {x: 12.837, y: 12.879, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 8103887}
+  - {fileID: 2120864091}
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8608,6 +8644,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundObject: {fileID: 1184853528}
+--- !u!95 &532067497
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532067490}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a600fe961fdc2bb458156a7acdb8109c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &532067498
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532067490}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &540535981
 GameObject:
   m_ObjectHideFlags: 0
@@ -15145,8 +15221,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f014917eca7334742b70898c86e02522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 20
-  enemyHealth: 20
+  maxHealth: 10
+  enemyHealth: 10
   deathEffect: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
     type: 3}
   bootsIsDead: 0
@@ -21446,7 +21522,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -412.1, y: 225.8}
+  m_AnchoredPosition: {x: -372.5, y: 246.30002}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &954955149
@@ -22574,7 +22650,7 @@ PlatformEffector2D:
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 7797559
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 1
@@ -22784,7 +22860,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -528.36, y: 225.79997}
+  m_AnchoredPosition: {x: -488.76, y: 246.29999}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1392908922
@@ -23671,7 +23747,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -292.6, y: 225.79997}
+  m_AnchoredPosition: {x: -253.00002, y: 246.29999}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1700930984
@@ -23805,7 +23881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -469.76, y: 225.79997}
+  m_AnchoredPosition: {x: -430.16003, y: 246.29999}
   m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1904359648
@@ -24630,6 +24706,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092231702}
   m_CullTransparentMesh: 0
+--- !u!1 &2120864090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2120864091}
+  m_Layer: 10
+  m_Name: Spike Ball Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2120864091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120864090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.06, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 532067494}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2137581235
 GameObject:
   m_ObjectHideFlags: 0

@@ -28,27 +28,27 @@ public class Level6Manager : MonoBehaviour
         if(Boots.bootsIsDead == true)
         {
             check = true;
-            Debug.Log("BOOTS DEAD, ONTO HANDS");
+            //Debug.Log("BOOTS DEAD, ONTO HANDS");
         }
         if (Hands.handsIsDead == true)
         {
             check = true;
-            Debug.Log("HANDS DEAD, ONTO TORSO");
+            //Debug.Log("HANDS DEAD, ONTO TORSO");
         }
         if (Torso.torsoIsDead == true)
         {
             check = true;
-            Debug.Log("TORSO DEAD, ONTO HELMET");
+            //Debug.Log("TORSO DEAD, ONTO HELMET");
         }
         if (Torso.torsoIsDead == true)
         {
             check = true;
-            Debug.Log("TORSO DEAD, ONTO HELMET");
+            //Debug.Log("TORSO DEAD, ONTO HELMET");
         }
         if (Helmet.helmetIsDead == true)
         {
             check = true;
-            Debug.Log("HELMET DEAD, ONTO BOSS");
+            //Debug.Log("HELMET DEAD, ONTO BOSS");
         }
         bootsDead = Boots.bootsIsDead;
         handsDead = Hands.handsIsDead;

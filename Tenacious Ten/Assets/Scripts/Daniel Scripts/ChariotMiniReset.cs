@@ -36,7 +36,7 @@ public class ChariotMiniReset : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if (SORL.ResetFight == true)
+		if (SORL.ResetFight == true && EHM.moveToStart == true)
 		{
 			ResetFight();
 		}

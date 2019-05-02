@@ -8485,6 +8485,12 @@ MonoBehaviour:
   moveToStart: 0
   moveSpeedLeft: 0.1
   L6Manager: {fileID: 0}
+  amtOfBombs: 0
+  waitJumpTimer: 0
+  handBomb: {fileID: 0}
+  timeBetweenBombs: 0
+  jumpSpeedY: 0
+  spikedBall: {fileID: 0}
 --- !u!61 &532067492
 BoxCollider2D:
   m_ObjectHideFlags: 0

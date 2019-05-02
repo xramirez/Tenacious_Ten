@@ -22,6 +22,13 @@ public class L6HelmetManager : MonoBehaviour
     [SerializeField] float moveSpeedLeft;
 
     public Level6Manager L6Manager;
+    
+    [SerializeField] float timeBetweenShots;
+    float initTimeBetweenShots;
+
+    [SerializeField] GameObject Laser;
+
+    SpriteRenderer eyeSR;
 
     void Start()
     {
@@ -31,7 +38,11 @@ public class L6HelmetManager : MonoBehaviour
         moveToStart = false;
         L6Manager = FindObjectOfType<Level6Manager>();
 		track = GetComponent<ChariotMiniReset4>();
-	}
+
+        initTimeBetweenShots = timeBetweenShots;
+
+        eyeSR = transform.GetChild(0).GetComponent<SpriteRenderer>();
+    }
 
     void FixedUpdate()
     {
@@ -54,6 +65,20 @@ public class L6HelmetManager : MonoBehaviour
                 moveToStart = true;
             }
         }
+
+        if (moveToStart)
+        {
+            timeBetweenShots -= Time.deltaTime;
+            if(timeBetweenShots <= 1.5 && timeBetweenShots >= 0)
+            {
+                StartCoroutine(eyeFlashWarning());
+            }
+            else if(timeBetweenShots <= 0)
+            {
+                Instantiate(Laser, transform.GetChild(0).position, Quaternion.identity);
+                timeBetweenShots = initTimeBetweenShots;
+            }
+        }
     }
 
     public void giveDamage(int damageToGive)
@@ -68,5 +93,12 @@ public class L6HelmetManager : MonoBehaviour
         sr.color = new Color(1, 1, 0.3f, 1);
         yield return new WaitForSeconds(0.03f);
         sr.color = new Color(1, 1, 1, 1);
+    }
+
+    IEnumerator eyeFlashWarning()
+    {
+        eyeSR.color = new Color(1, 0, 0, 1);
+        yield return new WaitForSeconds(0.01f);
+        eyeSR.color = new Color(1, 1, 1, 1);
     }
 }

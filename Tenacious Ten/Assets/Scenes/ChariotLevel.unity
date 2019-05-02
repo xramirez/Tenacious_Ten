@@ -6346,12 +6346,12 @@ PrefabInstance:
     - target: {fileID: 2852225200801322099, guid: 826baebb3ef6d5a41b0c98d65468639e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -65.02991
+      value: -69.81
       objectReference: {fileID: 0}
     - target: {fileID: 2852225200801322099, guid: 826baebb3ef6d5a41b0c98d65468639e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.028642
+      value: 5.81
       objectReference: {fileID: 0}
     - target: {fileID: 2852225200801322099, guid: 826baebb3ef6d5a41b0c98d65468639e,
         type: 3}
@@ -8251,6 +8251,7 @@ GameObject:
   - component: {fileID: 503856332}
   - component: {fileID: 503856334}
   - component: {fileID: 503856335}
+  - component: {fileID: 503856336}
   m_Layer: 10
   m_Name: TORSO ENEMY
   m_TagString: Level 6 Enemy
@@ -8295,7 +8296,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0a2ecc62bba8ee84dbde5de23038d9c7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 10127f7f028a8d547a227dc41f832ff5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8314,7 +8315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503856329}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -38.17, y: -3.78, z: 0}
+  m_LocalPosition: {x: -34.48, y: -6.96, z: 0}
   m_LocalScale: {x: 18.867071, y: 16.621107, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8355,18 +8356,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.02183044, y: 0.089348294}
+  m_Offset: {x: 0.02183044, y: 0.3114284}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.96, y: 0.96}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.71, y: 0.44}
     newSize: {x: 0.96, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.66374135, y: 0.26057768}
+  m_Size: {x: 0.66374135, y: 0.25642675}
   m_EdgeRadius: 0
 --- !u!114 &503856334
 MonoBehaviour:
@@ -8397,6 +8398,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundObject: {fileID: 1184853528}
+--- !u!95 &503856336
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503856329}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 69302a6b07f41e74cb77d81ffb7c07e3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &510595781
 GameObject:
   m_ObjectHideFlags: 0
@@ -15186,6 +15206,7 @@ GameObject:
   - component: {fileID: 742973575}
   - component: {fileID: 742973571}
   - component: {fileID: 742973576}
+  - component: {fileID: 742973577}
   m_Layer: 10
   m_Name: BOOTS ENEMY
   m_TagString: Level 6 Enemy
@@ -15265,8 +15286,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ad783ff9d72e94941b98689581b7b361, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: f42d55c034429924eadd8c8bd88c2a2d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15285,7 +15306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742973570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -43.21, y: -3.94, z: 0}
+  m_LocalPosition: {x: -45.08, y: -3.78, z: 0}
   m_LocalScale: {x: -16.783, y: 17.515, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -15304,18 +15325,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0094042495, y: 0.023643196}
+  m_Offset: {x: -0.06598932, y: 0.008938961}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.38, y: 0.41}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.23562, y: 0.39456075}
+  m_Size: {x: 0.17824088, y: 0.39839667}
   m_EdgeRadius: 0
 --- !u!114 &742973576
 MonoBehaviour:
@@ -15330,6 +15351,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundObject: {fileID: 1184853528}
+--- !u!95 &742973577
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742973570}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: db978fae5fc167c4c82e0e09cbff9f78, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &771127639
 GameObject:
   m_ObjectHideFlags: 0
@@ -22934,6 +22974,7 @@ GameObject:
   - component: {fileID: 1478771351}
   - component: {fileID: 1478771355}
   - component: {fileID: 1478771356}
+  - component: {fileID: 1478771357}
   m_Layer: 0
   m_Name: HELMET ENEMY
   m_TagString: Level 6 Enemy
@@ -22975,18 +23016,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013275109, y: 0.0115353465}
+  m_Offset: {x: 0.01915583, y: 0.21603817}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.78, y: 0.72}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.42759836, y: 0.39545012}
+  m_Size: {x: 0.42367804, y: 0.4118104}
   m_EdgeRadius: 0
 --- !u!212 &1478771353
 SpriteRenderer:
@@ -23025,7 +23066,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d0384c25ef90d524bbce5c438125b380, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c2110d86476fbc947b8e7247856f1c67, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -23044,7 +23085,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478771350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.63, y: 4.45, z: 0}
+  m_LocalPosition: {x: -34.99, y: 0.95, z: 0}
   m_LocalScale: {x: 9.195, y: 8.814, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -23079,6 +23120,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundObject: {fileID: 1184853528}
+--- !u!95 &1478771357
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478771350}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0684876c021aab24fa3e4ab77a076e87, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1488376513
 GameObject:
   m_ObjectHideFlags: 0

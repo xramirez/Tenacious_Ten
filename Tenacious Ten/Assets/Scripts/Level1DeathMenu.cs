@@ -17,7 +17,7 @@ public class Level1DeathMenu : MonoBehaviour
 	{
 		levelManager = FindObjectOfType<LevelManager>();
 		deathMenuUI.SetActive(false);
-
+		onSpawn.Play();
 	}
 
 	// Update is called once per frame
@@ -28,7 +28,6 @@ public class Level1DeathMenu : MonoBehaviour
 			deathMenuUI.SetActive(true);
 			Time.timeScale = 0f;
 		}
-
 	}
 
 	public void Respawn()

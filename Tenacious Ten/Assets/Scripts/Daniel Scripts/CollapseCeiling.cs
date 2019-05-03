@@ -10,6 +10,8 @@ public class CollapseCeiling : MonoBehaviour
 	public float downSpeed = -0.05f;
 	public float upSpeed = 0.5f;
 	CollapseCeiling consistence;
+	AudioSource scraping;
+	bool playScrape = true;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +19,7 @@ public class CollapseCeiling : MonoBehaviour
 		collapse = false;
 		checker = GameObject.FindObjectOfType<FlipLever>();
 		startPosition = transform.position;
+		scraping = GetComponent<AudioSource>();
 		if(name == "Hazards")
 		{
 			consistence = GameObject.FindObjectOfType<CollapseCeiling>();
@@ -28,15 +31,22 @@ public class CollapseCeiling : MonoBehaviour
     {
         if(checker.flipped == true)
 		{
+			if (playScrape == true)
+			{
+				scraping.Play();
+				playScrape = false;
+			}
 			transform.Translate(0, downSpeed, 0);
 			if (startPosition.y - transform.position.y > 25)
 				checker.flipped = false;
 		}
 		else
 		{
-			if (startPosition.y >= transform.position.y)
+			if (startPosition.y > transform.position.y)
 			{
 				transform.Translate(0, upSpeed, 0);
+				playScrape = false;
+				scraping.Stop();
 			}
 		}
 	}
@@ -47,9 +57,12 @@ public class CollapseCeiling : MonoBehaviour
 		{
 			checker.flipped = false;
 			transform.position = startPosition;
+			scraping.Stop();
+			playScrape = true;
 			if (name == "Hazards")
 			{
 				consistence.transform.position = consistence.startPosition;
+				consistence.GetComponent<AudioSource>().Stop();
 			}
 		}
 	}

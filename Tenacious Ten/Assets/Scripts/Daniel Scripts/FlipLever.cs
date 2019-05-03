@@ -5,11 +5,13 @@ using UnityEngine;
 public class FlipLever : MonoBehaviour
 {
 	public bool flipped;
+	AudioSource sound;
 
     // Start is called before the first frame update
     void Start()
     {
 		flipped = false;
+		sound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -29,6 +31,8 @@ public class FlipLever : MonoBehaviour
 	{
 		if(other.gameObject.tag == "Player")
 		{
+			if(!flipped)
+				sound.Play();
 			flipped = true;
 		}
 	}

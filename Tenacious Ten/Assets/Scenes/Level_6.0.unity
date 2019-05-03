@@ -7533,7 +7533,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 521963ad5db166346b81a36611ebe7d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23039,6 +23039,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392908920}
   m_CullTransparentMesh: 0
+--- !u!1 &1445078514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1445078515}
+  m_Layer: 0
+  m_Name: Laser Spawns For Helmet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1445078515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445078514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -69.14, y: 10.38, z: 1.4140625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2068893781}
+  - {fileID: 1542434717}
+  m_Father: {fileID: 0}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1478771350
 GameObject:
   m_ObjectHideFlags: 0
@@ -23082,8 +23114,16 @@ MonoBehaviour:
   moveToStart: 0
   moveSpeedLeft: 0.1
   L6Manager: {fileID: 0}
-  timeBetweenShots: 4
+  timeBetweenShots: 2
   Laser: {fileID: 8656111424697902952, guid: 73f623b2b16efa249a0b06b109d53893, type: 3}
+  amountOfLasersToShoot: 3
+  skyLasersMoveLeft: {fileID: 647336743959459970, guid: 2836e9625a7947b46b7b8abf94f9e6cd,
+    type: 3}
+  skyLasersMoveRight: {fileID: 8329015144634483068, guid: 470cb8dbbb711f6478d43a5c1c606d1b,
+    type: 3}
+  timeUntilNextAttack: 5
+  LaserSpawnLeftSide: {fileID: 2068893781}
+  LaserSpawnRightSide: {fileID: 1542434717}
 --- !u!61 &1478771352
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23166,7 +23206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478771350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.96, y: 1.58, z: 0}
+  m_LocalPosition: {x: -41.88, y: 1, z: 0}
   m_LocalScale: {x: 9.195, y: 8.814, z: 1}
   m_Children:
   - {fileID: 361962079}
@@ -23327,6 +23367,36 @@ MonoBehaviour:
   levelManager: {fileID: 661594709}
   checkPointPos: []
   SceneSwitch1: {fileID: 0}
+--- !u!1 &1542434716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1542434717}
+  m_Layer: 0
+  m_Name: Right Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1542434717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542434716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.8, y: 2.5900002, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1445078515}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1559448735
 GameObject:
   m_ObjectHideFlags: 0
@@ -24769,6 +24839,36 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &2068893780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2068893781}
+  m_Layer: 0
+  m_Name: Left Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2068893781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068893780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.44, y: 2.59, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1445078515}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2092231702
 GameObject:
   m_ObjectHideFlags: 0

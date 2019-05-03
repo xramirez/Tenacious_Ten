@@ -17,18 +17,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boss Fight 01.unity
     guid: 2c0d8eb6bcea7e446b83b8b02fe8aa2f
-  - enabled: 1
-    path: Assets/Scenes/Level_2.0.unity
-    guid: 2e4f86e09d88d3f4dba0e0c92ca2d65f
-  - enabled: 1
-    path: Assets/Scenes/Level_2.1.unity
-    guid: e56a19c630b12ed47b2589daa273c186
-  - enabled: 1
-    path: Assets/Scenes/Level_2.2.unity
-    guid: 5bb3115f9a16cd247afcee4de9b8c9fd
-  - enabled: 1
-    path: Assets/Scenes/Level_2.3.unity
-    guid: df077b4491eea754fbb65da5e48b0962
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Boss Fight 02.unity
     guid: 860b152ff5ee69e4ab1fefd5f9c4e24d
@@ -56,6 +56,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boss Fight 05.unity
     guid: 04d25cde9feb7af4884b27dfcba6d589
+  - enabled: 1
+    path: Assets/Scenes/Level_6.0.unity
+    guid: 59c6210a6fc1a374bb5ff06d09cfa91c
   - enabled: 1
     path: Assets/Scenes/Level_Select.unity
     guid: 75540f9a37e1b9e4385cf11f2bc00a64

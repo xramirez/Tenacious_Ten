@@ -19,12 +19,34 @@ public class L6BootsManager : MonoBehaviour
     public bool moveToStart;
     [SerializeField] float moveSpeedLeft;
 
+    [SerializeField] float horizArrowTimerL;
+    [SerializeField] float horizArrowTimerR;
+
+    [SerializeField] float actualHorizTimer;
+
+    [SerializeField] float bigArrowTimerL;
+    [SerializeField] float bigArrowTimerR;
+
+    [SerializeField] float actualBigTimer;
+
+
+    bool horizArrowSet;
+    bool bigArrowSet;
+    float horizArrowTimer, bigArrowTimer;
+
+    [SerializeField] GameObject horizontalArrow;
+    [SerializeField] GameObject bigArrow;
+
+
     void Start()
     {
         maxHealth = enemyHealth;
         sr = GetComponent<SpriteRenderer>();
         bootsIsDead = false;
         moveToStart = false;
+
+        horizArrowSet = false;
+        bigArrowSet = false;
     }
 
     void FixedUpdate()
@@ -42,6 +64,41 @@ public class L6BootsManager : MonoBehaviour
             if (transform.position.x <= -53)
             {
                 moveToStart = true;
+            }
+        }
+
+        if(moveToStart)
+        {
+            if(!bigArrowSet)
+            {
+                bigArrowTimer = Random.Range(bigArrowTimerL, bigArrowTimerR);
+                bigArrowSet = true;
+            }
+
+            if(!horizArrowSet)
+            {
+                horizArrowTimer = Random.Range(horizArrowTimerL, horizArrowTimerR);
+                horizArrowSet = true;
+            }
+
+            if(bigArrowSet)
+            {
+                bigArrowTimer -= Time.deltaTime;
+                if(bigArrowTimer <= 0)
+                {
+                    Instantiate(bigArrow, transform.GetChild(0).position, Quaternion.Euler(new Vector3(0, 0, 90)));
+                    bigArrowSet = false;
+                }
+            }
+
+            if (horizArrowSet)
+            {
+                horizArrowTimer -= Time.deltaTime;
+                if (horizArrowTimer <= 0)
+                {
+                    Instantiate(horizontalArrow, transform.GetChild(1).position, Quaternion.Euler(new Vector3(0, 0, 180)));
+                    horizArrowSet = false;
+                }
             }
         }
     }

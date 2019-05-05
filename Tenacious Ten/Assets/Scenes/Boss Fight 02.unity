@@ -2644,7 +2644,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 618379851}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc81ec566c4332b4287dc686f7ed10e7, type: 3}
   m_Name: 
@@ -11889,7 +11889,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 26e837b51580510478b4c6d402436010,
+      objectReference: {fileID: 21300000, guid: e3dfd0b8a372be24eaf0e7915ffc902a,
         type: 3}
     - target: {fileID: 212293841453073022, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
         type: 3}
@@ -11900,11 +11900,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 2.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: -0.06286883
       objectReference: {fileID: 0}
     - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
         type: 3}
@@ -11919,27 +11914,12 @@ PrefabInstance:
     - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1.52
+      value: 1.725
       objectReference: {fileID: 0}
     - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 1.2536566
-      objectReference: {fileID: 0}
-    - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 1.2434428
-      objectReference: {fileID: 0}
-    - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 2.4584703
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
         type: 3}
@@ -11950,6 +11930,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 2.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.border.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.border.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.border.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.45002934
+      objectReference: {fileID: 0}
+    - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.7446564
+      objectReference: {fileID: 0}
+    - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 1.1352838
+      objectReference: {fileID: 0}
+    - target: {fileID: 61996496333969772, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.2171295
       objectReference: {fileID: 0}
     - target: {fileID: 114652323450474604, guid: 8bf9e9f6d4886264aaa9aaf4790460cf,
         type: 3}

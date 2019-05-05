@@ -31,6 +31,8 @@ TagManager:
   - SaveFile
   - PauseMenu
   - Level 6 Enemy
+  - World6_boss
+  - World6_checkpoint
   layers:
   - Default
   - TransparentFX

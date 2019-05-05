@@ -3480,7 +3480,7 @@ GameObject:
   - component: {fileID: 915161824}
   m_Layer: 0
   m_Name: checkpoint_down_6
-  m_TagString: World5_checkpoint
+  m_TagString: World6_checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4234,7 +4234,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24a51de52823ea1428a6d195a0a15c1f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e2cc53eefcec3e49aab8efb99c628c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5849,7 +5849,7 @@ GameObject:
   - component: {fileID: 1511092018}
   m_Layer: 0
   m_Name: checkpoint_world6
-  m_TagString: World5_checkpoint
+  m_TagString: World6_checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6183,7 +6183,7 @@ GameObject:
   - component: {fileID: 1547334942}
   m_Layer: 0
   m_Name: chariot
-  m_TagString: World5_boss
+  m_TagString: World6_boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6196,8 +6196,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547334940}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 214.40002, y: 8.999998, z: 0}
-  m_LocalScale: {x: 92.1264, y: 92.1264, z: 92.1264}
+  m_LocalPosition: {x: 209.2, y: 9.9, z: 0}
+  m_LocalScale: {x: 48.421642, y: 48.421642, z: 48.421642}
   m_Children: []
   m_Father: {fileID: 1125005394}
   m_RootOrder: 3
@@ -6354,7 +6354,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 87d1fc8c8b9f80a408561697e0afe712, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 12484cfb8bb717a4382cda1708d1c000, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6635,7 +6635,7 @@ Animator:
   m_GameObject: {fileID: 1730283221}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 25117f5498fab13449b9eb313cb461aa, type: 2}
+  m_Controller: {fileID: 9100000, guid: e9001c0354942014e84efaed5f31bea9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -6681,7 +6681,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 87d1fc8c8b9f80a408561697e0afe712, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 12484cfb8bb717a4382cda1708d1c000, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7298,7 +7298,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2c602e28266112e43942cc99aaf93d3d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5a156837bcc48d74c8a248179a897ac5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -85,6 +85,7 @@ GameObject:
   - component: {fileID: 7175101888006032622}
   - component: {fileID: 7175101888006032625}
   - component: {fileID: 7175101888006032623}
+  - component: {fileID: 1779548130965182453}
   m_Layer: 14
   m_Name: Flame Arrow Shooting
   m_TagString: Untagged
@@ -240,3 +241,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9540793, y: 0.1739031}
   m_EdgeRadius: 0
+--- !u!114 &1779548130965182453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7175101888006032629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18157c997dfea743b77079c2b68e3e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

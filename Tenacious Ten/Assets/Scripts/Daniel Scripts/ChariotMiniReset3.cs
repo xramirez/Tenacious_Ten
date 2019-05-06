@@ -54,6 +54,7 @@ public class ChariotMiniReset3 : MonoBehaviour
 		EHM.enemyHealth = EHM.maxHealth;
 		EHM.moveToStart = false;
         EHM.readyToShoot = false;
+		EHM.shotCounter = EHM.reloadNumber;
 		SORL.ResetFight = false;
 	}
 }

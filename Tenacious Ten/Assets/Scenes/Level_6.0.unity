@@ -22361,7 +22361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TotalDamage: 0
   modifier: 2
-  offset: 11
+  offset: 9
 --- !u!1 &1205251730
 GameObject:
   m_ObjectHideFlags: 0

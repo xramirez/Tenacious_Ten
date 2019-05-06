@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 58705107948226558}
   - component: {fileID: 114172679448812076}
   - component: {fileID: 82208981029422860}
+  - component: {fileID: 205919359997762696}
   m_Layer: 19
   m_Name: ChariotCannonBounceBall
   m_TagString: Untagged
@@ -248,6 +249,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &205919359997762696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452580525300830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18157c997dfea743b77079c2b68e3e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1988150542475140
 GameObject:
   m_ObjectHideFlags: 0

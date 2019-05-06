@@ -32,8 +32,8 @@ public class L6TorsoManager : MonoBehaviour
 	public bool readyToShoot = false;
 	[SerializeField] float shotTimer;
 	float initShotTimer;
-	[SerializeField] int shotCounter;
-	int reloadNumber;
+	[SerializeField] public int shotCounter;
+	public int reloadNumber;
 	[SerializeField]
 	float reloadTime;
 

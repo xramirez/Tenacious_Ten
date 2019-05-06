@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 2797302489305644722}
   - component: {fileID: 2797302489305644723}
   - component: {fileID: 2797302489305644724}
+  - component: {fileID: 6968585708217644814}
   m_Layer: 19
   m_Name: spikedBallNew
   m_TagString: Untagged
@@ -208,3 +209,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyTime: 10
+--- !u!114 &6968585708217644814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2797302489305644720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18157c997dfea743b77079c2b68e3e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

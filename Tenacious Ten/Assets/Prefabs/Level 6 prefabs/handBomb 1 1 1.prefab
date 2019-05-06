@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2154707682300890146}
   - component: {fileID: 2154707682300890168}
   - component: {fileID: 2154707682300890169}
+  - component: {fileID: 2969774062688019478}
   m_Layer: 16
   m_Name: handBomb 1 1 1
   m_TagString: Untagged
@@ -168,3 +169,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+--- !u!114 &2969774062688019478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2154707682300890147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18157c997dfea743b77079c2b68e3e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

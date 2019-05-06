@@ -8457,6 +8457,7 @@ MonoBehaviour:
   readyToShoot: 0
   shotTimer: 0.4
   shotCounter: 6
+  reloadNumber: 0
   reloadTime: 1.75
   cannonSound: {fileID: 82097021430678624, guid: 7e9f5b86e8e22994aa9a90a4e9d7381d,
     type: 3}
@@ -22168,7 +22169,7 @@ PrefabInstance:
     - target: {fileID: 212402016073888038, guid: 25da8024b2da343e6955105cd01f2e5e,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25da8024b2da343e6955105cd01f2e5e, type: 3}

@@ -8443,8 +8443,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 985f270c51f3d944c9477fd953a6257c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 30
-  enemyHealth: 30
+  maxHealth: 60
+  enemyHealth: 60
   deathEffect: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
     type: 3}
   track4: {fileID: 1478771355}
@@ -8457,7 +8457,7 @@ MonoBehaviour:
   readyToShoot: 0
   shotTimer: 1
   shotCounter: 6
-  reloadTime: 1.5
+  reloadTime: 3
   cannonSound: {fileID: 82097021430678624, guid: 7e9f5b86e8e22994aa9a90a4e9d7381d,
     type: 3}
 --- !u!61 &503856333
@@ -8643,8 +8643,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626ba95bbd688c3438ee24d563887487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 30
-  enemyHealth: 30
+  maxHealth: 50
+  enemyHealth: 50
   deathEffect: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
     type: 3}
   track3: {fileID: 503856329}
@@ -8655,7 +8655,7 @@ MonoBehaviour:
   moveSpeedLeft: 0.1
   L6Manager: {fileID: 0}
   amtOfBombs: 4
-  waitJumpTimer: 0.6
+  waitJumpTimer: 0.2
   handBomb: {fileID: 2154707682300890147, guid: 56b06405735a24a4ba5b4df9283cfb32,
     type: 3}
   timeBetweenBombs: 0.6
@@ -15389,8 +15389,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f014917eca7334742b70898c86e02522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 30
-  enemyHealth: 30
+  maxHealth: 50
+  enemyHealth: 50
   deathEffect: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
     type: 3}
   bootsIsDead: 0
@@ -22360,7 +22360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TotalDamage: 0
-  modifier: 2
+  modifier: 2.35
   offset: 11
 --- !u!1 &1205251730
 GameObject:
@@ -23335,8 +23335,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d4984c1f277da44ea90d7525b0ba7c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 30
-  enemyHealth: 30
+  maxHealth: 50
+  enemyHealth: 50
   deathEffect: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
     type: 3}
   helmetIsDead: 0
@@ -23344,14 +23344,14 @@ MonoBehaviour:
   moveToStart: 0
   moveSpeedLeft: 0.1
   L6Manager: {fileID: 0}
-  timeBetweenShots: 2
+  timeBetweenShots: 1
   Laser: {fileID: 8656111424697902952, guid: 73f623b2b16efa249a0b06b109d53893, type: 3}
   amountOfLasersToShoot: 3
   skyLasersMoveLeft: {fileID: 647336743959459970, guid: 2836e9625a7947b46b7b8abf94f9e6cd,
     type: 3}
   skyLasersMoveRight: {fileID: 8329015144634483068, guid: 470cb8dbbb711f6478d43a5c1c606d1b,
     type: 3}
-  timeUntilNextAttack: 3
+  timeUntilNextAttack: 2
   LaserSpawnLeftSide: {fileID: 2068893781}
   LaserSpawnRightSide: {fileID: 1542434717}
 --- !u!61 &1478771352
@@ -23658,7 +23658,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

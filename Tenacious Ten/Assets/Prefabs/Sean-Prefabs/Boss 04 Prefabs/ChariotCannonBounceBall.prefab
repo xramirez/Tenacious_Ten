@@ -97,8 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 631ad35a29341944badc48a4c312469e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeedL: -2.5
-  xSpeedR: -5
+  xSpeedL: -5
+  xSpeedR: -10
   yForceL: 475
   yForceR: 575
   bounceSound: {fileID: 82208981029422860}

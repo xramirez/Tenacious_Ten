@@ -8285,7 +8285,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503856329}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.986, y: -6.96, z: 0}
+  m_LocalPosition: {x: -32.28, y: -6.96, z: 0}
   m_LocalScale: {x: 17.433174, y: 15.424387, z: 1}
   m_Children:
   - {fileID: 619357182}
@@ -8320,8 +8320,8 @@ MonoBehaviour:
   BouncyBall: {fileID: 1452580525300830, guid: bb62c661d6c06ef419199194cb9ed2ec, type: 3}
   readyToShoot: 0
   shotTimer: 1
-  shotCounter: 5
-  reloadTime: 0
+  shotCounter: 6
+  reloadTime: 1.5
   cannonSound: {fileID: 82097021430678624, guid: 7e9f5b86e8e22994aa9a90a4e9d7381d,
     type: 3}
 --- !u!61 &503856333
@@ -8608,7 +8608,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532067490}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.28, y: -4.94, z: 0}
+  m_LocalPosition: {x: -39.573997, y: -4.94, z: 0}
   m_LocalScale: {x: 12.837, y: 12.879, z: 1}
   m_Children:
   - {fileID: 8103887}
@@ -15327,7 +15327,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742973570}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.147, y: 0.979, z: 0}
+  m_LocalPosition: {x: -42.440998, y: 0.979, z: 0}
   m_LocalScale: {x: -18.483822, y: 20.16423, z: 1}
   m_Children:
   - {fileID: 871580701}
@@ -15348,7 +15348,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06598932, y: -0.19857565}
+  m_Offset: {x: -0.01719098, y: -0.1199564}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 1}
@@ -15359,7 +15359,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.17824088, y: 0.40263832}
+  m_Size: {x: 0.08064419, y: 0.24539982}
   m_EdgeRadius: 0
 --- !u!114 &742973576
 MonoBehaviour:
@@ -23240,7 +23240,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478771350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -41.88, y: 1, z: 0}
+  m_LocalPosition: {x: -39.174, y: 1, z: 0}
   m_LocalScale: {x: 9.195, y: 8.814, z: 1}
   m_Children:
   - {fileID: 361962079}

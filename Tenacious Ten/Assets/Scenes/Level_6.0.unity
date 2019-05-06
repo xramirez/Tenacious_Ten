@@ -8265,8 +8265,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 10127f7f028a8d547a227dc41f832ff5, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: b6867332c91e2194aabd3c0db9626017, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8496,8 +8496,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 626ba95bbd688c3438ee24d563887487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
-  enemyHealth: 10
+  maxHealth: 30
+  enemyHealth: 30
   deathEffect: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
     type: 3}
   track3: {fileID: 503856329}
@@ -15212,19 +15212,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f014917eca7334742b70898c86e02522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
-  enemyHealth: 10
+  maxHealth: 30
+  enemyHealth: 30
   deathEffect: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
     type: 3}
   bootsIsDead: 0
   hurtSound: {fileID: 82337070005925818, guid: 0435d8049e348954d882ed18b5413fc4, type: 3}
   moveToStart: 0
   moveSpeedLeft: 0.1
-  horizArrowTimerL: 2
-  horizArrowTimerR: 4
+  horizArrowTimerL: 1
+  horizArrowTimerR: 2
   actualHorizTimer: 0
-  bigArrowTimerL: 3
-  bigArrowTimerR: 6
+  bigArrowTimerL: 2
+  bigArrowTimerR: 4
   actualBigTimer: 0
   horizontalArrow: {fileID: 7181161638490903480, guid: 5e1d0ea6319ece24f946a5fdf262b998,
     type: 3}
@@ -22114,7 +22114,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -100
+  m_SortingOrder: -5
   m_Sprite: {fileID: 21300000, guid: bae08384e8a33144fa39042855d47d28, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23068,8 +23068,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d4984c1f277da44ea90d7525b0ba7c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
-  enemyHealth: 10
+  maxHealth: 30
+  enemyHealth: 30
   deathEffect: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
     type: 3}
   helmetIsDead: 0
@@ -23084,7 +23084,7 @@ MonoBehaviour:
     type: 3}
   skyLasersMoveRight: {fileID: 8329015144634483068, guid: 470cb8dbbb711f6478d43a5c1c606d1b,
     type: 3}
-  timeUntilNextAttack: 5
+  timeUntilNextAttack: 3
   LaserSpawnLeftSide: {fileID: 2068893781}
   LaserSpawnRightSide: {fileID: 1542434717}
 --- !u!61 &1478771352
@@ -23149,7 +23149,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c2110d86476fbc947b8e7247856f1c67, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23387,7 +23387,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 615c96d27f8744fb0aa940a1a23fef5f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e2a07e3afd34e3d4ab4de1e191667db6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

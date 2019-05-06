@@ -5,9 +5,11 @@ using UnityEngine;
 public class spriteTrail : MonoBehaviour
 {
     List<GameObject> trailParts = new List<GameObject>();
+	EnemyHealthManager ehm;
     // Start is called before the first frame update
     void Start()
     {
+		ehm = GetComponent<EnemyHealthManager>();
         InvokeRepeating("SpawnTrailPart", 0, 0.1f); //repeats function every 0.2 seconds
     }
 
@@ -23,11 +25,23 @@ public class spriteTrail : MonoBehaviour
 
         StartCoroutine(FadeTrailPart(trailPartRenderer));
         StartCoroutine(DestroyTrailPart(trailPart, 0.2f));
+		if(ehm.enemyHealth <= 0)
+		{
+			CancelInvoke();
+		}
     }
 
     IEnumerator FadeTrailPart(SpriteRenderer trailPartRenderer)
     {
-        Color color = trailPartRenderer.color;
+		if (ehm.enemyHealth <= 0)
+		{
+			foreach (GameObject num in trailParts)
+			{
+				Destroy(num);
+			}
+			CancelInvoke();
+		}
+		Color color = trailPartRenderer.color;
         color.a -= 0.5f;
         trailPartRenderer.color = color;
 
@@ -40,5 +54,13 @@ public class spriteTrail : MonoBehaviour
 
         trailParts.Remove(trailPart);
         Destroy(trailPart);
+		if(ehm.enemyHealth <= 0)
+		{
+			foreach (GameObject num in trailParts)
+			{
+				Destroy(num);
+			}
+			
+		}
     }
 }

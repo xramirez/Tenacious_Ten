@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce31439110da5de47908ad6e62d2f18a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 7.5
   isMovingLeft: 1
 --- !u!50 &3307512865003655503
 Rigidbody2D:
@@ -190,4 +190,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6923406fa27c07d46942901d8e4320ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyTime: 5
+  destroyTime: 3.4

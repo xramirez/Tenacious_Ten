@@ -51,7 +51,7 @@ public class L6BootsManager : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (enemyHealth <= 5)
+        if (enemyHealth <= 0)
         {
             Instantiate(deathEffect, transform.position, transform.rotation);
             Destroy(gameObject);

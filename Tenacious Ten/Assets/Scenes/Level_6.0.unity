@@ -7822,7 +7822,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430516986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.15, y: -5.4, z: 0}
+  m_LocalPosition: {x: -37.83, y: -5.4, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8443,8 +8443,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 985f270c51f3d944c9477fd953a6257c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 60
-  enemyHealth: 60
+  maxHealth: 50
+  enemyHealth: 50
   deathEffect: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
     type: 3}
   track4: {fileID: 1478771355}
@@ -8455,9 +8455,9 @@ MonoBehaviour:
   L6Manager: {fileID: 0}
   BouncyBall: {fileID: 1452580525300830, guid: bb62c661d6c06ef419199194cb9ed2ec, type: 3}
   readyToShoot: 0
-  shotTimer: 1
+  shotTimer: 0.4
   shotCounter: 6
-  reloadTime: 3
+  reloadTime: 1.75
   cannonSound: {fileID: 82097021430678624, guid: 7e9f5b86e8e22994aa9a90a4e9d7381d,
     type: 3}
 --- !u!61 &503856333
@@ -15389,16 +15389,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f014917eca7334742b70898c86e02522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
-  enemyHealth: 50
+  maxHealth: 40
+  enemyHealth: 40
   deathEffect: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
     type: 3}
   bootsIsDead: 0
   hurtSound: {fileID: 82337070005925818, guid: 0435d8049e348954d882ed18b5413fc4, type: 3}
   moveToStart: 0
   moveSpeedLeft: 0.1
-  horizArrowTimerL: 1
-  horizArrowTimerR: 2
+  horizArrowTimerL: 1.5
+  horizArrowTimerR: 3
   actualHorizTimer: 0
   bigArrowTimerL: 2
   bigArrowTimerR: 4
@@ -22360,7 +22360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TotalDamage: 0
-  modifier: 2.35
+  modifier: 2
   offset: 11
 --- !u!1 &1205251730
 GameObject:
@@ -23335,8 +23335,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d4984c1f277da44ea90d7525b0ba7c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
-  enemyHealth: 50
+  maxHealth: 40
+  enemyHealth: 40
   deathEffect: {fileID: 1989190922029786, guid: 9e4a186ce9a9f8b47b1da4572bae4cb6,
     type: 3}
   helmetIsDead: 0

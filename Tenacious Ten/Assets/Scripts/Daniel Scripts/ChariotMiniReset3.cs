@@ -53,6 +53,7 @@ public class ChariotMiniReset3 : MonoBehaviour
 		pushBack.TotalDamage = damageBenchmark;
 		EHM.enemyHealth = EHM.maxHealth;
 		EHM.moveToStart = false;
+        EHM.readyToShoot = false;
 		SORL.ResetFight = false;
 	}
 }

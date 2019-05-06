@@ -89,7 +89,7 @@ public class L6HandsManager : MonoBehaviour
 
     void FixedUpdate()
     {
-		if (enemyHealth <= 5)
+		if (enemyHealth <= 0)
         {
             Instantiate(deathEffect, transform.position, transform.rotation);
             Destroy(gameObject);
@@ -138,7 +138,7 @@ public class L6HandsManager : MonoBehaviour
             else if(countBombs >= amtOfBombs && !waitOnce)
             {
                 StartCoroutine(waitForJumpAnim(1f));
-                StartCoroutine(waitBeforeNextAttack(5f));
+                StartCoroutine(waitBeforeNextAttack(3f));
                 waitOnce = true;
                 moveOneCounter = moveOneCounter + 1;
                 moveTwoCounter = 0;
@@ -166,7 +166,7 @@ public class L6HandsManager : MonoBehaviour
             else if (hasJumpedForSpike && !waitOnce && actuallyJumped)
             {
                 //rb.isKinematic = true;
-                StartCoroutine(waitBeforeNextAttack(5f));
+                StartCoroutine(waitBeforeNextAttack(4f));
                 waitOnce = true;
             }
             else if(waitOnce && !spikedBallSpawned)

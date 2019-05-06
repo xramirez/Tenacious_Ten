@@ -29,7 +29,7 @@ public class L6TorsoManager : MonoBehaviour
 	Transform EmitLoc;
 	int currentCannon = 1;// 1 2 and 3
 	[SerializeField]
-	bool readyToShoot = false;
+	public bool readyToShoot = false;
 	[SerializeField] float shotTimer;
 	float initShotTimer;
 	[SerializeField] int shotCounter;
@@ -56,7 +56,7 @@ public class L6TorsoManager : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (enemyHealth <= 5)
+        if (enemyHealth <= 0)
         {
             Instantiate(deathEffect, transform.position, transform.rotation);
             Destroy(gameObject);

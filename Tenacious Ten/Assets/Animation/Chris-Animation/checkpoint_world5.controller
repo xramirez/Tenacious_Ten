@@ -14,13 +14,13 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: startWorld5Level
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bcaee7b97fe57e4d8a5e5947992845e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114402486885525142
+--- !u!114 &114475190213773398
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,7 +55,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25067d6daeb0a124c98dd627770437c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4fb9d9f0f600b8947b678a1f1141ac0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1101 &1101315062563154434
@@ -274,7 +274,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: 1101315062563154434}
   m_StateMachineBehaviours:
-  - {fileID: 114402486885525142}
+  - {fileID: 114475190213773398}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1

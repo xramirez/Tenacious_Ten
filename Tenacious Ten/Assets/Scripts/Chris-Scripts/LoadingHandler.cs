@@ -11,6 +11,7 @@ public class LoadingHandler : MonoBehaviour {
     public GameObject World3;
     public GameObject World4;
     public GameObject World5;
+    public GameObject World6;
     public Animator checkp_1;
     public Animator anim_1;
     public Animator checkp_2;
@@ -21,6 +22,7 @@ public class LoadingHandler : MonoBehaviour {
     public Animator anim_4;
     public Animator checkp_5;
     public Animator anim_5;
+    public Animator checkp_6;
 
     // Use this for initialization
     void Start () {
@@ -64,11 +66,16 @@ public class LoadingHandler : MonoBehaviour {
             Debug.Log("World 4 Available");
 
         }
-        if (SaveLoadManager.LoadLevelData() == 5)
+        if (SaveLoadManager.LoadLevelData() >= 5)
         {
             checkp_5.SetBool("world5Available", true);
             anim_5.SetBool("world5Unlocked", true);
             Debug.Log("World 5 Available");
+        }
+        if (SaveLoadManager.LoadLevelData() == 6)
+        {
+            checkp_6.SetBool("world6Availlable", true);
+            Debug.Log("World 6 Available");
         }
     }
 	
@@ -80,5 +87,6 @@ public class LoadingHandler : MonoBehaviour {
         World3.SetActive(false);
         World4.SetActive(false);
         World5.SetActive(false);
+        World6.SetActive(false);
     }
 }

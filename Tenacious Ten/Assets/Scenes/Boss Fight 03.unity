@@ -5666,6 +5666,36 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 7.7
       objectReference: {fileID: 0}
+    - target: {fileID: 212288511855038326, guid: f7a04e7047eae504d95abe0ad1e0e636,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114798443642810800, guid: f7a04e7047eae504d95abe0ad1e0e636,
+        type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 34048
+      objectReference: {fileID: 0}
+    - target: {fileID: 114798443642810800, guid: f7a04e7047eae504d95abe0ad1e0e636,
+        type: 3}
+      propertyPath: P2
+      value: 
+      objectReference: {fileID: 1994210377}
+    - target: {fileID: 114798443642810800, guid: f7a04e7047eae504d95abe0ad1e0e636,
+        type: 3}
+      propertyPath: P3
+      value: 
+      objectReference: {fileID: 1994210382}
+    - target: {fileID: 114798443642810800, guid: f7a04e7047eae504d95abe0ad1e0e636,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 50122115277978218, guid: f7a04e7047eae504d95abe0ad1e0e636,
+        type: 3}
+      propertyPath: m_SleepingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 114564121331127024, guid: f7a04e7047eae504d95abe0ad1e0e636,
         type: 3}
       propertyPath: hearts.Array.size
@@ -5708,38 +5738,9 @@ PrefabInstance:
       propertyPath: numOfHearts
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114798443642810800, guid: f7a04e7047eae504d95abe0ad1e0e636,
-        type: 3}
-      propertyPath: whatIsGround.m_Bits
-      value: 34048
-      objectReference: {fileID: 0}
-    - target: {fileID: 114798443642810800, guid: f7a04e7047eae504d95abe0ad1e0e636,
-        type: 3}
-      propertyPath: P2
-      value: 
-      objectReference: {fileID: 1994210377}
-    - target: {fileID: 114798443642810800, guid: f7a04e7047eae504d95abe0ad1e0e636,
-        type: 3}
-      propertyPath: P3
-      value: 
-      objectReference: {fileID: 1994210382}
-    - target: {fileID: 114798443642810800, guid: f7a04e7047eae504d95abe0ad1e0e636,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 50122115277978218, guid: f7a04e7047eae504d95abe0ad1e0e636,
-        type: 3}
-      propertyPath: m_SleepingMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212288511855038326, guid: f7a04e7047eae504d95abe0ad1e0e636,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114798443642810800, guid: f7a04e7047eae504d95abe0ad1e0e636, type: 3}
+    - {fileID: 5655232402571349129, guid: f7a04e7047eae504d95abe0ad1e0e636, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f7a04e7047eae504d95abe0ad1e0e636, type: 3}
 --- !u!1 &1696077865
 GameObject:

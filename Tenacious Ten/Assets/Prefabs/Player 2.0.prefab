@@ -40,8 +40,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4453617425927266}
   - component: {fileID: 212466540002882006}
-  - component: {fileID: 114485814219472412}
   - component: {fileID: 95596752418339686}
+  - component: {fileID: 4444571627436351705}
   - component: {fileID: 50146073362416672}
   - component: {fileID: 61434228949653574}
   - component: {fileID: 114032797309698648}
@@ -116,36 +116,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &114485814219472412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1697055784287114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51d1df8a32d01a34589b77975a5c30b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speedX: 8
-  jumpSpeedY: 1150
-  speed: 0
-  groundCheck: {fileID: 4103065178871784}
-  groundCheckRadius: 0.5
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 5431
-  jumpSound: {fileID: 0}
-  shootSound: {fileID: 0}
-  leftProjectile: {fileID: 1825371131393680, guid: 7805bec97d56fd54fb8381dd12a78963,
-    type: 3}
-  rightProjectile: {fileID: 1825371131393680, guid: 5e7dd627d9aea384db48c1853664b3b2,
-    type: 3}
-  shotDelay: 0.2
-  anim: {fileID: 0}
-  flipValue: 0
-  healthManager: {fileID: 0}
 --- !u!95 &95596752418339686
 Animator:
   serializedVersion: 3
@@ -165,6 +135,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4444571627436351705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697055784287114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7945896f7b0b24aaddb98687726648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedX: 8
+  jumpSpeedY: 1150
+  speed: 0
+  groundCheck: {fileID: 4103065178871784}
+  groundCheckRadius: 0.3
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 4096
+  jumpSound: {fileID: 0}
+  shootSound: {fileID: 0}
+  leftProjectile: {fileID: 1825371131393680, guid: 7805bec97d56fd54fb8381dd12a78963,
+    type: 3}
+  rightProjectile: {fileID: 1825371131393680, guid: 5e7dd627d9aea384db48c1853664b3b2,
+    type: 3}
+  shotDelay: 0.2
+  anim: {fileID: 0}
+  flipValue: 1
+  healthManager: {fileID: 0}
 --- !u!50 &50146073362416672
 Rigidbody2D:
   serializedVersion: 4

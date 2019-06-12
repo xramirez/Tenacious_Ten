@@ -78898,10 +78898,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3518458735680648173, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+    - target: {fileID: 212466540002882006, guid: b98b46f4f04976e4d87667a7b6aef9b6,
         type: 3}
-      propertyPath: m_FrontSortingOrder
-      value: 3
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 212466540002882006, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114485814219472412, guid: b98b46f4f04976e4d87667a7b6aef9b6,
         type: 3}
@@ -78913,16 +78918,6 @@ PrefabInstance:
       propertyPath: shootSound
       value: 
       objectReference: {fileID: 702772881}
-    - target: {fileID: 212466540002882006, guid: b98b46f4f04976e4d87667a7b6aef9b6,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 212466540002882006, guid: b98b46f4f04976e4d87667a7b6aef9b6,
-        type: 3}
-      propertyPath: m_MaskInteraction
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 114032797309698648, guid: b98b46f4f04976e4d87667a7b6aef9b6,
         type: 3}
       propertyPath: hearts.Array.data[0]
@@ -78938,6 +78933,21 @@ PrefabInstance:
       propertyPath: hearts.Array.data[2]
       value: 
       objectReference: {fileID: 877752824}
+    - target: {fileID: 3518458735680648173, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 3}
+      propertyPath: m_FrontSortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4444571627436351705, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 1840847335}
+    - target: {fileID: 4444571627436351705, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 702772881}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b98b46f4f04976e4d87667a7b6aef9b6, type: 3}
 --- !u!4 &1724418380 stripped

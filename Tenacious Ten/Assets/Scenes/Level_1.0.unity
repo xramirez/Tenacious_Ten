@@ -1103,6 +1103,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3114c4a40a94e4268aba6782bc73e146, type: 3}
+--- !u!1 &276858982 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1697055784287114, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+    type: 3}
+  m_PrefabInstance: {fileID: 373382956}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &287218292 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4789352107426276, guid: b085a268f54984b369991e6187952a19,
@@ -3680,7 +3686,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843193629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -72.81712, y: -7.3897676, z: -10}
+  m_LocalPosition: {x: -72.55478, y: -7.3897552, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5611,6 +5617,7 @@ GameObject:
   - component: {fileID: 1083635698}
   - component: {fileID: 1083635700}
   - component: {fileID: 1083635701}
+  - component: {fileID: 1083635702}
   m_Layer: 0
   m_Name: CinemachineCamera(Knight)
   m_TagString: Untagged
@@ -5637,7 +5644,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 1191784377}
+  m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 6.51
@@ -5699,6 +5706,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 359b50d8bf0c5a748902f0b1e095a179, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1083635702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083635697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95907f3c4edd6d845893d6d82785d389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 276858982}
 --- !u!1 &1098264967
 GameObject:
   m_ObjectHideFlags: 0
@@ -6023,12 +6043,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4113637496222524, guid: 3114c4a40a94e4268aba6782bc73e146,
     type: 3}
   m_PrefabInstance: {fileID: 946169071}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1191784377 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4453617425927266, guid: b98b46f4f04976e4d87667a7b6aef9b6,
-    type: 3}
-  m_PrefabInstance: {fileID: 373382956}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1223414564 stripped
 Transform:

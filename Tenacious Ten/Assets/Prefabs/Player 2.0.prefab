@@ -151,7 +151,7 @@ MonoBehaviour:
   jumpSpeedY: 1150
   speed: 0
   groundCheck: {fileID: 4103065178871784}
-  groundCheckRadius: 0.3
+  groundCheckRadius: 0.5
   whatIsGround:
     serializedVersion: 2
     m_Bits: 4096

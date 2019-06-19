@@ -24657,6 +24657,11 @@ PrefabInstance:
       propertyPath: shootSound
       value: 
       objectReference: {fileID: 37610207}
+    - target: {fileID: 4444571627436351705, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 3}
+      propertyPath: jumpSpeedY
+      value: 1200
+      objectReference: {fileID: 0}
     - target: {fileID: 50146073362416672, guid: b98b46f4f04976e4d87667a7b6aef9b6,
         type: 3}
       propertyPath: m_CollisionDetection

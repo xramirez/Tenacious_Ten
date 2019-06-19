@@ -3686,7 +3686,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843193629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -72.55478, y: -7.3897552, z: -10}
+  m_LocalPosition: {x: -71.77652, y: -7.38972, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5616,7 +5616,6 @@ GameObject:
   - component: {fileID: 1083635699}
   - component: {fileID: 1083635698}
   - component: {fileID: 1083635700}
-  - component: {fileID: 1083635701}
   - component: {fileID: 1083635702}
   m_Layer: 0
   m_Name: CinemachineCamera(Knight)
@@ -5694,18 +5693,6 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1316889413}
   m_ConfineScreenEdges: 1
   m_Damping: 0
---- !u!114 &1083635701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1083635697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 359b50d8bf0c5a748902f0b1e095a179, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1083635702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5719,6 +5706,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 276858982}
+  matchHorizontal: 0
+  matchVertical: 1
+  moveSpeed: 0.5
+  divider: 5
 --- !u!1 &1098264967
 GameObject:
   m_ObjectHideFlags: 0

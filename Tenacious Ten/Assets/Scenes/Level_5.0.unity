@@ -2128,6 +2128,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c9506864cce4724e94e48045d62a055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &298255749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1814635670631278, guid: f7a04e7047eae504d95abe0ad1e0e636,
+    type: 3}
+  m_PrefabInstance: {fileID: 906499864}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &303899498 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4011896353066310, guid: c2574d11bccd78a4f90ea0c2891f775d,
@@ -2883,12 +2889,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2574d11bccd78a4f90ea0c2891f775d, type: 3}
---- !u!4 &427717025 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4071627899576984, guid: f7a04e7047eae504d95abe0ad1e0e636,
-    type: 3}
-  m_PrefabInstance: {fileID: 906499864}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &443113126
 GameObject:
   m_ObjectHideFlags: 0
@@ -6822,6 +6822,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 50122115277978218, guid: f7a04e7047eae504d95abe0ad1e0e636,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5655232402571349129, guid: f7a04e7047eae504d95abe0ad1e0e636,
         type: 3}
       propertyPath: jumpSound
@@ -8904,9 +8909,9 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -19.002459, y: 54.863438}
-      - {x: -17.419504, y: 2.0217361}
-      - {x: -17.532873, y: -8.570308}
-      - {x: 41.195515, y: -10.244902}
+      - {x: -18.433662, y: 1.999454}
+      - {x: -18.427881, y: -9.16698}
+      - {x: 41.373436, y: -9.355305}
       - {x: 41.169147, y: 7.575718}
       - {x: 142.29716, y: 7.801717}
       - {x: 199.9664, y: 7.52518}
@@ -10222,7 +10227,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6.51
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -10246,7 +10251,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423286451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.985279, y: -0.97276783, z: -10}
+  m_LocalPosition: {x: -1.8963747, y: -0.058294296, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -13012,6 +13017,7 @@ GameObject:
   - component: {fileID: 1844112064}
   - component: {fileID: 1844112063}
   - component: {fileID: 1844112065}
+  - component: {fileID: 1844112066}
   m_Layer: 0
   m_Name: CM vcam
   m_TagString: Untagged
@@ -13038,10 +13044,10 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 427717025}
+  m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 5
+    OrthographicSize: 6.51
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -13088,6 +13094,23 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 1231492288}
   m_ConfineScreenEdges: 1
   m_Damping: 0
+--- !u!114 &1844112066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844112062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95907f3c4edd6d845893d6d82785d389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 298255749}
+  matchHorizontal: 0
+  matchVertical: 1
+  moveSpeed: 0.5
+  divider: 4.5
 --- !u!1 &1847149780
 GameObject:
   m_ObjectHideFlags: 0

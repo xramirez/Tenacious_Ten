@@ -2187,6 +2187,7 @@ GameObject:
   - component: {fileID: 364970779}
   - component: {fileID: 364970778}
   - component: {fileID: 364970777}
+  - component: {fileID: 364970780}
   m_Layer: 0
   m_Name: CinemachineCamera(Knight)
   m_TagString: Untagged
@@ -2230,7 +2231,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 1724418380}
+  m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 6.51
@@ -2263,6 +2264,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &364970780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364970776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95907f3c4edd6d845893d6d82785d389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1911485568}
+  matchHorizontal: 0
+  matchVertical: 1
+  moveSpeed: 0.5
+  divider: 5
 --- !u!1001 &382219171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78898,16 +78916,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 212466540002882006, guid: b98b46f4f04976e4d87667a7b6aef9b6,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 212466540002882006, guid: b98b46f4f04976e4d87667a7b6aef9b6,
-        type: 3}
-      propertyPath: m_MaskInteraction
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 114485814219472412, guid: b98b46f4f04976e4d87667a7b6aef9b6,
         type: 3}
       propertyPath: jumpSound
@@ -78933,11 +78941,6 @@ PrefabInstance:
       propertyPath: hearts.Array.data[2]
       value: 
       objectReference: {fileID: 877752824}
-    - target: {fileID: 3518458735680648173, guid: b98b46f4f04976e4d87667a7b6aef9b6,
-        type: 3}
-      propertyPath: m_FrontSortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4444571627436351705, guid: b98b46f4f04976e4d87667a7b6aef9b6,
         type: 3}
       propertyPath: jumpSound
@@ -78948,14 +78951,23 @@ PrefabInstance:
       propertyPath: shootSound
       value: 
       objectReference: {fileID: 702772881}
+    - target: {fileID: 212466540002882006, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 212466540002882006, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3518458735680648173, guid: b98b46f4f04976e4d87667a7b6aef9b6,
+        type: 3}
+      propertyPath: m_FrontSortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b98b46f4f04976e4d87667a7b6aef9b6, type: 3}
---- !u!4 &1724418380 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4453617425927266, guid: b98b46f4f04976e4d87667a7b6aef9b6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1724418379}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1734504706
 PrefabInstance:
   m_ObjectHideFlags: 0

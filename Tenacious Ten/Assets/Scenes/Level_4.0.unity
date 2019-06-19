@@ -36205,6 +36205,7 @@ GameObject:
   - component: {fileID: 711353252}
   - component: {fileID: 711353251}
   - component: {fileID: 711353250}
+  - component: {fileID: 711353253}
   m_Layer: 0
   m_Name: CinemachineCamera(Knight)
   m_TagString: Untagged
@@ -36248,7 +36249,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 1612558695}
+  m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 6.51
@@ -36281,6 +36282,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &711353253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711353249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95907f3c4edd6d845893d6d82785d389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 19825919}
+  matchHorizontal: 0
+  matchVertical: 1
+  moveSpeed: 0.5
+  divider: 4.5
 --- !u!1 &750423507
 GameObject:
   m_ObjectHideFlags: 0
@@ -39718,12 +39736,6 @@ PrefabInstance:
       objectReference: {fileID: 161276080}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2df954a8f7c8bf4e945766011ba8155, type: 3}
---- !u!4 &1612558695 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4453617425927266, guid: b98b46f4f04976e4d87667a7b6aef9b6,
-    type: 3}
-  m_PrefabInstance: {fileID: 489592970}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1620784857
 GameObject:
   m_ObjectHideFlags: 0

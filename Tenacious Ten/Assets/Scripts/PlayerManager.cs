@@ -41,8 +41,28 @@ public class PlayerManager : MonoBehaviour {
 
     Boss03Phase3 P3; //for wendigo boss
 
+    private ControlsSingleton inst;
+    public KeyCode mr;
+    public KeyCode ml;
+    public KeyCode j;
+    public KeyCode sl;
+    public KeyCode p;
+
     // Use this for initialization
     void Start () {
+        //Controls Get
+        mr = ControlsSerializeManager.Load_MoveRight_Data();
+        ml = ControlsSerializeManager.Load_MoveLeft_Data();
+        j = ControlsSerializeManager.Load_Jump_Data();
+        sl = ControlsSerializeManager.Load_ShootLemon_Data();
+        p = ControlsSerializeManager.Load_Pause_Data();
+
+        Debug.Log("Move Right: " + mr.ToString());
+        Debug.Log("Move Left: " + ml.ToString());
+        Debug.Log("Jump: " + j.ToString());
+        Debug.Log("Pause: " + p.ToString());
+        Debug.Log("Shoot Lemon: " + sl.ToString());
+
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -90,23 +110,23 @@ public class PlayerManager : MonoBehaviour {
                 {
                     if(!P3.isPushingBack)
                     {
-                        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+                        if (Input.GetKey(mr))
                         {
                             speed = speedX; 
                             isWalking = true;
                         }
-                        if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.D))
+                        if (Input.GetKey(mr))
                         {
                             speed = 0; 
                             isWalking = false;
                         }
 
-                        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+                        if (Input.GetKey(ml))
                         {
                             speed = -speedX; 
                             isWalking = true;
                         }
-                        if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.A))
+                        if (Input.GetKey(ml))
                         {
                             speed = 0; 
                             isWalking = false;
@@ -115,26 +135,26 @@ public class PlayerManager : MonoBehaviour {
                 }
                 else
                 {
-                    if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+                    if (Input.GetKey(mr))
                     {
                         //anim.SetInteger("State", 2);
                         speed = speedX;     //move right
                         isWalking = true;
                     }
-                    if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.D))
+                    if (Input.GetKey(mr))
                     {
                         //anim.SetInteger("State", 0);
                         speed = 0;         //not walking/idle
                         isWalking = false;
                     }
 
-                    if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+                    if (Input.GetKey(ml))
                     {
                         //anim.SetInteger("State", 2);
                         speed = -speedX;    //move left
                         isWalking = true;
                     }
-                    if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.A))
+                    if (Input.GetKey(ml))
                     {
                         //anim.SetInteger("State", 0);
                         speed = 0;          //not walking/idle
@@ -151,12 +171,12 @@ public class PlayerManager : MonoBehaviour {
                 //    justJumped = false;
                // }
 
-                if ((Input.GetKeyDown(KeyCode.UpArrow)|| Input.GetKeyDown(KeyCode.W)) && grounded)    //jump
+                if (Input.GetKeyDown(j) && grounded)    //jump
                 {
                     Jump();
                     landedFromJump = false;
                 }
-                if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
+                if (Input.GetKeyDown(j))
                 {
                     anim.SetInteger("State", 3);
                 }
@@ -173,14 +193,14 @@ public class PlayerManager : MonoBehaviour {
 
 
 
-                if (Input.GetKeyDown(KeyCode.Space))    //shoot
+                if (Input.GetKeyDown(sl))    //shoot
                 {
                     //anim.SetInteger("State", 7);
                     Fire();
                     shotDelayCounter = shotDelay;
                 }
 
-                if (Input.GetKey(KeyCode.Space))    //shoot, but able to hold down space to shoot automatically
+                if (Input.GetKey(sl))    //shoot, but able to hold down space to shoot automatically
                 {
                     anim.SetInteger("State", 9);
                     shotDelayCounter -= Time.deltaTime;
@@ -192,7 +212,7 @@ public class PlayerManager : MonoBehaviour {
                     }
                 }
 
-                if (Input.GetKeyUp(KeyCode.Space))
+                if (Input.GetKeyUp(sl))
                 {
                     if (!grounded) //if player is in the air, e.g. jumping
                     {

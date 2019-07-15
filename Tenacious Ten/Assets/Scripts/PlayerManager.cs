@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour {
+public class PlayerManager : MonoBehaviour
+{
 
     public float speedX;
     public float jumpSpeedY;
@@ -18,7 +19,16 @@ public class PlayerManager : MonoBehaviour {
     AudioSource jumpSound;
     [SerializeField]
     AudioSource shootSound;
-	
+
+    [SerializeField]
+    KeyCode moveRight = KeyCode.RightArrow;
+    [SerializeField]
+    KeyCode moveLeft = KeyCode.LeftArrow;
+    [SerializeField]
+    KeyCode jumpKey = KeyCode.UpArrow;
+    [SerializeField]
+    KeyCode shootKey = KeyCode.Space;
+
     public GameObject leftProjectile, rightProjectile;
 
     Transform projectilePos;    //transform is position
@@ -41,28 +51,9 @@ public class PlayerManager : MonoBehaviour {
 
     Boss03Phase3 P3; //for wendigo boss
 
-    private ControlsSingleton inst;
-    public KeyCode mr;
-    public KeyCode ml;
-    public KeyCode j;
-    public KeyCode sl;
-    public KeyCode p;
-
     // Use this for initialization
-    void Start () {
-        //Controls Get
-        mr = ControlsSerializeManager.Load_MoveRight_Data();
-        ml = ControlsSerializeManager.Load_MoveLeft_Data();
-        j = ControlsSerializeManager.Load_Jump_Data();
-        sl = ControlsSerializeManager.Load_ShootLemon_Data();
-        p = ControlsSerializeManager.Load_Pause_Data();
-
-        Debug.Log("Move Right: " + mr.ToString());
-        Debug.Log("Move Left: " + ml.ToString());
-        Debug.Log("Jump: " + j.ToString());
-        Debug.Log("Pause: " + p.ToString());
-        Debug.Log("Shoot Lemon: " + sl.ToString());
-
+    void Start()
+    {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -80,7 +71,7 @@ public class PlayerManager : MonoBehaviour {
 
         landedFromJump = false;
 
-        if(FindObjectOfType<Boss03Phase3>() != null)
+        if (FindObjectOfType<Boss03Phase3>() != null)
         {
             P3 = GameObject.FindObjectOfType<Boss03Phase3>();
         }
@@ -93,10 +84,11 @@ public class PlayerManager : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
-        if(!Boss01PauseMenu.GameIsPaused)
+    void Update()
+    {
+        if (!Boss01PauseMenu.GameIsPaused)
         {
-            if(healthManager.isDead)
+            if (healthManager.isDead)
             {
                 speed = 0;
                 anim.SetInteger("State", 0);
@@ -106,77 +98,77 @@ public class PlayerManager : MonoBehaviour {
                 MovePlayer(speed);
                 Flip();
 
-                if(GameObject.FindObjectOfType<Boss03Phase3>()!= null)
+                if (GameObject.FindObjectOfType<Boss03Phase3>() != null)
                 {
-                    if(!P3.isPushingBack)
+                    if (!P3.isPushingBack)
                     {
-                        if (Input.GetKey(mr))
+                        if (Input.GetKey(moveRight))
                         {
-                            speed = speedX; 
+                            speed = speedX;
                             isWalking = true;
                         }
-                        if (Input.GetKey(mr))
+                        if (Input.GetKeyUp(moveRight))
                         {
-                            speed = 0; 
+                            speed = 0;
                             isWalking = false;
                         }
 
-                        if (Input.GetKey(ml))
+                        if (Input.GetKey(moveLeft))
                         {
-                            speed = -speedX; 
+                            speed = -speedX;
                             isWalking = true;
                         }
-                        if (Input.GetKey(ml))
+                        if (Input.GetKeyUp(moveLeft))
                         {
-                            speed = 0; 
+                            speed = 0;
                             isWalking = false;
                         }
                     }
                 }
                 else
                 {
-                    if (Input.GetKey(mr))
+                    if (Input.GetKey(moveRight) || Input.GetKey(KeyCode.D))
                     {
                         //anim.SetInteger("State", 2);
                         speed = speedX;     //move right
                         isWalking = true;
                     }
-                    if (Input.GetKey(mr))
+                    if (Input.GetKeyUp(moveRight) || Input.GetKeyUp(KeyCode.D))
                     {
                         //anim.SetInteger("State", 0);
                         speed = 0;         //not walking/idle
                         isWalking = false;
                     }
 
-                    if (Input.GetKey(ml))
+                    if (Input.GetKey(moveLeft) || Input.GetKey(KeyCode.A))
                     {
                         //anim.SetInteger("State", 2);
                         speed = -speedX;    //move left
                         isWalking = true;
                     }
-                    if (Input.GetKey(ml))
+                    if (Input.GetKeyUp(moveLeft) || Input.GetKeyUp(KeyCode.A))
                     {
                         //anim.SetInteger("State", 0);
                         speed = 0;          //not walking/idle
                         isWalking = false;
                     }
                 }
-                
+
 
 
                 //if (justJumped && grounded)
-               // {
+                // {
                 //    anim.SetInteger("State", 5);
-               //    justLanded(0.2f);
+                //    justLanded(0.2f);
                 //    justJumped = false;
-               // }
+                // }
 
-                if (Input.GetKeyDown(j) && grounded)    //jump
+                if ((Input.GetKeyDown(jumpKey) || Input.GetKeyDown(KeyCode.W)) && grounded)    //jump
                 {
                     Jump();
                     landedFromJump = false;
                 }
-                if (Input.GetKeyDown(j))
+                if (Input.GetKey(jumpKey) || Input.GetKey(KeyCode.W))
                 {
                     anim.SetInteger("State", 3);
                 }
@@ -193,14 +185,14 @@ public class PlayerManager : MonoBehaviour {
 
 
 
-                if (Input.GetKeyDown(sl))    //shoot
+                if (Input.GetKeyDown(shootKey))    //shoot
                 {
                     //anim.SetInteger("State", 7);
                     Fire();
                     shotDelayCounter = shotDelay;
                 }
 
-                if (Input.GetKey(sl))    //shoot, but able to hold down space to shoot automatically
+                if (Input.GetKey(shootKey))    //shoot, but able to hold down space to shoot automatically
                 {
                     anim.SetInteger("State", 9);
                     shotDelayCounter -= Time.deltaTime;
@@ -212,7 +204,7 @@ public class PlayerManager : MonoBehaviour {
                     }
                 }
 
-                if (Input.GetKeyUp(sl))
+                if (Input.GetKeyUp(shootKey))
                 {
                     if (!grounded) //if player is in the air, e.g. jumping
                     {
@@ -228,14 +220,45 @@ public class PlayerManager : MonoBehaviour {
                     }
                 }
             }
-            
+
         }
-        else if(Boss01PauseMenu.GameIsPaused)
+        else if (Boss01PauseMenu.GameIsPaused)
         {
             speed = 0;
         }
-        
+
     }
+
+    void setLeftKey(KeyCode newValue)
+    {
+        //read from input save file
+
+
+
+        moveLeft = newValue;
+    }
+
+    void setRightKey(KeyCode newValue)
+    {
+        //read from input save file
+
+        moveRight = newValue;
+    }
+
+    void setJumpKey(KeyCode newValue)
+    {
+        //read from input save file
+
+        jumpKey = newValue;
+    }
+
+    void setShootKey(KeyCode newValue)
+    {
+        //read from input save file
+
+        shootKey = newValue;
+    }
+
 
     void Flip()     //function to flip the image of the player. also flips the projectile as well 
     {
@@ -246,12 +269,12 @@ public class PlayerManager : MonoBehaviour {
             Vector3 temp = transform.localScale;
             Vector3 temp2 = transform.localPosition;
             temp.x *= -1;
-            if(facingRight)
+            if (facingRight)
             {
 
                 temp2.x = temp2.x + flipValue;
             }
-            if(!facingRight)
+            if (!facingRight)
             {
 
                 temp2.x = temp2.x - flipValue;
@@ -301,7 +324,7 @@ public class PlayerManager : MonoBehaviour {
     void Jump()
     {
         rb.velocity = new Vector3(0f, 0f, 0f);
-        rb.AddForce(new Vector2(rb.velocity.x, jumpSpeedY));  
+        rb.AddForce(new Vector2(rb.velocity.x, jumpSpeedY));
         Jumping = true;
         jumpSound.Play();
     }
@@ -312,7 +335,7 @@ public class PlayerManager : MonoBehaviour {
         if (facingRight == true)
         {
             ScoreManager.Instance.ShotsFired++;
-            Instantiate(rightProjectile, projectilePos.position, Quaternion.identity);    
+            Instantiate(rightProjectile, projectilePos.position, Quaternion.identity);
             //Instantiate means create. So create a right projectile, at a specific position in world/space (projectilePos)
             //Quanternion is rotation, in this case do not rotate
         }
@@ -328,5 +351,6 @@ public class PlayerManager : MonoBehaviour {
         yield return new WaitForSeconds(time);
         anim.SetInteger("State", 0);
     }
-    
+
 }
+

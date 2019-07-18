@@ -16,6 +16,11 @@ public class ControlsSerialize : MonoBehaviour
     public Text Jump;
     public Text Right;
     public Text ShootLemon;
+    public string LoadIn_Left;
+    public string LoadIn_Right;
+    public string LoadIn_Jump;
+    public string LoadIn_ShootLemon;
+    public string LoadIn_Pause;
     public Button SaveButton;
 
     void Awake()
@@ -26,7 +31,7 @@ public class ControlsSerialize : MonoBehaviour
 
     void Update()
     {
-        if (Pause.text != "Pause" && Left.text != "Left" && Jump.text != "Jump" && Right.text != "Right" && ShootLemon.text != "Shoot Lemon")
+        if (Pause.text != LoadIn_Pause || Left.text != LoadIn_Left || Jump.text != LoadIn_Jump || Right.text != LoadIn_Right || ShootLemon.text != LoadIn_ShootLemon)
         {
             SaveButton.interactable = true;
         }
@@ -60,13 +65,18 @@ public class ControlsSerialize : MonoBehaviour
     }
     public void LoadAll()
     {
-        _moveLeft = ControlsSerializeManager.Load_MoveLeft_Data();
-        _moveRight = ControlsSerializeManager.Load_MoveRight_Data();
-        _jump = ControlsSerializeManager.Load_Jump_Data();
-        _shootLemon = ControlsSerializeManager.Load_ShootLemon_Data();
-        _pause = ControlsSerializeManager.Load_Pause_Data();
+        LoadIn_Left = ControlsSerializeManager.Load_MoveLeft_Data().ToString();
+        LoadIn_Right = ControlsSerializeManager.Load_MoveRight_Data().ToString();
+        LoadIn_Jump = ControlsSerializeManager.Load_Jump_Data().ToString();
+        LoadIn_ShootLemon = ControlsSerializeManager.Load_ShootLemon_Data().ToString();
+        LoadIn_Pause = ControlsSerializeManager.Load_Pause_Data().ToString();
+        Left.text = LoadIn_Left;
+        Right.text = LoadIn_Right;
+        Jump.text = LoadIn_Jump;
+        ShootLemon.text = LoadIn_ShootLemon;
+        Pause.text = LoadIn_Pause;
 
-        Debug.Log("Controls data saved!");
+        Debug.Log("Controls data loaded!");
         Debug.Log("Move Right: " + ControlsSerializeManager.Load_MoveRight_Data());
         Debug.Log("Move Left: " + ControlsSerializeManager.Load_MoveLeft_Data());
         Debug.Log("Jump: " + ControlsSerializeManager.Load_Jump_Data());

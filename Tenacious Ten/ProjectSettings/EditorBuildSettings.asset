@@ -17,18 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boss Fight 01.unity
     guid: 2c0d8eb6bcea7e446b83b8b02fe8aa2f
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Boss Fight 02.unity
     guid: 860b152ff5ee69e4ab1fefd5f9c4e24d
@@ -65,6 +53,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Options.unity
     guid: 68e4cd565370cc144af64197bd839f74
+  - enabled: 1
+    path: Assets/Scenes/OptionsControls.unity
+    guid: 7b32a63d37e5090428cad100160bc667
+  - enabled: 1
+    path: Assets/Scenes/OptionsVolume.unity
+    guid: 80cd49827dbddb54a839f8f08b0895d7
   - enabled: 1
     path: Assets/Scenes/OptionsInGame.unity
     guid: 98d173234ea211b4a8af64c6953a8d6d

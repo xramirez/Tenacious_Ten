@@ -26,6 +26,7 @@ public static class ControlsSerializeManager
             ControlsData data = bf.Deserialize(stream) as ControlsData;
 
             stream.Close();
+            Debug.Log("MoveLeft Key: " + data.MoveLeft + " Loaded!");
             return data.MoveLeft;
         }
         else
@@ -45,6 +46,7 @@ public static class ControlsSerializeManager
             ControlsData data = bf.Deserialize(stream) as ControlsData;
 
             stream.Close();
+            Debug.Log("MoveRight Key: " + data.MoveRight + " Loaded!");
             return data.MoveRight;
         }
         else
@@ -64,6 +66,7 @@ public static class ControlsSerializeManager
             ControlsData data = bf.Deserialize(stream) as ControlsData;
 
             stream.Close();
+            Debug.Log("Jump Key: " + data.Jump + " Loaded!");
             return data.Jump;
         }
         else
@@ -83,6 +86,7 @@ public static class ControlsSerializeManager
             ControlsData data = bf.Deserialize(stream) as ControlsData;
 
             stream.Close();
+            Debug.Log("ShootLemon Key: " + data.ShootLemon + " Loaded!");
             return data.ShootLemon;
         }
         else

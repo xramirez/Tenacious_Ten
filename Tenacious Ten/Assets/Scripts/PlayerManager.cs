@@ -20,14 +20,11 @@ public class PlayerManager : MonoBehaviour
     [SerializeField]
     AudioSource shootSound;
 
-    [SerializeField]
-    KeyCode moveRight = KeyCode.RightArrow;
-    [SerializeField]
-    KeyCode moveLeft = KeyCode.LeftArrow;
-    [SerializeField]
-    KeyCode jumpKey = KeyCode.UpArrow;
-    [SerializeField]
-    KeyCode shootKey = KeyCode.Space;
+    public KeyCode moveRight;
+    public KeyCode moveLeft;
+    public KeyCode jumpKey;
+    public KeyCode shootKey;
+
 
     public GameObject leftProjectile, rightProjectile;
 
@@ -54,6 +51,12 @@ public class PlayerManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        //Grab controls from controls save file
+        moveRight = ControlsSerializeManager.Load_MoveRight_Data();
+        moveLeft = ControlsSerializeManager.Load_MoveLeft_Data();
+        jumpKey = ControlsSerializeManager.Load_Jump_Data();
+        shootKey = ControlsSerializeManager.Load_ShootLemon_Data();
+
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -127,26 +130,26 @@ public class PlayerManager : MonoBehaviour
                 }
                 else
                 {
-                    if (Input.GetKey(moveRight) || Input.GetKey(KeyCode.D))
+                    if (Input.GetKey(moveRight))
                     {
                         //anim.SetInteger("State", 2);
                         speed = speedX;     //move right
                         isWalking = true;
                     }
-                    if (Input.GetKeyUp(moveRight) || Input.GetKeyUp(KeyCode.D))
+                    if (Input.GetKeyUp(moveRight))
                     {
                         //anim.SetInteger("State", 0);
                         speed = 0;         //not walking/idle
                         isWalking = false;
                     }
 
-                    if (Input.GetKey(moveLeft) || Input.GetKey(KeyCode.A))
+                    if (Input.GetKey(moveLeft))
                     {
                         //anim.SetInteger("State", 2);
                         speed = -speedX;    //move left
                         isWalking = true;
                     }
-                    if (Input.GetKeyUp(moveLeft) || Input.GetKeyUp(KeyCode.A))
+                    if (Input.GetKeyUp(moveLeft))
                     {
                         //anim.SetInteger("State", 0);
                         speed = 0;          //not walking/idle
@@ -163,12 +166,12 @@ public class PlayerManager : MonoBehaviour
                 //    justJumped = false;
                 // }
 
-                if ((Input.GetKeyDown(jumpKey) || Input.GetKeyDown(KeyCode.W)) && grounded)    //jump
+                if (Input.GetKeyDown(jumpKey) && grounded)    //jump
                 {
                     Jump();
                     landedFromJump = false;
                 }
-                if (Input.GetKey(jumpKey) || Input.GetKey(KeyCode.W))
+                if (Input.GetKey(jumpKey))
                 {
                     anim.SetInteger("State", 3);
                 }
@@ -228,37 +231,6 @@ public class PlayerManager : MonoBehaviour
         }
 
     }
-
-    void setLeftKey(KeyCode newValue)
-    {
-        //read from input save file
-
-
-
-        moveLeft = newValue;
-    }
-
-    void setRightKey(KeyCode newValue)
-    {
-        //read from input save file
-
-        moveRight = newValue;
-    }
-
-    void setJumpKey(KeyCode newValue)
-    {
-        //read from input save file
-
-        jumpKey = newValue;
-    }
-
-    void setShootKey(KeyCode newValue)
-    {
-        //read from input save file
-
-        shootKey = newValue;
-    }
-
 
     void Flip()     //function to flip the image of the player. also flips the projectile as well 
     {

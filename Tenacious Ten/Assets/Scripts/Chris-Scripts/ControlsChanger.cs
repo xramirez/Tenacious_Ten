@@ -9,7 +9,8 @@ public class ControlsChanger : MonoBehaviour
     public Text CurrentButtonText;
     public GameObject CurrentInputField;
     public InputField InputF;
-    public GameObject SavedControls;    
+    public GameObject SavedControls;
+    private GameObject currentKey;
     
     private bool listener;
     public static int activeButtons;
@@ -17,37 +18,46 @@ public class ControlsChanger : MonoBehaviour
     void Start()
     {
         listener = false;
+        currentKey = null;
         activeButtons = 0;
     }
     private void FixedUpdate()
     {
         if (listener && activeButtons > 0)
         {
-            CurrentButtonText.text = WeirdKeys(InputF.text);
-        }
-    }
-
-    public string WeirdKeys(string input)
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            return "Escape";    
+            currentKey = CurrentButton;
         }
         else
         {
-            if (Input.GetKeyDown(KeyCode.Space) || input == " ")
-            {
-                return "Space";
-            }
-            return input.ToUpper();
+            currentKey = null;
         }
     }
+
+    private void OnGUI()
+    {
+        if(currentKey != null)
+        {
+            Event cur_event = Event.current;
+            if (cur_event.isKey && cur_event.keyCode.ToString() != "None")
+            {
+                Debug.Log("Text input-" + cur_event.keyCode.ToString());
+                CurrentButtonText.text = cur_event.keyCode.ToString();
+                HideInputField();
+            }
+        }
+    }
+
+    public void ChangeKeybinding(GameObject cur_clicked)
+    {
+        currentKey = cur_clicked;
+    }
+
     public void HideInputField()
     {
         if (activeButtons > 0)
         {
             listener = false;
-            Debug.Log("Changing text");
+            //Debug.Log("Changing text");
             CurrentInputField.SetActive(false);
             activeButtons--;
         }
